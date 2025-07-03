@@ -270,7 +270,7 @@ def main():
     
     # Try the OAuth2 token you discovered
     ACCESS_TOKEN = "MUST_CHANGE_TOKEN_HERE"  # From OAuth2 API response
-    COOKIES = "MUST_CHANGE_COOKIES_HERE
+    COOKIES = "MUST_CHANGE_COOKIES_HERE"  # Full cookie string from request
     EC_CARD_NO = "539742276"  # ExtraCare card number
     MEMBER_IDS = ["yfCOSP9KdssdlnVcSIpBGG5nq+i9alDZio96vRH/UGM=", "xLDfMCXifJImN3CREh4Cmlwu09sxSB3Ereu3lm6WoM8="]  # Encrypted member IDs
     
