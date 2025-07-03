@@ -1,0 +1,5 @@
+# Costco Grocery Scraper Dependencies
+psycopg2-binary  # PostgreSQL database connection
+requests         # HTTP requests for Costco API
+PyYAML          # YAML file processing
+python-dotenv   # Environment variable loading

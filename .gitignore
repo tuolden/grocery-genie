@@ -1,0 +1,109 @@
+# Grocery Genie - Git Ignore File
+
+# ===========================================
+# CREDENTIALS AND SECRETS
+# ===========================================
+.env
+.env.local
+.env.production
+*.key
+*.pem
+secrets/
+
+# ===========================================
+# PYTHON
+# ===========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ===========================================
+# VIRTUAL ENVIRONMENTS
+# ===========================================
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ===========================================
+# SCRAPED DATA AND LOGS
+# ===========================================
+data/
+logs/
+*.log
+*.csv
+*.json
+*.xml
+*.tcx
+*.gpx
+screenshots/
+debug_output/
+
+# ===========================================
+# TESTING
+# ===========================================
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# ===========================================
+# JUPYTER NOTEBOOKS
+# ===========================================
+.ipynb_checkpoints
+
+# ===========================================
+# IDE AND EDITORS
+# ===========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ===========================================
+# MACOS
+# ===========================================
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ===========================================
+# DOCKER
+# ===========================================
+.dockerignore
+
+# ===========================================
+# TEMPORARY FILES
+# ===========================================
+*.tmp
+*.temp
+temp/
+tmp/
