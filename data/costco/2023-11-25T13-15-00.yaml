@@ -1,0 +1,197 @@
+receipt_info:
+  warehouse_name: PEMBROKE PINES
+  warehouse_number: 742
+  warehouse_short_name: PEMBROKE PINES
+  transaction_date: '2023-11-25'
+  transaction_datetime: '2023-11-25T13:15:00'
+  transaction_barcode: '21074200301662311251315'
+  receipt_type: In-Warehouse
+  document_type: WarehouseReceiptDetail
+  transaction_type: Sales
+  transaction_number: 166
+  register_number: 3
+  operator_number: 3
+  company_number: 1
+  invoice_number: null
+  sequence_number: null
+  membership_number: '111919024143'
+store_info:
+  warehouse_address1: 15915 PINES BLVD
+  warehouse_address2: null
+  warehouse_city: PEMBROKE PINES
+  warehouse_state: FL
+  warehouse_country: US
+  warehouse_postal_code: '33027'
+financial_summary:
+  subtotal: 86.94
+  taxes: 4.72
+  total: 91.66
+  instant_savings: 0
+  total_item_count: 6
+items:
+- item_number: '2006168'
+  item_description_01: KS BOWS
+  item_description_02: FY24 P80
+  french_item_description_1: null
+  french_item_description_2: null
+  item_identifier: null
+  item_department_number: 28
+  unit: 1
+  amount: 8.99
+  item_unit_price_amount: 8.99
+  tax_flag: Y
+  merchant_id: null
+  entry_method: null
+  trans_department_number: 28
+  fuel_info:
+    fuel_unit_quantity: 10.0
+    fuel_grade_code: null
+    fuel_uom_code: null
+    fuel_uom_description: null
+    fuel_uom_description_fr: null
+    fuel_grade_description: null
+    fuel_grade_description_fr: null
+- item_number: '782796'
+  item_description_01: '***KSWTR40PK'
+  item_description_02: P48=SE   P56=PR
+  french_item_description_1: null
+  french_item_description_2: null
+  item_identifier: E
+  item_department_number: 14
+  unit: 1
+  amount: 3.99
+  item_unit_price_amount: 3.99
+  tax_flag: N
+  merchant_id: null
+  entry_method: null
+  trans_department_number: 14
+  fuel_info:
+    fuel_unit_quantity: 10.0
+    fuel_grade_code: null
+    fuel_uom_code: null
+    fuel_uom_description: null
+    fuel_uom_description_fr: null
+    fuel_grade_description: null
+    fuel_grade_description_fr: null
+- item_number: '1742835'
+  item_description_01: '**KS TOWEL**'
+  item_description_02: P20/P40/P54 NO INNER POLY
+  french_item_description_1: null
+  french_item_description_2: null
+  item_identifier: null
+  item_department_number: 14
+  unit: 2
+  amount: 38.98
+  item_unit_price_amount: 19.49
+  tax_flag: Y
+  merchant_id: null
+  entry_method: null
+  trans_department_number: 14
+  fuel_info:
+    fuel_unit_quantity: 10.0
+    fuel_grade_code: null
+    fuel_uom_code: null
+    fuel_uom_description: null
+    fuel_uom_description_fr: null
+    fuel_grade_description: null
+    fuel_grade_description_fr: null
+- item_number: '6262016'
+  item_description_01: '**KS BATH**'
+  item_description_02: 1425 SQFT P30 W/US P66
+  french_item_description_1: null
+  french_item_description_2: null
+  item_identifier: null
+  item_department_number: 14
+  unit: 1
+  amount: 19.49
+  item_unit_price_amount: 19.49
+  tax_flag: Y
+  merchant_id: null
+  entry_method: null
+  trans_department_number: 14
+  fuel_info:
+    fuel_unit_quantity: 10.0
+    fuel_grade_code: null
+    fuel_uom_code: null
+    fuel_uom_description: null
+    fuel_uom_description_fr: null
+    fuel_grade_description: null
+    fuel_grade_description_fr: null
+- item_number: '502616'
+  item_description_01: FRUIT SORBET
+  item_description_02: ISLAND WAY 8C T10H4  P320
+  french_item_description_1: null
+  french_item_description_2: null
+  item_identifier: E
+  item_department_number: 18
+  unit: 1
+  amount: 15.49
+  item_unit_price_amount: 15.49
+  tax_flag: N
+  merchant_id: null
+  entry_method: null
+  trans_department_number: 18
+  fuel_info:
+    fuel_unit_quantity: 10.0
+    fuel_grade_code: null
+    fuel_uom_code: null
+    fuel_uom_description: null
+    fuel_uom_description_fr: null
+    fuel_grade_description: null
+    fuel_grade_description_fr: null
+payment_methods:
+- tender_type_code: '061'
+  tender_sub_type_code: null
+  tender_description: VISA
+  tender_type_name: VISA
+  tender_type_name_fr: null
+  amount_tender: 91.66
+  display_account_number: '8805'
+  sequence_number: null
+  approval_number: null
+  response_code: null
+  transaction_id: null
+  merchant_id: null
+  entry_method: null
+  tender_acct_txn_number: null
+  tender_authorization_code: null
+  tender_entry_method_description: null
+  wallet_type: null
+  wallet_id: null
+  stored_value_bucket: null
+tax_breakdown:
+  tax1: null
+  tax2: null
+  tax3: null
+  tax4: null
+  aTaxPercent: null
+  aTaxLegend: A
+  aTaxAmount: 4.72
+  aTaxPrintCode: null
+  aTaxPrintCodeFR: null
+  aTaxIdentifierCode: null
+  bTaxPercent: null
+  bTaxLegend: null
+  bTaxAmount: null
+  bTaxPrintCode: null
+  bTaxPrintCodeFR: null
+  bTaxIdentifierCode: null
+  cTaxPercent: null
+  cTaxLegend: null
+  cTaxAmount: null
+  cTaxIdentifierCode: null
+  dTaxPercent: null
+  dTaxLegend: null
+  dTaxAmount: null
+  dTaxPrintCode: null
+  dTaxPrintCodeFR: null
+  dTaxIdentifierCode: null
+  uTaxLegend: null
+  uTaxAmount: null
+  uTaxableAmount: null
+coupons: []
+metadata:
+  scraped_at: '2025-07-02T19:14:54.467195'
+  scraper_version: 4.0-enhanced
+  store: Costco
+  source: warehouse_receipts_api

@@ -1,0 +1,249 @@
+order_id: 002361404349018942110
+purchase_date: '2022-11-06'
+store_name: Sunrise Supercenter
+order_totals:
+  subtotal: 178.89
+  tax_total: 4.08
+  grand_total: 182.97
+items:
+- item_id: '0'
+  item_quantity: 1
+  item_name: Gatorade Protein Bars, Peanut Butter Chocolate, 20g Protein, 6 Bars
+  item_image_url: https://i5.walmartimages.com/seo/Gatorade-Protein-Bars-Peanut-Butter-Chocolate-20g-Protein-6-Bars_6ece24fe-e18e-439b-b410-cfef0d7d2a49.7d33a327c894ab165075ec9ca7c67c79.jpeg
+  item_price: 7.98
+  line_price: 7.98
+  sales_unit_type: null
+- item_id: '1'
+  item_quantity: 1
+  item_name: JUNKLESS Chewy Chocolate Chip Granola Snack Bars, 1.1 oz, 8 Count
+  item_image_url: https://i5.walmartimages.com/seo/JUNKLESS-Chewy-Chocolate-Chip-Granola-Snack-Bars-1-1-oz-8-Count_f7e674c4-bd54-4ed1-8df9-3b02ad0435b6.55cc7a4ce630ee12a48a0630a07c0e22.jpeg
+  item_price: 4.98
+  line_price: 4.98
+  sales_unit_type: null
+- item_id: '2'
+  item_quantity: 1
+  item_name: MiO Energy Strawberry Pineapple Smash Sugar Free Water Enhancer, 1.62
+    fl oz Bottle
+  item_image_url: https://i5.walmartimages.com/seo/MiO-Energy-Strawberry-Pineapple-Smash-Sugar-Free-Water-Enhancer-1-62-fl-oz-Bottle_3d56b238-56a6-4276-8f9d-d602e9890f03.3f8c66bea3e562d9f93135a523f01523.jpeg
+  item_price: 3.18
+  line_price: 3.18
+  sales_unit_type: null
+- item_id: '3'
+  item_quantity: 1
+  item_name: Kool-Aid Liquid Grape Soft Drink Mix, 1.62 fl oz Bottle
+  item_image_url: https://i5.walmartimages.com/seo/Kool-Aid-Liquid-Grape-Artificially-Flavored-Soft-Drink-Mix-1-62-fl-oz-Bottle_2a7f60fb-7e3f-477b-b30f-bdbe24c0333d.b53986e7879915e235a1faa4b71de7fc.jpeg
+  item_price: 2.98
+  line_price: 2.98
+  sales_unit_type: null
+- item_id: '4'
+  item_quantity: 1
+  item_name: Quaker Instant Oatmeal, Apples & Cranberries, Quick Cook Ready-to-Microwave
+    Oatmeal, 1.79 oz Cup
+  item_image_url: https://i5.walmartimages.com/seo/Quaker-Instant-Oatmeal-Apples-Cranberries-Quick-Cook-Ready-to-Microwave-Oatmeal-1-79-oz-Cup_be8dc1a8-1bf6-4ab7-9437-af028d35e0f7.66aebb876d8a6acfb4d30febc2c8c91e.jpeg
+  item_price: 1.24
+  line_price: 1.24
+  sales_unit_type: null
+- item_id: '5'
+  item_quantity: 1
+  item_name: Quaker Honey & Almond flavored Instant Oatmeal, 1.76 oz
+  item_image_url: https://i5.walmartimages.com/seo/Quaker-Honey-Almond-flavored-Instant-Oatmeal-1-76-oz_ef108b50-c68e-48eb-a382-eeba9ea14b0e.10788531513126113cba0ab1e1c0e793.jpeg
+  item_price: 1.24
+  line_price: 1.24
+  sales_unit_type: null
+- item_id: '6'
+  item_quantity: 1
+  item_name: Red Baron Pepperoni Brick Oven Frozen Pizza, 17.89 oz
+  item_image_url: https://i5.walmartimages.com/seo/Red-Baron-Pepperoni-Brick-Oven-Frozen-Pizza-17-89-oz_df1b825a-9306-434a-9eab-69d7ce691d2f.e7f2f2d9821fdc7bee9d2c7ef1d52977.jpeg
+  item_price: 4.68
+  line_price: 4.68
+  sales_unit_type: null
+- item_id: '7'
+  item_quantity: 1
+  item_name: DiGiorno Frozen Pizza, Original Thin Crust with Pepperoni and Marinara
+    Sauce, 20.6 oz (Frozen)
+  item_image_url: https://i5.walmartimages.com/seo/DiGiorno-Frozen-Pizza-Original-Thin-Crust-with-Pepperoni-and-Marinara-Sauce-20-6-oz-Frozen_85eb6ad3-9011-4d2c-92a1-6f577b046d5c.39a5bd1d67970e5b7be55a8a1be1923f.jpeg
+  item_price: 6.68
+  line_price: 6.68
+  sales_unit_type: null
+- item_id: '8'
+  item_quantity: 1
+  item_name: Galileo Pepperoni Deli Lunch Meat, 7 oz
+  item_image_url: https://i5.walmartimages.com/seo/Galileo-Pepperoni-7-oz_00b1943e-da5e-4c3c-ab30-e72b87a1ec18.311e4428343410c1375daf88123ade74.jpeg
+  item_price: 4.67
+  line_price: 4.67
+  sales_unit_type: null
+- item_id: '9'
+  item_quantity: 1
+  item_name: Blue Bell Dutch Chocolate and Homemade Vanilla Ice Cream Cups, 3.0 fl
+    oz, 12 Count
+  item_image_url: https://i5.walmartimages.com/seo/Blue-Bell-Dutch-Chocolate-and-Homemade-Vanilla-Ice-Cream-Cups-3-0-fl-oz-12-Count_c842c9e8-7a89-4fec-b64b-755c5dd30779.9d51435fbf602d6ea1933805a63bc108.jpeg
+  item_price: 8.94
+  line_price: 8.94
+  sales_unit_type: null
+- item_id: '10'
+  item_quantity: 1
+  item_name: Eggo Buttermilk Waffles, Frozen Breakfast, 12.3 oz, 10 Count
+  item_image_url: https://i5.walmartimages.com/seo/Eggo-Buttermilk-Waffles-Frozen-Breakfast-12-3-oz-10-Count_a218d125-102c-4e6c-b553-2de49b05dbf3.f612f7e7699a2a33c9a36a7cd50dbd9f.jpeg
+  item_price: 2.82
+  line_price: 2.82
+  sales_unit_type: null
+- item_id: '11'
+  item_quantity: 1
+  item_name: Wondertech Multi-Purpose Foam Wedge Pillow, White
+  item_image_url: https://i5.walmartimages.com/seo/Wondertech-Multi-Purpose-Foam-Wedge-Pillow-White_f587c333-3e64-4565-bcc7-fc69c5a1f9e2.690a98607b7d7313b19938a9bd85b4a1.jpeg
+  item_price: 22.34
+  line_price: 22.34
+  sales_unit_type: null
+- item_id: '12'
+  item_quantity: 1
+  item_name: Healthy Choice Simply Steamers Grilled Chicken Marsala, Frozen Meal,
+    9.9 oz Bowl (Frozen)
+  item_image_url: https://i5.walmartimages.com/seo/Healthy-Choice-Simply-Steamers-Grilled-Chicken-Marsala-Frozen-Meal-9-9-oz-Bowl-Frozen_23795592-38d4-450e-ad2e-e8c9b046aeea.6a7e0b7e3edcbaee6fda9064dd904ad9.jpeg
+  item_price: 3.42
+  line_price: 3.42
+  sales_unit_type: null
+- item_id: '13'
+  item_quantity: 1
+  item_name: Healthy Choice Simply Steamers Grilled Chicken Marsala, Frozen Meal,
+    9.9 oz Bowl (Frozen)
+  item_image_url: https://i5.walmartimages.com/seo/Healthy-Choice-Simply-Steamers-Grilled-Chicken-Marsala-Frozen-Meal-9-9-oz-Bowl-Frozen_23795592-38d4-450e-ad2e-e8c9b046aeea.6a7e0b7e3edcbaee6fda9064dd904ad9.jpeg
+  item_price: 3.42
+  line_price: 3.42
+  sales_unit_type: null
+- item_id: '14'
+  item_quantity: 1
+  item_name: Healthy Choice Power Bowls Basil Pesto Chicken, Frozen Meal 9.25 oz (Frozen)
+  item_image_url: https://i5.walmartimages.com/seo/Healthy-Choice-Power-Bowls-Basil-Pesto-Chicken-Frozen-Meal-9-25-oz-Frozen_7b7126b9-43ec-4b9a-bd48-03584d271c17.425f8845c6977e2a1e00f27b83ef4ac4.jpeg
+  item_price: 3.98
+  line_price: 3.98
+  sales_unit_type: null
+- item_id: '15'
+  item_quantity: 1
+  item_name: Healthy Choice Power Bowls Basil Pesto Chicken, Frozen Meal 9.25 oz (Frozen)
+  item_image_url: https://i5.walmartimages.com/seo/Healthy-Choice-Power-Bowls-Basil-Pesto-Chicken-Frozen-Meal-9-25-oz-Frozen_7b7126b9-43ec-4b9a-bd48-03584d271c17.425f8845c6977e2a1e00f27b83ef4ac4.jpeg
+  item_price: 3.98
+  line_price: 3.98
+  sales_unit_type: null
+- item_id: '16'
+  item_quantity: 1
+  item_name: Healthy Choice Power Bowls Cuban-Inspired Pork, Frozen Meal, 9.5 oz Bowl
+    (Frozen)
+  item_image_url: https://i5.walmartimages.com/seo/Healthy-Choice-Power-Bowls-Cuban-Inspired-Pork-Frozen-Meal-9-5-oz-Bowl-Frozen_2e49d8e1-222c-49fe-9c97-12192e8ab949.a8fc767d11271ee0114cfd0a8c12070f.jpeg
+  item_price: 3.98
+  line_price: 3.98
+  sales_unit_type: null
+- item_id: '17'
+  item_quantity: 1
+  item_name: Healthy Choice Power Bowls Cuban-Inspired Pork, Frozen Meal, 9.5 oz Bowl
+    (Frozen)
+  item_image_url: https://i5.walmartimages.com/seo/Healthy-Choice-Power-Bowls-Cuban-Inspired-Pork-Frozen-Meal-9-5-oz-Bowl-Frozen_2e49d8e1-222c-49fe-9c97-12192e8ab949.a8fc767d11271ee0114cfd0a8c12070f.jpeg
+  item_price: 3.98
+  line_price: 3.98
+  sales_unit_type: null
+- item_id: '18'
+  item_quantity: 1
+  item_name: Healthy Choice Power Bowls Chicken Marinara Bowl, Frozen Meal, 9.25 oz
+    (Frozen)
+  item_image_url: https://i5.walmartimages.com/seo/Healthy-Choice-Power-Bowls-Chicken-Marinara-Bowl-Frozen-Meal-9-25-oz-Frozen_30871208-2b95-478f-a263-68090757c4e9.c40dbc65c37d7a721de5ab40e211c199.jpeg
+  item_price: 3.98
+  line_price: 3.98
+  sales_unit_type: null
+- item_id: '19'
+  item_quantity: 1
+  item_name: Healthy Choice Power Bowls Chicken Marinara Bowl, Frozen Meal, 9.25 oz
+    (Frozen)
+  item_image_url: https://i5.walmartimages.com/seo/Healthy-Choice-Power-Bowls-Chicken-Marinara-Bowl-Frozen-Meal-9-25-oz-Frozen_30871208-2b95-478f-a263-68090757c4e9.c40dbc65c37d7a721de5ab40e211c199.jpeg
+  item_price: 3.98
+  line_price: 3.98
+  sales_unit_type: null
+- item_id: '20'
+  item_quantity: 1
+  item_name: Healthy Choice Cafe Steamers Beef Merlot Bowl, Frozen Meal, 9.5 oz (Frozen)
+  item_image_url: https://i5.walmartimages.com/seo/Healthy-Choice-Cafe-Steamers-Beef-Merlot-Bowl-Frozen-Meal-9-5-oz-Frozen_c4fa4579-e66f-4398-b765-fb2d4efff15e.17257e120f6cad2485f83df150620c0d.jpeg
+  item_price: 3.12
+  line_price: 3.12
+  sales_unit_type: null
+- item_id: '21'
+  item_quantity: 1
+  item_name: Healthy Choice Cafe Steamers Beef Merlot Bowl, Frozen Meal, 9.5 oz (Frozen)
+  item_image_url: https://i5.walmartimages.com/seo/Healthy-Choice-Cafe-Steamers-Beef-Merlot-Bowl-Frozen-Meal-9-5-oz-Frozen_c4fa4579-e66f-4398-b765-fb2d4efff15e.17257e120f6cad2485f83df150620c0d.jpeg
+  item_price: 3.12
+  line_price: 3.12
+  sales_unit_type: null
+- item_id: '22'
+  item_quantity: 1
+  item_name: Frito Lay Classic Mix Chips Variety Pack, Mega Size, 1 oz, 42 Count
+  item_image_url: https://i5.walmartimages.com/seo/Frito-Lay-Classic-Mix-Chips-Variety-Pack-Mega-Size-1-oz-42-Count_d26d1837-d2ee-4de0-886c-bcb02448cff3.75237dfee0317c31f18d339328f9738e.jpeg
+  item_price: 19.48
+  line_price: 19.48
+  sales_unit_type: null
+- item_id: '23'
+  item_quantity: 1
+  item_name: Nature's Own 100% Whole Wheat, Whole Wheat Bread, 20 oz Loaf, Shelf-Stable
+  item_image_url: https://i5.walmartimages.com/seo/Nature-s-Own-100-Whole-Wheat-Whole-Wheat-Bread-20-oz-Loaf-Shelf-Stable_3253480e-6e8e-4c94-978c-377508f70ba1.26967afd9d63cf1d44813c912b228893.jpeg
+  item_price: 3.34
+  line_price: 3.34
+  sales_unit_type: null
+- item_id: '24'
+  item_quantity: 1
+  item_name: Wonder Bread Giant White Sandwich Bread, Sliced White Bread, 24 oz, Shelf-Stable
+  item_image_url: https://i5.walmartimages.com/seo/Wonder-Bread-Giant-White-Sandwich-Bread-Sliced-White-Bread-24-oz-Shelf-Stable_8debbfe4-cd72-4104-b850-7c6ae7f597a5_1.b96509a00743cf8cb54c5b1a9f530f32.jpeg
+  item_price: 3.16
+  line_price: 3.16
+  sales_unit_type: null
+- item_id: '25'
+  item_quantity: 1
+  item_name: Propel Electrolyte Enhanced Water Drink Mix Powder Packets, Berry, Zero
+    Calorie & Zero Sugar Hydration with Electrolytes and Vitamins C & E, (10 Packets)
+  item_image_url: https://i5.walmartimages.com/seo/Propel-Zero-Sugar-Berry-Powdered-Electrolyte-Vitamin-Drink-Mix-0-08-oz-10-Packets_b0282089-36b8-4801-89f2-823d45ff3a88.f58524159895824618e7110a2412dc39.jpeg
+  item_price: 2.48
+  line_price: 2.48
+  sales_unit_type: null
+- item_id: '26'
+  item_quantity: 1
+  item_name: Propel Electrolyte Enhanced Water Drink Mix Powder Packets, Grape, Zero
+    Calorie & Zero Sugar Hydration with Electrolytes and Vitamins C & E, (10 Packets)
+  item_image_url: https://i5.walmartimages.com/seo/Propel-Powder-Packets-Drink-Mixes-with-Electrolytes-Vitamins-and-No-Sugar-Grape-0-08-oz-10-Ct_172290f8-543a-434e-a913-21534a77b15d.01d61ca9185e0b8b207fddc55ffa87ed.jpeg
+  item_price: 2.48
+  line_price: 2.48
+  sales_unit_type: null
+- item_id: '27'
+  item_quantity: 1
+  item_name: Takis Fuego Mini 25 pc / 1.23 oz Bite Size Multipack, Hot Chili Pepper
+    & Lime Rolled Tortilla Chips
+  item_image_url: https://i5.walmartimages.com/seo/Takis-Fuego-Mini-25-pc-1-23-oz-Bite-Size-Multipack-Hot-Chili-Pepper-Lime-Rolled-Tortilla-Chips_a27e38b0-54dd-4df0-85bb-78363ea03baa.edf9c5bc65ad48a2f789b49cf480354a.jpeg
+  item_price: 12.18
+  line_price: 12.18
+  sales_unit_type: null
+- item_id: '28'
+  item_quantity: 1
+  item_name: Wish-Bone Italian Salad Dressing, 15 fl oz
+  item_image_url: https://i5.walmartimages.com/seo/Wish-Bone-Italian-Salad-Dressing-15-fl-oz_14aee541-a138-4674-9a30-37762aac8e8f.4297af4132bff43633be30f816a102d2.jpeg
+  item_price: 2.28
+  line_price: 2.28
+  sales_unit_type: null
+- item_id: '29'
+  item_quantity: 1
+  item_name: Great Value Glass Cleaner Refill, Streak-Free Shine, 67.6 fl oz
+  item_image_url: https://i5.walmartimages.com/seo/Great-Value-Glass-Cleaner-Refill-Streak-Free-Shine-67-6-fl-oz_5066f801-7ccd-47de-83d5-ca2e6724aaa9.ab6ab6689f51d966ca49ac8ebf8ec735.jpeg
+  item_price: 3.34
+  line_price: 3.34
+  sales_unit_type: null
+- item_id: '30'
+  item_quantity: 1
+  item_name: ARM & HAMMER Plus OxiClean Powder Laundry Detergent, Fresh Scent, 115
+    Loads
+  item_image_url: https://i5.walmartimages.com/seo/ARM-HAMMER-Plus-OxiClean-Powder-Laundry-Detergent-Fresh-Scent-115-Loads_98529ae4-76af-4437-8bba-f3e23646f888.b1f42848588130225f188b0c2771a6fa.jpeg
+  item_price: 14.48
+  line_price: 14.48
+  sales_unit_type: null
+- item_id: '31'
+  item_quantity: 1
+  item_name: Coca-Cola Classic Soda Pop Fridge Pack, 12 fl oz Cans, 12 Pack
+  item_image_url: https://i5.walmartimages.com/seo/Coca-Cola-Classic-Soda-Pop-Fridge-Pack-12-fl-oz-Cans-12-Pack_f69cdc2c-b50b-48a2-9a99-90b70870d3fd.38aeec71eb668abc670732098e30e064.jpeg
+  item_price: 6.98
+  line_price: 6.98
+  sales_unit_type: null
+metadata:
+  source_file: nov06
+  processed_at: '2025-07-03T08:45:58.542718'

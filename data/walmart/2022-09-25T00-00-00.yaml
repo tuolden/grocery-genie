@@ -1,0 +1,152 @@
+order_id: '50069849906593675965'
+purchase_date: '2022-09-25'
+store_name: Sunrise Supercenter
+order_totals:
+  subtotal: 83.21
+  tax_total: 2.09
+  grand_total: 85.3
+items:
+- item_id: '0'
+  item_quantity: 1
+  item_name: Parodontax Complete Protection Gingivitis Toothpaste, Pure Fresh Mint,
+    3.4 Oz
+  item_image_url: https://i5.walmartimages.com/seo/Parodontax-Complete-Protection-Gingivitis-Toothpaste-Pure-Fresh-Mint-3-4-oz_fdae58db-0e81-43a6-9c6e-8e80fd1d8485.a71e9f3e4955b0744de069d4a1137d71.jpeg
+  item_price: 7.52
+  line_price: 7.52
+  sales_unit_type: null
+- item_id: '1'
+  item_quantity: 1
+  item_name: Nature's Own 100% Whole Wheat, Whole Wheat Bread, 20 oz Loaf, Shelf-Stable
+  item_image_url: https://i5.walmartimages.com/seo/Nature-s-Own-100-Whole-Wheat-Whole-Wheat-Bread-20-oz-Loaf-Shelf-Stable_3253480e-6e8e-4c94-978c-377508f70ba1.26967afd9d63cf1d44813c912b228893.jpeg
+  item_price: 3.34
+  line_price: 3.34
+  sales_unit_type: null
+- item_id: '2'
+  item_quantity: 1
+  item_name: Nature's Own 100% Whole Wheat, Whole Wheat Bread, 20 oz Loaf, Shelf-Stable
+  item_image_url: https://i5.walmartimages.com/seo/Nature-s-Own-100-Whole-Wheat-Whole-Wheat-Bread-20-oz-Loaf-Shelf-Stable_3253480e-6e8e-4c94-978c-377508f70ba1.26967afd9d63cf1d44813c912b228893.jpeg
+  item_price: 3.34
+  line_price: 3.34
+  sales_unit_type: null
+- item_id: '3'
+  item_quantity: 1
+  item_name: Freshness Guaranteed Chocolate Chip Bakery Cookies, 14 oz, 10 Count,
+    Baked
+  item_image_url: https://i5.walmartimages.com/seo/Freshness-Guaranteed-Chocolate-Chip-Bakery-Cookies-14-oz-10-Count-Baked_b8ff1c98-71aa-4cb8-8cd4-018ab0b2ac50.52b12ed2c82a7d96fe7dd87f10088782.jpeg
+  item_price: 3.47
+  line_price: 3.47
+  sales_unit_type: null
+- item_id: '4'
+  item_quantity: 1
+  item_name: Marketside Chocolate Mousse Dessert Cup, Cookie Crumble Topping, 5.75oz
+  item_image_url: https://i5.walmartimages.com/seo/Marketside-Chocolate-Mousse-5-75-oz-Refrigerated-Creamy_d75bccba-4788-496e-a0d1-13ea9afa523f.6835e425db9f3291c3010e9970b633c4.jpeg
+  item_price: 2.44
+  line_price: 2.44
+  sales_unit_type: null
+- item_id: '5'
+  item_quantity: 1
+  item_name: Marketside Strawberry French Style Whipped Cheese Cake Mousse Dessert
+    Cup, Creamy, 5.5oz
+  item_image_url: https://i5.walmartimages.com/seo/Marketside-Strawberry-Creamy-French-Style-Whipped-Cheesecake-Mousse-5-5-oz-Cup-Refrigerated_08cdb124-4b7a-4cc5-8640-3c1b92db6cdb.32df6f648c8af05a19771ac04a9e4ef2.jpeg
+  item_price: 2.44
+  line_price: 2.44
+  sales_unit_type: null
+- item_id: '6'
+  item_quantity: 1
+  item_name: Hungry Man Selects Classic Fried Chicken, Frozen Meal, 16 oz (Frozen)
+  item_image_url: https://i5.walmartimages.com/seo/Hungry-Man-Selects-Classic-Fried-Chicken-Frozen-Meal-16-oz-Frozen_a195d442-d11c-415a-8721-1daebd0eda27.764cf113faddebcfe5f12c26aa15dec8.jpeg
+  item_price: 4.78
+  line_price: 4.78
+  sales_unit_type: null
+- item_id: '7'
+  item_quantity: 1
+  item_name: Hungry Man Selects Classic Fried Chicken, Frozen Meal, 16 oz (Frozen)
+  item_image_url: https://i5.walmartimages.com/seo/Hungry-Man-Selects-Classic-Fried-Chicken-Frozen-Meal-16-oz-Frozen_a195d442-d11c-415a-8721-1daebd0eda27.764cf113faddebcfe5f12c26aa15dec8.jpeg
+  item_price: 4.78
+  line_price: 4.78
+  sales_unit_type: null
+- item_id: '8'
+  item_quantity: 1
+  item_name: Edwards Singles Desserts Frozen Key Lime Pie Slices, 6.5 oz 2 Pack
+  item_image_url: https://i5.walmartimages.com/seo/Edwards-Singles-Desserts-Key-Lime-Pie-Slices-6-5-oz-2-Pack_d8193457-cd87-4725-b6d4-651e4366a923.b7a3340b47e57d0c888c453e0a1713aa.jpeg
+  item_price: 3.74
+  line_price: 3.74
+  sales_unit_type: null
+- item_id: '9'
+  item_quantity: 1
+  item_name: Healthy Choice Simply Steamers Unwrapped Burrito Bowl, Frozen Meal, 9
+    oz. (Frozen)
+  item_image_url: https://i5.walmartimages.com/seo/Healthy-Choice-Simply-Steamers-Unwrapped-Burrito-Bowl-Frozen-Meal-9-oz-Frozen_77e3344d-9bb5-4099-a7e8-ccfe4944883e.7b8e628b7393b77ec0adac8b25af21db.jpeg
+  item_price: 3.42
+  line_price: 3.42
+  sales_unit_type: null
+- item_id: '10'
+  item_quantity: 1
+  item_name: Healthy Choice Simply Steamers Grilled Chicken & Broccoli Alfredo, 9.15
+    oz (frozen)
+  item_image_url: https://i5.walmartimages.com/seo/Healthy-Choice-Simply-Steamers-Grilled-Chicken-Broccoli-Alfredo-9-15-oz-frozen_a8681c2b-8ce2-4883-bdcd-53a666948b91.01cc782e4dbc2759eb2277e34d4b9bff.jpeg
+  item_price: 3.42
+  line_price: 3.42
+  sales_unit_type: null
+- item_id: '11'
+  item_quantity: 1
+  item_name: Healthy Choice Simply Steamers Grilled Chicken & Broccoli Alfredo, 9.15
+    oz (frozen)
+  item_image_url: https://i5.walmartimages.com/seo/Healthy-Choice-Simply-Steamers-Grilled-Chicken-Broccoli-Alfredo-9-15-oz-frozen_a8681c2b-8ce2-4883-bdcd-53a666948b91.01cc782e4dbc2759eb2277e34d4b9bff.jpeg
+  item_price: 3.42
+  line_price: 3.42
+  sales_unit_type: null
+- item_id: '12'
+  item_quantity: 1
+  item_name: Healthy Choice Simply Steamers Unwrapped Burrito Bowl, Frozen Meal, 9
+    oz. (Frozen)
+  item_image_url: https://i5.walmartimages.com/seo/Healthy-Choice-Simply-Steamers-Unwrapped-Burrito-Bowl-Frozen-Meal-9-oz-Frozen_77e3344d-9bb5-4099-a7e8-ccfe4944883e.7b8e628b7393b77ec0adac8b25af21db.jpeg
+  item_price: 3.42
+  line_price: 3.42
+  sales_unit_type: null
+- item_id: '13'
+  item_quantity: 1
+  item_name: Healthy Choice Simply Steamers Beef & Broccoli, Frozen Meal, 10 oz (Frozen)
+  item_image_url: https://i5.walmartimages.com/seo/Healthy-Choice-Simply-Steamers-Beef-Broccoli-Frozen-Meal-10-oz-Frozen_a96bba35-66fe-4008-9d11-00b682601330.1709a175653f606d4125afee48908543.jpeg
+  item_price: 3.42
+  line_price: 3.42
+  sales_unit_type: null
+- item_id: '14'
+  item_quantity: 1
+  item_name: Healthy Choice Simply Steamers Beef & Broccoli, Frozen Meal, 10 oz (Frozen)
+  item_image_url: https://i5.walmartimages.com/seo/Healthy-Choice-Simply-Steamers-Beef-Broccoli-Frozen-Meal-10-oz-Frozen_a96bba35-66fe-4008-9d11-00b682601330.1709a175653f606d4125afee48908543.jpeg
+  item_price: 3.42
+  line_price: 3.42
+  sales_unit_type: null
+- item_id: '15'
+  item_quantity: 1
+  item_name: Filtrete 18x25x1 HVAC Furnace Air Filter, MPR 800 MERV 10, Micro Particle
+    Reduction, 1 Filter
+  item_image_url: https://i5.walmartimages.com/seo/Filtrete-18x25x1-Air-Filter-MPR-800-MERV-10-Micro-Particle-Reduction-1-Filter_8fd40725-6720-4048-914b-bbdfb16c9efe.eeebc77f23dee925adcb7a0abe07d43c.jpeg
+  item_price: 11.88
+  line_price: 11.88
+  sales_unit_type: null
+- item_id: '16'
+  item_quantity: 1
+  item_name: Filtrete 18x24x1 Air Filter, MPR 300 MERV 5, Dust Reduction, 1 Filter
+  item_image_url: https://i5.walmartimages.com/seo/Filtrete-18x24x1-Air-Filter-MPR-300-MERV-5-Dust-Reduction-1-Filter_920ad163-0122-4ead-ae16-fd6bc75fed4a.9abf08c99a6b962cb561b0eaf04637ac.jpeg
+  item_price: 5.24
+  line_price: 5.24
+  sales_unit_type: null
+- item_id: '17'
+  item_quantity: 1
+  item_name: Filtrete 18x24x1 Air Filter, MPR 300 MERV 5, Dust Reduction, 1 Filter
+  item_image_url: https://i5.walmartimages.com/seo/Filtrete-18x24x1-Air-Filter-MPR-300-MERV-5-Dust-Reduction-1-Filter_920ad163-0122-4ead-ae16-fd6bc75fed4a.9abf08c99a6b962cb561b0eaf04637ac.jpeg
+  item_price: 5.24
+  line_price: 5.24
+  sales_unit_type: null
+- item_id: '18'
+  item_quantity: 1
+  item_name: Fresh Blueberries, 18 oz Container
+  item_image_url: https://i5.walmartimages.com/seo/Fresh-Blueberries-18-oz-Container_66ee489f-0ddc-43b4-99ce-07c0a7bf886e_1.b805f72f3cafb54c77a036a6ab6f4ed4.jpeg
+  item_price: 4.48
+  line_price: 4.48
+  sales_unit_type: null
+metadata:
+  source_file: sep25
+  processed_at: '2025-07-03T08:46:01.921264'

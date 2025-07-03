@@ -1,0 +1,106 @@
+items:
+  rx: {}
+  fs:
+    total: 3
+    name: HSK BIOTIN THCK SH 12Z
+    image: ''
+number: 5083-18-9186-20250219
+type:
+- STORE
+alertStatus: []
+filterByStatus: true
+date: '2025-02-20T02:15:00Z'
+totalCost: '21.69'
+status:
+- Purchased
+statusCode: '0000'
+statusDesc: Success
+conversationId: rrt-3024830282911917713-c-gea1-4160404-3948140-197
+order:
+  type:
+  - STORE
+  number: 5083-18-9186-20250219
+  date: '2025-02-20T02:15:00Z'
+  splitShipment: false
+  ecCard: '2276'
+  cost:
+    subTotal: '20.27'
+    savings: '-0.00'
+    tax: '1.42'
+    shipping: ''
+    total: '21.69'
+    state: FL
+    feminineTax: '0'
+    totalReturnAmount: '0.00'
+  shipped: []
+  canceled: []
+  pickup: []
+  inStore:
+  - status: Purchased
+    totalCost: 20.270000000000003
+    fsItems:
+    - name: HASK Biotin Boost Thickening Conditioner, 12 OZ
+      itemId: '394019'
+      itemSize: '12.00'
+      itemSizeUOM: OZ
+      itemWeight: '0.10'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '6.99'
+      priceFinal: '6.99'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '6.99'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: Garnier Fructis Grow Strong Fortifying Conditioner, 12.6 OZ
+      itemId: '335282'
+      itemSize: '12.60'
+      itemSizeUOM: OZ
+      itemWeight: '0.89'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '6.29'
+      priceFinal: '6.29'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '6.29'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: HASK Biotin Boost Thickening Shampoo, 12 OZ
+      itemId: '394021'
+      itemSize: '12.00'
+      itemSizeUOM: OZ
+      itemWeight: '0.10'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '6.99'
+      priceFinal: '6.99'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '6.99'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    pickupStoreId: '5083'
+  return: []
+  paymentMethod:
+  - type: Credit/Debit/EBT
+    lastFourDigits: '0225'
+    amountCharged: '21.69'
+  - type: Credit/Debit/EBT
+    lastFourDigits: '0225'
+    amountReturned: '0.00'
+  splitFulfillment: false
+  returnEligible: false
+  returnEligibleFinalDate: '2025-04-20T00:00:00Z'
+  txnNo: '9186'
+  regNo: '18'

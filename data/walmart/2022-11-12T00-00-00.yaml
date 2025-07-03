@@ -1,0 +1,348 @@
+order_id: '376545438953355833503'
+purchase_date: '2022-11-12'
+store_name: Sunrise Supercenter
+order_totals:
+  subtotal: 172.11
+  tax_total: 7.01
+  grand_total: 179.12
+items:
+- item_id: '0'
+  item_quantity: 1
+  item_name: vitaminwater XXX Acai-Blueberry-Pomegranate Flavored Water Beverage,
+    16.9 fl oz, 6 Pack Bottles
+  item_image_url: https://i5.walmartimages.com/seo/vitaminwater-XXX-Acai-Blueberry-Pomegranate-Flavored-Water-Beverage-16-9-fl-oz-6-Pack-Bottles_d3547c1c-cab7-43af-815e-8706bf1b5815.4204caa03a7f7f3d3f2237b6283d04a3.jpeg
+  item_price: 5.88
+  line_price: 5.88
+  sales_unit_type: null
+- item_id: '1'
+  item_quantity: 1
+  item_name: "Summer\u2019s Eve Blissful Escape Daily Feminine Wash, Removes Odor,\
+    \ pH Balanced, 15 fl oz"
+  item_image_url: https://i5.walmartimages.com/seo/Summer-s-Eve-Blissful-Escape-Daily-Feminine-Wash-Removes-Odor-pH-Balanced-15-fl-oz_ab037aed-dd92-4f84-adda-b41632b9ef37.87036d1ff676160bb59e5267cbe940b1.jpeg
+  item_price: 4.48
+  line_price: 4.48
+  sales_unit_type: null
+- item_id: '2'
+  item_quantity: 1
+  item_name: L'Oreal Paris Unlimited Lash Lifting and Lengthening Washable Mascara,
+    Blackest Black, 0.24 fl. oz.
+  item_image_url: https://i5.walmartimages.com/seo/L-Oreal-Paris-Unlimited-Lash-Lifting-and-Lengthening-Washable-Mascara-Blackest-Black-0-24-fl-oz_ce5ea215-b910-4e53-b604-83d09ac61ca3.96e3c142b1f368010e08cfbbb5b96304.jpeg
+  item_price: 11.97
+  line_price: 11.97
+  sales_unit_type: null
+- item_id: '3'
+  item_quantity: 1
+  item_name: Great Value, 2% Reduced Fat Milk, Gallon, Refrigerated
+  item_image_url: https://i5.walmartimages.com/seo/Great-Value-2-Reduced-Fat-Milk-Gallon-Refrigerated_22a6459a-13b6-4057-aeae-45e62c69e8f8.47f793426ff66fa6432c948d836704f0.jpeg
+  item_price: 3.22
+  line_price: 3.22
+  sales_unit_type: null
+- item_id: '4'
+  item_quantity: 1
+  item_name: Dove Beauty Bar Women's Bath Soap Gentle Exfoliating Renews Soft Smooth
+    Skin, 3.75 oz 4 Bars
+  item_image_url: https://i5.walmartimages.com/seo/Dove-Beauty-Bar-Women-s-Bath-Soap-Gentle-Exfoliating-Renews-Soft-Smooth-Skin-3-75-oz-4-Bars_55d6f9a1-b17a-4f8e-bb40-1ec73dfc29b6.bec95b8de093d59eeec7c0e88ef706fb.jpeg
+  item_price: 6.47
+  line_price: 6.47
+  sales_unit_type: null
+- item_id: '5'
+  item_quantity: 1
+  item_name: Sparkling Ice Purple Variety Pack, Flavored Sparkling Water, 17 fl oz,
+    12 count
+  item_image_url: https://i5.walmartimages.com/seo/Sparkling-Ice-Purple-Variety-Pack-12-Pack17-fl-oz-Plastic-Bottle-Black-Raspberry-Cherry-Limeade-Orange-Mango-Kiwi-Strawberry_ac560d5b-c6fa-4f0a-8836-0c97c81dbf7e.bd8d16139db58e6f5701b9b17717383a.jpeg
+  item_price: 10.98
+  line_price: 10.98
+  sales_unit_type: null
+- item_id: '6'
+  item_quantity: 1
+  item_name: Sparkling Ice Pink Variety Pack, Flavored Sparkling Water, 17 fl oz,
+    12 count
+  item_image_url: https://i5.walmartimages.com/seo/Sparkling-Ice-Zero-Sugar-Flavored-Variety-Pack-17-fl-oz-12-Count-Black-Cherry-Peach-Nectarine-Coconut-Pineapple-Fruit-Punch-Allergens-Contained_b3a9be00-dd68-4b04-9064-eee4d6426f20.dbdd55d2d7bcf027ceb61a389fc25868.jpeg
+  item_price: 10.98
+  line_price: 10.98
+  sales_unit_type: null
+- item_id: '7'
+  item_quantity: 1
+  item_name: Sparkling Ice Pink Variety Pack, Flavored Sparkling Water, 17 fl oz,
+    12 count
+  item_image_url: https://i5.walmartimages.com/seo/Sparkling-Ice-Zero-Sugar-Flavored-Variety-Pack-17-fl-oz-12-Count-Black-Cherry-Peach-Nectarine-Coconut-Pineapple-Fruit-Punch-Allergens-Contained_b3a9be00-dd68-4b04-9064-eee4d6426f20.dbdd55d2d7bcf027ceb61a389fc25868.jpeg
+  item_price: 10.98
+  line_price: 10.98
+  sales_unit_type: null
+- item_id: '8'
+  item_quantity: 1
+  item_name: Great Value Purified Drinking Water, 16.9 Fl. Oz., 40 Count
+  item_image_url: https://i5.walmartimages.com/seo/Great-Value-Purified-Drinking-Water-16-9-Fl-Oz-40-Count_061099c8-2637-49ad-9706-506d42bbe542.33c33902d22157d2c215a61e15fd4a4b.jpeg
+  item_price: 5.36
+  line_price: 5.36
+  sales_unit_type: null
+- item_id: '9'
+  item_quantity: 1
+  item_name: Clear American Pineapple Coconut Sparkling Water, 12 oz, 12 Count
+  item_image_url: https://i5.walmartimages.com/seo/Clear-American-Pineapple-Coconut-Sparkling-Water-12-oz-12-Count_f4c93c9f-f861-4566-907f-44cdbaea5ac3.e61d67428ab64b3f210cdb6e42ae1339.jpeg
+  item_price: 4.12
+  line_price: 4.12
+  sales_unit_type: null
+- item_id: '10'
+  item_quantity: 1
+  item_name: Takis Fuego Mini 25 pc / 1.23 oz Bite Size Multipack, Hot Chili Pepper
+    & Lime Rolled Tortilla Chips
+  item_image_url: https://i5.walmartimages.com/seo/Takis-Fuego-Mini-25-pc-1-23-oz-Bite-Size-Multipack-Hot-Chili-Pepper-Lime-Rolled-Tortilla-Chips_a27e38b0-54dd-4df0-85bb-78363ea03baa.edf9c5bc65ad48a2f789b49cf480354a.jpeg
+  item_price: 12.18
+  line_price: 12.18
+  sales_unit_type: null
+- item_id: '11'
+  item_quantity: 1
+  item_name: Pringles Pizza Potato Crisps Chips, Lunch Snacks, 5.5 oz Canister
+  item_image_url: https://i5.walmartimages.com/seo/Pringles-Pizza-Potato-Crisps-Chips-Lunch-Snacks-5-5-oz-Canister_19bafd4c-97a2-4116-b2f7-af62ff8ae025.05214b8658e50854edcb0a5d03bab1ca.jpeg
+  item_price: 1.96
+  line_price: 1.96
+  sales_unit_type: null
+- item_id: '12'
+  item_quantity: 1
+  item_name: Clear American Sparkling Water, Black Cherry, 33.8 fl oz
+  item_image_url: https://i5.walmartimages.com/seo/Clear-American-Black-Cherry-Sparkling-Water-1-Liter_58f2c6d1-7474-4cde-9fca-9ab85de60c03.4a3aefbff107d20a7468b3a7d12fc6e8.jpeg
+  item_price: 0.7
+  line_price: 0.7
+  sales_unit_type: null
+- item_id: '13'
+  item_quantity: 1
+  item_name: Clear American Sparkling Water, Mandarin Orange, 33.8 fl oz
+  item_image_url: https://i5.walmartimages.com/seo/Clear-American-Sparkling-Water-Mandarin-Orange-33-8-fl-oz_635e1605-9298-421e-88fe-e310ef8f54f5.ca71bb8dd2653c9673ee58b16a67369f.jpeg
+  item_price: 0.7
+  line_price: 0.7
+  sales_unit_type: null
+- item_id: '14'
+  item_quantity: 1
+  item_name: Smucker's Pineapple Topping, 12 Ounces
+  item_image_url: https://i5.walmartimages.com/seo/Smucker-s-Pineapple-Topping-12-Ounces_4471bec7-111e-43df-a7ba-cfa77cefb8f0.dd60fb1e1ae2057e05ffbc9281e3f244.jpeg
+  item_price: 1.92
+  line_price: 1.92
+  sales_unit_type: null
+- item_id: '15'
+  item_quantity: 1
+  item_name: Clear American Sparkling Water, Key Lime 33.8 fl oz
+  item_image_url: https://i5.walmartimages.com/seo/Clear-American-Sparkling-Water-Key-Lime-33-8-fl-oz_1c1c8a6e-ed12-4377-9e3b-2ce5b35aabfc.8c3308bda48dc787a2e5fa00e5198b82.jpeg
+  item_price: 0.7
+  line_price: 0.7
+  sales_unit_type: null
+- item_id: '16'
+  item_quantity: 1
+  item_name: AHA Pineapple and Passionfruit Sparkling Water, 12 fl oz, 8 Cans
+  item_image_url: https://i5.walmartimages.com/seo/AHA-Pineapple-and-Passionfruit-Sparkling-Water-12-fl-oz-8-Cans_ac9d4d27-b8b8-4401-9a6f-770e57dd385e.596e620c65c01b680ed55a67fc93b6ac.jpeg
+  item_price: 3.88
+  line_price: 3.88
+  sales_unit_type: null
+- item_id: '17'
+  item_quantity: 1
+  item_name: Clear American Sparkling Water, Strawberry, 33.8 fl oz
+  item_image_url: https://i5.walmartimages.com/seo/Clear-American-Sparkling-Water-Strawberry-33-8-fl-oz_9c8472a1-41db-451a-a9c8-6bcc57577728.864ef0a13c4141558a7c621ea7e520eb.jpeg
+  item_price: 0.7
+  line_price: 0.7
+  sales_unit_type: null
+- item_id: '18'
+  item_quantity: 1
+  item_name: Clear American Cherry Limeade Sparkling Water, 33.8 fl oz
+  item_image_url: https://i5.walmartimages.com/seo/Clear-American-Cherry-Limeade-Sparkling-Water-33-8-fl-oz_751f23e2-a2c3-42a9-8ebf-6465875b1644.03efde4289d98fb9b20b42cc29888c6a.jpeg
+  item_price: 0.7
+  line_price: 0.7
+  sales_unit_type: null
+- item_id: '19'
+  item_quantity: 1
+  item_name: Clear American Sparkling Water, Peach, 33.8 fl oz
+  item_image_url: https://i5.walmartimages.com/seo/Clear-American-Peach-Sparkling-Water-33-8-fl-oz_eadd95db-15a2-4521-b740-db628aca6377.e6d5f5bde40ce1a66a29ecd6cb64341b.jpeg
+  item_price: 0.7
+  line_price: 0.7
+  sales_unit_type: null
+- item_id: '20'
+  item_quantity: 1
+  item_name: Iberia Lemon 100% Juice 32 fl oz
+  item_image_url: https://i5.walmartimages.com/seo/Iberia-Lemon-100-Juice-32-fl-oz_d097096c-5070-406a-ae85-61a9935afbf6.6d3e2743e97635e6ae2b5cb20644e5dd.jpeg
+  item_price: 1.98
+  line_price: 1.98
+  sales_unit_type: null
+- item_id: '21'
+  item_quantity: 1
+  item_name: Iberia Lemon 100% Juice 32 fl oz
+  item_image_url: https://i5.walmartimages.com/seo/Iberia-Lemon-100-Juice-32-fl-oz_d097096c-5070-406a-ae85-61a9935afbf6.6d3e2743e97635e6ae2b5cb20644e5dd.jpeg
+  item_price: 1.98
+  line_price: 1.98
+  sales_unit_type: null
+- item_id: '22'
+  item_quantity: 1
+  item_name: Clear American Fuji Apple Sparkling Water, 1 Liter Bottle
+  item_image_url: https://i5.walmartimages.com/seo/Clear-American-Fuji-Apple-Sparkling-Water-1-Liter_e59f19f1-c33c-4755-bb26-04df29136aa1.4a2e617c76dec8007249bdc6e59dd551.jpeg
+  item_price: 0.7
+  line_price: 0.7
+  sales_unit_type: null
+- item_id: '23'
+  item_quantity: 1
+  item_name: Kellogg's Frosted Flakes Breakfast Cereal, Kids Cereal, Family Breakfast,
+    Original, 13.5oz Box (1 Box)
+  item_image_url: https://i5.walmartimages.com/seo/Kellogg-s-Frosted-Flakes-Breakfast-Cereal-Kids-Cereal-Family-Breakfast-Original-13-5oz-Box-1-Box_559383a4-8dd4-4ca9-9eb1-17897b5d1874.8dd7612b99e8cf9f94f447f45404e36d.jpeg
+  item_price: 3.78
+  line_price: 3.78
+  sales_unit_type: null
+- item_id: '24'
+  item_quantity: 1
+  item_name: "BIC Soleil Smooth Scented Women\u2019s 3- Blade Manual Razor, Assorted\
+    \ Colors, 4 Count"
+  item_image_url: https://i5.walmartimages.com/seo/BIC-Soleil-Smooth-Scented-Women-s-Disposable-Razor-3-Blade-4-Count_09a704b7-4c37-4962-8dc6-df67d3b196d4.5d48e702b86c90e06127d68b78a9e38e.jpeg
+  item_price: 4.92
+  line_price: 4.92
+  sales_unit_type: null
+- item_id: '25'
+  item_quantity: 1
+  item_name: Great Value 100% Orange Juice Original, 128 fl oz
+  item_image_url: https://i5.walmartimages.com/seo/Great-Value-100-Orange-Juice-Original-128-fl-oz_314fa94a-b5be-46a5-84ba-ddac9c411d04.cddd628215e62b65a3b3f51c23b5afb2.jpeg
+  item_price: 4.58
+  line_price: 4.58
+  sales_unit_type: null
+- item_id: '26'
+  item_quantity: 1
+  item_name: Kool-Aid Gels Strawberry Kiwi Jell-O Gelatin Snacks, 4 Ct Cups
+  item_image_url: https://i5.walmartimages.com/seo/Kool-Aid-Gels-Strawberry-Kiwi-Jell-O-Gelatin-Snacks-4-Ct-Cups_ad85bca2-8629-4286-9052-3606de4e8837.292ea04fadd00aea69e6ae7481c5387c.jpeg
+  item_price: 1.14
+  line_price: 1.14
+  sales_unit_type: null
+- item_id: '27'
+  item_quantity: 1
+  item_name: Del Monte Fruit Refreshers Red Grapefruit in Guava flavored Fruit Water,
+    7 oz Cup (Pack of 2)
+  item_image_url: https://i5.walmartimages.com/seo/2-cups-Del-Monte-Fruit-Refreshers-Red-Grapefruit-in-Guava-Fruit-Water-7-oz-cups_b97663b2-bbb1-477e-85d1-5bfb25c4716f.7ba6667a14df1bf8d3c28edd335becec.jpeg
+  item_price: 2.78
+  line_price: 2.78
+  sales_unit_type: null
+- item_id: '28'
+  item_quantity: 1
+  item_name: Del Monte Fruit Refreshers Peaches and Chia Fruit Cup Snacks in Dragon
+    Fruit Flavored Water, 7 oz Cup (Pack of 2)
+  item_image_url: https://i5.walmartimages.com/seo/2-Cups-Del-Monte-Fruit-Chia-Peaches-in-Strawberry-Dragon-Fruit-Flavored-Chia-7-oz-cups_5848d5f0-a711-4f32-a4e3-9b77d36fdeab.7141b3e880f926c93f92497ba3bab33d.jpeg
+  item_price: 2.78
+  line_price: 2.78
+  sales_unit_type: null
+- item_id: '29'
+  item_quantity: 1
+  item_name: Vibrant Life Reflective Polyester Adjustable Dog Collar, Black, Small
+  item_image_url: https://i5.walmartimages.com/seo/Vibrant-Life-Reflective-Polyester-Adjustable-Dog-Collar-Black-Small_fb5be85b-6e02-4da1-9178-37c44e8ed647.dfa077a8b0639f8358787af8140a0176.jpeg
+  item_price: 3.62
+  line_price: 3.62
+  sales_unit_type: null
+- item_id: '30'
+  item_quantity: 1
+  item_name: "Dole Fruit Bowls Peaches and Cr\xE8me Parfait, 4.3 oz Cups (4 Pack)"
+  item_image_url: https://i5.walmartimages.com/seo/Dole-Fruit-Bowls-Peaches-and-Creme-Parfait-4-3-oz-Cups-4-Pack_673e54a1-459c-45f8-847d-6b4b132f73bb.befaa5df0356729ec90042dfaac5fda5.jpeg
+  item_price: 2.98
+  line_price: 2.98
+  sales_unit_type: null
+- item_id: '31'
+  item_quantity: 1
+  item_name: Bigelow Lavender Chamomile Plus Probiotics, Caffeine Free, Herbal Tea
+    Bags, 18 Count
+  item_image_url: https://i5.walmartimages.com/seo/Bigelow-Lavender-Chamomile-Plus-Probiotics-Caffeine-Free-Herbal-Tea-Bags-18-Count_54573f1b-1aee-4578-b1dd-3a7f4e23f9c0.7b6b8798da44368d8463e01322b7a872.jpeg
+  item_price: 2.98
+  line_price: 2.98
+  sales_unit_type: null
+- item_id: '32'
+  item_quantity: 1
+  item_name: Equate Women's Shave Gel with Argan Oil, Coconut, 7 oz
+  item_image_url: https://i5.walmartimages.com/seo/Equate-Shave-Gel-with-Argan-Oil-Coconut-7-oz_b4167fee-5909-4073-9cbc-98d019d378c9.5a5819ac4ddbdf0bbdb033fddb2dfa0b.jpeg
+  item_price: 1.98
+  line_price: 1.98
+  sales_unit_type: null
+- item_id: '33'
+  item_quantity: 1
+  item_name: Great Value Strawberry Syrup, 22 oz
+  item_image_url: https://i5.walmartimages.com/seo/Great-Value-Strawberry-Syrup-22-oz_932ce2ba-e361-4933-950b-6dcdfd2d75f2.8851019ea61649264f11ed9709c8527c.jpeg
+  item_price: 1.12
+  line_price: 1.12
+  sales_unit_type: null
+- item_id: '34'
+  item_quantity: 1
+  item_name: Celestial Seasonings Chamomile Caffeine-Free Herbal Tea Bags (20 Count)
+  item_image_url: https://i5.walmartimages.com/seo/Celestial-Seasonings-Chamomile-Caffeine-Free-Herbal-Tea-Bags-20-Count_4a035669-812d-45c2-bcc7-747b85fc6398.edd671437260632c0ecc491b87cce34d.jpeg
+  item_price: 2.58
+  line_price: 2.58
+  sales_unit_type: null
+- item_id: '35'
+  item_quantity: 1
+  item_name: HARIBO Frogs Gummies Peach Flavor Gummy Candy, 8oz, Share Size Bag
+  item_image_url: https://i5.walmartimages.com/seo/Haribo-Frogs-Gummi-Candies-8oz_cef2849f-5b55-425b-bb12-3dd51c0bc994.d87d87eb628ea2b67317f71f75de685e.jpeg
+  item_price: 2.34
+  line_price: 2.34
+  sales_unit_type: null
+- item_id: '36'
+  item_quantity: 1
+  item_name: Mentos Pure Fresh Sugar-Free Gum, Paperboard Bottle, Fresh Mint, Peanut-Free,
+    Regular Size, 80 Count
+  item_image_url: https://i5.walmartimages.com/seo/Mentos-Pure-Fresh-Sugar-Free-Gum-Paperboard-Bottle-Fresh-Mint-Peanut-Free-Regular-Size-80-Count_03d07a19-222c-4a72-a54b-83162776e780.fbf02866c67c6a437d26596d004ba58d.jpeg
+  item_price: 4.98
+  line_price: 4.98
+  sales_unit_type: null
+- item_id: '37'
+  item_quantity: 1
+  item_name: Screamin' Sicilian Original Pizzeria Crust Supremus Maximus Frozen Pizza,
+    25 oz
+  item_image_url: https://i5.walmartimages.com/seo/Screamin-Sicilian-Original-Pizzeria-Crust-Supremus-Maximus-Frozen-Pizza-25-oz_8c8ed14f-b102-485b-b2b7-0fb6b5b1ff7c.c3156e9eff566246e970ca1b88e752ed.jpeg
+  item_price: 6.98
+  line_price: 6.98
+  sales_unit_type: null
+- item_id: '38'
+  item_quantity: 1
+  item_name: Mike and Ike Mega Mix Chewy Candy, 5 Ounce Theater Box, 1 Count
+  item_image_url: https://i5.walmartimages.com/seo/Mike-and-Ike-Mega-Mix-Chewy-Candy-5-Ounce-Theater-Box-1-Count_bd540dae-57ff-4c6a-8134-c05e6d83e71d.ad19842f7c943eeaf6cf0d62b129dd95.jpeg
+  item_price: 1.24
+  line_price: 1.24
+  sales_unit_type: null
+- item_id: '39'
+  item_quantity: 1
+  item_name: Mike and Ike Berry Blast Chewy Candy, 5 Ounce Theater Box, 1 Count
+  item_image_url: https://i5.walmartimages.com/seo/Mike-and-Ike-Berry-Blast-Chewy-Candy-5-Ounce-Theater-Box-1-Count_72cf8166-e52f-4f46-b3fb-a361c8b8579a.d6e1332aa62d8d46ea5a77339b709843.jpeg
+  item_price: 1.24
+  line_price: 1.24
+  sales_unit_type: null
+- item_id: '40'
+  item_quantity: 1
+  item_name: Mike and Ike Tropical Typhoon Chewy Candy, 5 Ounce Theater Box, 1 Count
+  item_image_url: https://i5.walmartimages.com/seo/Mike-and-Ike-Tropical-Typhoon-Chewy-Candy-5-Ounce-Theater-Box-1-Count_84240e9f-e7df-48ad-829c-abc2d7e470d4.767522465f6eef635419dbc14db243e5.jpeg
+  item_price: 1.24
+  line_price: 1.24
+  sales_unit_type: null
+- item_id: '41'
+  item_quantity: 1
+  item_name: Jet-Alert Double Strength Caffeine 200 mg Caplets, 90 Ct
+  item_image_url: https://i5.walmartimages.com/seo/Jet-Alert-Double-Strength-Caffeine-200-mg-Caplets-90-Ct_c447ff75-42dd-4be3-b24d-b1a9281b1449.28de439ec178f4b01db89ea39d21db4d.jpeg
+  item_price: 3.48
+  line_price: 3.48
+  sales_unit_type: null
+- item_id: '42'
+  item_quantity: 1
+  item_name: Snack Pack Fanta Orange Flavored Juicy Gels, 6 Count Snack Cups
+  item_image_url: https://i5.walmartimages.com/seo/Snack-Pack-Fanta-Orange-Flavored-Juicy-Gels-6-Count-Snack-Cups_55da328b-dee1-4b49-a669-8295243db75c.99241bdc33563d51c43f0e0b1d8a4dff.jpeg
+  item_price: 2.97
+  line_price: 2.97
+  sales_unit_type: null
+- item_id: '43'
+  item_quantity: 1
+  item_name: Great Value Red, White & Blue Sorbet, 48 fl oz
+  item_image_url: https://i5.walmartimages.com/seo/Great-Value-Red-White-Blue-Sorbet-48-fl-oz_e277e57f-08c5-4a56-a4bf-25725ea5a3d6.40ff5b16cabf265bb29b10d6d3d9ddaa.jpeg
+  item_price: 2.24
+  line_price: 2.24
+  sales_unit_type: null
+- item_id: '44'
+  item_quantity: 1
+  item_name: Smucker's Squeeze Grape Jelly, 20 Ounces
+  item_image_url: https://i5.walmartimages.com/seo/Smucker-s-Squeeze-Grape-Jelly-20-Ounces_874dbae8-d989-47fc-858c-9782806182ab_1.22f565c338444f17efd61e8b23cf60b6.jpeg
+  item_price: 2.94
+  line_price: 2.94
+  sales_unit_type: null
+- item_id: '45'
+  item_quantity: 1
+  item_name: Haagen Dazs Pistachio Ice Cream, Gluten Free, Kosher, 14 oz
+  item_image_url: https://i5.walmartimages.com/seo/Haagen-Dazs-Pistachio-Ice-Cream-Gluten-Free-Kosher-14-oz_c70e68a8-4331-4e2e-8bbb-381b2976f4de.c1299780821d48cd4df2190fd2403be9.jpeg
+  item_price: 3.98
+  line_price: 3.98
+  sales_unit_type: null
+metadata:
+  source_file: nov12
+  processed_at: '2025-07-03T08:45:59.422053'

@@ -1,0 +1,66 @@
+{
+  "scraped_at": "2025-07-03T15:10:17.484072",
+  "source": "publix_list_api",
+  "purchase": {
+    "Id": "jkE8sNWYO7FuOf3jRVtQ1NuO4UlsBYmqxkKrtVKrpjNTlRP0XcYiXoF5eMSDhcQLBrCJ2WRqI_yHm0sfGrc9QKrw7OGWWnuha7O9-boa6vk%3D",
+    "StoreName": "Weston Lakes Plaza",
+    "StoreId": 583,
+    "StoreTimezone": null,
+    "PurchaseDate": "2025-02-09T16:20:49",
+    "TotalPrice": 35.33,
+    "IsOnlineOrder": false,
+    "IsGiftCardOrder": false,
+    "PaidOnline": false,
+    "Subtotal": 0.0,
+    "TotalSavings": null,
+    "TotalTax": 0.0,
+    "Taxes": null,
+    "Total": 0.0,
+    "PickupDate": "0001-01-01T00:00:00",
+    "PickupName": null,
+    "Status": null,
+    "PaymentStatus": null,
+    "IsCancelled": false,
+    "RefundTotal": 0.0,
+    "Payments": null,
+    "Items": [
+      {
+        "Id": "210778",
+        "ImageUrl": "https://images.publixcdn.com/pct/images/products/210000/210778-75x75-A.jpg",
+        "NoImageUrl": null,
+        "Quantity": 1
+      },
+      {
+        "Id": "316521",
+        "ImageUrl": "https://images.publixcdn.com/pct/images/products/315000/316521-75x75-A.jpg",
+        "NoImageUrl": null,
+        "Quantity": 1
+      },
+      {
+        "Id": "857344",
+        "ImageUrl": "https://images.publixcdn.com/pct/images/products/855000/857344-75x75-A.jpg",
+        "NoImageUrl": null,
+        "Quantity": 1
+      },
+      {
+        "Id": "731903",
+        "ImageUrl": "https://images.publixcdn.com/pct/images/products/730000/731903-75x75-A.jpg",
+        "NoImageUrl": null,
+        "Quantity": 1
+      },
+      {
+        "Id": "42946",
+        "ImageUrl": "https://images.publixcdn.com/pct/images/products/40000/042946-75x75-A.jpg",
+        "NoImageUrl": null,
+        "Quantity": 1
+      },
+      {
+        "Id": "372206",
+        "ImageUrl": "https://images.publixcdn.com/pct/images/products/370000/372206-75x75-A.jpg",
+        "NoImageUrl": null,
+        "Quantity": 1
+      }
+    ],
+    "LineItems": []
+  }
+}

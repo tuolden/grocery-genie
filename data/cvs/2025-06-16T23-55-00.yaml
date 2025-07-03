@@ -1,0 +1,124 @@
+items:
+  rx: {}
+  fs:
+    total: 4
+    name: RVLN CLSK BRW/BLK  20
+    image: ''
+number: 5083-17-7275-20250616
+type:
+- STORE
+alertStatus: []
+filterByStatus: true
+date: '2025-06-16T23:55:00Z'
+totalCost: '20.65'
+status:
+- Purchased
+statusCode: '0000'
+statusDesc: Success
+conversationId: rrt-110398306299666949-d-gea1-65648-136782-183
+order:
+  type:
+  - STORE
+  number: 5083-17-7275-20250616
+  date: '2025-06-16T23:55:00Z'
+  splitShipment: false
+  ecCard: '2276'
+  cost:
+    subTotal: '26.76'
+    savings: '-7.47'
+    tax: '1.36'
+    shipping: ''
+    total: '20.65'
+    state: FL
+    feminineTax: '0'
+    totalReturnAmount: '0.00'
+  shipped: []
+  canceled: []
+  pickup: []
+  inStore:
+  - status: Purchased
+    totalCost: 26.760000000000005
+    fsItems:
+    - name: Jerome Russell Lightest & Brightest Powder Bleach, 1 OZ
+      itemId: '542345'
+      itemSize: '1.00'
+      itemSizeUOM: EACH
+      itemWeight: '0.10'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '4.29'
+      priceFinal: '4.29'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '4.29'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: "L'Oreal Technique Oreor Cr\xE8me Developer 30 Volume"
+      itemId: '229182'
+      itemSize: '16.00'
+      itemSizeUOM: OZ
+      itemWeight: '0.10'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '5.99'
+      priceFinal: '5.99'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '5.99'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: L'Oreal Paris Revitalift Bright Reveal Cleanser, 5 OZ
+      itemId: '174435'
+      itemSize: '5.00'
+      itemSizeUOM: OZ
+      itemWeight: '0.38'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '9.99'
+      priceFinal: '9.99'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '9.99'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: Revlon Colorsilk With Bond Repair Complex Permanent Hair Color, 020 Brown
+        Black
+      itemId: '872697'
+      itemSize: '1.00'
+      itemSizeUOM: EACH
+      itemWeight: '0.10'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '6.49'
+      priceFinal: '6.49'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '6.49'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    pickupStoreId: '5083'
+  return: []
+  paymentMethod:
+  - type: Credit/Debit/EBT
+    lastFourDigits: '4321'
+    amountCharged: '20.65'
+  - type: Credit/Debit/EBT
+    lastFourDigits: '4321'
+    amountReturned: '0.00'
+  splitFulfillment: false
+  returnEligible: true
+  returnEligibleFinalDate: '2025-08-15T00:00:00Z'
+  txnNo: '7275'
+  regNo: '17'

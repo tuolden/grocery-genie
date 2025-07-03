@@ -1,0 +1,72 @@
+{
+  "scraped_at": "2025-07-03T15:10:17.483087",
+  "source": "publix_list_api",
+  "purchase": {
+    "Id": "nBpbNiGPY8AEXFUaQMrjyp5Wd4OR7PeL2xu4r5s8QBMjJbmyGkwYiD87-zHy8xkwHHj6pXnNK3CkiP5BAXrGvINWXn-eTCvuOGaVnENV2Zg%3D",
+    "StoreName": "Publix At Glade Crossing",
+    "StoreId": 21,
+    "StoreTimezone": null,
+    "PurchaseDate": "2025-04-19T16:21:23",
+    "TotalPrice": 54.71,
+    "IsOnlineOrder": false,
+    "IsGiftCardOrder": false,
+    "PaidOnline": false,
+    "Subtotal": 0.0,
+    "TotalSavings": null,
+    "TotalTax": 0.0,
+    "Taxes": null,
+    "Total": 0.0,
+    "PickupDate": "0001-01-01T00:00:00",
+    "PickupName": null,
+    "Status": null,
+    "PaymentStatus": null,
+    "IsCancelled": false,
+    "RefundTotal": 0.0,
+    "Payments": null,
+    "Items": [
+      {
+        "Id": "330060",
+        "ImageUrl": "https://images.publixcdn.com/pct/images/products/330000/330060-75x75-A.jpg",
+        "NoImageUrl": null,
+        "Quantity": 1
+      },
+      {
+        "Id": "95066",
+        "ImageUrl": "https://images.publixcdn.com/pct/images/products/95000/095066-75x75-A.jpg",
+        "NoImageUrl": null,
+        "Quantity": 1
+      },
+      {
+        "Id": "24886",
+        "ImageUrl": "https://images.publixcdn.com/pct/images/products/20000/024886-75x75-A.jpg",
+        "NoImageUrl": null,
+        "Quantity": 2
+      },
+      {
+        "Id": "330058",
+        "ImageUrl": "https://images.publixcdn.com/pct/images/products/330000/330058-75x75-A.jpg",
+        "NoImageUrl": null,
+        "Quantity": 1
+      },
+      {
+        "Id": "297892",
+        "ImageUrl": "https://images.publixcdn.com/pct/images/products/295000/297892-75x75-A.jpg",
+        "NoImageUrl": null,
+        "Quantity": 1
+      },
+      {
+        "Id": "305082",
+        "ImageUrl": "https://images.publixcdn.com/pct/images/products/305000/305082-75x75-A.jpg",
+        "NoImageUrl": null,
+        "Quantity": 3
+      },
+      {
+        "Id": "330057",
+        "ImageUrl": "https://images.publixcdn.com/pct/images/products/330000/330057-75x75-A.jpg",
+        "NoImageUrl": null,
+        "Quantity": 2
+      }
+    ],
+    "LineItems": []
+  }
+}

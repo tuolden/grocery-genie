@@ -1,0 +1,209 @@
+items:
+  rx: {}
+  fs:
+    total: 9
+    name: SFGRD HND SOAP LAV 15.5
+    image: ''
+number: 5083-2-4898-20240708
+type:
+- STORE
+alertStatus: []
+filterByStatus: true
+date: '2024-07-08T15:27:00Z'
+totalCost: '42.06'
+status:
+- Purchased
+statusCode: '0000'
+statusDesc: Success
+conversationId: rrt-5053823307997761644-b-gea1-66878-61079-104
+order:
+  type:
+  - STORE
+  number: 5083-2-4898-20240708
+  date: '2024-07-08T15:27:00Z'
+  splitShipment: false
+  ecCard: '2276'
+  cost:
+    subTotal: '41.70'
+    savings: '-2.00'
+    tax: '2.36'
+    shipping: ''
+    total: '42.06'
+    state: FL
+    feminineTax: '0'
+    totalReturnAmount: '0.00'
+  shipped: []
+  canceled: []
+  pickup: []
+  inStore:
+  - status: Purchased
+    totalCost: 39.70000000000001
+    fsItems:
+    - name: one+other Pocket Design Premium Cotton Pads, 100CT
+      itemId: '365257'
+      itemSize: '100.00'
+      itemSizeUOM: Ct
+      itemWeight: '0.17'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '5.99'
+      priceFinal: '5.99'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '5.99'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: CVS Health Distilled Water, 128 oz
+      itemId: '155614'
+      itemSize: '128.00'
+      itemSizeUOM: OZ
+      itemWeight: '0.10'
+      itemWeightUOM: LBS
+      qty: 2
+      priceTotal: '4.98'
+      priceFinal: '4.98'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '4.98'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: Pop-arazzi Exfoliating Bath & Shower Gloves (Assorted Colors)
+      itemId: '410654'
+      itemSize: '1.00'
+      itemSizeUOM: EACH
+      itemWeight: '0.04'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '5.99'
+      priceFinal: '5.99'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '5.99'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: CVS Health Petroleum Jelly, 13 OZ
+      itemId: '949628'
+      itemSize: '13.00'
+      itemSizeUOM: OZ
+      itemWeight: '0.67'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '5.99'
+      priceFinal: '5.99'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '5.99'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: Wrigley's 5 Wintermint Ascent Sugarfree Gum, 15 ct
+      itemId: '960622'
+      itemSize: '15.00'
+      itemSizeUOM: Ct
+      itemWeight: '0.10'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '2.29'
+      priceFinal: '2.29'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '2.29'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: Safeguard Hand Wash Notes of Lavender, 15.5 oz
+      itemId: '636592'
+      itemSize: '15.50'
+      itemSizeUOM: OZ
+      itemWeight: '1.21'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '4.99'
+      priceFinal: '4.99'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '4.99'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: Life Savers Pep O Mint Sugar Free Candy Bag, 2.75 oz
+      itemId: '424717'
+      itemSize: '2.75'
+      itemSizeUOM: OZ
+      itemWeight: '0.10'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '3.99'
+      priceFinal: '3.99'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '3.99'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: Life Savers Wint-O-Green Sugar Free Breath Mints Hard Candy, Bag, 2.75
+        oz
+      itemId: '271382'
+      itemSize: '2.75'
+      itemSizeUOM: OZ
+      itemWeight: '0.10'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '3.99'
+      priceFinal: '1.99'
+      savings: '2.00'
+      tax: 0
+      lineTotalWithoutTax: '1.99'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: ALTOIDS Spearmint Sugar Free Breath Mints, Single Pack, 1.76 oz
+      itemId: '238078'
+      itemSize: '1.76'
+      itemSizeUOM: OZ
+      itemWeight: '0.10'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '3.49'
+      priceFinal: '3.49'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '3.49'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    pickupStoreId: '5083'
+  return: []
+  paymentMethod:
+  - type: Credit/Debit/EBT
+    lastFourDigits: '0225'
+    amountCharged: '42.06'
+  - type: Credit/Debit/EBT
+    lastFourDigits: '0225'
+    amountReturned: '0.00'
+  splitFulfillment: false
+  returnEligible: false
+  returnEligibleFinalDate: '2024-09-06T00:00:00Z'
+  txnNo: '4898'
+  regNo: '2'

@@ -1,0 +1,72 @@
+items:
+  rx: {}
+  fs:
+    total: 1
+    name: HSK KERATIN CD     12Z
+    image: ''
+number: 5083-17-8403-20240823
+type:
+- STORE
+alertStatus: []
+filterByStatus: true
+date: '2024-08-23T22:05:00Z'
+totalCost: '0.21'
+status:
+- Purchased
+statusCode: '0000'
+statusDesc: Success
+conversationId: rrt-8427677301923684362-d-gea1-2301862-1347574-140
+order:
+  type:
+  - STORE
+  number: 5083-17-8403-20240823
+  date: '2024-08-23T22:05:00Z'
+  splitShipment: false
+  ecCard: '2276'
+  cost:
+    subTotal: '6.99'
+    savings: '-6.99'
+    tax: '0.21'
+    shipping: ''
+    total: '0.21'
+    state: FL
+    feminineTax: '0'
+    totalReturnAmount: '0.00'
+  shipped: []
+  canceled: []
+  pickup: []
+  inStore:
+  - status: Purchased
+    totalCost: 6.99
+    fsItems:
+    - name: HASK Keratin Smooth Smoothing Conditioner, 12 OZ
+      itemId: '993701'
+      itemSize: '12.00'
+      itemSizeUOM: OZ
+      itemWeight: '0.75'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '6.99'
+      priceFinal: '6.99'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '6.99'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    pickupStoreId: '5083'
+  return: []
+  paymentMethod:
+  - type: Credit/Debit/EBT
+    lastFourDigits: '0225'
+    amountCharged: '0.21'
+  - type: Credit/Debit/EBT
+    lastFourDigits: '0225'
+    amountReturned: '0.00'
+  splitFulfillment: false
+  returnEligible: false
+  returnEligibleFinalDate: '2024-10-22T00:00:00Z'
+  txnNo: '8403'
+  regNo: '17'

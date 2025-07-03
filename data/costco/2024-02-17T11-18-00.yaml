@@ -1,0 +1,792 @@
+receipt_info:
+  warehouse_name: PEMBROKE PINES
+  warehouse_number: 742
+  warehouse_short_name: PEMBROKE PINES
+  transaction_date: '2024-02-17'
+  transaction_datetime: '2024-02-17T11:18:00'
+  transaction_barcode: '21074200700662402171118'
+  receipt_type: In-Warehouse
+  document_type: WarehouseReceiptDetail
+  transaction_type: Sales
+  transaction_number: 66
+  register_number: 7
+  operator_number: 128
+  company_number: 1
+  invoice_number: null
+  sequence_number: null
+  membership_number: '111919024143'
+store_info:
+  warehouse_address1: 15915 PINES BLVD
+  warehouse_address2: null
+  warehouse_city: PEMBROKE PINES
+  warehouse_state: FL
+  warehouse_country: US
+  warehouse_postal_code: '33027'
+financial_summary:
+  subtotal: 332.84
+  taxes: 6.82
+  total: 339.66
+  instant_savings: 3.5
+  total_item_count: 36
+items:
+- item_number: '1524380'
+  item_description_01: KS SUP PIZZA
+  item_description_02: 2/19.4 OZ            T6H4
+  french_item_description_1: null
+  french_item_description_2: null
+  item_identifier: E
+  item_department_number: 18
+  unit: 1
+  amount: 11.99
+  item_unit_price_amount: 11.99
+  tax_flag: N
+  merchant_id: null
+  entry_method: null
+  trans_department_number: 18
+  fuel_info:
+    fuel_unit_quantity: 10.0
+    fuel_grade_code: null
+    fuel_uom_code: null
+    fuel_uom_description: null
+    fuel_uom_description_fr: null
+    fuel_grade_description: null
+    fuel_grade_description_fr: null
+- item_number: '25595'
+  item_description_01: COCKTAIL TOM
+  item_description_02: 907 G / 2 LB
+  french_item_description_1: null
+  french_item_description_2: null
+  item_identifier: E
+  item_department_number: 65
+  unit: 1
+  amount: 4.99
+  item_unit_price_amount: 4.99
+  tax_flag: N
+  merchant_id: null
+  entry_method: null
+  trans_department_number: 65
+  fuel_info:
+    fuel_unit_quantity: 10.0
+    fuel_grade_code: null
+    fuel_uom_code: null
+    fuel_uom_description: null
+    fuel_uom_description_fr: null
+    fuel_grade_description: null
+    fuel_grade_description_fr: null
+- item_number: '2619'
+  item_description_01: ORG BANANAS
+  item_description_02: 3 LB / 1.36 KG
+  french_item_description_1: null
+  french_item_description_2: null
+  item_identifier: E
+  item_department_number: 65
+  unit: 2
+  amount: 3.98
+  item_unit_price_amount: 1.99
+  tax_flag: N
+  merchant_id: null
+  entry_method: null
+  trans_department_number: 65
+  fuel_info:
+    fuel_unit_quantity: 10.0
+    fuel_grade_code: null
+    fuel_uom_code: null
+    fuel_uom_description: null
+    fuel_uom_description_fr: null
+    fuel_grade_description: null
+    fuel_grade_description_fr: null
+- item_number: '1048072'
+  item_description_01: GREEK YOGURT
+  item_description_02: DOM55 SL35
+  french_item_description_1: null
+  french_item_description_2: null
+  item_identifier: E
+  item_department_number: 17
+  unit: 1
+  amount: 5.99
+  item_unit_price_amount: 5.99
+  tax_flag: N
+  merchant_id: null
+  entry_method: null
+  trans_department_number: 17
+  fuel_info:
+    fuel_unit_quantity: 10.0
+    fuel_grade_code: null
+    fuel_uom_code: null
+    fuel_uom_description: null
+    fuel_uom_description_fr: null
+    fuel_grade_description: null
+    fuel_grade_description_fr: null
+- item_number: '1014809'
+  item_description_01: KS PRTN BAR
+  item_description_02: T8H5 P400/T30 SL144
+  french_item_description_1: null
+  french_item_description_2: null
+  item_identifier: E
+  item_department_number: 12
+  unit: 1
+  amount: 19.99
+  item_unit_price_amount: 19.99
+  tax_flag: N
+  merchant_id: null
+  entry_method: null
+  trans_department_number: 12
+  fuel_info:
+    fuel_unit_quantity: 10.0
+    fuel_grade_code: null
+    fuel_uom_code: null
+    fuel_uom_description: null
+    fuel_uom_description_fr: null
+    fuel_grade_description: null
+    fuel_grade_description_fr: null
+- item_number: '1364689'
+  item_description_01: KS ORG WH MK
+  item_description_02: 3/64 SL30 T33H4 P132
+  french_item_description_1: null
+  french_item_description_2: null
+  item_identifier: E
+  item_department_number: 17
+  unit: 1
+  amount: 12.79
+  item_unit_price_amount: 12.79
+  tax_flag: N
+  merchant_id: null
+  entry_method: null
+  trans_department_number: 17
+  fuel_info:
+    fuel_unit_quantity: 10.0
+    fuel_grade_code: null
+    fuel_uom_code: null
+    fuel_uom_description: null
+    fuel_uom_description_fr: null
+    fuel_grade_description: null
+    fuel_grade_description_fr: null
+- item_number: '2533324'
+  item_description_01: LYSOL 3 PACK
+  item_description_02: CRISP LINEN 3/19 OZ P=272
+  french_item_description_1: null
+  french_item_description_2: null
+  item_identifier: null
+  item_department_number: 14
+  unit: 1
+  amount: 15.99
+  item_unit_price_amount: 15.99
+  tax_flag: Y
+  merchant_id: null
+  entry_method: null
+  trans_department_number: 14
+  fuel_info:
+    fuel_unit_quantity: 10.0
+    fuel_grade_code: null
+    fuel_uom_code: null
+    fuel_uom_description: null
+    fuel_uom_description_fr: null
+    fuel_grade_description: null
+    fuel_grade_description_fr: null
+- item_number: '321886'
+  item_description_01: /2533324
+  item_description_02: null
+  french_item_description_1: /2533324
+  french_item_description_2: null
+  item_identifier: null
+  item_department_number: 14
+  unit: -1
+  amount: -3.5
+  item_unit_price_amount: 0
+  tax_flag: null
+  merchant_id: null
+  entry_method: null
+  trans_department_number: 14
+  fuel_info:
+    fuel_unit_quantity: null
+    fuel_grade_code: null
+    fuel_uom_code: null
+    fuel_uom_description: null
+    fuel_uom_description_fr: null
+    fuel_grade_description: null
+    fuel_grade_description_fr: null
+- item_number: '1068083'
+  item_description_01: ORG FR EGGS
+  item_description_02: GRADE A T20H18 P360 SL23
+  french_item_description_1: null
+  french_item_description_2: null
+  item_identifier: E
+  item_department_number: 17
+  unit: 1
+  amount: 7.59
+  item_unit_price_amount: 7.59
+  tax_flag: N
+  merchant_id: null
+  entry_method: null
+  trans_department_number: 17
+  fuel_info:
+    fuel_unit_quantity: 10.0
+    fuel_grade_code: null
+    fuel_uom_code: null
+    fuel_uom_description: null
+    fuel_uom_description_fr: null
+    fuel_grade_description: null
+    fuel_grade_description_fr: null
+- item_number: '501574'
+  item_description_01: LACROIX **
+  item_description_02: LME LMON ORNG P100 T10H10
+  french_item_description_1: null
+  french_item_description_2: null
+  item_identifier: E
+  item_department_number: 14
+  unit: 1
+  amount: 8.99
+  item_unit_price_amount: 8.99
+  tax_flag: Y
+  merchant_id: null
+  entry_method: null
+  trans_department_number: 14
+  fuel_info:
+    fuel_unit_quantity: 10.0
+    fuel_grade_code: null
+    fuel_uom_code: null
+    fuel_uom_description: null
+    fuel_uom_description_fr: null
+    fuel_grade_description: null
+    fuel_grade_description_fr: null
+- item_number: '782796'
+  item_description_01: '***KSWTR40PK'
+  item_description_02: P48=SE   P56=PR
+  french_item_description_1: null
+  french_item_description_2: null
+  item_identifier: E
+  item_department_number: 14
+  unit: 2
+  amount: 7.98
+  item_unit_price_amount: 3.99
+  tax_flag: N
+  merchant_id: null
+  entry_method: null
+  trans_department_number: 14
+  fuel_info:
+    fuel_unit_quantity: 10.0
+    fuel_grade_code: null
+    fuel_uom_code: null
+    fuel_uom_description: null
+    fuel_uom_description_fr: null
+    fuel_grade_description: null
+    fuel_grade_description_fr: null
+- item_number: '18600'
+  item_description_01: MANDARINS
+  item_description_02: 2.27 KG / 5 LBS
+  french_item_description_1: null
+  french_item_description_2: null
+  item_identifier: E
+  item_department_number: 65
+  unit: 1
+  amount: 5.99
+  item_unit_price_amount: 5.99
+  tax_flag: N
+  merchant_id: null
+  entry_method: null
+  trans_department_number: 65
+  fuel_info:
+    fuel_unit_quantity: 10.0
+    fuel_grade_code: null
+    fuel_uom_code: null
+    fuel_uom_description: null
+    fuel_uom_description_fr: null
+    fuel_grade_description: null
+    fuel_grade_description_fr: null
+- item_number: '1394091'
+  item_description_01: CNTRY FRNCH
+  item_description_02: null
+  french_item_description_1: null
+  french_item_description_2: null
+  item_identifier: E
+  item_department_number: 62
+  unit: 1
+  amount: 5.99
+  item_unit_price_amount: 5.99
+  tax_flag: N
+  merchant_id: null
+  entry_method: null
+  trans_department_number: 62
+  fuel_info:
+    fuel_unit_quantity: 10.0
+    fuel_grade_code: null
+    fuel_uom_code: null
+    fuel_uom_description: null
+    fuel_uom_description_fr: null
+    fuel_grade_description: null
+    fuel_grade_description_fr: null
+- item_number: '853467'
+  item_description_01: OAD MENS 300
+  item_description_02: 300CT            C20 T8H6
+  french_item_description_1: null
+  french_item_description_2: null
+  item_identifier: null
+  item_department_number: 93
+  unit: 1
+  amount: 18.79
+  item_unit_price_amount: 18.79
+  tax_flag: N
+  merchant_id: null
+  entry_method: null
+  trans_department_number: 93
+  fuel_info:
+    fuel_unit_quantity: 10.0
+    fuel_grade_code: null
+    fuel_uom_code: null
+    fuel_uom_description: null
+    fuel_uom_description_fr: null
+    fuel_grade_description: null
+    fuel_grade_description_fr: null
+- item_number: '1017650'
+  item_description_01: KS 3X JOINT
+  item_description_02: HEALTH 110CT     T5H4 C36
+  french_item_description_1: null
+  french_item_description_2: null
+  item_identifier: null
+  item_department_number: 93
+  unit: 1
+  amount: 22.99
+  item_unit_price_amount: 22.99
+  tax_flag: N
+  merchant_id: null
+  entry_method: null
+  trans_department_number: 93
+  fuel_info:
+    fuel_unit_quantity: 10.0
+    fuel_grade_code: null
+    fuel_uom_code: null
+    fuel_uom_description: null
+    fuel_uom_description_fr: null
+    fuel_grade_description: null
+    fuel_grade_description_fr: null
+- item_number: '647465'
+  item_description_01: AVOCADOS
+  item_description_02: 6 COUNT
+  french_item_description_1: null
+  french_item_description_2: null
+  item_identifier: E
+  item_department_number: 65
+  unit: 1
+  amount: 6.49
+  item_unit_price_amount: 6.49
+  tax_flag: N
+  merchant_id: null
+  entry_method: null
+  trans_department_number: 65
+  fuel_info:
+    fuel_unit_quantity: 10.0
+    fuel_grade_code: null
+    fuel_uom_code: null
+    fuel_uom_description: null
+    fuel_uom_description_fr: null
+    fuel_grade_description: null
+    fuel_grade_description_fr: null
+- item_number: '1143978'
+  item_description_01: CHOC CREPES
+  item_description_02: SL45  P432
+  french_item_description_1: null
+  french_item_description_2: null
+  item_identifier: E
+  item_department_number: 13
+  unit: 2
+  amount: 15.38
+  item_unit_price_amount: 7.69
+  tax_flag: N
+  merchant_id: null
+  entry_method: null
+  trans_department_number: 13
+  fuel_info:
+    fuel_unit_quantity: 10.0
+    fuel_grade_code: null
+    fuel_uom_code: null
+    fuel_uom_description: null
+    fuel_uom_description_fr: null
+    fuel_grade_description: null
+    fuel_grade_description_fr: null
+- item_number: '4160340'
+  item_description_01: DOWNY 251WL
+  item_description_02: 251WL P112
+  french_item_description_1: null
+  french_item_description_2: null
+  item_identifier: null
+  item_department_number: 14
+  unit: 1
+  amount: 13.99
+  item_unit_price_amount: 13.99
+  tax_flag: Y
+  merchant_id: null
+  entry_method: null
+  trans_department_number: 14
+  fuel_info:
+    fuel_unit_quantity: 10.0
+    fuel_grade_code: null
+    fuel_uom_code: null
+    fuel_uom_description: null
+    fuel_uom_description_fr: null
+    fuel_grade_description: null
+    fuel_grade_description_fr: null
+- item_number: '1355725'
+  item_description_01: NAE POT PIE
+  item_description_02: MARIE CALLEN C6T6H3P108
+  french_item_description_1: null
+  french_item_description_2: null
+  item_identifier: E
+  item_department_number: 18
+  unit: 1
+  amount: 13.99
+  item_unit_price_amount: 13.99
+  tax_flag: N
+  merchant_id: null
+  entry_method: null
+  trans_department_number: 18
+  fuel_info:
+    fuel_unit_quantity: 10.0
+    fuel_grade_code: null
+    fuel_uom_code: null
+    fuel_uom_description: null
+    fuel_uom_description_fr: null
+    fuel_grade_description: null
+    fuel_grade_description_fr: null
+- item_number: '428051'
+  item_description_01: WHOLE WHEAT
+  item_description_02: BREAD 2/20 OZ
+  french_item_description_1: null
+  french_item_description_2: null
+  item_identifier: E
+  item_department_number: 13
+  unit: 1
+  amount: 5.49
+  item_unit_price_amount: 5.49
+  tax_flag: N
+  merchant_id: null
+  entry_method: null
+  trans_department_number: 13
+  fuel_info:
+    fuel_unit_quantity: 10.0
+    fuel_grade_code: null
+    fuel_uom_code: null
+    fuel_uom_description: null
+    fuel_uom_description_fr: null
+    fuel_grade_description: null
+    fuel_grade_description_fr: null
+- item_number: '57554'
+  item_description_01: BLUEBERRIES
+  item_description_02: 510 G / 18 OZ
+  french_item_description_1: null
+  french_item_description_2: null
+  item_identifier: E
+  item_department_number: 65
+  unit: 1
+  amount: 5.79
+  item_unit_price_amount: 5.79
+  tax_flag: N
+  merchant_id: null
+  entry_method: null
+  trans_department_number: 65
+  fuel_info:
+    fuel_unit_quantity: 10.0
+    fuel_grade_code: null
+    fuel_uom_code: null
+    fuel_uom_description: null
+    fuel_uom_description_fr: null
+    fuel_grade_description: null
+    fuel_grade_description_fr: null
+- item_number: '1671629'
+  item_description_01: FLASHLIGHT
+  item_description_02: 3PK P360
+  french_item_description_1: null
+  french_item_description_2: null
+  item_identifier: null
+  item_department_number: 23
+  unit: 1
+  amount: 19.99
+  item_unit_price_amount: 19.99
+  tax_flag: Y
+  merchant_id: null
+  entry_method: null
+  trans_department_number: 23
+  fuel_info:
+    fuel_unit_quantity: 10.0
+    fuel_grade_code: null
+    fuel_uom_code: null
+    fuel_uom_description: null
+    fuel_uom_description_fr: null
+    fuel_grade_description: null
+    fuel_grade_description_fr: null
+- item_number: '1285807'
+  item_description_01: UTILITY LTR
+  item_description_02: P432
+  french_item_description_1: null
+  french_item_description_2: null
+  item_identifier: null
+  item_department_number: 11
+  unit: 2
+  amount: 12.98
+  item_unit_price_amount: 6.49
+  tax_flag: Y
+  merchant_id: null
+  entry_method: null
+  trans_department_number: 11
+  fuel_info:
+    fuel_unit_quantity: 10.0
+    fuel_grade_code: null
+    fuel_uom_code: null
+    fuel_uom_description: null
+    fuel_uom_description_fr: null
+    fuel_grade_description: null
+    fuel_grade_description_fr: null
+- item_number: '96716'
+  item_description_01: ORG SPINACH
+  item_description_02: 453 G / 16 OZ
+  french_item_description_1: null
+  french_item_description_2: null
+  item_identifier: E
+  item_department_number: 65
+  unit: 1
+  amount: 4.49
+  item_unit_price_amount: 4.49
+  tax_flag: N
+  merchant_id: null
+  entry_method: null
+  trans_department_number: 65
+  fuel_info:
+    fuel_unit_quantity: 10.0
+    fuel_grade_code: null
+    fuel_uom_code: null
+    fuel_uom_description: null
+    fuel_uom_description_fr: null
+    fuel_grade_description: null
+    fuel_grade_description_fr: null
+- item_number: '83345'
+  item_description_01: LEMONS
+  item_description_02: 2.27 KG / 5 LB BAG
+  french_item_description_1: null
+  french_item_description_2: null
+  item_identifier: E
+  item_department_number: 65
+  unit: 1
+  amount: 6.99
+  item_unit_price_amount: 6.99
+  tax_flag: N
+  merchant_id: null
+  entry_method: null
+  trans_department_number: 65
+  fuel_info:
+    fuel_unit_quantity: 10.0
+    fuel_grade_code: null
+    fuel_uom_code: null
+    fuel_uom_description: null
+    fuel_uom_description_fr: null
+    fuel_grade_description: null
+    fuel_grade_description_fr: null
+- item_number: '568915'
+  item_description_01: ORG CUCUMBER
+  item_description_02: null
+  french_item_description_1: null
+  french_item_description_2: null
+  item_identifier: E
+  item_department_number: 65
+  unit: 1
+  amount: 5.99
+  item_unit_price_amount: 5.99
+  tax_flag: N
+  merchant_id: null
+  entry_method: null
+  trans_department_number: 65
+  fuel_info:
+    fuel_unit_quantity: 10.0
+    fuel_grade_code: null
+    fuel_uom_code: null
+    fuel_uom_description: null
+    fuel_uom_description_fr: null
+    fuel_grade_description: null
+    fuel_grade_description_fr: null
+- item_number: '1365562'
+  item_description_01: ABF CKN CUBE
+  item_description_02: 8/10-3.2 OZ   6T7H   SL28
+  french_item_description_1: null
+  french_item_description_2: null
+  item_identifier: E
+  item_department_number: 19
+  unit: 1
+  amount: 14.99
+  item_unit_price_amount: 14.99
+  tax_flag: N
+  merchant_id: null
+  entry_method: null
+  trans_department_number: 19
+  fuel_info:
+    fuel_unit_quantity: 10.0
+    fuel_grade_code: null
+    fuel_uom_code: null
+    fuel_uom_description: null
+    fuel_uom_description_fr: null
+    fuel_grade_description: null
+    fuel_grade_description_fr: null
+- item_number: '1654528'
+  item_description_01: LANTERN
+  item_description_02: DURACELL 2000L LANTERN
+  french_item_description_1: null
+  french_item_description_2: null
+  item_identifier: null
+  item_department_number: 26
+  unit: 1
+  amount: 19.99
+  item_unit_price_amount: 19.99
+  tax_flag: Y
+  merchant_id: null
+  entry_method: null
+  trans_department_number: 26
+  fuel_info:
+    fuel_unit_quantity: 10.0
+    fuel_grade_code: null
+    fuel_uom_code: null
+    fuel_uom_description: null
+    fuel_uom_description_fr: null
+    fuel_grade_description: null
+    fuel_grade_description_fr: null
+- item_number: '1117221'
+  item_description_01: LACROIX HOLI
+  item_description_02: CRAN/RASP TANG BERRY P100
+  french_item_description_1: null
+  french_item_description_2: null
+  item_identifier: E
+  item_department_number: 14
+  unit: 1
+  amount: 8.99
+  item_unit_price_amount: 8.99
+  tax_flag: Y
+  merchant_id: null
+  entry_method: null
+  trans_department_number: 14
+  fuel_info:
+    fuel_unit_quantity: 10.0
+    fuel_grade_code: null
+    fuel_uom_code: null
+    fuel_uom_description: null
+    fuel_uom_description_fr: null
+    fuel_grade_description: null
+    fuel_grade_description_fr: null
+- item_number: '633561'
+  item_description_01: KS DICED TOM
+  item_description_02: P240
+  french_item_description_1: null
+  french_item_description_2: null
+  item_identifier: E
+  item_department_number: 13
+  unit: 1
+  amount: 8.79
+  item_unit_price_amount: 8.79
+  tax_flag: N
+  merchant_id: null
+  entry_method: null
+  trans_department_number: 13
+  fuel_info:
+    fuel_unit_quantity: 10.0
+    fuel_grade_code: null
+    fuel_uom_code: null
+    fuel_uom_description: null
+    fuel_uom_description_fr: null
+    fuel_grade_description: null
+    fuel_grade_description_fr: null
+- item_number: '27003'
+  item_description_01: STRAWBERRIES
+  item_description_02: 908 G / 2 LB
+  french_item_description_1: null
+  french_item_description_2: null
+  item_identifier: E
+  item_department_number: 65
+  unit: 2
+  amount: 9.98
+  item_unit_price_amount: 4.99
+  tax_flag: N
+  merchant_id: null
+  entry_method: null
+  trans_department_number: 65
+  fuel_info:
+    fuel_unit_quantity: 10.0
+    fuel_grade_code: null
+    fuel_uom_code: null
+    fuel_uom_description: null
+    fuel_uom_description_fr: null
+    fuel_grade_description: null
+    fuel_grade_description_fr: null
+- item_number: '1656611'
+  item_description_01: KS CREAM CHS
+  item_description_02: C12 T12H4  P576    SL75
+  french_item_description_1: null
+  french_item_description_2: null
+  item_identifier: E
+  item_department_number: 17
+  unit: 1
+  amount: 7.99
+  item_unit_price_amount: 7.99
+  tax_flag: N
+  merchant_id: null
+  entry_method: null
+  trans_department_number: 17
+  fuel_info:
+    fuel_unit_quantity: 10.0
+    fuel_grade_code: null
+    fuel_uom_code: null
+    fuel_uom_description: null
+    fuel_uom_description_fr: null
+    fuel_grade_description: null
+    fuel_grade_description_fr: null
+payment_methods:
+- tender_type_code: '061'
+  tender_sub_type_code: null
+  tender_description: VISA
+  tender_type_name: VISA
+  tender_type_name_fr: null
+  amount_tender: 339.66
+  display_account_number: '0225'
+  sequence_number: null
+  approval_number: null
+  response_code: null
+  transaction_id: null
+  merchant_id: null
+  entry_method: null
+  tender_acct_txn_number: null
+  tender_authorization_code: null
+  tender_entry_method_description: null
+  wallet_type: null
+  wallet_id: null
+  stored_value_bucket: null
+tax_breakdown:
+  tax1: null
+  tax2: null
+  tax3: null
+  tax4: null
+  aTaxPercent: null
+  aTaxLegend: A
+  aTaxAmount: 6.82
+  aTaxPrintCode: null
+  aTaxPrintCodeFR: null
+  aTaxIdentifierCode: null
+  bTaxPercent: null
+  bTaxLegend: null
+  bTaxAmount: null
+  bTaxPrintCode: null
+  bTaxPrintCodeFR: null
+  bTaxIdentifierCode: null
+  cTaxPercent: null
+  cTaxLegend: null
+  cTaxAmount: null
+  cTaxIdentifierCode: null
+  dTaxPercent: null
+  dTaxLegend: null
+  dTaxAmount: null
+  dTaxPrintCode: null
+  dTaxPrintCodeFR: null
+  dTaxIdentifierCode: null
+  uTaxLegend: null
+  uTaxAmount: null
+  uTaxableAmount: null
+coupons:
+- upcnumberCoupon: '2100003218865'
+metadata:
+  scraped_at: '2025-07-02T19:14:56.114332'
+  scraper_version: 4.0-enhanced
+  store: Costco
+  source: warehouse_receipts_api

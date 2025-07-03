@@ -1,0 +1,140 @@
+items:
+  rx: {}
+  fs:
+    total: 5
+    name: EUC SNT MIN 50 LTN 4Z
+    image: ''
+number: 5924-17-479-20240821
+type:
+- STORE
+alertStatus: []
+filterByStatus: true
+date: '2024-08-21T19:36:00Z'
+totalCost: '78.94'
+status:
+- Purchased
+statusCode: '0000'
+statusDesc: Success
+conversationId: rrt-8711127808971674525-c-gea1-732716-1281404-216
+order:
+  type:
+  - STORE
+  number: 5924-17-479-20240821
+  date: '2024-08-21T19:36:00Z'
+  splitShipment: false
+  ecCard: '2276'
+  cost:
+    subTotal: '73.94'
+    savings: '-0.00'
+    tax: '5.00'
+    shipping: ''
+    total: '78.94'
+    state: FL
+    feminineTax: '0'
+    totalReturnAmount: '0.00'
+  shipped: []
+  canceled: []
+  pickup: []
+  inStore:
+  - status: Purchased
+    totalCost: 73.94
+    fsItems:
+    - name: KISS Classy Nails - Scrunchie
+      itemId: '795814'
+      itemSize: '1.00'
+      itemSizeUOM: Kit
+      itemWeight: '0.10'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '8.59'
+      priceFinal: '8.59'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '8.59'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: Eucerin Sun Sensitive SPF 50 Mineral Sunscreen Lotion, 4 OZ
+      itemId: '641025'
+      itemSize: '4.00'
+      itemSizeUOM: OZ
+      itemWeight: '0.31'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '18.99'
+      priceFinal: '18.99'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '18.99'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: "Sally Hansen Miracle Gel and Disney\u2019s Cruella Collection, Get Mod"
+      itemId: '968896'
+      itemSize: '0.40'
+      itemSizeUOM: OZ
+      itemWeight: '0.12'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '12.79'
+      priceFinal: '12.79'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '12.79'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: Nutella & Go Hazelnut Spread + Breadsticks, 1.8 oz
+      itemId: '931388'
+      itemSize: '1.80'
+      itemSizeUOM: OZ
+      itemWeight: '1.80'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '2.59'
+      priceFinal: '2.59'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '2.59'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: OPI RapiDry Top Coat
+      itemId: '349856'
+      itemSize: '0.50'
+      itemSizeUOM: OZ
+      itemWeight: '0.10'
+      itemWeightUOM: LBS
+      qty: 2
+      priceTotal: '30.98'
+      priceFinal: '30.98'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '30.98'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    pickupStoreId: '5924'
+  return: []
+  paymentMethod:
+  - type: Credit/Debit/EBT
+    lastFourDigits: '8747'
+    amountCharged: '78.94'
+  - type: Credit/Debit/EBT
+    lastFourDigits: '8747'
+    amountReturned: '0.00'
+  splitFulfillment: false
+  returnEligible: false
+  returnEligibleFinalDate: '2024-10-20T00:00:00Z'
+  txnNo: '479'
+  regNo: '17'

@@ -1,0 +1,141 @@
+items:
+  rx: {}
+  fs:
+    total: 5
+    name: ARRID ULT FRSH TP  6Z
+    image: ''
+number: 5083-18-7843-20250212
+type:
+- STORE
+alertStatus: []
+filterByStatus: true
+date: '2025-02-13T01:23:00Z'
+totalCost: '52.06'
+status:
+- Purchased
+statusCode: '0000'
+statusDesc: Success
+conversationId: rrt-3024830282911917713-c-gea1-4160404-3948140-199
+order:
+  type:
+  - STORE
+  number: 5083-18-7843-20250212
+  date: '2025-02-13T01:23:00Z'
+  splitShipment: false
+  ecCard: '2276'
+  cost:
+    subTotal: '48.65'
+    savings: '-0.00'
+    tax: '3.41'
+    shipping: ''
+    total: '52.06'
+    state: FL
+    feminineTax: '0'
+    totalReturnAmount: '0.00'
+  shipped: []
+  canceled: []
+  pickup: []
+  inStore:
+  - status: Purchased
+    totalCost: 48.65
+    fsItems:
+    - name: Sally Hansen Insta-Dri Nail Polish, Mint Me in St. Louis
+      itemId: '235340'
+      itemSize: '0.31'
+      itemSizeUOM: OZ
+      itemWeight: '0.11'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '7.29'
+      priceFinal: '7.29'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '7.29'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: Sally Hansen Insta-Dri Gain Mo-Mint-Um
+      itemId: '339578'
+      itemSize: '0.31'
+      itemSizeUOM: OZ
+      itemWeight: '0.14'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '7.29'
+      priceFinal: '7.29'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '7.29'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: Sally Hansen Insta-Dri Nail Polish, Up In The Clouds, 0.31 fl oz.
+      itemId: '505514'
+      itemSize: '0.31'
+      itemSizeUOM: OZ
+      itemWeight: '0.11'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '7.29'
+      priceFinal: '7.29'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '7.29'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: Arrid XX Extra Extra Dry Antiperspirant & Deodorant Dry Spray, Ultra Fresh,
+        6 OZ, 2 Pack
+      itemId: '245273'
+      itemSize: '6.00'
+      itemSizeUOM: OZ
+      itemWeight: '1.20'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '13.99'
+      priceFinal: '13.99'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '13.99'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: CVS Health Sport Clear Sunscreen Spray SPF 50, 9.1 OZ
+      itemId: '438691'
+      itemSize: '9.10'
+      itemSizeUOM: OZ
+      itemWeight: '0.76'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '12.79'
+      priceFinal: '12.79'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '12.79'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    pickupStoreId: '5083'
+  return: []
+  paymentMethod:
+  - type: Credit/Debit/EBT
+    lastFourDigits: '0225'
+    amountCharged: '52.06'
+  - type: Credit/Debit/EBT
+    lastFourDigits: '0225'
+    amountReturned: '0.00'
+  splitFulfillment: false
+  returnEligible: false
+  returnEligibleFinalDate: '2025-04-13T00:00:00Z'
+  txnNo: '7843'
+  regNo: '18'

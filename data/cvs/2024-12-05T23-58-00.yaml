@@ -1,0 +1,107 @@
+items:
+  rx: {}
+  fs:
+    total: 3
+    name: AUSS MOIST CD      13.5
+    image: ''
+number: 5083-18-6144-20241205
+type:
+- STORE
+alertStatus: []
+filterByStatus: true
+date: '2024-12-05T23:58:00Z'
+totalCost: '39.54'
+status:
+- Purchased
+statusCode: '0000'
+statusDesc: Success
+conversationId: rrt-4518049291990455001-c-gea1-66333-73762-64
+order:
+  type:
+  - STORE
+  number: 5083-18-6144-20241205
+  date: '2024-12-05T23:58:00Z'
+  splitShipment: false
+  ecCard: '2276'
+  cost:
+    subTotal: '58.95'
+    savings: '-19.72'
+    tax: '0.31'
+    shipping: ''
+    total: '39.54'
+    state: FL
+    feminineTax: '0'
+    totalReturnAmount: '0.00'
+  shipped: []
+  canceled: []
+  pickup: []
+  inStore:
+  - status: Purchased
+    totalCost: 58.949999999999996
+    fsItems:
+    - name: CVS Health Maximum Strength Nighttime Sleep Aid Diphenhydramine HCI 50
+        MG Softgels, 32 CT
+      itemId: '864199'
+      itemSize: '32.00'
+      itemSizeUOM: Ct
+      itemWeight: '0.12'
+      itemWeightUOM: LBS
+      qty: 2
+      priceTotal: '17.98'
+      priceFinal: '17.98'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '17.98'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: Aussie Mega Moist Conditioner, 12.1 OZ
+      itemId: '408412'
+      itemSize: '13.50'
+      itemSizeUOM: OZ
+      itemWeight: '0.10'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '4.99'
+      priceFinal: '4.99'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '4.99'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: Aleve PM Pain Reliever/ Nighttime Sleep-Aid Caplets, 80 CT
+      itemId: '998847'
+      itemSize: '80.00'
+      itemSizeUOM: Ct
+      itemWeight: '0.17'
+      itemWeightUOM: LBS
+      qty: 2
+      priceTotal: '35.98'
+      priceFinal: '35.98'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '35.98'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    pickupStoreId: '5083'
+  return: []
+  paymentMethod:
+  - type: Credit/Debit/EBT
+    lastFourDigits: '8747'
+    amountCharged: '39.54'
+  - type: Credit/Debit/EBT
+    lastFourDigits: '8747'
+    amountReturned: '0.00'
+  splitFulfillment: false
+  returnEligible: false
+  returnEligibleFinalDate: '2025-02-03T00:00:00Z'
+  txnNo: '6144'
+  regNo: '18'

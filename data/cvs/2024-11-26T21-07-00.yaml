@@ -1,0 +1,72 @@
+items:
+  rx: {}
+  fs:
+    total: 1
+    name: CLGT SENS CMPLT    6Z
+    image: ''
+number: 5083-18-5251-20241126
+type:
+- STORE
+alertStatus: []
+filterByStatus: true
+date: '2024-11-26T21:07:00Z'
+totalCost: '12.58'
+status:
+- Purchased
+statusCode: '0000'
+statusDesc: Success
+conversationId: rrt-8711127808971674525-c-gea1-732716-1283081-244
+order:
+  type:
+  - STORE
+  number: 5083-18-5251-20241126
+  date: '2024-11-26T21:07:00Z'
+  splitShipment: false
+  ecCard: '2276'
+  cost:
+    subTotal: '12.58'
+    savings: '-0.00'
+    tax: '0.00'
+    shipping: ''
+    total: '12.58'
+    state: FL
+    feminineTax: '0'
+    totalReturnAmount: '0.00'
+  shipped: []
+  canceled: []
+  pickup: []
+  inStore:
+  - status: Purchased
+    totalCost: 12.58
+    fsItems:
+    - name: Colgate Sensitive Complete Protection Toothpaste, Mint Clean, 6 OZ
+      itemId: '237416'
+      itemSize: '6.00'
+      itemSizeUOM: OZ
+      itemWeight: '0.45'
+      itemWeightUOM: LBS
+      qty: 2
+      priceTotal: '12.58'
+      priceFinal: '12.58'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '12.58'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    pickupStoreId: '5083'
+  return: []
+  paymentMethod:
+  - type: Credit/Debit/EBT
+    lastFourDigits: '8747'
+    amountCharged: '12.58'
+  - type: Credit/Debit/EBT
+    lastFourDigits: '8747'
+    amountReturned: '0.00'
+  splitFulfillment: false
+  returnEligible: false
+  returnEligibleFinalDate: '2025-01-25T00:00:00Z'
+  txnNo: '5251'
+  regNo: '18'

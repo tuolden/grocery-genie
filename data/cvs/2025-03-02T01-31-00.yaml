@@ -1,0 +1,175 @@
+items:
+  rx: {}
+  fs:
+    total: 7
+    name: CVS AH HYDRO VRTY  8CT
+    image: ''
+number: 5083-18-865-20250301
+type:
+- STORE
+alertStatus: []
+filterByStatus: true
+date: '2025-03-02T01:31:00Z'
+totalCost: '84.77'
+status:
+- Purchased
+statusCode: '0000'
+statusDesc: Success
+conversationId: rrt-9029304123040251435-b-gea1-3525829-1476679-129
+order:
+  type:
+  - STORE
+  number: 5083-18-865-20250301
+  date: '2025-03-02T01:31:00Z'
+  splitShipment: false
+  ecCard: '2276'
+  cost:
+    subTotal: '86.02'
+    savings: '-4.40'
+    tax: '3.15'
+    shipping: ''
+    total: '84.77'
+    state: FL
+    feminineTax: '0'
+    totalReturnAmount: '0.00'
+  shipped: []
+  canceled: []
+  pickup: []
+  inStore:
+  - status: Purchased
+    totalCost: 81.61999999999999
+    fsItems:
+    - name: PURIFIED DRINKING WATER GALLON
+      itemId: '877483'
+      itemSize: '128.00'
+      itemSizeUOM: OZ
+      itemWeight: '0.10'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '3.49'
+      priceFinal: '3.49'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '3.49'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: Parodontax Complete Protection Toothpaste for Bleeding Gums, 3.4 OZ
+      itemId: '369717'
+      itemSize: '3.40'
+      itemSizeUOM: OZ
+      itemWeight: '2.40'
+      itemWeightUOM: LBS
+      qty: 2
+      priceTotal: '17.58'
+      priceFinal: '13.18'
+      savings: '4.40'
+      tax: 0
+      lineTotalWithoutTax: '13.18'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: Kerasal Multi-Purpose Nail Repair Patches for Damaged Nails, 8-Hour Treatment
+        Restores Healthy Appearance, 14 Count
+      itemId: '499182'
+      itemSize: '14.00'
+      itemSizeUOM: Ct
+      itemWeight: '0.13'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '29.99'
+      priceFinal: '29.99'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '29.99'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: Differin Daily Brightening Exfoliator, 6 OZ
+      itemId: '610682'
+      itemSize: '6.00'
+      itemSizeUOM: OZ
+      itemWeight: '0.43'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '12.99'
+      priceFinal: '12.99'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '12.99'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: CVS Health Advanced Healing Bandages, Assorted Sizes, 8 CT
+      itemId: '257974'
+      itemSize: '8.00'
+      itemSizeUOM: Ct
+      itemWeight: '0.05'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '6.99'
+      priceFinal: '6.99'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '6.99'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: Pop-arazzi Exfoliating Bath & Shower Gloves (Assorted Colors)
+      itemId: '410654'
+      itemSize: '1.00'
+      itemSizeUOM: EACH
+      itemWeight: '0.04'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '5.99'
+      priceFinal: '5.99'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '5.99'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: Schick Hydro Silk Ultimate Pubic Skin Protection 3-Blade Razors, 3 CT
+      itemId: '876572'
+      itemSize: '3.00'
+      itemSizeUOM: Ct
+      itemWeight: '0.15'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '8.99'
+      priceFinal: '8.99'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '8.99'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    pickupStoreId: '5083'
+  return: []
+  paymentMethod:
+  - type: Credit/Debit/EBT
+    lastFourDigits: '4613'
+    amountCharged: '84.77'
+  - type: Credit/Debit/EBT
+    lastFourDigits: '4613'
+    amountReturned: '0.00'
+  splitFulfillment: false
+  returnEligible: false
+  returnEligibleFinalDate: '2025-04-30T00:00:00Z'
+  txnNo: '865'
+  regNo: '18'

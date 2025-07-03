@@ -1,0 +1,72 @@
+items:
+  rx: {}
+  fs:
+    total: 1
+    name: MYLNT MS LQ        12Z
+    image: ''
+number: 5083-17-2370-20241101
+type:
+- STORE
+alertStatus: []
+filterByStatus: true
+date: '2024-11-01T16:38:00Z'
+totalCost: '10.99'
+status:
+- Purchased
+statusCode: '0000'
+statusDesc: Success
+conversationId: rrt-4442886904748939841-b-gea1-65876-393976-28
+order:
+  type:
+  - STORE
+  number: 5083-17-2370-20241101
+  date: '2024-11-01T16:38:00Z'
+  splitShipment: false
+  ecCard: '2276'
+  cost:
+    subTotal: '10.99'
+    savings: '-0.00'
+    tax: '0.00'
+    shipping: ''
+    total: '10.99'
+    state: FL
+    feminineTax: '0'
+    totalReturnAmount: '0.00'
+  shipped: []
+  canceled: []
+  pickup: []
+  inStore:
+  - status: Purchased
+    totalCost: 10.99
+    fsItems:
+    - name: Mylanta Antacid + Anti-Gas Liquid, Classic, 12 OZ
+      itemId: '236859'
+      itemSize: '12.00'
+      itemSizeUOM: OZ
+      itemWeight: '0.96'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '10.99'
+      priceFinal: '10.99'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '10.99'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    pickupStoreId: '5083'
+  return: []
+  paymentMethod:
+  - type: Credit/Debit/EBT
+    lastFourDigits: '8747'
+    amountCharged: '10.99'
+  - type: Credit/Debit/EBT
+    lastFourDigits: '8747'
+    amountReturned: '0.00'
+  splitFulfillment: false
+  returnEligible: false
+  returnEligibleFinalDate: '2024-12-31T00:00:00Z'
+  txnNo: '2370'
+  regNo: '17'

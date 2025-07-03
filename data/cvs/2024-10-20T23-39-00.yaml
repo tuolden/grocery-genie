@@ -1,0 +1,124 @@
+items:
+  rx: {}
+  fs:
+    total: 4
+    name: JTB PRFD WTR       128Z
+    image: ''
+number: 5083-17-231-20241020
+type:
+- STORE
+alertStatus: []
+filterByStatus: true
+date: '2024-10-20T23:39:00Z'
+totalCost: '15.76'
+status:
+- Purchased
+statusCode: '0000'
+statusDesc: Success
+conversationId: rrt-3024830282911917713-c-gea1-4160404-3948140-209
+order:
+  type:
+  - STORE
+  number: 5083-17-231-20241020
+  date: '2024-10-20T23:39:00Z'
+  splitShipment: false
+  ecCard: '2276'
+  cost:
+    subTotal: '31.26'
+    savings: '-16.18'
+    tax: '0.68'
+    shipping: ''
+    total: '15.76'
+    state: FL
+    feminineTax: '0'
+    totalReturnAmount: '0.00'
+  shipped: []
+  canceled: []
+  pickup: []
+  inStore:
+  - status: Purchased
+    totalCost: 31.259999999999998
+    fsItems:
+    - name: Physicians Formula Powder Palette Mineral Glow Pearl, Bronze
+      itemId: '723939'
+      itemSize: '1.00'
+      itemSizeUOM: EACH
+      itemWeight: '0.10'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '16.49'
+      priceFinal: '16.49'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '16.49'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: CVS Beauty Age Defying Towelettes, 30/Pack
+      itemId: '460219'
+      itemSize: '30.00'
+      itemSizeUOM: Ct
+      itemWeight: '0.55'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '5.59'
+      priceFinal: '5.59'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '5.59'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: Just The Basics Purified Water, 128 oz
+      itemId: '395667'
+      itemSize: '128.00'
+      itemSizeUOM: OZ
+      itemWeight: '0.10'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '2.39'
+      priceFinal: '2.39'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '2.39'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: Vaseline Original Petroleum Jelly For Dry Cracked Skin and Eczema Relief,
+        7.5 OZ
+      itemId: '492451'
+      itemSize: '7.50'
+      itemSizeUOM: OZ
+      itemWeight: '0.63'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '6.79'
+      priceFinal: '6.79'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '6.79'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    pickupStoreId: '5083'
+  return: []
+  paymentMethod:
+  - type: Credit/Debit/EBT
+    lastFourDigits: '8747'
+    amountCharged: '15.76'
+  - type: Credit/Debit/EBT
+    lastFourDigits: '8747'
+    amountReturned: '0.00'
+  splitFulfillment: false
+  returnEligible: false
+  returnEligibleFinalDate: '2024-12-19T00:00:00Z'
+  txnNo: '231'
+  regNo: '17'

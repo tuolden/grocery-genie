@@ -1,0 +1,40 @@
+order_id: '11412166010426818283'
+purchase_date: '2022-10-31'
+store_name: Pembroke pines Supercenter
+order_totals:
+  subtotal: 18.78
+  tax_total: 0.62
+  grand_total: 19.4
+items:
+- item_id: '0'
+  item_quantity: 1
+  item_name: Rolo Rich Chocolate Caramels Candy, Share Pack 10.6 oz
+  item_image_url: https://i5.walmartimages.com/seo/Rolo-Rich-Chocolate-Caramels-Candy-Share-Pack-10-6-oz_b4d8522e-6e02-435c-badc-21b604e65acc.0be6cfc111d7a97127d183a8cf3fa08e.jpeg
+  item_price: 4.34
+  line_price: 4.34
+  sales_unit_type: null
+- item_id: '1'
+  item_quantity: 1
+  item_name: 3 Musketeers Minis Size Milk Chocolate Candy Bars - 8.4 oz Bag
+  item_image_url: https://i5.walmartimages.com/seo/3-Musketeers-Minis-Size-Milk-Chocolate-Candy-Bars-8-4-oz-Bag_b26fe0aa-8fbb-45cf-9682-2e2c20d5fbdd.2d50bc26c4267990a86e02e201e290b9.jpeg
+  item_price: 4.48
+  line_price: 4.48
+  sales_unit_type: null
+- item_id: '2'
+  item_quantity: 1
+  item_name: Takis Fuego 9.9 oz Sharing Size Bag, Hot Chili Pepper & Lime Rolled Tortilla
+    Chips
+  item_image_url: https://i5.walmartimages.com/seo/Takis-Fuego-9-9-oz-Sharing-Size-Bag-Hot-Chili-Pepper-Lime-Rolled-Tortilla-Chips_ce60e10f-61f5-44c0-81a4-29014c08643e.9512f82d04b119186dbd96b4995abd41.jpeg
+  item_price: 3.48
+  line_price: 3.48
+  sales_unit_type: null
+- item_id: '3'
+  item_quantity: 1
+  item_name: Doritos Nacho Cheese Tortilla Snack Chips, 1oz, 10 Count Bags
+  item_image_url: https://i5.walmartimages.com/seo/Doritos-Nacho-Cheese-Tortilla-Snack-Chips-1oz-10-Count-Bags_13ef82b7-ff91-4d8e-a115-133618ecf8f3.7992609a444e3a4e890db3735a541177.jpeg
+  item_price: 6.48
+  line_price: 6.48
+  sales_unit_type: null
+metadata:
+  source_file: oct31
+  processed_at: '2025-07-03T08:46:01.525254'

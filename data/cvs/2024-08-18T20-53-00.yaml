@@ -1,0 +1,123 @@
+items:
+  rx: {}
+  fs:
+    total: 4
+    name: NTRL MLT 10MG GMY  140S
+    image: ''
+number: 5083-14-8223-20240818
+type:
+- STORE
+alertStatus: []
+filterByStatus: true
+date: '2024-08-18T20:53:00Z'
+totalCost: '39.99'
+status:
+- Purchased
+statusCode: '0000'
+statusDesc: Success
+conversationId: rrt-7152547171538615360-d-gea1-3109927-1475222-25
+order:
+  type:
+  - STORE
+  number: 5083-14-8223-20240818
+  date: '2024-08-18T20:53:00Z'
+  splitShipment: false
+  ecCard: '2276'
+  cost:
+    subTotal: '47.36'
+    savings: '-7.37'
+    tax: '0.00'
+    shipping: ''
+    total: '39.99'
+    state: FL
+    feminineTax: '0'
+    totalReturnAmount: '0.00'
+  shipped: []
+  canceled: []
+  pickup: []
+  inStore:
+  - status: Purchased
+    totalCost: 47.36
+    fsItems:
+    - name: Natrol Melatonin 10mg Gummies, 140 CT
+      itemId: '429332'
+      itemSize: '140.00'
+      itemSizeUOM: Ct
+      itemWeight: '0.88'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '24.49'
+      priceFinal: '24.49'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '24.49'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: Just The Basics Purified Water, 128 oz
+      itemId: '395667'
+      itemSize: '128.00'
+      itemSizeUOM: OZ
+      itemWeight: '0.10'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '2.39'
+      priceFinal: '2.39'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '2.39'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: CVS Health Petroleum Jelly, 13 OZ
+      itemId: '949628'
+      itemSize: '13.00'
+      itemSizeUOM: OZ
+      itemWeight: '0.67'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '5.99'
+      priceFinal: '5.99'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '5.99'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: Tinactin Athlete's Foot Antifungal Treatment Liquid Spray, 5.3 OZ
+      itemId: '311176'
+      itemSize: '5.30'
+      itemSizeUOM: OZ
+      itemWeight: '0.54'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '14.49'
+      priceFinal: '14.49'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '14.49'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    pickupStoreId: '5083'
+  return: []
+  paymentMethod:
+  - type: Credit/Debit/EBT
+    lastFourDigits: '0225'
+    amountCharged: '39.99'
+  - type: Credit/Debit/EBT
+    lastFourDigits: '0225'
+    amountReturned: '0.00'
+  splitFulfillment: false
+  returnEligible: false
+  returnEligibleFinalDate: '2024-10-17T00:00:00Z'
+  txnNo: '8223'
+  regNo: '14'

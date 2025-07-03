@@ -1,0 +1,89 @@
+items:
+  rx: {}
+  fs:
+    total: 2
+    name: CVS 2X7 AMPM WKLY  EACH
+    image: ''
+number: 5083-17-786-20250331
+type:
+- STORE
+alertStatus: []
+filterByStatus: true
+date: '2025-03-31T23:35:00Z'
+totalCost: '24.83'
+status:
+- Purchased
+statusCode: '0000'
+statusDesc: Success
+conversationId: rrt-3068777324587238959-c-gea1-65542-23033-123
+order:
+  type:
+  - STORE
+  number: 5083-17-786-20250331
+  date: '2025-03-31T23:35:00Z'
+  splitShipment: false
+  ecCard: '2276'
+  cost:
+    subTotal: '23.78'
+    savings: '-0.00'
+    tax: '1.05'
+    shipping: ''
+    total: '24.83'
+    state: FL
+    feminineTax: '0'
+    totalReturnAmount: '0.00'
+  shipped: []
+  canceled: []
+  pickup: []
+  inStore:
+  - status: Purchased
+    totalCost: 23.78
+    fsItems:
+    - name: Vagisil Anti-Itch Vaginal Creme, Maximum Strength, 1 OZ
+      itemId: '858746'
+      itemSize: '1.00'
+      itemSizeUOM: OZ
+      itemWeight: '0.10'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '8.79'
+      priceFinal: '8.79'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '8.79'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: CVS Health Weekly AM/PM Pill Planner
+      itemId: '428305'
+      itemSize: '1.00'
+      itemSizeUOM: EACH
+      itemWeight: '0.50'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '14.99'
+      priceFinal: '14.99'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '14.99'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    pickupStoreId: '5083'
+  return: []
+  paymentMethod:
+  - type: Credit/Debit/EBT
+    lastFourDigits: '4321'
+    amountCharged: '24.83'
+  - type: Credit/Debit/EBT
+    lastFourDigits: '4321'
+    amountReturned: '0.00'
+  splitFulfillment: false
+  returnEligible: false
+  returnEligibleFinalDate: '2025-05-30T00:00:00Z'
+  txnNo: '786'
+  regNo: '17'

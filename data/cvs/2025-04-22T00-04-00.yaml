@@ -1,0 +1,72 @@
+items:
+  rx: {}
+  fs:
+    total: 1
+    name: ESTRVN CM M CPLTS  28CT
+    image: ''
+number: 5083-18-8886-20250421
+type:
+- STORE
+alertStatus: []
+filterByStatus: true
+date: '2025-04-22T00:04:00Z'
+totalCost: '21.74'
+status:
+- Purchased
+statusCode: '0000'
+statusDesc: Success
+conversationId: rrt-8920009364409889909-d-gea1-645504-4002075-153
+order:
+  type:
+  - STORE
+  number: 5083-18-8886-20250421
+  date: '2025-04-22T00:04:00Z'
+  splitShipment: false
+  ecCard: '2276'
+  cost:
+    subTotal: '28.99'
+    savings: '-7.25'
+    tax: '0.00'
+    shipping: ''
+    total: '21.74'
+    state: FL
+    feminineTax: '0'
+    totalReturnAmount: '0.00'
+  shipped: []
+  canceled: []
+  pickup: []
+  inStore:
+  - status: Purchased
+    totalCost: 21.74
+    fsItems:
+    - name: Estroven Menopause Relief, Complete Care, One Per Day, Caplets, 28ct
+      itemId: '737957'
+      itemSize: '28.00'
+      itemSizeUOM: Ct
+      itemWeight: '0.11'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '28.99'
+      priceFinal: '21.74'
+      savings: '7.25'
+      tax: 0
+      lineTotalWithoutTax: '21.74'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    pickupStoreId: '5083'
+  return: []
+  paymentMethod:
+  - type: Credit/Debit/EBT
+    lastFourDigits: '8494'
+    amountCharged: '21.74'
+  - type: Credit/Debit/EBT
+    lastFourDigits: '8494'
+    amountReturned: '0.00'
+  splitFulfillment: false
+  returnEligible: false
+  returnEligibleFinalDate: '2025-06-20T00:00:00Z'
+  txnNo: '8886'
+  regNo: '18'

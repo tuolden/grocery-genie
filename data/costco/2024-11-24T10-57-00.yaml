@@ -1,0 +1,80 @@
+receipt_info:
+  warehouse_name: Pembroke Pines
+  warehouse_number: 742
+  warehouse_short_name: Pembroke Pines
+  transaction_date: '2024-11-24'
+  transaction_datetime: '2024-11-24T10:57:00'
+  transaction_barcode: '21074207678362411241057'
+  receipt_type: Gas Station
+  document_type: FuelReceipts
+  transaction_type: Sales
+  transaction_number: 445357
+  register_number: 7
+  operator_number: 1
+  company_number: 1
+  invoice_number: 67836
+  sequence_number: 67836
+  membership_number: '111919024143'
+store_info:
+  warehouse_address1: 15915 PINES BLVD
+  warehouse_address2: null
+  warehouse_city: PEMBROKE PINES
+  warehouse_state: FL
+  warehouse_country: US
+  warehouse_postal_code: '33027'
+financial_summary:
+  subtotal: 32.19
+  taxes: 0
+  total: 32.19
+  instant_savings: 0
+  total_item_count: 1
+items:
+- item_number: '800599'
+  item_description_01: REGULAR UNLEADED
+  item_description_02: null
+  french_item_description_1: null
+  french_item_description_2: null
+  item_identifier: null
+  item_department_number: 53
+  unit: 1
+  amount: 32.19
+  item_unit_price_amount: 2.839
+  tax_flag: null
+  merchant_id: null
+  entry_method: null
+  trans_department_number: 53
+  fuel_info:
+    fuel_unit_quantity: 11.337
+    fuel_grade_code: '1'
+    fuel_uom_code: GAL
+    fuel_uom_description: null
+    fuel_uom_description_fr: null
+    fuel_grade_description: Regular
+    fuel_grade_description_fr: null
+payment_methods:
+- tender_type_code: CreditDebit
+  tender_sub_type_code: Visa
+  tender_description: null
+  tender_type_name: 'VI Acct #'
+  tender_type_name_fr: null
+  amount_tender: 32.19
+  display_account_number: '0225'
+  sequence_number: null
+  approval_number: null
+  response_code: null
+  transaction_id: null
+  merchant_id: null
+  entry_method: null
+  tender_acct_txn_number: '432907067836'
+  tender_authorization_code: 08373D
+  tender_entry_method_description: Contactless
+  wallet_type: null
+  wallet_id: null
+  stored_value_bucket: null
+tax_breakdown: null
+coupons: []
+metadata:
+  scraped_at: '2025-07-02T19:15:01.092321'
+  scraper_version: 4.0-enhanced
+  store: Costco
+  source: warehouse_receipts_api

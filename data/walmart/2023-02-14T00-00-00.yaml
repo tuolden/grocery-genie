@@ -1,0 +1,154 @@
+order_id: '536659683323579642915'
+purchase_date: '2023-02-14'
+store_name: Sunrise Supercenter
+order_totals:
+  subtotal: 114.99
+  tax_total: 4.63
+  grand_total: 119.62
+items:
+- item_id: '0'
+  item_quantity: 1
+  item_name: Tahitian Treat Caffeine Free Fruit Punch Soda Pop, 2 L, Bottle
+  item_image_url: https://i5.walmartimages.com/seo/Tahitian-Treat-Caffeine-Free-Fruit-Punch-Soda-Pop-2-L-Bottle_2b96a62f-d694-421c-bfa4-5f19f0a42e0a.04586360b9222b0b314be4064451d2a6.jpeg
+  item_price: 1.48
+  line_price: 1.48
+  sales_unit_type: null
+- item_id: '1'
+  item_quantity: 1
+  item_name: Crush Caffeine Free Pineapple Soda Pop, 2 L, Bottle
+  item_image_url: https://i5.walmartimages.com/seo/Crush-Caffeine-Free-Pineapple-Soda-Pop-2-L-Bottle_f1bc3b27-d2e0-4bb6-9402-155df42ddbd3.0a7a7f26b8410a5615d059abcb8c4f4b.jpeg
+  item_price: 1.68
+  line_price: 1.68
+  sales_unit_type: null
+- item_id: '2'
+  item_quantity: 1
+  item_name: Sunkist Caffeine Free Berry Lemonade Soda Pop, 2 L, Bottle
+  item_image_url: https://i5.walmartimages.com/seo/Sunkist-Caffeine-Free-Berry-Lemonade-Soda-Pop-2-L-Bottle_6fca411f-c2f2-4cc9-9fc1-620c868f2ae5.521813519311947776d8c8defbfcd247.jpeg
+  item_price: 1.48
+  line_price: 1.48
+  sales_unit_type: null
+- item_id: '3'
+  item_quantity: 1
+  item_name: Schweppes Caffeine Free Ginger Ale Soda Pop, 2 L, Bottle
+  item_image_url: https://i5.walmartimages.com/seo/Schweppes-Caffeine-Free-Ginger-Ale-Soda-Pop-2-L-Bottle_c8f82444-3c23-4a0a-8bea-758126e02692.406d9917b816496df049179af1e78fdf.jpeg
+  item_price: 1.68
+  line_price: 1.68
+  sales_unit_type: null
+- item_id: '4'
+  item_quantity: 2
+  item_name: Parodontax Teeth Whitening Toothpaste for Bleeding Gums, 3.4 Oz, 2 Pack,
+    Unflavored, for Adults
+  item_image_url: https://i5.walmartimages.com/seo/Parodontax-Teeth-Whitening-Toothpaste-for-Bleeding-Gums-3-4-Oz-2-Pack-Unflavored-for-Adults_c8237e90-7528-4004-a0ab-47683566acca.3e9b94e1fd781272df4efcb63b7cd787.jpeg
+  item_price: 24.96
+  line_price: 24.96
+  sales_unit_type: null
+- item_id: '5'
+  item_quantity: 1
+  item_name: Great Value Distilled White Vinegar, 64 fl oz
+  item_image_url: https://i5.walmartimages.com/seo/Great-Value-Distilled-White-Vinegar-64-fl-oz_4594ff97-1dd6-46c3-8e82-30da8ff2d7ab.8b6b8afea9caaa9fa3cbb0329fc40bcc.jpeg
+  item_price: 2.28
+  line_price: 2.28
+  sales_unit_type: null
+- item_id: '6'
+  item_quantity: 1
+  item_name: "Campbell\u2019s Condensed Heart Healthy Homestyle Chicken Noodle Soup,\
+    \ 50% Less Sodium, 10.5 oz Can"
+  item_image_url: https://i5.walmartimages.com/seo/Campbell-s-Condensed-Heart-Healthy-Homestyle-Chicken-Noodle-Soup-50-Less-Sodium-10-5-oz-Can_bb56c815-5e54-43a8-845d-68e4bb407b82.af65eebed32cac63bf23d04808854351.jpeg
+  item_price: 1.72
+  line_price: 1.72
+  sales_unit_type: null
+- item_id: '7'
+  item_quantity: 2
+  item_name: SOUR PATCH KIDS Peach Soft and Chewy Candy, 8.07 oz
+  item_image_url: https://i5.walmartimages.com/seo/SOUR-PATCH-KIDS-Peach-Soft-and-Chewy-Candy-8-07-oz_057595fd-732f-4f83-a6b3-8c05a9f907b2.2c6634e46f64457f5c90137ba1201351.jpeg
+  item_price: 4.94
+  line_price: 4.94
+  sales_unit_type: null
+- item_id: '8'
+  item_quantity: 1
+  item_name: Takis Fuego 9.9 oz Sharing Size Bag, Hot Chili Pepper & Lime Rolled Tortilla
+    Chips
+  item_image_url: https://i5.walmartimages.com/seo/Takis-Fuego-9-9-oz-Sharing-Size-Bag-Hot-Chili-Pepper-Lime-Rolled-Tortilla-Chips_ce60e10f-61f5-44c0-81a4-29014c08643e.9512f82d04b119186dbd96b4995abd41.jpeg
+  item_price: 3.78
+  line_price: 3.78
+  sales_unit_type: null
+- item_id: '9'
+  item_quantity: 1
+  item_name: Snack Pack Fanta Orange Flavored Juicy Gels, 6 Count Snack Cups
+  item_image_url: https://i5.walmartimages.com/seo/Snack-Pack-Fanta-Orange-Flavored-Juicy-Gels-6-Count-Snack-Cups_55da328b-dee1-4b49-a669-8295243db75c.99241bdc33563d51c43f0e0b1d8a4dff.jpeg
+  item_price: 2.97
+  line_price: 2.97
+  sales_unit_type: null
+- item_id: '10'
+  item_quantity: 2
+  item_name: Great Value Pineapple Tidbits, 4 oz, 4 Count
+  item_image_url: https://i5.walmartimages.com/seo/Great-Value-Pineapple-Tidbits-4-oz-4-Count_63a5b241-3c5d-4163-8733-d8ed15934481.e1442cd33c319bcdb27bfa52b6172cfe.jpeg
+  item_price: 5.36
+  line_price: 5.36
+  sales_unit_type: null
+- item_id: '11'
+  item_quantity: 1
+  item_name: Pringles Original Potato Crisps Chips, Lunch Snacks, 12 Count
+  item_image_url: https://i5.walmartimages.com/seo/Pringles-Original-Potato-Crisps-Chips-Lunch-Snacks-12-Count_3c1e4a47-5607-4086-bb0f-dd3d7115edf8.dc78797616a779ee47ec5500bf993e1e.jpeg
+  item_price: 6.34
+  line_price: 6.34
+  sales_unit_type: null
+- item_id: '12'
+  item_quantity: 1
+  item_name: Great Value Frozen Sliced Peaches, 16 oz
+  item_image_url: https://i5.walmartimages.com/seo/Great-Value-Frozen-Sliced-Peaches-16-oz_b6d04eb7-f7b1-498e-99e8-dd818b031ea9_2.eafb146974fd2d62c4c269495596cd67.jpeg
+  item_price: 2.68
+  line_price: 2.68
+  sales_unit_type: null
+- item_id: '13'
+  item_quantity: 1
+  item_name: Great Value Frozen Whole Berry Medley, 16 oz
+  item_image_url: https://i5.walmartimages.com/seo/Great-Value-Frozen-Whole-Berry-Medley-16-oz_dced2c90-5ad2-4f5d-be72-eb651c54087e.a9ba2d6fa7a3ae402212a6c39bc104a5.jpeg
+  item_price: 4.24
+  line_price: 4.24
+  sales_unit_type: null
+- item_id: '14'
+  item_quantity: 1
+  item_name: Great Value Blueberries, 16 oz (Frozen)
+  item_image_url: https://i5.walmartimages.com/seo/Great-Value-Blueberries-16-oz-Frozen_6f2e186d-015c-4132-a8be-fc460737ba01.fe208fb564a9ca95f1b7e2b62bf88b69.jpeg
+  item_price: 2.98
+  line_price: 2.98
+  sales_unit_type: null
+- item_id: '15'
+  item_quantity: 1
+  item_name: Great Value Whole Strawberries, 16 oz
+  item_image_url: https://i5.walmartimages.com/seo/GV-Whole-Strawb-16oz_14b5eca6-798a-43fa-91be-f365ec3fc646.f54aab8f1878d45f752a6dfec54dad12.jpeg
+  item_price: 2.24
+  line_price: 2.24
+  sales_unit_type: null
+- item_id: '16'
+  item_quantity: 1
+  item_name: Red Baron Supreme Brick Oven Crust Frozen Pizza, 18.64 oz
+  item_image_url: https://i5.walmartimages.com/seo/Red-Baron-Supreme-Brick-Oven-Crust-Frozen-Pizza-18-64-oz_ad8e2ffd-5ea9-4e84-b931-7f0e41f514b9.888e376c9dcfdb2e6ed4b2fa5ec7a6df.jpeg
+  item_price: 4.68
+  line_price: 4.68
+  sales_unit_type: null
+- item_id: '17'
+  item_quantity: 1
+  item_name: Red Baron Pepperoni Brick Oven Frozen Pizza, 17.89 oz
+  item_image_url: https://i5.walmartimages.com/seo/Red-Baron-Pepperoni-Brick-Oven-Frozen-Pizza-17-89-oz_df1b825a-9306-434a-9eab-69d7ce691d2f.e7f2f2d9821fdc7bee9d2c7ef1d52977.jpeg
+  item_price: 4.77
+  line_price: 4.77
+  sales_unit_type: null
+- item_id: '18'
+  item_quantity: 1
+  item_name: Red Baron Pepperoni Classic Crust Frozen Pizza, 20.61 oz
+  item_image_url: https://i5.walmartimages.com/seo/Red-Baron-Pepperoni-Classic-Crust-Frozen-Pizza-20-61-oz_d1f49f5f-fc5d-4d27-896e-981426ef5b91.652787928867811cfd94435593f7c8b4.jpeg
+  item_price: 4.77
+  line_price: 4.77
+  sales_unit_type: null
+- item_id: '19'
+  item_quantity: 2
+  item_name: ARM & HAMMER Powder Laundry Detergent, Alpine Clean, 9.56 lb, 155 Loads
+  item_image_url: https://i5.walmartimages.com/seo/ARM-HAMMER-Powder-Laundry-Detergent-Alpine-Clean-9-56-lb-155-Loads_5f5c3e23-bcb2-485c-a429-d214ba28ccb4.2a8bb5d292c389f86517da1116fc112d.jpeg
+  item_price: 29.96
+  line_price: 29.96
+  sales_unit_type: null
+metadata:
+  source_file: feb14
+  processed_at: '2025-07-03T08:45:50.814105'

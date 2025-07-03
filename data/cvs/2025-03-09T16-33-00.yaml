@@ -1,0 +1,72 @@
+items:
+  rx: {}
+  fs:
+    total: 1
+    name: REDBUL ENRGY DRNK  8.4Z
+    image: ''
+number: 5083-17-5954-20250309
+type:
+- STORE
+alertStatus: []
+filterByStatus: true
+date: '2025-03-09T16:33:00Z'
+totalCost: '3.10'
+status:
+- Purchased
+statusCode: '0000'
+statusDesc: Success
+conversationId: rrt-7152547171538615360-d-gea1-3109927-1475222-12
+order:
+  type:
+  - STORE
+  number: 5083-17-5954-20250309
+  date: '2025-03-09T16:33:00Z'
+  splitShipment: false
+  ecCard: '2276'
+  cost:
+    subTotal: '2.89'
+    savings: '-0.00'
+    tax: '0.21'
+    shipping: ''
+    total: '3.10'
+    state: FL
+    feminineTax: '0'
+    totalReturnAmount: '0.00'
+  shipped: []
+  canceled: []
+  pickup: []
+  inStore:
+  - status: Purchased
+    totalCost: 2.89
+    fsItems:
+    - name: Red Bull Energy Drink, 8.4 OZ
+      itemId: '101405'
+      itemSize: '8.40'
+      itemSizeUOM: OZ
+      itemWeight: '0.10'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '2.89'
+      priceFinal: '2.89'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '2.89'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    pickupStoreId: '5083'
+  return: []
+  paymentMethod:
+  - type: Credit/Debit/EBT
+    lastFourDigits: '8494'
+    amountCharged: '3.10'
+  - type: Credit/Debit/EBT
+    lastFourDigits: '8494'
+    amountReturned: '0.00'
+  splitFulfillment: false
+  returnEligible: false
+  returnEligibleFinalDate: '2025-05-08T00:00:00Z'
+  txnNo: '5954'
+  regNo: '17'

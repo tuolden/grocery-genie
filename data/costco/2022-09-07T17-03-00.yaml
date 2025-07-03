@@ -1,0 +1,147 @@
+receipt_info:
+  warehouse_name: PEMBROKE PINES
+  warehouse_number: 742
+  warehouse_short_name: PEMBROKE PINES
+  transaction_date: '2022-09-07'
+  transaction_datetime: '2022-09-07T17:03:00'
+  transaction_barcode: '21074200202932209071703'
+  receipt_type: In-Warehouse
+  document_type: WarehouseReceiptDetail
+  transaction_type: Sales
+  transaction_number: 293
+  register_number: 2
+  operator_number: 12
+  company_number: 1
+  invoice_number: null
+  sequence_number: null
+  membership_number: '111919024143'
+store_info:
+  warehouse_address1: 15915 PINES BLVD
+  warehouse_address2: null
+  warehouse_city: PEMBROKE PINES
+  warehouse_state: FL
+  warehouse_country: US
+  warehouse_postal_code: '33027'
+financial_summary:
+  subtotal: 67.47
+  taxes: 0
+  total: 67.47
+  instant_savings: 8
+  total_item_count: 3
+items:
+- item_number: '870735'
+  item_description_01: KS ADLT MULT
+  item_description_02: 2X160 CT         T8H7 C10
+  french_item_description_1: null
+  french_item_description_2: null
+  item_identifier: null
+  item_department_number: 93
+  unit: 1
+  amount: 11.49
+  item_unit_price_amount: 11.49
+  tax_flag: N
+  merchant_id: null
+  entry_method: null
+  trans_department_number: 93
+  fuel_info:
+    fuel_unit_quantity: 10.0
+    fuel_grade_code: null
+    fuel_uom_code: null
+    fuel_uom_description: null
+    fuel_uom_description_fr: null
+    fuel_grade_description: null
+    fuel_grade_description_fr: null
+- item_number: '1481822'
+  item_description_01: ALLEGRA 110
+  item_description_02: TABLET 110CT. T10H4 MPK15
+  french_item_description_1: null
+  french_item_description_2: null
+  item_identifier: F
+  item_department_number: 93
+  unit: 1
+  amount: 38.49
+  item_unit_price_amount: 38.49
+  tax_flag: N
+  merchant_id: null
+  entry_method: null
+  trans_department_number: 93
+  fuel_info:
+    fuel_unit_quantity: 10.0
+    fuel_grade_code: null
+    fuel_uom_code: null
+    fuel_uom_description: null
+    fuel_uom_description_fr: null
+    fuel_grade_description: null
+    fuel_grade_description_fr: null
+- item_number: '285664'
+  item_description_01: /1481822
+  item_description_02: null
+  french_item_description_1: /1481822
+  french_item_description_2: null
+  item_identifier: null
+  item_department_number: 93
+  unit: -1
+  amount: -8
+  item_unit_price_amount: 0
+  tax_flag: null
+  merchant_id: null
+  entry_method: null
+  trans_department_number: 93
+  fuel_info:
+    fuel_unit_quantity: null
+    fuel_grade_code: null
+    fuel_uom_code: null
+    fuel_uom_description: null
+    fuel_uom_description_fr: null
+    fuel_grade_description: null
+    fuel_grade_description_fr: null
+- item_number: '851753'
+  item_description_01: NEXIUMOTC 42
+  item_description_02: 3X14CT.         T6H3 CS18
+  french_item_description_1: null
+  french_item_description_2: null
+  item_identifier: F
+  item_department_number: 93
+  unit: 1
+  amount: 25.49
+  item_unit_price_amount: 25.49
+  tax_flag: N
+  merchant_id: null
+  entry_method: null
+  trans_department_number: 93
+  fuel_info:
+    fuel_unit_quantity: 10.0
+    fuel_grade_code: null
+    fuel_uom_code: null
+    fuel_uom_description: null
+    fuel_uom_description_fr: null
+    fuel_grade_description: null
+    fuel_grade_description_fr: null
+payment_methods:
+- tender_type_code: '011'
+  tender_sub_type_code: null
+  tender_description: Debit Card
+  tender_type_name: Debit Card
+  tender_type_name_fr: null
+  amount_tender: 67.47
+  display_account_number: '6260'
+  sequence_number: null
+  approval_number: null
+  response_code: null
+  transaction_id: null
+  merchant_id: null
+  entry_method: null
+  tender_acct_txn_number: null
+  tender_authorization_code: null
+  tender_entry_method_description: null
+  wallet_type: null
+  wallet_id: null
+  stored_value_bucket: null
+tax_breakdown: null
+coupons:
+- upcnumberCoupon: '2100002856648'
+metadata:
+  scraped_at: '2025-07-02T19:14:46.389258'
+  scraper_version: 4.0-enhanced
+  store: Costco
+  source: warehouse_receipts_api

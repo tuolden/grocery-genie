@@ -1,0 +1,729 @@
+barcode_src: data:image/png;base64,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
+fsa_info: {}
+grand_total: 151.11
+order_total: 143.37
+payment_info: {}
+products: &id001
+- ActivationStatus: A
+  BaseProductId: RIO-PCI-181870
+  Categories: null
+  FavoriteProductId: null
+  ItemDescription: null
+  ItemDetailUrl: /pd/RIO-PCI-181870
+  ItemId: 946402
+  ItemImageUrl: https://images.publixcdn.com/pct/images/products/945000/946402-75x75-A.jpg
+  ItemName: L&#39;Oreal Paris Visible Lift Serum Absolute Lightweight Foundation,
+    SPF 17 Nude Beige
+  ItemQuantity: 1
+  PimsCode: null
+  RetailSubSectionNumber: '387'
+  SizeDescription: 1.0fl oz
+  UPC: '7124917893'
+- ActivationStatus: A
+  BaseProductId: RIO-PCI-146253
+  Categories: null
+  FavoriteProductId: null
+  ItemDescription: null
+  ItemDetailUrl: /pd/RIO-PCI-146253
+  ItemId: 200353
+  ItemImageUrl: https://images.publixcdn.com/pct/images/products/200000/200353-75x75-A.jpg
+  ItemName: Venus Deluxe Smooth Sensitive Women&#39;s Razor Handle + 2 Blade Refills
+  ItemQuantity: 1
+  PimsCode: null
+  RetailSubSectionNumber: '232'
+  SizeDescription: 1 set
+  UPC: '4740001268'
+- ActivationStatus: A
+  BaseProductId: RIO-PCI-138068
+  Categories: null
+  FavoriteProductId: null
+  ItemDescription: null
+  ItemDetailUrl: /pd/RIO-PCI-138068
+  ItemId: 194697
+  ItemImageUrl: https://images.publixcdn.com/pct/images/products/190000/194697-75x75-A.jpg
+  ItemName: Good To Go Carry-On Bottle Bag, 4 Pack
+  ItemQuantity: 2
+  PimsCode: null
+  RetailSubSectionNumber: '119'
+  SizeDescription: 1 package
+  UPC: '89369800284'
+- ActivationStatus: A
+  BaseProductId: RIO-PCI-606283
+  Categories: null
+  FavoriteProductId: null
+  ItemDescription: null
+  ItemDetailUrl: /pd/RIO-PCI-606283
+  ItemId: 288235
+  ItemImageUrl: https://images.publixcdn.com/pct/images/products/285000/288235-75x75-A.jpg
+  ItemName: Redken Color Extend Magnetics Shampoo, Sulfate-Free
+  ItemQuantity: 0
+  PimsCode: null
+  RetailSubSectionNumber: '20'
+  SizeDescription: 10.1 fl oz (300 ml)
+  UPC: '88448645332'
+- ActivationStatus: A
+  BaseProductId: RIO-PCI-609273
+  Categories: null
+  FavoriteProductId: null
+  ItemDescription: null
+  ItemDetailUrl: /pd/RIO-PCI-609273
+  ItemId: 290865
+  ItemImageUrl: https://images.publixcdn.com/pct/images/products/290000/290865-75x75-A.jpg
+  ItemName: Goli Nutrition Gummies 5 mg Dreamy Sleep
+  ItemQuantity: 1
+  PimsCode: null
+  RetailSubSectionNumber: '396'
+  SizeDescription: 60 gummies
+  UPC: '5584040253'
+- ActivationStatus: A
+  BaseProductId: RIO-PCI-588051
+  Categories: null
+  FavoriteProductId: null
+  ItemDescription: null
+  ItemDetailUrl: /pd/RIO-PCI-588051
+  ItemId: 270527
+  ItemImageUrl: https://images.publixcdn.com/pct/images/products/270000/270527-75x75-A.jpg
+  ItemName: L&#39;Oreal Paris Infallible Up to 24H Fresh Wear Foundation in a Powder
+    Sand
+  ItemQuantity: 1
+  PimsCode: null
+  RetailSubSectionNumber: '387'
+  SizeDescription: 0.31oz
+  UPC: '7124962781'
+- ActivationStatus: A
+  BaseProductId: RIO-PCI-149414
+  Categories: null
+  FavoriteProductId: null
+  ItemDescription: null
+  ItemDetailUrl: /pd/RIO-PCI-149414
+  ItemId: 352069
+  ItemImageUrl: https://images.publixcdn.com/pct/images/products/350000/352069-75x75-A.jpg
+  ItemName: Publix Allergy, Tablets
+  ItemQuantity: 1
+  PimsCode: null
+  RetailSubSectionNumber: '27'
+  SizeDescription: 100 tablets
+  UPC: '4141529573'
+- ActivationStatus: A
+  BaseProductId: RIO-PCI-609323
+  Categories: null
+  FavoriteProductId: null
+  ItemDescription: null
+  ItemDetailUrl: /pd/RIO-PCI-609323
+  ItemId: 290932
+  ItemImageUrl: https://images.publixcdn.com/pct/images/products/290000/290932-75x75-A.jpg
+  ItemName: Natrol Blueberry Flavor 10 mg Melatonin Max
+  ItemQuantity: 1
+  PimsCode: null
+  RetailSubSectionNumber: '396'
+  SizeDescription: 50 gummies
+  UPC: '4746907881'
+- ActivationStatus: A
+  BaseProductId: RIO-PCI-587412
+  Categories: null
+  FavoriteProductId: null
+  ItemDescription: null
+  ItemDetailUrl: /pd/RIO-PCI-587412
+  ItemId: 270015
+  ItemImageUrl: https://images.publixcdn.com/pct/images/products/270000/270015-75x75-A.jpg
+  ItemName: Ogx Scrub &amp; Wash, Sensitive + Rose Water &amp; Pink Sea Salt
+  ItemQuantity: 2
+  PimsCode: null
+  RetailSubSectionNumber: '77'
+  SizeDescription: 19.5 fl oz (577 ml)
+  UPC: '5280067558'
+- ActivationStatus: null
+  BaseProductId: RIO-PCI-606285
+  Categories: null
+  FavoriteProductId: null
+  ItemDescription: null
+  ItemDetailUrl: null
+  ItemId: 288237
+  ItemImageUrl: https://images.publixcdn.com/pct/images/products/285000/288237-75x75-A.jpg
+  ItemName: Redken All Soft Conditioner
+  ItemQuantity: 0
+  PimsCode: null
+  RetailSubSectionNumber: '11'
+  SizeDescription: 10.1 fl oz (300 ml)
+  UPC: '347463691997'
+- ActivationStatus: A
+  BaseProductId: RIO-PCI-595905
+  Categories: null
+  FavoriteProductId: null
+  ItemDescription: null
+  ItemDetailUrl: /pd/RIO-PCI-595905
+  ItemId: 277317
+  ItemImageUrl: https://images.publixcdn.com/pct/images/products/275000/277317-75x75-A.jpg
+  ItemName: Blue Buffalo Blue Food for Dogs, Chicken and Brown Rice Recipe, Life Protection
+    Formula, Small Breed, Adult
+  ItemQuantity: 1
+  PimsCode: null
+  RetailSubSectionNumber: '181'
+  SizeDescription: 5 lbs (2.2 kg)
+  UPC: '84024314411'
+- ActivationStatus: A
+  BaseProductId: RIO-PCI-592415
+  Categories: null
+  FavoriteProductId: null
+  ItemDescription: null
+  ItemDetailUrl: /pd/RIO-PCI-592415
+  ItemId: 986341
+  ItemImageUrl: https://images.publixcdn.com/pct/images/products/985000/986341-75x75-A.jpg
+  ItemName: Publix Chews for Dogs, Triple Flavor, Twists
+  ItemQuantity: 1
+  PimsCode: null
+  RetailSubSectionNumber: '346'
+  SizeDescription: 25 twists [7 oz (198 g)]
+  UPC: '4141526127'
+- ActivationStatus: A
+  BaseProductId: RIO-PCI-545808
+  Categories: null
+  FavoriteProductId: null
+  ItemDescription: null
+  ItemDetailUrl: /pd/RIO-PCI-545808
+  ItemId: 236749
+  ItemImageUrl: https://images.publixcdn.com/pct/images/products/235000/236749-75x75-A.jpg
+  ItemName: Handy Solutions Container
+  ItemQuantity: 1
+  PimsCode: null
+  RetailSubSectionNumber: '119'
+  SizeDescription: 1 container
+  UPC: '2429130261'
+purchase_date: '2025-06-25'
+purchase_time: '21:54:04'
+raw_data:
+  detail:
+    Amount: 151.11
+    BarcodeSrc: data:image/png;base64,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
+    Currency: USD
+    CustomerId: 18309194
+    FacilityId: 583
+    FacilityName: Weston Lakes Plaza
+    FacilityType: null
+    GrandTotal: 151.11
+    ItemCount: 13
+    OrderTotal: 143.37
+    Products: *id001
+    ReceiptId: 05836QQ046392
+    ReceiptLineItems:
+    - AccountNumber: '    '
+      IsGiftcardItem: 0
+      ItemAmount: 19.79
+      ItemCode: 00084024314411
+      ItemPrice: 19.79
+      ItemQty: 1
+      ItemSeqNo: 1
+      ItemTypeDescription: Normal Sale
+      ItemWeight: 0.0
+      MSUQty: 1
+      NetAmount: 19.79
+      SavingAmount: 0.0
+    - AccountNumber: '    '
+      IsGiftcardItem: 0
+      ItemAmount: 21.89
+      ItemCode: 00004740001268
+      ItemPrice: 21.89
+      ItemQty: 1
+      ItemSeqNo: 2
+      ItemTypeDescription: Normal Sale
+      ItemWeight: 0.0
+      MSUQty: 1
+      NetAmount: 21.89
+      SavingAmount: 0.0
+    - AccountNumber: '    '
+      IsGiftcardItem: 0
+      ItemAmount: 13.69
+      ItemCode: 00004746907881
+      ItemPrice: 13.69
+      ItemQty: 1
+      ItemSeqNo: 3
+      ItemTypeDescription: Normal Sale
+      ItemWeight: 0.0
+      MSUQty: 1
+      NetAmount: 13.69
+      SavingAmount: 0.0
+    - AccountNumber: '    '
+      IsGiftcardItem: 0
+      ItemAmount: 14.99
+      ItemCode: 00005584040253
+      ItemPrice: 14.99
+      ItemQty: 1
+      ItemSeqNo: 4
+      ItemTypeDescription: Normal Sale
+      ItemWeight: 0.0
+      MSUQty: 1
+      NetAmount: 14.99
+      SavingAmount: 0.0
+    - AccountNumber: '    '
+      IsGiftcardItem: 0
+      ItemAmount: 29.99
+      ItemCode: 00088448645332
+      ItemPrice: 29.99
+      ItemQty: 1
+      ItemSeqNo: 5
+      ItemTypeDescription: Normal Sale
+      ItemWeight: 0.0
+      MSUQty: 1
+      NetAmount: 29.99
+      SavingAmount: 0.0
+    - AccountNumber: '    '
+      IsGiftcardItem: 0
+      ItemAmount: 7.19
+      ItemCode: 00004141529573
+      ItemPrice: 7.19
+      ItemQty: 1
+      ItemSeqNo: 6
+      ItemTypeDescription: Normal Sale
+      ItemWeight: 0.0
+      MSUQty: 1
+      NetAmount: 7.19
+      SavingAmount: 0.0
+    - AccountNumber: '    '
+      IsGiftcardItem: 0
+      ItemAmount: 6.19
+      ItemCode: '00004141526127'
+      ItemPrice: 6.19
+      ItemQty: 1
+      ItemSeqNo: 7
+      ItemTypeDescription: Normal Sale
+      ItemWeight: 0.0
+      MSUQty: 1
+      NetAmount: 6.19
+      SavingAmount: 0.0
+    - AccountNumber: '    '
+      IsGiftcardItem: 0
+      ItemAmount: 4.29
+      ItemCode: 00089369800284
+      ItemPrice: 4.29
+      ItemQty: 1
+      ItemSeqNo: 8
+      ItemTypeDescription: Normal Sale
+      ItemWeight: 0.0
+      MSUQty: 1
+      NetAmount: 4.29
+      SavingAmount: 0.0
+    - AccountNumber: '    '
+      IsGiftcardItem: 0
+      ItemAmount: 4.29
+      ItemCode: 00089369800284
+      ItemPrice: 4.29
+      ItemQty: 1
+      ItemSeqNo: 9
+      ItemTypeDescription: Normal Sale
+      ItemWeight: 0.0
+      MSUQty: 1
+      NetAmount: 4.29
+      SavingAmount: 0.0
+    - AccountNumber: '    '
+      IsGiftcardItem: 0
+      ItemAmount: 16.99
+      ItemCode: 00007124917893
+      ItemPrice: 16.99
+      ItemQty: 1
+      ItemSeqNo: 10
+      ItemTypeDescription: Normal Sale
+      ItemWeight: 0.0
+      MSUQty: 1
+      NetAmount: 16.99
+      SavingAmount: 0.0
+    - AccountNumber: '    '
+      IsGiftcardItem: 0
+      ItemAmount: 16.99
+      ItemCode: 00007124962781
+      ItemPrice: 16.99
+      ItemQty: 1
+      ItemSeqNo: 11
+      ItemTypeDescription: Normal Sale
+      ItemWeight: 0.0
+      MSUQty: 1
+      NetAmount: 16.99
+      SavingAmount: 0.0
+    - AccountNumber: '    '
+      IsGiftcardItem: 0
+      ItemAmount: 29.99
+      ItemCode: 00347463691997
+      ItemPrice: 29.99
+      ItemQty: 1
+      ItemSeqNo: 12
+      ItemTypeDescription: Normal Sale
+      ItemWeight: 0.0
+      MSUQty: 1
+      NetAmount: 29.99
+      SavingAmount: 0.0
+    - AccountNumber: '    '
+      IsGiftcardItem: 0
+      ItemAmount: 1.49
+      ItemCode: 00002429130261
+      ItemPrice: 1.49
+      ItemQty: 1
+      ItemSeqNo: 13
+      ItemTypeDescription: Normal Sale
+      ItemWeight: 0.0
+      MSUQty: 1
+      NetAmount: 1.49
+      SavingAmount: 0.0
+    - AccountNumber: '    '
+      IsGiftcardItem: 0
+      ItemAmount: 9.29
+      ItemCode: 00005280067558
+      ItemPrice: 9.29
+      ItemQty: 1
+      ItemSeqNo: 14
+      ItemTypeDescription: Normal Sale
+      ItemWeight: 0.0
+      MSUQty: 1
+      NetAmount: 9.29
+      SavingAmount: 0.0
+    - AccountNumber: '    '
+      IsGiftcardItem: 0
+      ItemAmount: 9.29
+      ItemCode: 00005280067558
+      ItemPrice: 9.29
+      ItemQty: 1
+      ItemSeqNo: 15
+      ItemTypeDescription: Normal Sale
+      ItemWeight: 0.0
+      MSUQty: 1
+      NetAmount: 9.29
+      SavingAmount: 0.0
+    - AccountNumber: '    '
+      IsGiftcardItem: 0
+      ItemAmount: -29.99
+      ItemCode: 00088448645332
+      ItemPrice: 29.99
+      ItemQty: -1
+      ItemSeqNo: 16
+      ItemTypeDescription: Void
+      ItemWeight: 0.0
+      MSUQty: 1
+      NetAmount: -29.99
+      SavingAmount: 0.0
+    - AccountNumber: '    '
+      IsGiftcardItem: 0
+      ItemAmount: -29.99
+      ItemCode: 00347463691997
+      ItemPrice: 29.99
+      ItemQty: -1
+      ItemSeqNo: 17
+      ItemTypeDescription: Void
+      ItemWeight: 0.0
+      MSUQty: 1
+      NetAmount: -29.99
+      SavingAmount: 0.0
+    ReceiptLogoId: 1
+    ReceiptTenderLineItems:
+    - TenderAmount: 151.11
+      TenderFeeAmount: 0.0
+      TenderNumberDescription: Credit Card
+    ReceiptText: '           Weston Lakes Plaza            &#10;            294 Indian
+      Trace             &#10;            Weston, FL 33326             &#10;      Store
+      Manager: Juan Cardona        &#10;              954-384-4190               &#10;            0583
+      6QQ 046 392             &#10;  BLUE SB CKBR DGFD            19.79 T   &#10;  VENUS
+      DLX SMTH RZR           21.89 T   &#10;  NATROL MELTNIN GMY           13.69     &#10;  GOLI
+      SLEEP GMY               14.99     &#10;  REDKEN SHAMPOO               29.99
+      T   &#10;  PUB ALLERGY                   7.19   H &#10;  PUB 3 FLVR TWISTS             6.19
+      T   &#10;  TRAVEL BOTTLE SET             4.29 T   &#10;  TRAVEL BOTTLE SET             4.29
+      T   &#10;  LOREAL VISIBL LIFT           16.99 T   &#10;  LR INF FW PW SND             16.99
+      T   &#10;  REDKEN CONDITIONER           29.99 T   &#10;  TRAVEL JAR 1OZ.               1.49
+      T   &#10;  ORGANIX BODY WASH             9.29 T   &#10;  ORGANIX BODY WASH             9.29
+      T   &#10;Voided Item                              &#10;  REDKEN SHAMPOO              -29.99
+      T   &#10;Voided Item                              &#10;  REDKEN CONDITIONER          -29.99
+      T   &#10;  Supervisor #805                        &#10;  Club Publix Perk             -3.00   F
+      &#10;    Order Total               143.37     &#10;      Sales Tax                 7.74     &#10;    Grand
+      Total               151.11     &#10; Credit          Payment      151.11     &#10;  Change                        0.00     &#10;Savings
+      Summary                          &#10;  Digital Coupon                3.00     &#10;**************************************   &#10;*       Your
+      Savings at Publix       *   &#10;*                 3.00               *   &#10;**************************************   &#10;  Customer
+      ID Accepted                   &#10;      Receipt ID: 0583 6QQ 046 392       &#10;
+      ======================================= &#10;   FSA Purchase Summary:                 &#10;     Prescription
+      (P):          0.00     &#10;     Non-Prescription (H):      7.19     &#10;   FSA
+      Total:                  $7.19     &#10; =======================================
+      &#10; - - - - - - - - - - - - - - - - - - -   &#10;      PRESTO!                            &#10;      Trace
+      #: 044829                    &#10;      Reference #: 1262118324            &#10;      Acct
+      #: XXXXXXXXXXXX4321           &#10;      Purchase VISA                      &#10;      Amount:
+      $151.11                    &#10;      Auth #: 015421                     &#10;
+      - - - - - - - - - - - - - - - - - - -   &#10;CREDIT CARD                     PURCHASE
+      &#10;A0000000980840                  US DEBIT &#10;Entry Method:                  Cntctless
+      &#10;Mode:                             Issuer &#10; - - - - - - - - - - - -
+      - - - - - - -   &#10;Your cashier was Katie  T                &#10;06/25/2025
+      21:54 S0583  R104 6392 C0218  &#10;                                         &#10;        Join
+      the Publix family!          &#10;   Apply today at apply.publix.jobs.     &#10;  We&#39;re
+      an equal opportunity employer.   &#10;                                         &#10;       Publix
+      Super Markets, Inc.        &#10;                                         &#10;'
+    SalesTransactionNumber: 608
+    StoreCouponAmount: 3.0
+    TaxAmount: 7.74
+    TransactionDate: '2025-06-25T21:54:04'
+    TransactionKey: oXEKe2l-Izn1EUrQQgaQq5SOpMMFzufABcmckDNPHwozQNPp45DXPHdcCR-GfxDiEM6s5EV8Fb-09FB0dowf64xO4WsyCR2X-OFnAuXYPPQ%3D
+    TransactionNumber: 6392
+    TransactionSource: PurchaseHistory
+    VendorCouponAmount: 0.0
+    custtranstypeid: 1
+  original_purchase:
+    Id: oXEKe2l-Izn1EUrQQgaQq5SOpMMFzufABcmckDNPHwozQNPp45DXPHdcCR-GfxDiEM6s5EV8Fb-09FB0dowf64xO4WsyCR2X-OFnAuXYPPQ%3D
+    IsCancelled: false
+    IsGiftCardOrder: false
+    IsOnlineOrder: false
+    Items:
+    - Id: '946402'
+      ImageUrl: https://images.publixcdn.com/pct/images/products/945000/946402-75x75-A.jpg
+      NoImageUrl: null
+      Quantity: 1
+    - Id: '200353'
+      ImageUrl: https://images.publixcdn.com/pct/images/products/200000/200353-75x75-A.jpg
+      NoImageUrl: null
+      Quantity: 1
+    - Id: '194697'
+      ImageUrl: https://images.publixcdn.com/pct/images/products/190000/194697-75x75-A.jpg
+      NoImageUrl: null
+      Quantity: 2
+    - Id: '288235'
+      ImageUrl: https://images.publixcdn.com/pct/images/products/285000/288235-75x75-A.jpg
+      NoImageUrl: null
+      Quantity: 0
+    - Id: '290865'
+      ImageUrl: https://images.publixcdn.com/pct/images/products/290000/290865-75x75-A.jpg
+      NoImageUrl: null
+      Quantity: 1
+    - Id: '270527'
+      ImageUrl: https://images.publixcdn.com/pct/images/products/270000/270527-75x75-A.jpg
+      NoImageUrl: null
+      Quantity: 1
+    - Id: '352069'
+      ImageUrl: https://images.publixcdn.com/pct/images/products/350000/352069-75x75-A.jpg
+      NoImageUrl: null
+      Quantity: 1
+    - Id: '290932'
+      ImageUrl: https://images.publixcdn.com/pct/images/products/290000/290932-75x75-A.jpg
+      NoImageUrl: null
+      Quantity: 1
+    - Id: '270015'
+      ImageUrl: https://images.publixcdn.com/pct/images/products/270000/270015-75x75-A.jpg
+      NoImageUrl: null
+      Quantity: 2
+    - Id: '288237'
+      ImageUrl: https://images.publixcdn.com/pct/images/products/285000/288237-75x75-A.jpg
+      NoImageUrl: null
+      Quantity: 0
+    - Id: '277317'
+      ImageUrl: https://images.publixcdn.com/pct/images/products/275000/277317-75x75-A.jpg
+      NoImageUrl: null
+      Quantity: 1
+    - Id: '986341'
+      ImageUrl: https://images.publixcdn.com/pct/images/products/985000/986341-75x75-A.jpg
+      NoImageUrl: null
+      Quantity: 1
+    - Id: '236749'
+      ImageUrl: https://images.publixcdn.com/pct/images/products/235000/236749-75x75-A.jpg
+      NoImageUrl: null
+      Quantity: 1
+    LineItems: []
+    PaidOnline: false
+    PaymentStatus: null
+    Payments: null
+    PickupDate: '0001-01-01T00:00:00'
+    PickupName: null
+    PurchaseDate: '2025-06-25T21:54:04'
+    RefundTotal: 0.0
+    Status: null
+    StoreId: 583
+    StoreName: Weston Lakes Plaza
+    StoreTimezone: null
+    Subtotal: 0.0
+    Taxes: null
+    Total: 0.0
+    TotalPrice: 151.11
+    TotalSavings: null
+    TotalTax: 0.0
+  scraped_at: '2025-07-03T15:19:30.882139'
+  source: publix_detail_api
+receipt_id: oXEKe2l-Izn1EUrQQgaQq5SOpMMFzufABcmckDNPHwozQNPp45DXPHdcCR-GfxDiEM6s5EV8Fb-09FB0dowf64xO4WsyCR2X-OFnAuXYPPQ%3D
+receipt_items:
+- is_voided: false
+  line_text: BLUE SB CKBR DGFD            19.79 T
+  name: BLUE SB CKBR DGFD
+  price: 19.79
+  tax_flag: T
+- is_voided: false
+  line_text: VENUS DLX SMTH RZR           21.89 T
+  name: VENUS DLX SMTH RZR
+  price: 21.89
+  tax_flag: T
+- is_voided: false
+  line_text: NATROL MELTNIN GMY           13.69
+  name: NATROL MELTNIN
+  price: null
+  tax_flag: ''
+- is_voided: false
+  line_text: GOLI SLEEP GMY               14.99
+  name: GOLI SLEEP
+  price: null
+  tax_flag: ''
+- is_voided: false
+  line_text: REDKEN SHAMPOO               29.99 T
+  name: REDKEN SHAMPOO
+  price: 29.99
+  tax_flag: T
+- is_voided: false
+  line_text: PUB ALLERGY                   7.19   H
+  name: PUB ALLERGY
+  price: 7.19
+  tax_flag: H
+- is_voided: false
+  line_text: PUB 3 FLVR TWISTS             6.19 T
+  name: PUB 3 FLVR TWISTS
+  price: 6.19
+  tax_flag: T
+- is_voided: false
+  line_text: TRAVEL BOTTLE SET             4.29 T
+  name: TRAVEL BOTTLE SET
+  price: 4.29
+  tax_flag: T
+- is_voided: false
+  line_text: TRAVEL BOTTLE SET             4.29 T
+  name: TRAVEL BOTTLE SET
+  price: 4.29
+  tax_flag: T
+- is_voided: false
+  line_text: LOREAL VISIBL LIFT           16.99 T
+  name: LOREAL VISIBL LIFT
+  price: 16.99
+  tax_flag: T
+- is_voided: false
+  line_text: LR INF FW PW SND             16.99 T
+  name: LR INF FW PW SND
+  price: 16.99
+  tax_flag: T
+- is_voided: false
+  line_text: REDKEN CONDITIONER           29.99 T
+  name: REDKEN CONDITIONER
+  price: 29.99
+  tax_flag: T
+- is_voided: false
+  line_text: TRAVEL JAR 1OZ.               1.49 T
+  name: TRAVEL JAR 1OZ.
+  price: 1.49
+  tax_flag: T
+- is_voided: false
+  line_text: ORGANIX BODY WASH             9.29 T
+  name: ORGANIX BODY WASH
+  price: 9.29
+  tax_flag: T
+- is_voided: false
+  line_text: ORGANIX BODY WASH             9.29 T
+  name: ORGANIX BODY WASH
+  price: 9.29
+  tax_flag: T
+- is_voided: true
+  line_text: REDKEN SHAMPOO              -29.99 T
+  name: REDKEN SHAMPOO
+  price: 29.99
+  tax_flag: T
+- is_voided: true
+  line_text: REDKEN CONDITIONER          -29.99 T
+  name: REDKEN CONDITIONER
+  price: 29.99
+  tax_flag: T
+- is_voided: true
+  line_text: Club Publix Perk             -3.00   F
+  name: Club Publix Perk
+  price: 3.0
+  tax_flag: F
+- is_voided: false
+  line_text: Order Total               143.37
+  name: Order
+  price: null
+  tax_flag: ''
+- is_voided: false
+  line_text: Sales Tax                 7.74
+  name: Sales
+  price: null
+  tax_flag: ''
+- is_voided: false
+  line_text: Grand Total               151.11
+  name: Grand
+  price: null
+  tax_flag: ''
+- is_voided: false
+  line_text: Credit          Payment      151.11
+  name: Credit
+  price: null
+  tax_flag: ''
+- is_voided: false
+  line_text: Change                        0.00
+  name: Change
+  price: 0.0
+  tax_flag: ''
+- is_voided: false
+  line_text: Digital Coupon                3.00
+  name: Digital
+  price: null
+  tax_flag: ''
+- is_voided: false
+  line_text: 'Prescription (P):          0.00'
+  name: Prescription
+  price: null
+  tax_flag: ''
+- is_voided: false
+  line_text: 'Non-Prescription (H):      7.19'
+  name: Non-Prescription
+  price: null
+  tax_flag: ''
+- is_voided: false
+  line_text: 'FSA Total:                  $7.19'
+  name: FSA
+  price: null
+  tax_flag: $7.19
+- is_voided: false
+  line_text: 'Amount: $151.11'
+  name: 'Amount:'
+  price: null
+  tax_flag: ''
+receipt_text: '           Weston Lakes Plaza            &#10;            294 Indian
+  Trace             &#10;            Weston, FL 33326             &#10;      Store
+  Manager: Juan Cardona        &#10;              954-384-4190               &#10;            0583
+  6QQ 046 392             &#10;  BLUE SB CKBR DGFD            19.79 T   &#10;  VENUS
+  DLX SMTH RZR           21.89 T   &#10;  NATROL MELTNIN GMY           13.69     &#10;  GOLI
+  SLEEP GMY               14.99     &#10;  REDKEN SHAMPOO               29.99 T   &#10;  PUB
+  ALLERGY                   7.19   H &#10;  PUB 3 FLVR TWISTS             6.19 T   &#10;  TRAVEL
+  BOTTLE SET             4.29 T   &#10;  TRAVEL BOTTLE SET             4.29 T   &#10;  LOREAL
+  VISIBL LIFT           16.99 T   &#10;  LR INF FW PW SND             16.99 T   &#10;  REDKEN
+  CONDITIONER           29.99 T   &#10;  TRAVEL JAR 1OZ.               1.49 T   &#10;  ORGANIX
+  BODY WASH             9.29 T   &#10;  ORGANIX BODY WASH             9.29 T   &#10;Voided
+  Item                              &#10;  REDKEN SHAMPOO              -29.99 T   &#10;Voided
+  Item                              &#10;  REDKEN CONDITIONER          -29.99 T   &#10;  Supervisor
+  #805                        &#10;  Club Publix Perk             -3.00   F &#10;    Order
+  Total               143.37     &#10;      Sales Tax                 7.74     &#10;    Grand
+  Total               151.11     &#10; Credit          Payment      151.11     &#10;  Change                        0.00     &#10;Savings
+  Summary                          &#10;  Digital Coupon                3.00     &#10;**************************************   &#10;*       Your
+  Savings at Publix       *   &#10;*                 3.00               *   &#10;**************************************   &#10;  Customer
+  ID Accepted                   &#10;      Receipt ID: 0583 6QQ 046 392       &#10;
+  ======================================= &#10;   FSA Purchase Summary:                 &#10;     Prescription
+  (P):          0.00     &#10;     Non-Prescription (H):      7.19     &#10;   FSA
+  Total:                  $7.19     &#10; =======================================
+  &#10; - - - - - - - - - - - - - - - - - - -   &#10;      PRESTO!                            &#10;      Trace
+  #: 044829                    &#10;      Reference #: 1262118324            &#10;      Acct
+  #: XXXXXXXXXXXX4321           &#10;      Purchase VISA                      &#10;      Amount:
+  $151.11                    &#10;      Auth #: 015421                     &#10; -
+  - - - - - - - - - - - - - - - - - -   &#10;CREDIT CARD                     PURCHASE
+  &#10;A0000000980840                  US DEBIT &#10;Entry Method:                  Cntctless
+  &#10;Mode:                             Issuer &#10; - - - - - - - - - - - - - -
+  - - - - -   &#10;Your cashier was Katie  T                &#10;06/25/2025 21:54
+  S0583  R104 6392 C0218  &#10;                                         &#10;        Join
+  the Publix family!          &#10;   Apply today at apply.publix.jobs.     &#10;  We&#39;re
+  an equal opportunity employer.   &#10;                                         &#10;       Publix
+  Super Markets, Inc.        &#10;                                         &#10;'
+savings: {}
+staff_info:
+  cashier: Katie  T
+  supervisor: '805'
+store_coupon_amount: 3.0
+store_info:
+  address: 294 Indian Trace
+  city_state_zip: Weston, FL 33326
+  manager: Juan Cardona
+  name: Weston Lakes Plaza
+  phone: 954-384-4190
+store_name: Weston Lakes Plaza
+tax_amount: 7.74
+transaction_number: 6392
+vendor_coupon_amount: 0.0

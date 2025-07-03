@@ -1,0 +1,252 @@
+barcode_src: null
+fsa_info: {}
+grand_total: 0.0
+order_total: 0.0
+payment_info: {}
+products: &id001
+- ActivationStatus: A
+  BaseProductId: RIO-PCI-102087
+  Categories: null
+  FavoriteProductId: null
+  ItemDescription: null
+  ItemDetailUrl: /pd/RIO-PCI-102087
+  ItemId: 4843
+  ItemImageUrl: https://images.publixcdn.com/pct/images/products/0/004843-75x75-A.jpg
+  ItemName: Vigo Rice, Yellow, Family Size
+  ItemQuantity: 5
+  PimsCode: null
+  RetailSubSectionNumber: '318'
+  SizeDescription: 1 lb (16 oz) 454 g
+  UPC: '7107201309'
+- ActivationStatus: null
+  BaseProductId: RIO-PCI-602075
+  Categories: null
+  FavoriteProductId: null
+  ItemDescription: null
+  ItemDetailUrl: null
+  ItemId: 283419
+  ItemImageUrl: https://images.publixcdn.com/pct/images/products/280000/283419-75x75-A.jpg
+  ItemName: Aneto Fish Broth, Natural
+  ItemQuantity: 1
+  PimsCode: null
+  RetailSubSectionNumber: '55'
+  SizeDescription: 33.8 fl oz (1000 ml)
+  UPC: '841074850100'
+- ActivationStatus: A
+  BaseProductId: RIO-PCI-543953
+  Categories: null
+  FavoriteProductId: null
+  ItemDescription: null
+  ItemDetailUrl: /pd/RIO-PCI-543953
+  ItemId: 235119
+  ItemImageUrl: https://images.publixcdn.com/pct/images/products/235000/235119-75x75-A.jpg
+  ItemName: Boar&#39;s Head Superiore Uncured Chorizo Spanish Style Sausage
+  ItemQuantity: 1
+  PimsCode: null
+  RetailSubSectionNumber: '224'
+  SizeDescription: 226 g
+  UPC: '4242116209'
+- ActivationStatus: A
+  BaseProductId: RIO-PCI-107711
+  Categories: null
+  FavoriteProductId: null
+  ItemDescription: null
+  ItemDetailUrl: /pd/RIO-PCI-107711
+  ItemId: 24352
+  ItemImageUrl: https://images.publixcdn.com/pct/images/products/20000/024352-75x75-A.jpg
+  ItemName: Curly Parsley
+  ItemQuantity: 1
+  PimsCode: null
+  RetailSubSectionNumber: '315'
+  SizeDescription: 1 Each
+  UPC: '4899'
+- ActivationStatus: A
+  BaseProductId: RIO-PCI-182544
+  Categories: null
+  FavoriteProductId: null
+  ItemDescription: null
+  ItemDetailUrl: /pd/RIO-PCI-182544
+  ItemId: 960669
+  ItemImageUrl: https://images.publixcdn.com/pct/images/products/960000/960669-75x75-A.jpg
+  ItemName: Publix Deli Diced Pancetta
+  ItemQuantity: 1
+  PimsCode: null
+  RetailSubSectionNumber: '2'
+  SizeDescription: 4 oz Pkg
+  UPC: '4141517480'
+- ActivationStatus: null
+  BaseProductId: RIO-FNW-592297
+  Categories: null
+  FavoriteProductId: null
+  ItemDescription: null
+  ItemDetailUrl: null
+  ItemId: 99331
+  ItemImageUrl: https://images.publixcdn.com/pct/images/products/95000/099331-75x75-A.jpg
+  ItemName: GreenWise Squid Tubes, Prev. Frozen, Wild, Sustainably Sourced
+  ItemQuantity: 1
+  PimsCode: null
+  RetailSubSectionNumber: '521'
+  SizeDescription: ''
+  UPC: '29933100000'
+- ActivationStatus: A
+  BaseProductId: RIO-ICE-595899
+  Categories: null
+  FavoriteProductId: null
+  ItemDescription: null
+  ItemDetailUrl: /pd/RIO-ICE-595899
+  ItemId: 277312
+  ItemImageUrl: https://images.publixcdn.com/pct/images/products/275000/277312-75x75-A.jpg
+  ItemName: Reddy Ice Ice, Premium Packaged
+  ItemQuantity: 2
+  PimsCode: null
+  RetailSubSectionNumber: '298'
+  SizeDescription: 16 lbs (7.26 kg)
+  UPC: '9322'
+- ActivationStatus: A
+  BaseProductId: RIO-PCI-128596
+  Categories: null
+  FavoriteProductId: null
+  ItemDescription: null
+  ItemDetailUrl: /pd/RIO-PCI-128596
+  ItemId: 159430
+  ItemImageUrl: https://images.publixcdn.com/pct/images/products/155000/159430-75x75-A.jpg
+  ItemName: Badia Bay Leaves
+  ItemQuantity: 1
+  PimsCode: null
+  RetailSubSectionNumber: '126'
+  SizeDescription: 0.17 oz (4.8 g)
+  UPC: '3384400208'
+- ActivationStatus: A
+  BaseProductId: RIO-PCI-151843
+  Categories: null
+  FavoriteProductId: null
+  ItemDescription: null
+  ItemDetailUrl: /pd/RIO-PCI-151843
+  ItemId: 428468
+  ItemImageUrl: https://images.publixcdn.com/pct/images/products/425000/428468-75x75-A.jpg
+  ItemName: Maggi Bouillon, Chicken Flavor
+  ItemQuantity: 1
+  PimsCode: null
+  RetailSubSectionNumber: '55'
+  SizeDescription: 12 tablets [4.86 oz (138 g)]
+  UPC: '2800011567'
+- ActivationStatus: A
+  BaseProductId: RIO-PCI-110684
+  Categories: null
+  FavoriteProductId: null
+  ItemDescription: null
+  ItemDetailUrl: /pd/RIO-PCI-110684
+  ItemId: 42221
+  ItemImageUrl: https://images.publixcdn.com/pct/images/products/40000/042221-75x75-A.jpg
+  ItemName: Vigo Saffron, Imported
+  ItemQuantity: 1
+  PimsCode: null
+  RetailSubSectionNumber: '126'
+  SizeDescription: 0.018 oz (0.5 gram)
+  UPC: '7107200219'
+purchase_date: '2024-12-30'
+purchase_time: '15:00:00'
+raw_data:
+  detail:
+    Amount: 60.42
+    BarcodeSrc: null
+    Currency: USD
+    CustomerId: 18309194
+    FacilityId: 21
+    FacilityName: Publix At Glade Crossing
+    FacilityType: null
+    GrandTotal: 0.0
+    ItemCount: 10
+    OrderTotal: 0.0
+    Products: *id001
+    ReceiptId: null
+    ReceiptLineItems: null
+    ReceiptLogoId: 0
+    ReceiptTenderLineItems: null
+    ReceiptText: null
+    SalesTransactionNumber: 478
+    StoreCouponAmount: 0.0
+    TaxAmount: 0.0
+    TransactionDate: '2024-12-30T15:00:00'
+    TransactionKey: XEjVwCKyXa7GcB7N6G3IWxbgIZ948g-AE-XTNxY6bcmdBhlgwfm5_JjD4x6CF7BTH1HLCrxuOA80ro4rPtS6DA%3D%3D
+    TransactionNumber: 0
+    TransactionSource: PurchaseHistory
+    VendorCouponAmount: 0.0
+    custtranstypeid: 1
+  original_purchase:
+    Id: XEjVwCKyXa7GcB7N6G3IWxbgIZ948g-AE-XTNxY6bcmdBhlgwfm5_JjD4x6CF7BTH1HLCrxuOA80ro4rPtS6DA%3D%3D
+    IsCancelled: false
+    IsGiftCardOrder: false
+    IsOnlineOrder: false
+    Items:
+    - Id: '4843'
+      ImageUrl: https://images.publixcdn.com/pct/images/products/0/004843-75x75-A.jpg
+      NoImageUrl: null
+      Quantity: 5
+    - Id: '283419'
+      ImageUrl: https://images.publixcdn.com/pct/images/products/280000/283419-75x75-A.jpg
+      NoImageUrl: null
+      Quantity: 1
+    - Id: '235119'
+      ImageUrl: https://images.publixcdn.com/pct/images/products/235000/235119-75x75-A.jpg
+      NoImageUrl: null
+      Quantity: 1
+    - Id: '24352'
+      ImageUrl: https://images.publixcdn.com/pct/images/products/20000/024352-75x75-A.jpg
+      NoImageUrl: null
+      Quantity: 1
+    - Id: '960669'
+      ImageUrl: https://images.publixcdn.com/pct/images/products/960000/960669-75x75-A.jpg
+      NoImageUrl: null
+      Quantity: 1
+    - Id: '99331'
+      ImageUrl: https://images.publixcdn.com/pct/images/products/95000/099331-75x75-A.jpg
+      NoImageUrl: null
+      Quantity: 1
+    - Id: '277312'
+      ImageUrl: https://images.publixcdn.com/pct/images/products/275000/277312-75x75-A.jpg
+      NoImageUrl: null
+      Quantity: 2
+    - Id: '159430'
+      ImageUrl: https://images.publixcdn.com/pct/images/products/155000/159430-75x75-A.jpg
+      NoImageUrl: null
+      Quantity: 1
+    - Id: '428468'
+      ImageUrl: https://images.publixcdn.com/pct/images/products/425000/428468-75x75-A.jpg
+      NoImageUrl: null
+      Quantity: 1
+    - Id: '42221'
+      ImageUrl: https://images.publixcdn.com/pct/images/products/40000/042221-75x75-A.jpg
+      NoImageUrl: null
+      Quantity: 1
+    LineItems: []
+    PaidOnline: false
+    PaymentStatus: null
+    Payments: null
+    PickupDate: '0001-01-01T00:00:00'
+    PickupName: null
+    PurchaseDate: '2024-12-30T15:00:00'
+    RefundTotal: 0.0
+    Status: null
+    StoreId: 21
+    StoreName: Publix At Glade Crossing
+    StoreTimezone: null
+    Subtotal: 0.0
+    Taxes: null
+    Total: 0.0
+    TotalPrice: 60.42
+    TotalSavings: null
+    TotalTax: 0.0
+  scraped_at: '2025-07-03T15:19:28.198707'
+  source: publix_detail_api
+receipt_id: XEjVwCKyXa7GcB7N6G3IWxbgIZ948g-AE-XTNxY6bcmdBhlgwfm5_JjD4x6CF7BTH1HLCrxuOA80ro4rPtS6DA%3D%3D
+receipt_items: []
+receipt_text: null
+savings: {}
+staff_info: {}
+store_coupon_amount: 0.0
+store_info: {}
+store_name: Publix At Glade Crossing
+tax_amount: 0.0
+transaction_number: 0
+vendor_coupon_amount: 0.0

@@ -1,0 +1,55 @@
+order_id: '58488652964260406793'
+purchase_date: '2023-04-02'
+store_name: Cooper city Supercenter
+order_totals:
+  subtotal: 40.24
+  tax_total: 0.42
+  grand_total: 40.66
+items:
+- item_id: '0'
+  item_quantity: 1
+  item_name: Starburst & Skittles Chewy Easter Candy Variety Pack - 50 Ct Bag
+  item_image_url: https://i5.walmartimages.com/seo/Starburst-Skittles-Chewy-Easter-Candy-Variety-Pack-50-Ct-Bag_875f13d5-4983-45c3-a18f-4c4faabd5a82.1f579bea4dbc6710fa07e759ec7168d3.jpeg
+  item_price: 5.98
+  line_price: 5.98
+  sales_unit_type: null
+- item_id: '1'
+  item_quantity: 1
+  item_name: Great Value Deli Style Sliced Baby Swiss Cheese, 8 oz, 12 Count
+  item_image_url: https://i5.walmartimages.com/seo/Great-Value-Deli-Style-Sliced-Baby-Swiss-Cheese-8-oz-12-Count_fc6643c7-91f3-4c6e-8220-e1fa182956b6.b470a85630725e60e516728132c8a660.jpeg
+  item_price: 2.22
+  line_price: 2.22
+  sales_unit_type: null
+- item_id: '2'
+  item_quantity: 1
+  item_name: Takis Fuego Mini 25 pc / 1.23 oz Bite Size Multipack, Hot Chili Pepper
+    & Lime Rolled Tortilla Chips
+  item_image_url: https://i5.walmartimages.com/seo/Takis-Fuego-Mini-25-pc-1-23-oz-Bite-Size-Multipack-Hot-Chili-Pepper-Lime-Rolled-Tortilla-Chips_a27e38b0-54dd-4df0-85bb-78363ea03baa.edf9c5bc65ad48a2f789b49cf480354a.jpeg
+  item_price: 13.98
+  line_price: 13.98
+  sales_unit_type: null
+- item_id: '3'
+  item_quantity: 1
+  item_name: Nature's Own Honey Wheat Sandwich Bread Loaf, 20 oz, Shelf-Stable
+  item_image_url: https://i5.walmartimages.com/seo/Nature-s-Own-Honey-Wheat-Sandwich-Bread-Loaf-20-oz-Shelf-Stable_20ba417b-9e80-43d3-b8ee-f9278a7621fe.47d46f4453dd5645745c5d69d0c4befa.jpeg
+  item_price: 3.34
+  line_price: 3.34
+  sales_unit_type: null
+- item_id: '4'
+  item_quantity: 1
+  item_name: Blue Bell Dutch Chocolate and Homemade Vanilla Ice Cream Cups, 3.0 fl
+    oz, 12 Count
+  item_image_url: https://i5.walmartimages.com/seo/Blue-Bell-Dutch-Chocolate-and-Homemade-Vanilla-Ice-Cream-Cups-3-0-fl-oz-12-Count_c842c9e8-7a89-4fec-b64b-755c5dd30779.9d51435fbf602d6ea1933805a63bc108.jpeg
+  item_price: 8.94
+  line_price: 8.94
+  sales_unit_type: null
+- item_id: '5'
+  item_quantity: 1
+  item_name: Great Value 100% Orange Juice, 128 fl oz
+  item_image_url: https://i5.walmartimages.com/seo/Great-Value-100-Orange-Juice-128-fl-oz_d80d4c9c-d901-48c6-b2a1-a85f2f5a47a3.37411d4313bd1ecf36ad496bed3d8dc0.jpeg
+  item_price: 5.78
+  line_price: 5.78
+  sales_unit_type: null
+metadata:
+  source_file: apr2-2
+  processed_at: '2025-07-03T08:45:48.467740'

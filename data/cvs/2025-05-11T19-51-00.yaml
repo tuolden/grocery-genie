@@ -1,0 +1,106 @@
+items:
+  rx: {}
+  fs:
+    total: 3
+    name: MGNLF ARNICA GEL   4Z
+    image: ''
+number: 5083-17-9447-20250511
+type:
+- STORE
+alertStatus: []
+filterByStatus: true
+date: '2025-05-11T19:51:00Z'
+totalCost: '35.47'
+status:
+- Purchased
+statusCode: '0000'
+statusDesc: Success
+conversationId: rrt-8711127808971674525-c-gea1-732714-1284156-150
+order:
+  type:
+  - STORE
+  number: 5083-17-9447-20250511
+  date: '2025-05-11T19:51:00Z'
+  splitShipment: false
+  ecCard: '2276'
+  cost:
+    subTotal: '37.97'
+    savings: '-2.50'
+    tax: '0.00'
+    shipping: ''
+    total: '35.47'
+    state: FL
+    feminineTax: '0'
+    totalReturnAmount: '0.00'
+  shipped: []
+  canceled: []
+  pickup: []
+  inStore:
+  - status: Purchased
+    totalCost: 35.47
+    fsItems:
+    - name: MagniLife Arnica Pain Relief Gel, 4 OZ
+      itemId: '355300'
+      itemSize: '4.00'
+      itemSizeUOM: OZ
+      itemWeight: '0.44'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '15.49'
+      priceFinal: '12.99'
+      savings: '2.50'
+      tax: 0
+      lineTotalWithoutTax: '12.99'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: Neosporin + Pain Relief Dual Action Topical Antibiotic Ointment, 1 OZ
+      itemId: '505768'
+      itemSize: '1.00'
+      itemSizeUOM: OZ
+      itemWeight: '0.10'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '15.49'
+      priceFinal: '15.49'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '15.49'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: CVS Health Hydrocolloid Blister Care Cushions, 12 CT
+      itemId: '150664'
+      itemSize: '12.00'
+      itemSizeUOM: Ct
+      itemWeight: '0.10'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '6.99'
+      priceFinal: '6.99'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '6.99'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    pickupStoreId: '5083'
+  return: []
+  paymentMethod:
+  - type: Credit/Debit/EBT
+    lastFourDigits: '8494'
+    amountCharged: '35.47'
+  - type: Credit/Debit/EBT
+    lastFourDigits: '8494'
+    amountReturned: '0.00'
+  splitFulfillment: false
+  returnEligible: true
+  returnEligibleFinalDate: '2025-07-10T00:00:00Z'
+  txnNo: '9447'
+  regNo: '17'

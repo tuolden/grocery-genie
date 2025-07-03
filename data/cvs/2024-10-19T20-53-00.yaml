@@ -1,0 +1,157 @@
+items:
+  rx: {}
+  fs:
+    total: 6
+    name: ELF SPONGE TRIO    3CT
+    image: ''
+number: 5083-14-6261-20241019
+type:
+- STORE
+alertStatus: []
+filterByStatus: true
+date: '2024-10-19T20:53:00Z'
+totalCost: '67.37'
+status:
+- Purchased
+statusCode: '0000'
+statusDesc: Success
+conversationId: rrt-8956663220904127061-b-gea1-66144-175048-59
+order:
+  type:
+  - STORE
+  number: 5083-14-6261-20241019
+  date: '2024-10-19T20:53:00Z'
+  splitShipment: false
+  ecCard: '2276'
+  cost:
+    subTotal: '62.96'
+    savings: '-0.00'
+    tax: '4.41'
+    shipping: ''
+    total: '67.37'
+    state: FL
+    feminineTax: '0'
+    totalReturnAmount: '0.00'
+  shipped: []
+  canceled: []
+  pickup: []
+  inStore:
+  - status: Purchased
+    totalCost: 62.96000000000001
+    fsItems:
+    - name: Neutrogena Oil-Free Liquid Eye Makeup Remover Solution, 5.5 OZ
+      itemId: '311244'
+      itemSize: '5.50'
+      itemSizeUOM: OZ
+      itemWeight: '0.01'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '9.49'
+      priceFinal: '9.49'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '9.49'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: e.l.f. Putty Blush, Tahiti
+      itemId: '272440'
+      itemSize: '0.35'
+      itemSizeUOM: OZ
+      itemWeight: '0.10'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '7.00'
+      priceFinal: '7.00'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '7.00'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: Revlon ColorStay Flex Wear Full Cover Concealer, Medium Deep
+      itemId: '597608'
+      itemSize: '1.00'
+      itemSizeUOM: EACH
+      itemWeight: '0.10'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '12.99'
+      priceFinal: '12.99'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '12.99'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: Maybelline Fit Me! Dewy + Smooth Foundation, 310 Sun Beige
+      itemId: '823480'
+      itemSize: '1.00'
+      itemSizeUOM: EACH
+      itemWeight: '0.24'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '10.49'
+      priceFinal: '10.49'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '10.49'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: Physicians Formula Mineral Wear Diamond Last Lip color, Rose Quartz
+      itemId: '351461'
+      itemSize: '1.00'
+      itemSizeUOM: EACH
+      itemWeight: '0.10'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '8.99'
+      priceFinal: '8.99'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '8.99'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: e.l.f. Total Sponge Set
+      itemId: '432454'
+      itemSize: '3.00'
+      itemSizeUOM: Ct
+      itemWeight: '0.10'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '14.00'
+      priceFinal: '14.00'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '14.00'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    pickupStoreId: '5083'
+  return: []
+  paymentMethod:
+  - type: Credit/Debit/EBT
+    lastFourDigits: '8747'
+    amountCharged: '67.37'
+  - type: Credit/Debit/EBT
+    lastFourDigits: '8747'
+    amountReturned: '0.00'
+  splitFulfillment: false
+  returnEligible: false
+  returnEligibleFinalDate: '2024-12-18T00:00:00Z'
+  txnNo: '6261'
+  regNo: '14'

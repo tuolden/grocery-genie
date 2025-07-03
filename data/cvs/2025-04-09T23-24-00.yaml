@@ -1,0 +1,141 @@
+items:
+  rx: {}
+  fs:
+    total: 5
+    name: MENTOS VITMN BERRY 3.17
+    image: ''
+number: 5083-3-5905-20250409
+type:
+- STORE
+alertStatus: []
+filterByStatus: true
+date: '2025-04-09T23:24:00Z'
+totalCost: '47.51'
+status:
+- Purchased
+statusCode: '0000'
+statusDesc: Success
+conversationId: rrt-3668112759176362741-c-gea1-55413-1199722-308
+order:
+  type:
+  - STORE
+  number: 5083-3-5905-20250409
+  date: '2025-04-09T23:24:00Z'
+  splitShipment: false
+  ecCard: '2276'
+  cost:
+    subTotal: '76.04'
+    savings: '-30.50'
+    tax: '1.97'
+    shipping: ''
+    total: '47.51'
+    state: FL
+    feminineTax: '0'
+    totalReturnAmount: '0.00'
+  shipped: []
+  canceled: []
+  pickup: []
+  inStore:
+  - status: Purchased
+    totalCost: 65.99
+    fsItems:
+    - name: Mucinex Nightshift Cold & Flu Liquid, 6 OZ
+      itemId: '375343'
+      itemSize: '6.00'
+      itemSizeUOM: OZ
+      itemWeight: '0.48'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '18.49'
+      priceFinal: '18.49'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '18.49'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: HALLS Throat Soothing Cough Drops, Honey Vanilla, 80 CT
+      itemId: '707556'
+      itemSize: '80.00'
+      itemSizeUOM: Ct
+      itemWeight: '0.58'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '7.79'
+      priceFinal: '7.79'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '7.79'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: John Frieda ULTRAfiller+ Thickening Conditioner for Fine Hair, 8.3 OZ
+      itemId: '904858'
+      itemSize: '8.30'
+      itemSizeUOM: OZ
+      itemWeight: '0.51'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '12.49'
+      priceFinal: '12.49'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '12.49'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: Mentos Curvy Vitamin Gum - Berry
+      itemId: '589403'
+      itemSize: '3.18'
+      itemSizeUOM: OZ
+      itemWeight: '0.27'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '6.29'
+      priceFinal: '3.99'
+      savings: '2.30'
+      tax: 0
+      lineTotalWithoutTax: '3.99'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: Secret Clinical 72 HR Clear Gel Antiperspirant Deodorant, Clean Lavender,
+        2.6 OZ
+      itemId: '248359'
+      itemSize: '2.60'
+      itemSizeUOM: OZ
+      itemWeight: '0.01'
+      itemWeightUOM: LBS
+      qty: 2
+      priceTotal: '30.98'
+      priceFinal: '23.23'
+      savings: '7.75'
+      tax: 0
+      lineTotalWithoutTax: '23.23'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    pickupStoreId: '5083'
+  return: []
+  paymentMethod:
+  - type: Credit/Debit/EBT
+    lastFourDigits: '4321'
+    amountCharged: '47.51'
+  - type: Credit/Debit/EBT
+    lastFourDigits: '4321'
+    amountReturned: '0.00'
+  splitFulfillment: false
+  returnEligible: false
+  returnEligibleFinalDate: '2025-06-08T00:00:00Z'
+  txnNo: '5905'
+  regNo: '3'

@@ -1,0 +1,149 @@
+order_id: 098321543005014483109
+purchase_date: '2022-07-16'
+store_name: Pembroke pines Supercenter
+order_totals:
+  subtotal: 98.93
+  tax_total: 2.86
+  grand_total: 101.79
+items:
+- item_id: '0'
+  item_quantity: 1
+  item_name: Great Value 100% Orange Juice, 128 fl oz
+  item_image_url: https://i5.walmartimages.com/seo/Great-Value-100-Orange-Juice-128-fl-oz_d80d4c9c-d901-48c6-b2a1-a85f2f5a47a3.37411d4313bd1ecf36ad496bed3d8dc0.jpeg
+  item_price: 4.58
+  line_price: 4.58
+  sales_unit_type: null
+- item_id: '1'
+  item_quantity: 1
+  item_name: Great Value 100% Orange Juice, 128 fl oz
+  item_image_url: https://i5.walmartimages.com/seo/Great-Value-100-Orange-Juice-128-fl-oz_d80d4c9c-d901-48c6-b2a1-a85f2f5a47a3.37411d4313bd1ecf36ad496bed3d8dc0.jpeg
+  item_price: 4.58
+  line_price: 4.58
+  sales_unit_type: null
+- item_id: '2'
+  item_quantity: 1
+  item_name: Barstool Sports One Bite Pepperoni Frozen Pizza 12" 20.46 oz
+  item_image_url: https://i5.walmartimages.com/seo/Barstool-Sports-One-Bite-Pepperoni-Frozen-Pizza-12-20-46-oz_30c15fa1-ac39-491c-b64e-8c4386df41c9.eede6d84ba5f993a6c72028ddaf80c4b.jpeg
+  item_price: 6.98
+  line_price: 6.98
+  sales_unit_type: null
+- item_id: '3'
+  item_quantity: 1
+  item_name: "Tombstone Pepperoni, Original Thin Crust Pizza with Zesty Tomato Sauce,\
+    \ 19.3 oz (Frozen)\u200B"
+  item_image_url: https://i5.walmartimages.com/seo/Tombstone-Pepperoni-Original-Thin-Crust-Pizza-19-3-oz-Frozen_28a16e33-c70b-4308-83c7-7250f9e48b0b.da53c8a7bd2535a0bf7f9ddea8c6df94.jpeg
+  item_price: 4.58
+  line_price: 4.58
+  sales_unit_type: null
+- item_id: '4'
+  item_quantity: 1
+  item_name: Red Baron Pepperoni Classic Crust Frozen Pizza, 20.61 oz
+  item_image_url: https://i5.walmartimages.com/seo/Red-Baron-Pepperoni-Classic-Crust-Frozen-Pizza-20-61-oz_d1f49f5f-fc5d-4d27-896e-981426ef5b91.652787928867811cfd94435593f7c8b4.jpeg
+  item_price: 4.48
+  line_price: 4.48
+  sales_unit_type: null
+- item_id: '5'
+  item_quantity: 1
+  item_name: Great Value Thin Crust Pepperoni Frozen Pizza 16.4oz
+  item_image_url: https://i5.walmartimages.com/seo/Great-Value-Thin-Crust-Pepperoni-Frozen-Pizza-16-4oz_50417234-c727-4c0f-ae00-bb162af55cbd.e300fb0749f254ced626db35fa091aee.jpeg
+  item_price: 3.98
+  line_price: 3.98
+  sales_unit_type: null
+- item_id: '6'
+  item_quantity: 1
+  item_name: CHIPS AHOY! Original Chocolate Chip Cookies, Family Size, 18.2 oz
+  item_image_url: https://i5.walmartimages.com/seo/CHIPS-AHOY-Original-Chocolate-Chip-Cookies-Family-Size-18-2-oz_2322ee64-3d4f-4206-9ffe-50da99801e9f.d754e778958ba2bada102fd47031e4e1.jpeg
+  item_price: 4.28
+  line_price: 4.28
+  sales_unit_type: null
+- item_id: '7'
+  item_quantity: 1
+  item_name: Old El Paso Stand 'N Stuff Taco Shells, Gluten Free, 15-count
+  item_image_url: https://i5.walmartimages.com/seo/Old-El-Paso-Stand-N-Stuff-Taco-Shells-Gluten-Free-15-count_988b72ba-ffee-47b2-b545-bd879dc0117e.25fced9b831d96c89d672be9b1195f16.jpeg
+  item_price: 2.88
+  line_price: 2.88
+  sales_unit_type: null
+- item_id: '8'
+  item_quantity: 1
+  item_name: Old El Paso Taco Seasoning Mix, Original Flavor, 1 oz.
+  item_image_url: https://i5.walmartimages.com/seo/Old-El-Paso-Taco-Seasoning-Mix-Original-Flavor-1-oz_031c00f6-1476-4b8e-9d75-6eb1b441fbba.97c378d30ff988a7fd9b6a2a38c3fbf3.jpeg
+  item_price: 0.88
+  line_price: 0.88
+  sales_unit_type: null
+- item_id: '9'
+  item_quantity: 1
+  item_name: Betty Crocker Bisquick Shake 'n Pour, Buttermilk Pancake Mix, 10.6 oz
+  item_image_url: https://i5.walmartimages.com/seo/Betty-Crocker-Bisquick-Shake-n-Pour-Buttermilk-Pancake-Mix-10-6-oz_5b4318e0-73cb-4804-9c77-ad9eb79fed30.5b9d34d795a5acb3e682b80303f76ef9.jpeg
+  item_price: 2.98
+  line_price: 2.98
+  sales_unit_type: null
+- item_id: '10'
+  item_quantity: 1
+  item_name: Chobani Low-Fat Vanilla Greek Yogurt Mixed Berry On The Bottom, Hero
+    Batch 5.3oz 4PK
+  item_image_url: https://i5.walmartimages.com/seo/Chobani-Low-Fat-Vanilla-Greek-Yogurt-Mixed-Berry-on-the-Bottom-Hero-Batch-5-3oz-4PK_8215299c-8a33-4fb3-a4c5-8eeb3cbd24b3.e1b119b15707c39e17aedb24356235d7.png
+  item_price: 4.17
+  line_price: 4.17
+  sales_unit_type: null
+- item_id: '11'
+  item_quantity: 1
+  item_name: Daisy Pure and Natural Squeeze Sour Cream
+  item_image_url: https://i5.walmartimages.com/seo/Daisy-Pure-and-Natural-Squeeze-Sour-Cream-14-oz-Pouch-Refrigerated_9aa6f94b-fd20-41ed-86fe-bc76a63a881e.8fe62597e98974d0a25274bb7ba3881b.jpeg
+  item_price: 2.58
+  line_price: 2.58
+  sales_unit_type: null
+- item_id: '12'
+  item_quantity: 1
+  item_name: Chobani Reduced Fat Greek Yogurt Pineapple on the Bottom 5.3 oz Cup,
+    4 Pack
+  item_image_url: https://i5.walmartimages.com/seo/Chobani-Non-Fat-Greek-Yogurt-Pineapple-4PK-Cup_c5c555a8-56d7-45cb-b11c-a42d98195751.ca678ed53a8fcf96cfd326853e1bd28e.png
+  item_price: 4.17
+  line_price: 4.17
+  sales_unit_type: null
+- item_id: '13'
+  item_quantity: 1
+  item_name: Chobani Non-Fat Greek Yogurt Peach On The Bottom 5.3 oz 4PK
+  item_image_url: https://i5.walmartimages.com/seo/Chobani-Non-Fat-Greek-Yogurt-Peach-4PK-Cup_ed7aa172-f149-483c-855c-a46b649b26a7.59feaf5816bd0246b832a5f97198d55a.jpeg
+  item_price: 4.17
+  line_price: 4.17
+  sales_unit_type: null
+- item_id: '14'
+  item_quantity: 1
+  item_name: Wonder Bread Classic White Sandwich Bread, Sliced White Bread, 20 oz
+    Loaf, Shelf-Stable
+  item_image_url: https://i5.walmartimages.com/seo/Wonder-Bread-Classic-White-Sandwich-Bread-Sliced-White-Bread-20-oz-Loaf-Shelf-Stable_ea31fd15-d9d1-4282-a09d-7937061451db.874488afdc4c3153a28609b2b78d3d5c.jpeg
+  item_price: 2.72
+  line_price: 2.72
+  sales_unit_type: null
+- item_id: '15'
+  item_quantity: 1
+  item_name: Coca-Cola Classic Soda Pop, 12 fl oz Cans, 24 Pack
+  item_image_url: https://i5.walmartimages.com/seo/Coca-Cola-Classic-Soda-Pop-12-fl-oz-Cans-24-Pack_bf61ea9a-6ab8-46d9-b1ed-772f78d3e85f.e1880c34258f90122f6eca90a3149f04.jpeg
+  item_price: 10.88
+  line_price: 10.88
+  sales_unit_type: null
+- item_id: '16'
+  item_quantity: 1
+  item_name: Bud Light American Light Lager Beer 12 Pack 16 fl oz Aluminum Bottles
+    4.2% ABV
+  item_image_url: https://i5.walmartimages.com/seo/Bud-Light-American-Lager-Beer-12-Pack-16-fl-oz-Aluminum-Bottles-4-2-ABV_845d865c-691f-4fe1-856e-1fb340c8c0ef.1fc251013d8e4168262090cbb8257f6b.jpeg
+  item_price: 15.48
+  line_price: 15.48
+  sales_unit_type: null
+- item_id: '17'
+  item_quantity: 1
+  item_name: bubly Watermelon Sparkling Water, 12 fl oz, 8 Pack Cans
+  item_image_url: https://i5.walmartimages.com/seo/bubly-Watermelon-Sparkling-Water-12-fl-oz-8-Pack-Cans_69b4babe-8bb5-4fdb-bc9a-2bfeaae64b4d.f219e6d35ae524e0e6c5cb9255797a1f.jpeg
+  item_price: 3.68
+  line_price: 3.68
+  sales_unit_type: null
+- item_id: '18'
+  item_quantity: 1
+  item_name: Sprite Lemon Lime Soda Pop, 12 fl oz, 24 Pack Cans
+  item_image_url: https://i5.walmartimages.com/seo/Sprite-Lemon-Lime-Soda-Pop-12-fl-oz-24-Pack-Cans_2be0b1e4-cb9e-4d72-b8d3-43459758e9c5.579701aa47eef734a40695771a25607b.jpeg
+  item_price: 10.88
+  line_price: 10.88
+  sales_unit_type: null
+metadata:
+  source_file: jul16
+  processed_at: '2025-07-03T08:45:55.174521'

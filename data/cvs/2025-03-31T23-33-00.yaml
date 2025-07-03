@@ -1,0 +1,108 @@
+items:
+  rx: {}
+  fs:
+    total: 3
+    name: OREOR CRM 20 VOL   16Z
+    image: ''
+number: 5083-17-785-20250331
+type:
+- STORE
+alertStatus: []
+filterByStatus: true
+date: '2025-03-31T23:33:00Z'
+totalCost: '29.37'
+status:
+- Purchased
+statusCode: '0000'
+statusDesc: Success
+conversationId: rrt-4518049291990455001-c-gea1-66333-74246-1
+order:
+  type:
+  - STORE
+  number: 5083-17-785-20250331
+  date: '2025-03-31T23:33:00Z'
+  splitShipment: false
+  ecCard: '2276'
+  cost:
+    subTotal: '27.97'
+    savings: '-0.00'
+    tax: '1.40'
+    shipping: ''
+    total: '29.37'
+    state: FL
+    feminineTax: '0'
+    totalReturnAmount: '0.00'
+  shipped: []
+  canceled: []
+  pickup: []
+  inStore:
+  - status: Purchased
+    totalCost: 27.97
+    fsItems:
+    - name: L'Oreal Paris Feria Multi-Faceted Shimmering Permanent Hair Color, 40
+        Deeply Brown
+      itemId: '266494'
+      itemSize: '1.00'
+      itemSizeUOM: EACH
+      itemWeight: '0.10'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '13.99'
+      priceFinal: '13.99'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '13.99'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: "L'Oreal Technique Oreor Cr\xE8me Developer 20 Volume"
+      itemId: '229171'
+      itemSize: '16.00'
+      itemSizeUOM: OZ
+      itemWeight: '0.10'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '5.99'
+      priceFinal: '5.99'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '5.99'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: Always Maxi Overnight Pads with Wings, Size 5, Extra Heavy Overnight,
+        20 CT
+      itemId: '455407'
+      itemSize: '20.00'
+      itemSizeUOM: Ct
+      itemWeight: '9.10'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '7.99'
+      priceFinal: '7.99'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '7.99'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    pickupStoreId: '5083'
+  return: []
+  paymentMethod:
+  - type: Credit/Debit/EBT
+    lastFourDigits: '1729'
+    amountCharged: '29.37'
+  - type: Credit/Debit/EBT
+    lastFourDigits: '1729'
+    amountReturned: '0.00'
+  splitFulfillment: false
+  returnEligible: false
+  returnEligibleFinalDate: '2025-05-30T00:00:00Z'
+  txnNo: '785'
+  regNo: '17'

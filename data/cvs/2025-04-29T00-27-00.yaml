@@ -1,0 +1,89 @@
+items:
+  rx: {}
+  fs:
+    total: 2
+    name: ALTDS CINNAMON     1.76
+    image: ''
+number: 5083-3-7802-20250428
+type:
+- STORE
+alertStatus: []
+filterByStatus: true
+date: '2025-04-29T00:27:00Z'
+totalCost: '8.59'
+status:
+- Purchased
+statusCode: '0000'
+statusDesc: Success
+conversationId: rrt-8920009364409889909-d-gea1-645504-4002075-145
+order:
+  type:
+  - STORE
+  number: 5083-3-7802-20250428
+  date: '2025-04-29T00:27:00Z'
+  splitShipment: false
+  ecCard: '2276'
+  cost:
+    subTotal: '13.16'
+    savings: '-5.13'
+    tax: '0.56'
+    shipping: ''
+    total: '8.59'
+    state: FL
+    feminineTax: '0'
+    totalReturnAmount: '0.00'
+  shipped: []
+  canceled: []
+  pickup: []
+  inStore:
+  - status: Purchased
+    totalCost: 8.030000000000001
+    fsItems:
+    - name: 5 Gum Spearmint Rain Sugarfree Gum, 15 ct
+      itemId: '423862'
+      itemSize: '15.00'
+      itemSizeUOM: Ct
+      itemWeight: '7.00'
+      itemWeightUOM: LBS
+      qty: 2
+      priceTotal: '5.38'
+      priceFinal: '4.03'
+      savings: '1.35'
+      tax: 0
+      lineTotalWithoutTax: '4.03'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: 'Altoids, Cinnamon Breath Mints Tin, 1.76 Oz '
+      itemId: '127849'
+      itemSize: '1.76'
+      itemSizeUOM: OZ
+      itemWeight: '1.00'
+      itemWeightUOM: LBS
+      qty: 2
+      priceTotal: '7.78'
+      priceFinal: '4.00'
+      savings: '3.78'
+      tax: 0
+      lineTotalWithoutTax: '4.00'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    pickupStoreId: '5083'
+  return: []
+  paymentMethod:
+  - type: Credit/Debit/EBT
+    lastFourDigits: '8494'
+    amountCharged: '8.59'
+  - type: Credit/Debit/EBT
+    lastFourDigits: '8494'
+    amountReturned: '0.00'
+  splitFulfillment: false
+  returnEligible: false
+  returnEligibleFinalDate: '2025-06-27T00:00:00Z'
+  txnNo: '7802'
+  regNo: '3'

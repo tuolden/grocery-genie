@@ -1,0 +1,460 @@
+order_id: '450074361828529912417'
+purchase_date: '2023-01-14'
+store_name: Davie Supercenter
+order_totals:
+  subtotal: 285.22
+  tax_total: 10.36
+  grand_total: 295.58
+items:
+- item_id: '0'
+  item_quantity: 1
+  item_name: Boston Market Country Fried Beef Steak Meal 13.2oz (Frozen Dinner)
+  item_image_url: https://i5.walmartimages.com/seo/Boston-Market-Country-Fried-Beef-Steak-Meal-13-2oz-Frozen-Dinner_2ee5339b-c5c6-4f06-95c1-e652b8cd1556.8a8d58917bdbfdbaaa7ab5d8ee6ce328.jpeg
+  item_price: 2.98
+  line_price: 2.98
+  sales_unit_type: null
+- item_id: '1'
+  item_quantity: 1
+  item_name: Boston Market Country Fried Beef Steak Meal 13.2oz (Frozen Dinner)
+  item_image_url: https://i5.walmartimages.com/seo/Boston-Market-Country-Fried-Beef-Steak-Meal-13-2oz-Frozen-Dinner_2ee5339b-c5c6-4f06-95c1-e652b8cd1556.8a8d58917bdbfdbaaa7ab5d8ee6ce328.jpeg
+  item_price: 2.98
+  line_price: 2.98
+  sales_unit_type: null
+- item_id: '2'
+  item_quantity: 1
+  item_name: Marie Callender's Country Fried Chicken and Gravy, Frozen Meal, 13.1
+    oz (Frozen)
+  item_image_url: https://i5.walmartimages.com/seo/Marie-Callender-s-Country-Fried-Chicken-and-Gravy-Frozen-Meal-13-1-oz-Frozen_efc921f2-fc23-4deb-8743-67a494d3525d.dc7080061ece6ea0f32fffc7ce646249.jpeg
+  item_price: 3.48
+  line_price: 3.48
+  sales_unit_type: null
+- item_id: '3'
+  item_quantity: 1
+  item_name: Marie Callender's Roasted Turkey Breast & Stuffing, Frozen Meal, 11.85
+    oz (Frozen)
+  item_image_url: https://i5.walmartimages.com/seo/Marie-Callender-s-Roasted-Turkey-Breast-Stuffing-Frozen-Meal-11-85-oz-Frozen_f99c3a45-5935-4c57-8c82-451892ffd47b.659614ee4b876e2287951a20757399ff.jpeg
+  item_price: 3.48
+  line_price: 3.48
+  sales_unit_type: null
+- item_id: '4'
+  item_quantity: 1
+  item_name: Marie Callender's Roasted Turkey Breast & Stuffing, Frozen Meal, 11.85
+    oz (Frozen)
+  item_image_url: https://i5.walmartimages.com/seo/Marie-Callender-s-Roasted-Turkey-Breast-Stuffing-Frozen-Meal-11-85-oz-Frozen_f99c3a45-5935-4c57-8c82-451892ffd47b.659614ee4b876e2287951a20757399ff.jpeg
+  item_price: 3.48
+  line_price: 3.48
+  sales_unit_type: null
+- item_id: '5'
+  item_quantity: 1
+  item_name: Marie Callender's Country Fried Chicken and Gravy, Frozen Meal, 13.1
+    oz (Frozen)
+  item_image_url: https://i5.walmartimages.com/seo/Marie-Callender-s-Country-Fried-Chicken-and-Gravy-Frozen-Meal-13-1-oz-Frozen_efc921f2-fc23-4deb-8743-67a494d3525d.dc7080061ece6ea0f32fffc7ce646249.jpeg
+  item_price: 3.48
+  line_price: 3.48
+  sales_unit_type: null
+- item_id: '6'
+  item_quantity: 1
+  item_name: Great Value Whole Strawberries, 16 oz
+  item_image_url: https://i5.walmartimages.com/seo/GV-Whole-Strawb-16oz_14b5eca6-798a-43fa-91be-f365ec3fc646.f54aab8f1878d45f752a6dfec54dad12.jpeg
+  item_price: 2.24
+  line_price: 2.24
+  sales_unit_type: null
+- item_id: '7'
+  item_quantity: 1
+  item_name: Snack Pack Fanta Orange Flavored Juicy Gels, 6 Count Snack Cups
+  item_image_url: https://i5.walmartimages.com/seo/Snack-Pack-Fanta-Orange-Flavored-Juicy-Gels-6-Count-Snack-Cups_55da328b-dee1-4b49-a669-8295243db75c.99241bdc33563d51c43f0e0b1d8a4dff.jpeg
+  item_price: 2.97
+  line_price: 2.97
+  sales_unit_type: null
+- item_id: '8'
+  item_quantity: 1
+  item_name: Fresh Cilantro, Bunch
+  item_image_url: https://i5.walmartimages.com/seo/Fresh-Cilantro-Bunch_3c692ae5-58c5-4e87-abf7-1ff4c79cce8c.e8683ca8b44b72dab407cb5784864404.jpeg
+  item_price: 0.88
+  line_price: 0.88
+  sales_unit_type: null
+- item_id: '9'
+  item_quantity: 1
+  item_name: Great Value Mixed Fruit, 16 oz, Frozen
+  item_image_url: https://i5.walmartimages.com/seo/Great-Value-Mixed-Fruit-Frozen-16-oz_0c70536d-be8f-4154-b57e-c3d616b82625.b3f5b7f7ddef793886bef71c2527d784.jpeg
+  item_price: 2.38
+  line_price: 2.38
+  sales_unit_type: null
+- item_id: '10'
+  item_quantity: 1
+  item_name: Blue Bell Dutch Chocolate and Homemade Vanilla Ice Cream Cups, 3.0 fl
+    oz, 12 Count
+  item_image_url: https://i5.walmartimages.com/seo/Blue-Bell-Dutch-Chocolate-and-Homemade-Vanilla-Ice-Cream-Cups-3-0-fl-oz-12-Count_c842c9e8-7a89-4fec-b64b-755c5dd30779.9d51435fbf602d6ea1933805a63bc108.jpeg
+  item_price: 8.94
+  line_price: 8.94
+  sales_unit_type: null
+- item_id: '11'
+  item_quantity: 1
+  item_name: DEVOUR Chicken Cordon Bleu Mac and Cheese Frozen Meal, 10.5 Oz Box
+  item_image_url: https://i5.walmartimages.com/seo/DEVOUR-Chicken-Cordon-Bleu-Mac-and-Cheese-Frozen-Meal-10-5-Oz-Box_7e875b74-1ede-49ad-a134-2d6b1ae0be27.a815b629d17d479435794ccd9c1ead72.jpeg
+  item_price: 3.48
+  line_price: 3.48
+  sales_unit_type: null
+- item_id: '12'
+  item_quantity: 1
+  item_name: Boston Market Salisbury Steak Meal 14.5 Oz. (Frozen Dinner)
+  item_image_url: https://i5.walmartimages.com/seo/Boston-Market-Salisbury-Steak-Meal-14-5-Oz-Frozen-Dinner_694efb93-e9f2-4d6c-9394-f8e54f0d5912.5e9e7e1d61dd3f2d01ad6a8466633f34.jpeg
+  item_price: 2.98
+  line_price: 2.98
+  sales_unit_type: null
+- item_id: '13'
+  item_quantity: 1
+  item_name: ARM & HAMMER Powder Laundry Detergent, Alpine Clean, 9.56 lb, 155 Loads
+  item_image_url: https://i5.walmartimages.com/seo/ARM-HAMMER-Powder-Laundry-Detergent-Alpine-Clean-9-56-lb-155-Loads_5f5c3e23-bcb2-485c-a429-d214ba28ccb4.2a8bb5d292c389f86517da1116fc112d.jpeg
+  item_price: 14.98
+  line_price: 14.98
+  sales_unit_type: null
+- item_id: '14'
+  item_quantity: 1
+  item_name: ARM & HAMMER Powder Laundry Detergent, Alpine Clean, 9.56 lb, 155 Loads
+  item_image_url: https://i5.walmartimages.com/seo/ARM-HAMMER-Powder-Laundry-Detergent-Alpine-Clean-9-56-lb-155-Loads_5f5c3e23-bcb2-485c-a429-d214ba28ccb4.2a8bb5d292c389f86517da1116fc112d.jpeg
+  item_price: 14.98
+  line_price: 14.98
+  sales_unit_type: null
+- item_id: '15'
+  item_quantity: 1
+  item_name: Boston Market Salisbury Steak Meal 14.5 Oz. (Frozen Dinner)
+  item_image_url: https://i5.walmartimages.com/seo/Boston-Market-Salisbury-Steak-Meal-14-5-Oz-Frozen-Dinner_694efb93-e9f2-4d6c-9394-f8e54f0d5912.5e9e7e1d61dd3f2d01ad6a8466633f34.jpeg
+  item_price: 2.98
+  line_price: 2.98
+  sales_unit_type: null
+- item_id: '16'
+  item_quantity: 1
+  item_name: DEVOUR Chicken Cordon Bleu Mac and Cheese Frozen Meal, 10.5 Oz Box
+  item_image_url: https://i5.walmartimages.com/seo/DEVOUR-Chicken-Cordon-Bleu-Mac-and-Cheese-Frozen-Meal-10-5-Oz-Box_7e875b74-1ede-49ad-a134-2d6b1ae0be27.a815b629d17d479435794ccd9c1ead72.jpeg
+  item_price: 3.48
+  line_price: 3.48
+  sales_unit_type: null
+- item_id: '17'
+  item_quantity: 1
+  item_name: Red Baron Meat Trio Stuffed Crust Frozen Pizza, 24.66 oz
+  item_image_url: https://i5.walmartimages.com/seo/Red-Baron-Meat-Trio-Stuffed-Crust-Frozen-Pizza-24-66-oz_dbb32f8b-149f-4d91-81b9-9685a6bb2f46.1ceccb2e1682ccca151a86de2965d55f.jpeg
+  item_price: 7.38
+  line_price: 7.38
+  sales_unit_type: null
+- item_id: '18'
+  item_quantity: 1
+  item_name: Great Value Rising Crust Pepperoni Frozen Pizza 26.6oz
+  item_image_url: https://i5.walmartimages.com/seo/Great-Value-Rising-Crust-Pepperoni-Frozen-Pizza-26-6oz_9f8088a7-5d11-434c-bdf7-ea3eb10f6c13.8d9257568c43fbe1ebf46f92ed1271f1.jpeg
+  item_price: 3.98
+  line_price: 3.98
+  sales_unit_type: null
+- item_id: '19'
+  item_quantity: 1
+  item_name: Great Value Rising Crust Pepperoni Frozen Pizza 26.6oz
+  item_image_url: https://i5.walmartimages.com/seo/Great-Value-Rising-Crust-Pepperoni-Frozen-Pizza-26-6oz_9f8088a7-5d11-434c-bdf7-ea3eb10f6c13.8d9257568c43fbe1ebf46f92ed1271f1.jpeg
+  item_price: 3.98
+  line_price: 3.98
+  sales_unit_type: null
+- item_id: '20'
+  item_quantity: 1
+  item_name: Snack Pack Lemon Pudding, 3.25 oz Pudding Cups, 4 Count
+  item_image_url: https://i5.walmartimages.com/seo/Snack-Pack-Lemon-Flavored-Pudding-4-Count-Pudding-Cups_1729bc69-2738-4aaf-a6c9-27bea8eaf771.a34e1906b3090cb37c07f2826a67422b.jpeg
+  item_price: 1.27
+  line_price: 1.27
+  sales_unit_type: null
+- item_id: '21'
+  item_quantity: 1
+  item_name: Reddi-wip Extra Creamy Whipped Topping Made with Real Cream, 13 oz
+  item_image_url: https://i5.walmartimages.com/seo/Reddi-wip-Extra-Creamy-Whipped-Topping-Made-with-Real-Cream-13-oz-Spray-Can_d1da1f3c-d6c3-418f-8d8b-70bf0820bb8c.9cb5022350e6a56e106b50677ca390cb.jpeg
+  item_price: 4.48
+  line_price: 4.48
+  sales_unit_type: null
+- item_id: '22'
+  item_quantity: 1
+  item_name: Mars Mixed Skittles & Starburst Variety Pack Chewy Candy Assortment -18
+    Bars Box
+  item_image_url: https://i5.walmartimages.com/seo/Mars-Mixed-Skittles-Starburst-Variety-Pack-Chewy-Candy-Assortment-18-Bars-Box_27b2fb91-503b-4aa9-ab90-4e025baebd22.f975af8fa7e284a370aeca8248e9cacd.jpeg
+  item_price: 17.28
+  line_price: 17.28
+  sales_unit_type: null
+- item_id: '23'
+  item_quantity: 1
+  item_name: Pop-Tarts Frosted Chocolate Fudge Toaster Pastries, Breakfast Foods,
+    Shelf-Stable, 13.5 oz (8 Count)
+  item_image_url: https://i5.walmartimages.com/seo/Pop-Tarts-Frosted-Chocolate-Fudge-Toaster-Pastries-Breakfast-Foods-Shelf-Stable-13-5-oz-8-Count_4f60ba5f-7c5f-4ce7-8206-13b41a4ee44d.09be755e92d7c6a0221b352488fb2438.jpeg
+  item_price: 2.56
+  line_price: 2.56
+  sales_unit_type: null
+- item_id: '24'
+  item_quantity: 1
+  item_name: Kool-Aid Gels Strawberry Kiwi Jell-O Gelatin Snacks, 4 Ct Cups
+  item_image_url: https://i5.walmartimages.com/seo/Kool-Aid-Gels-Strawberry-Kiwi-Jell-O-Gelatin-Snacks-4-Ct-Cups_ad85bca2-8629-4286-9052-3606de4e8837.292ea04fadd00aea69e6ae7481c5387c.jpeg
+  item_price: 1.14
+  line_price: 1.14
+  sales_unit_type: null
+- item_id: '25'
+  item_quantity: 1
+  item_name: Freshness Guaranteed Sugar Free Chocolate Flavored Chip Bakery Cookies,
+    14  oz, 10 Count, Baked
+  item_image_url: https://i5.walmartimages.com/seo/Freshness-Guaranteed-Sugar-Free-Chocolate-Flavored-Chip-Bakery-Cookies-14-oz-10-Count-Baked_77dede6d-d8ec-4d8d-a191-fef8af3cad45.8f3c85b7ad7686a2131de5aac1dda1a0.jpeg
+  item_price: 4.76
+  line_price: 4.76
+  sales_unit_type: null
+- item_id: '26'
+  item_quantity: 1
+  item_name: Snack Pack Chocolate Pudding and Vanilla Pudding, 3.25 oz Pudding Cups,
+    12 Count Family Pack
+  item_image_url: https://i5.walmartimages.com/seo/Snack-Pack-Chocolate-and-Vanilla-Flavored-Pudding-Cups-Family-Pack-12-Count-Pudding-Cups_9373fe96-1507-43ce-b02a-11d57cdb198e.1b88cc55666a982c97a3e7161ee73448.jpeg
+  item_price: 3.27
+  line_price: 3.27
+  sales_unit_type: null
+- item_id: '27'
+  item_quantity: 1
+  item_name: 5 Gum Spearmint Rain Sugar Free Chewing Gum - 15 ct (3 Pack)
+  item_image_url: https://i5.walmartimages.com/seo/5-Gum-Spearmint-Rain-Sugar-Free-Chewing-Gum-15-ct-3-Pack_bb0b3b93-5cdb-4b76-bbdd-355740767bc0.8c4441b776702d01a7808322f4d53774.jpeg
+  item_price: 4.48
+  line_price: 4.48
+  sales_unit_type: null
+- item_id: '28'
+  item_quantity: 1
+  item_name: Snickers, Twix, Milky Way & More Assorted Chocolate Candy Bar - 50 Ct
+  item_image_url: https://i5.walmartimages.com/seo/Snickers-Twix-Milky-Way-More-Assorted-Chocolate-Candy-Bar-50-Ct_48019d1d-2e61-41c1-a37a-114fc76024f6.530328f1d49d0d62a37d52bce05b8985.jpeg
+  item_price: 6.98
+  line_price: 6.98
+  sales_unit_type: null
+- item_id: '29'
+  item_quantity: 1
+  item_name: PLANTERS Lightly Salted Dry Roasted Peanuts, Party Snacks, Plant Based
+    Protein 16oz Jar
+  item_image_url: https://i5.walmartimages.com/seo/PLANTERS-Lightly-Salted-Dry-Roasted-Peanuts-Party-Snacks-Plant-Based-Protein-16oz-Jar_48bfb416-3d1f-4800-b0f2-c7921f4aa128.3dc8301104ca589254bd84880749c593.jpeg
+  item_price: 3.28
+  line_price: 3.28
+  sales_unit_type: null
+- item_id: '30'
+  item_quantity: 2.18
+  item_name: Fresh Tomato on the Vine, Bag (1.9 lbs/Bag Est.)
+  item_image_url: https://i5.walmartimages.com/seo/Fresh-Tomato-on-the-Vine-Bag-1-9-lbs-Bag-Est_1397cd52-8636-48d7-90a7-3c15d4c3967c.7544db07683e1eed49dbd813de13e291.jpeg
+  item_price: 3.23
+  line_price: 3.23
+  sales_unit_type: null
+- item_id: '31'
+  item_quantity: 1
+  item_name: Wonder Bread Classic Extra Soft White Bread Hamburger Buns, 15 oz, 8
+    Ct, Shelf-Stable
+  item_image_url: https://i5.walmartimages.com/seo/Wonder-Bread-Classic-Extra-Soft-White-Bread-Hamburger-Buns-15-oz-8-Ct-Shelf-Stable_6d85cb66-b376-42f0-a797-6e7549477a03.e1525e7144db0b4797952ac59cb3dab7.jpeg
+  item_price: 2.58
+  line_price: 2.58
+  sales_unit_type: null
+- item_id: '32'
+  item_quantity: 1
+  item_name: Fresh Sweet Onions, 3 lb Bag
+  item_image_url: https://i5.walmartimages.com/seo/Fresh-Sweet-Onions-3-lb-Bag_e806ef18-d648-46cf-a232-3456b038974f.a883644337a1532e30af7e10f9dc3706.jpeg
+  item_price: 3.98
+  line_price: 3.98
+  sales_unit_type: null
+- item_id: '33'
+  item_quantity: 1
+  item_name: Larabar Chocolate Chip Cookie Dough, Gluten Free Vegan Fruit Nut Bars,
+    6 ct
+  item_image_url: https://i5.walmartimages.com/seo/Larabar-Chocolate-Chip-Cookie-Dough-Gluten-Free-Vegan-Fruit-Nut-Bars-6-ct_4d0d0748-7a5c-4d25-a945-c76bf6d81174.e0ecc86f4953fa43f2f0e78cc42dc2ee.jpeg
+  item_price: 6.72
+  line_price: 6.72
+  sales_unit_type: null
+- item_id: '34'
+  item_quantity: 1
+  item_name: Barilla Classic Non-GMO, Kosher Certified Medium Shells Pasta, 16 oz
+  item_image_url: https://i5.walmartimages.com/seo/Barilla-Classic-Non-GMO-Kosher-Certified-Medium-Shells-Pasta-16-oz_f9474756-b5d3-4469-9d0f-a6aa71e57fdc.0300e45f9166ff3e72eebb46b9e32fcf.jpeg
+  item_price: 1.84
+  line_price: 1.84
+  sales_unit_type: null
+- item_id: '35'
+  item_quantity: 1
+  item_name: Cesar Home Delights Wet Dog Food Variety Pack, 3.5 oz Trays (24 Pack)
+  item_image_url: https://i5.walmartimages.com/seo/Cesar-Home-Delights-Wet-Dog-Food-Variety-Pack-3-5-oz-Trays-24-Pack_2cc62bd7-3e5f-4ba5-8b90-ea155e7fa527.6e6e3057f6b14ecef5026520aae51e2b.jpeg
+  item_price: 27.96
+  line_price: 27.96
+  sales_unit_type: null
+- item_id: '36'
+  item_quantity: 1
+  item_name: Nature's Own 100% Whole Wheat, Whole Wheat Bread, 20 oz Loaf, Shelf-Stable
+  item_image_url: https://i5.walmartimages.com/seo/Nature-s-Own-100-Whole-Wheat-Whole-Wheat-Bread-20-oz-Loaf-Shelf-Stable_3253480e-6e8e-4c94-978c-377508f70ba1.26967afd9d63cf1d44813c912b228893.jpeg
+  item_price: 3.34
+  line_price: 3.34
+  sales_unit_type: null
+- item_id: '37'
+  item_quantity: 1
+  item_name: Takis Nitro 9.9 oz Sharing Size Bag, Habanero & Lime Rolled Tortilla
+    Chips
+  item_image_url: https://i5.walmartimages.com/seo/Takis-Nitro-9-9-oz-Sharing-Size-Bag-Habanero-Lime-Rolled-Tortilla-Chips_4f460b6c-e2b3-4814-9d96-68b772c03663.6fbb8fe92fb865689b436a8866033a38.jpeg
+  item_price: 3.48
+  line_price: 3.48
+  sales_unit_type: null
+- item_id: '38'
+  item_quantity: 1
+  item_name: Takis Fuego Mini 25 pc / 1.23 oz Bite Size Multipack, Hot Chili Pepper
+    & Lime Rolled Tortilla Chips
+  item_image_url: https://i5.walmartimages.com/seo/Takis-Fuego-Mini-25-pc-1-23-oz-Bite-Size-Multipack-Hot-Chili-Pepper-Lime-Rolled-Tortilla-Chips_a27e38b0-54dd-4df0-85bb-78363ea03baa.edf9c5bc65ad48a2f789b49cf480354a.jpeg
+  item_price: 12.18
+  line_price: 12.18
+  sales_unit_type: null
+- item_id: '39'
+  item_quantity: 1
+  item_name: Febreze Plug In Air Freshener, Odor-Fighting Oil Refill, Serene Vanilla
+    Sunrise, 2 Refills
+  item_image_url: https://i5.walmartimages.com/seo/Febreze-Plug-In-Air-Freshener-Odor-Fighting-Oil-Refill-Serene-Vanilla-Sunrise-2-Refills_1135b78f-b67b-4b41-8099-9b9c90d51041.7a41848e7da0999a90229149ea79f77c.jpeg
+  item_price: 9.94
+  line_price: 9.94
+  sales_unit_type: null
+- item_id: '40'
+  item_quantity: 1
+  item_name: Salon Perfect Modern Art Press On Nails, Nude Fake Nail Kit, 30 Pieces
+  item_image_url: https://i5.walmartimages.com/seo/Salon-Perfect-Modern-Art-Press-On-Nails-Nude-Fake-Nail-Kit-30-Pieces_175d51f5-af99-4db0-b7c4-af70f0f0436c.e69c341222f16cde1f09ef9cb4571af7.jpeg
+  item_price: 6.94
+  line_price: 6.94
+  sales_unit_type: null
+- item_id: '41'
+  item_quantity: 1
+  item_name: Clorox Bleach and Blue Toilet Bowl Cleaner Tablets, Rain Clean, 4 Count
+  item_image_url: https://i5.walmartimages.com/seo/Clorox-Bleach-and-Blue-Toilet-Bowl-Cleaner-Tablets-Rain-Clean-4-Count_2a658539-84f3-493d-91d2-f598315d6845.8f0c598e40f0472349e5ac1169ec1ba4.jpeg
+  item_price: 12.98
+  line_price: 12.98
+  sales_unit_type: null
+- item_id: '42'
+  item_quantity: 1
+  item_name: Nellie's Free-Range Large Brown Eggs, 18 Count
+  item_image_url: https://i5.walmartimages.com/seo/Nellie-s-Free-Range-Large-Brown-Eggs-18-Count_359aa5a7-68d5-4a64-a189-6d5826cfdbc6.e6100d9574f25d95e8b935518e349fd3.png
+  item_price: 7.68
+  line_price: 7.68
+  sales_unit_type: null
+- item_id: '43'
+  item_quantity: 1
+  item_name: Clear American Sparkling Water, Wild Cherry, 33.8 fl oz
+  item_image_url: https://i5.walmartimages.com/seo/Sam-s-Choice-Clear-American-Wild-Cherry-Sparkling-Water-1-Liter_b20282df-04dd-4ed8-9452-5909785b6bd7.14cc0c7cac261d3afe80c0d722164722.jpeg
+  item_price: 0.7
+  line_price: 0.7
+  sales_unit_type: null
+- item_id: '44'
+  item_quantity: 1
+  item_name: Clear American Sparkling Water, Mandarin Orange, 33.8 fl oz
+  item_image_url: https://i5.walmartimages.com/seo/Clear-American-Sparkling-Water-Mandarin-Orange-33-8-fl-oz_635e1605-9298-421e-88fe-e310ef8f54f5.ca71bb8dd2653c9673ee58b16a67369f.jpeg
+  item_price: 0.7
+  line_price: 0.7
+  sales_unit_type: null
+- item_id: '45'
+  item_quantity: 1
+  item_name: Clear American Sparkling Water, Orange & Cream, 33.8 fl oz
+  item_image_url: https://i5.walmartimages.com/seo/Clear-American-Sparkling-Water-Orange-Cream-33-8-fl-oz_be44bb6f-701a-4b38-b9fc-8d23bf177576.f06ea3ceffe197dd48b29e94c72bc9fa.jpeg
+  item_price: 0.7
+  line_price: 0.7
+  sales_unit_type: null
+- item_id: '46'
+  item_quantity: 1
+  item_name: Clear American Sparkling Water, Key Lime 33.8 fl oz
+  item_image_url: https://i5.walmartimages.com/seo/Clear-American-Sparkling-Water-Key-Lime-33-8-fl-oz_1c1c8a6e-ed12-4377-9e3b-2ce5b35aabfc.8c3308bda48dc787a2e5fa00e5198b82.jpeg
+  item_price: 0.7
+  line_price: 0.7
+  sales_unit_type: null
+- item_id: '47'
+  item_quantity: 1
+  item_name: Clear American Sparkling Water, Key Lime 33.8 fl oz
+  item_image_url: https://i5.walmartimages.com/seo/Clear-American-Sparkling-Water-Key-Lime-33-8-fl-oz_1c1c8a6e-ed12-4377-9e3b-2ce5b35aabfc.8c3308bda48dc787a2e5fa00e5198b82.jpeg
+  item_price: 0.7
+  line_price: 0.7
+  sales_unit_type: null
+- item_id: '48'
+  item_quantity: 1
+  item_name: Clear American Sparkling Water, Peach, 33.8 fl oz
+  item_image_url: https://i5.walmartimages.com/seo/Clear-American-Peach-Sparkling-Water-33-8-fl-oz_eadd95db-15a2-4521-b740-db628aca6377.e6d5f5bde40ce1a66a29ecd6cb64341b.jpeg
+  item_price: 0.7
+  line_price: 0.7
+  sales_unit_type: null
+- item_id: '49'
+  item_quantity: 1
+  item_name: Clear American Sparkling Water, Strawberry, 33.8 fl oz
+  item_image_url: https://i5.walmartimages.com/seo/Clear-American-Sparkling-Water-Strawberry-33-8-fl-oz_9c8472a1-41db-451a-a9c8-6bcc57577728.864ef0a13c4141558a7c621ea7e520eb.jpeg
+  item_price: 0.7
+  line_price: 0.7
+  sales_unit_type: null
+- item_id: '50'
+  item_quantity: 1
+  item_name: Clear American Sparkling Water, Strawberry, 33.8 fl oz
+  item_image_url: https://i5.walmartimages.com/seo/Clear-American-Sparkling-Water-Strawberry-33-8-fl-oz_9c8472a1-41db-451a-a9c8-6bcc57577728.864ef0a13c4141558a7c621ea7e520eb.jpeg
+  item_price: 0.7
+  line_price: 0.7
+  sales_unit_type: null
+- item_id: '51'
+  item_quantity: 1
+  item_name: Clear American Sparkling Water, Wild Cherry, 33.8 fl oz
+  item_image_url: https://i5.walmartimages.com/seo/Sam-s-Choice-Clear-American-Wild-Cherry-Sparkling-Water-1-Liter_b20282df-04dd-4ed8-9452-5909785b6bd7.14cc0c7cac261d3afe80c0d722164722.jpeg
+  item_price: 0.7
+  line_price: 0.7
+  sales_unit_type: null
+- item_id: '52'
+  item_quantity: 1
+  item_name: Clear American Sparkling Water, Key Lime 33.8 fl oz
+  item_image_url: https://i5.walmartimages.com/seo/Clear-American-Sparkling-Water-Key-Lime-33-8-fl-oz_1c1c8a6e-ed12-4377-9e3b-2ce5b35aabfc.8c3308bda48dc787a2e5fa00e5198b82.jpeg
+  item_price: 0.7
+  line_price: 0.7
+  sales_unit_type: null
+- item_id: '53'
+  item_quantity: 1
+  item_name: Clear American Sparkling Water, Peach, 33.8 fl oz
+  item_image_url: https://i5.walmartimages.com/seo/Clear-American-Peach-Sparkling-Water-33-8-fl-oz_eadd95db-15a2-4521-b740-db628aca6377.e6d5f5bde40ce1a66a29ecd6cb64341b.jpeg
+  item_price: 0.7
+  line_price: 0.7
+  sales_unit_type: null
+- item_id: '54'
+  item_quantity: 1
+  item_name: Clear American Sparkling Water, Peach, 33.8 fl oz
+  item_image_url: https://i5.walmartimages.com/seo/Clear-American-Peach-Sparkling-Water-33-8-fl-oz_eadd95db-15a2-4521-b740-db628aca6377.e6d5f5bde40ce1a66a29ecd6cb64341b.jpeg
+  item_price: 0.7
+  line_price: 0.7
+  sales_unit_type: null
+- item_id: '55'
+  item_quantity: 1
+  item_name: Clear American Sparkling Water, Mandarin Orange, 33.8 fl oz
+  item_image_url: https://i5.walmartimages.com/seo/Clear-American-Sparkling-Water-Mandarin-Orange-33-8-fl-oz_635e1605-9298-421e-88fe-e310ef8f54f5.ca71bb8dd2653c9673ee58b16a67369f.jpeg
+  item_price: 0.7
+  line_price: 0.7
+  sales_unit_type: null
+- item_id: '56'
+  item_quantity: 1
+  item_name: Clear American Sparkling Water, Peach, 33.8 fl oz
+  item_image_url: https://i5.walmartimages.com/seo/Clear-American-Peach-Sparkling-Water-33-8-fl-oz_eadd95db-15a2-4521-b740-db628aca6377.e6d5f5bde40ce1a66a29ecd6cb64341b.jpeg
+  item_price: 0.7
+  line_price: 0.7
+  sales_unit_type: null
+- item_id: '57'
+  item_quantity: 1
+  item_name: Clear American Black Cherry Sparkling Water, 12 fl oz, 12 Count
+  item_image_url: https://i5.walmartimages.com/seo/Clear-American-Black-Cherry-Sparkling-Water-12-fl-oz-12-Count_55077524-339f-430f-8b99-b6bcd8816ec4.df813af5e67bae846301c8ed487e5c2a.jpeg
+  item_price: 4.12
+  line_price: 4.12
+  sales_unit_type: null
+- item_id: '58'
+  item_quantity: 1
+  item_name: Clear American Strawberry Sparkling Water, 12 fl oz, 12 Count
+  item_image_url: https://i5.walmartimages.com/seo/Clear-American-Strawberry-Sparkling-Water-12-fl-oz-12-Count_ad61fea6-88ff-40e8-8566-0f5602858997.2c9cfaee6b3d691bbbbc80ba34d6d1d9.jpeg
+  item_price: 4.12
+  line_price: 4.12
+  sales_unit_type: null
+- item_id: '59'
+  item_quantity: 1
+  item_name: Fanta Orange Soda Pop Fridge Pack, 12 fl oz, 12 Pack Cans
+  item_image_url: https://i5.walmartimages.com/seo/Fanta-Orange-Fruit-Soda-Pop-12-fl-oz-12-Pack-Cans_bbf58b74-1fa3-442e-9121-3cb07cae870a.611dae149a452cb0141827ee3d6ff2bc.jpeg
+  item_price: 6.98
+  line_price: 6.98
+  sales_unit_type: null
+- item_id: '60'
+  item_quantity: 1
+  item_name: Canada Dry Ginger Ale, 12 Fl Oz, 12 Count
+  item_image_url: https://i5.walmartimages.com/seo/Canada-Dry-Ginger-Ale-12-Fl-Oz-12-Count_fe4040ec-897b-4ae6-a83c-d4224b16f858.d35ed99f370b7cba6ae6e6e7156b6c44.jpeg
+  item_price: 6.48
+  line_price: 6.48
+  sales_unit_type: null
+- item_id: '61'
+  item_quantity: 1
+  item_name: Great Value 100% Orange Juice, 128 fl oz
+  item_image_url: https://i5.walmartimages.com/seo/Great-Value-100-Orange-Juice-128-fl-oz_d80d4c9c-d901-48c6-b2a1-a85f2f5a47a3.37411d4313bd1ecf36ad496bed3d8dc0.jpeg
+  item_price: 5.86
+  line_price: 5.86
+  sales_unit_type: null
+metadata:
+  source_file: jan14
+  processed_at: '2025-07-03T08:45:52.857428'

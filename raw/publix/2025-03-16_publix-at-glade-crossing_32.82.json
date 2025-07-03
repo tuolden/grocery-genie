@@ -1,0 +1,90 @@
+{
+  "scraped_at": "2025-07-03T15:10:17.483766",
+  "source": "publix_list_api",
+  "purchase": {
+    "Id": "2SEy3eapxaP0jadRCOYTFZooBVRkFP9PjgY2mFne1JePhTmyOFiZUlRcsFg194H2ABHK8FHA6SvsS5XFOkLP3fB-X24Slt2rzig12r3pVtY%3D",
+    "StoreName": "Publix At Glade Crossing",
+    "StoreId": 21,
+    "StoreTimezone": null,
+    "PurchaseDate": "2025-03-16T16:03:24",
+    "TotalPrice": 32.82,
+    "IsOnlineOrder": false,
+    "IsGiftCardOrder": false,
+    "PaidOnline": false,
+    "Subtotal": 0.0,
+    "TotalSavings": null,
+    "TotalTax": 0.0,
+    "Taxes": null,
+    "Total": 0.0,
+    "PickupDate": "0001-01-01T00:00:00",
+    "PickupName": null,
+    "Status": null,
+    "PaymentStatus": null,
+    "IsCancelled": false,
+    "RefundTotal": 0.0,
+    "Payments": null,
+    "Items": [
+      {
+        "Id": "943178",
+        "ImageUrl": "https://images.publixcdn.com/pct/images/products/940000/943178-75x75-A.jpg",
+        "NoImageUrl": null,
+        "Quantity": 1
+      },
+      {
+        "Id": "24011",
+        "ImageUrl": "https://images.publixcdn.com/pct/images/products/20000/024011-75x75-A.jpg",
+        "NoImageUrl": null,
+        "Quantity": 1
+      },
+      {
+        "Id": "248884",
+        "ImageUrl": "https://images.publixcdn.com/pct/images/products/245000/248884-75x75-A.jpg",
+        "NoImageUrl": null,
+        "Quantity": 1
+      },
+      {
+        "Id": "91222",
+        "ImageUrl": "https://images.publixcdn.com/pct/images/products/90000/091222-75x75-A.jpg",
+        "NoImageUrl": null,
+        "Quantity": 2
+      },
+      {
+        "Id": "23398",
+        "ImageUrl": "https://images.publixcdn.com/pct/images/products/20000/023398-75x75-A.jpg",
+        "NoImageUrl": null,
+        "Quantity": 1
+      },
+      {
+        "Id": "24341",
+        "ImageUrl": "https://images.publixcdn.com/pct/images/products/20000/024341-75x75-A.jpg",
+        "NoImageUrl": null,
+        "Quantity": 1
+      },
+      {
+        "Id": "24078",
+        "ImageUrl": "https://images.publixcdn.com/pct/images/products/20000/024078-75x75-A.jpg",
+        "NoImageUrl": null,
+        "Quantity": 4
+      },
+      {
+        "Id": "24070",
+        "ImageUrl": "https://images.publixcdn.com/pct/images/products/20000/024070-75x75-A.jpg",
+        "NoImageUrl": null,
+        "Quantity": 4
+      },
+      {
+        "Id": "79319",
+        "ImageUrl": "https://images.publixcdn.com/pct/images/products/75000/079319-75x75-A.jpg",
+        "NoImageUrl": null,
+        "Quantity": 1
+      },
+      {
+        "Id": "23445",
+        "ImageUrl": "https://images.publixcdn.com/pct/images/products/20000/023445-75x75-A.jpg",
+        "NoImageUrl": null,
+        "Quantity": 1
+      }
+    ],
+    "LineItems": []
+  }
+}

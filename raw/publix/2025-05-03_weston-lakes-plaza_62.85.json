@@ -1,0 +1,90 @@
+{
+  "scraped_at": "2025-07-03T15:10:17.482631",
+  "source": "publix_list_api",
+  "purchase": {
+    "Id": "lQj4ScUng-21VRswco6FRyqUl7gVj8zSl8aoeINfl6ncZLBxo5hn4F7qOkNFHEGTsS-DFZ5T5PvRmJRNipgKkHzIVGi8gVEYS5BIj_zfssg%3D",
+    "StoreName": "Weston Lakes Plaza",
+    "StoreId": 583,
+    "StoreTimezone": null,
+    "PurchaseDate": "2025-05-03T13:50:46",
+    "TotalPrice": 62.85,
+    "IsOnlineOrder": false,
+    "IsGiftCardOrder": false,
+    "PaidOnline": false,
+    "Subtotal": 0.0,
+    "TotalSavings": null,
+    "TotalTax": 0.0,
+    "Taxes": null,
+    "Total": 0.0,
+    "PickupDate": "0001-01-01T00:00:00",
+    "PickupName": null,
+    "Status": null,
+    "PaymentStatus": null,
+    "IsCancelled": false,
+    "RefundTotal": 0.0,
+    "Payments": null,
+    "Items": [
+      {
+        "Id": "106626",
+        "ImageUrl": "https://images.publixcdn.com/pct/images/products/105000/106626-75x75-A.jpg",
+        "NoImageUrl": null,
+        "Quantity": 1
+      },
+      {
+        "Id": "24495",
+        "ImageUrl": "https://images.publixcdn.com/pct/images/products/20000/024495-75x75-A.jpg",
+        "NoImageUrl": null,
+        "Quantity": 1
+      },
+      {
+        "Id": "210778",
+        "ImageUrl": "https://images.publixcdn.com/pct/images/products/210000/210778-75x75-A.jpg",
+        "NoImageUrl": null,
+        "Quantity": 1
+      },
+      {
+        "Id": "23756",
+        "ImageUrl": "https://images.publixcdn.com/pct/images/products/20000/023756-75x75-A.jpg",
+        "NoImageUrl": null,
+        "Quantity": 2
+      },
+      {
+        "Id": "204374",
+        "ImageUrl": "https://images.publixcdn.com/pct/images/products/200000/204374-75x75-A.jpg",
+        "NoImageUrl": null,
+        "Quantity": 1
+      },
+      {
+        "Id": "24005",
+        "ImageUrl": "https://images.publixcdn.com/pct/images/products/20000/024005-75x75-A.jpg",
+        "NoImageUrl": null,
+        "Quantity": 1
+      },
+      {
+        "Id": "428278",
+        "ImageUrl": "https://images.publixcdn.com/pct/images/products/425000/428278-75x75-A.jpg",
+        "NoImageUrl": null,
+        "Quantity": 2
+      },
+      {
+        "Id": "221744",
+        "ImageUrl": "https://images.publixcdn.com/pct/images/products/220000/221744-75x75-A.jpg",
+        "NoImageUrl": null,
+        "Quantity": 1
+      },
+      {
+        "Id": "204371",
+        "ImageUrl": "https://images.publixcdn.com/pct/images/products/200000/204371-75x75-A.jpg",
+        "NoImageUrl": null,
+        "Quantity": 1
+      },
+      {
+        "Id": "93844",
+        "ImageUrl": "https://images.publixcdn.com/pct/images/products/90000/093844-75x75-A.jpg",
+        "NoImageUrl": null,
+        "Quantity": 1
+      }
+    ],
+    "LineItems": []
+  }
+}

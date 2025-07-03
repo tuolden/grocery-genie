@@ -1,0 +1,106 @@
+items:
+  rx: {}
+  fs:
+    total: 3
+    name: PLYTX SPRT L/R/S   32CT
+    image: ''
+number: 5083-18-7836-20250212
+type:
+- STORE
+alertStatus: []
+filterByStatus: true
+date: '2025-02-13T01:04:00Z'
+totalCost: '38.08'
+status:
+- Purchased
+statusCode: '0000'
+statusDesc: Success
+conversationId: rrt-4518049291990455001-c-gea1-66333-74246-3
+order:
+  type:
+  - STORE
+  number: 5083-18-7836-20250212
+  date: '2025-02-13T01:04:00Z'
+  splitShipment: false
+  ecCard: '2276'
+  cost:
+    subTotal: '40.56'
+    savings: '-3.15'
+    tax: '0.67'
+    shipping: ''
+    total: '38.08'
+    state: FL
+    feminineTax: '0'
+    totalReturnAmount: '0.00'
+  shipped: []
+  canceled: []
+  pickup: []
+  inStore:
+  - status: Purchased
+    totalCost: 37.41
+    fsItems:
+    - name: Playtex Sport Multipack Light/Regular/Super, 32 CT
+      itemId: '547530'
+      itemSize: '32.00'
+      itemSizeUOM: Ct
+      itemWeight: '0.46'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '9.99'
+      priceFinal: '9.99'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '9.99'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: CVS Health Nighttime Sleep Aid Diphenhydramine HCI 25 MG Tablets, 96 CT
+      itemId: '960108'
+      itemSize: '96.00'
+      itemSizeUOM: Ct
+      itemWeight: '0.10'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '17.99'
+      priceFinal: '17.99'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '17.99'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: Haagen-Dazs Vanilla Milk Chocolate Almond Ice Cream Bars, 3ct
+      itemId: '208884'
+      itemSize: '3.00'
+      itemSizeUOM: OZ
+      itemWeight: '0.10'
+      itemWeightUOM: LBS
+      qty: 2
+      priceTotal: '12.58'
+      priceFinal: '9.43'
+      savings: '3.15'
+      tax: 0
+      lineTotalWithoutTax: '9.43'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    pickupStoreId: '5083'
+  return: []
+  paymentMethod:
+  - type: Credit/Debit/EBT
+    lastFourDigits: '8747'
+    amountCharged: '38.08'
+  - type: Credit/Debit/EBT
+    lastFourDigits: '8747'
+    amountReturned: '0.00'
+  splitFulfillment: false
+  returnEligible: false
+  returnEligibleFinalDate: '2025-04-13T00:00:00Z'
+  txnNo: '7836'
+  regNo: '18'

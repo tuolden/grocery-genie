@@ -1,0 +1,73 @@
+items:
+  rx: {}
+  fs:
+    total: 1
+    name: CVS ADV H/S/N GMY  80CT
+    image: ''
+number: 5083-14-4328-20240721
+type:
+- STORE
+alertStatus: []
+filterByStatus: true
+date: '2024-07-21T21:54:00Z'
+totalCost: '14.99'
+status:
+- Purchased
+statusCode: '0000'
+statusDesc: Success
+conversationId: rrt-4518049291990455001-c-gea1-66333-74363-15
+order:
+  type:
+  - STORE
+  number: 5083-14-4328-20240721
+  date: '2024-07-21T21:54:00Z'
+  splitShipment: false
+  ecCard: '2276'
+  cost:
+    subTotal: '29.98'
+    savings: '-14.99'
+    tax: '0.00'
+    shipping: ''
+    total: '14.99'
+    state: FL
+    feminineTax: '0'
+    totalReturnAmount: '0.00'
+  shipped: []
+  canceled: []
+  pickup: []
+  inStore:
+  - status: Purchased
+    totalCost: 14.99
+    fsItems:
+    - name: Nature's Bounty Advanced Hair, Skin and Nails Non-GMO Gummies with Biotin,
+        6000 MCG, 80 CT
+      itemId: '397976'
+      itemSize: '80.00'
+      itemSizeUOM: Ct
+      itemWeight: '0.58'
+      itemWeightUOM: LBS
+      qty: 2
+      priceTotal: '29.98'
+      priceFinal: '14.99'
+      savings: '14.99'
+      tax: 0
+      lineTotalWithoutTax: '14.99'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    pickupStoreId: '5083'
+  return: []
+  paymentMethod:
+  - type: Credit/Debit/EBT
+    lastFourDigits: '8747'
+    amountCharged: '14.99'
+  - type: Credit/Debit/EBT
+    lastFourDigits: '8747'
+    amountReturned: '0.00'
+  splitFulfillment: false
+  returnEligible: false
+  returnEligibleFinalDate: '2024-09-19T00:00:00Z'
+  txnNo: '4328'
+  regNo: '14'

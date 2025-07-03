@@ -1,0 +1,252 @@
+order_id: '127403491545138774321'
+purchase_date: '2022-12-11'
+store_name: Sunrise Supercenter
+order_totals:
+  subtotal: 103.3
+  tax_total: 6.26
+  grand_total: 109.56
+items:
+- item_id: '0'
+  item_quantity: 1
+  item_name: Dove Beauty Bar Soap for Women Gentle Exfoliating All Skin, 3.75 oz 8
+    Bars
+  item_image_url: https://i5.walmartimages.com/seo/Dove-Beauty-Bar-Soap-for-Women-Gentle-Exfoliating-All-Skin-3-75-oz-8-Bars_5a135214-0eb4-4e89-a23e-73df610f11b2.53669ab75b28cb6143d5b9a4b50d1899.jpeg
+  item_price: 10.97
+  line_price: 10.97
+  sales_unit_type: null
+- item_id: '1'
+  item_quantity: 1
+  item_name: L'Oreal Paris Telescopic Waterproof Mascara, Black
+  item_image_url: https://i5.walmartimages.com/seo/L-Oreal-Paris-Telescopic-Waterproof-Mascara-Black_59ffdd82-1b8d-4f8c-a25b-ed094f0c29c8.b59af896a8f26d4ff2ca7a8d0517f594.jpeg
+  item_price: 10.97
+  line_price: 10.97
+  sales_unit_type: null
+- item_id: '2'
+  item_quantity: 1
+  item_name: Equate Beauty 2-in-1 Bath Gloves for Body, Cleansing and Exfoliating,
+    Color May Vary, 2 Count
+  item_image_url: https://i5.walmartimages.com/seo/Equate-Beauty-2-in-1-Bath-Gloves-for-Body-Cleansing-and-Exfoliating-Color-May-Vary-2-Count_56c176b6-8a5c-41d8-b57f-ff064099f40e.fa7d8d6099d998ea933f8b598e5984c7.jpeg
+  item_price: 3.97
+  line_price: 3.97
+  sales_unit_type: null
+- item_id: '3'
+  item_quantity: 1
+  item_name: Holiday Time 100 mm Glittery Christmas Shatterproof Ornaments, Red, White,
+    Silver, 4 Count
+  item_image_url: https://i5.walmartimages.com/seo/Holiday-Time-100-mm-Glittery-Christmas-Shatterproof-Ornaments-Red-White-Silver-4-Count_f7ad16ed-05a7-42e3-aad9-68e728827ae9.ce5240e543651f9d548e6cbb2c32bee2.jpeg
+  item_price: 5.98
+  line_price: 5.98
+  sales_unit_type: null
+- item_id: '4'
+  item_quantity: 1
+  item_name: Holiday Time 100 mm Glittery Christmas Shatterproof Ornaments, Red, White,
+    Silver, 4 Count
+  item_image_url: https://i5.walmartimages.com/seo/Holiday-Time-100-mm-Glittery-Christmas-Shatterproof-Ornaments-Red-White-Silver-4-Count_f7ad16ed-05a7-42e3-aad9-68e728827ae9.ce5240e543651f9d548e6cbb2c32bee2.jpeg
+  item_price: 5.98
+  line_price: 5.98
+  sales_unit_type: null
+- item_id: '5'
+  item_quantity: 1
+  item_name: Burt's Bees 100% Origin Natural Moisturizing Lip Balm with Beeswax, Vanilla
+    Bean, 1 Tube
+  item_image_url: https://i5.walmartimages.com/seo/Burt-s-Bees-100-Origin-Natural-Moisturizing-Lip-Balm-with-Beeswax-Vanilla-Bean-1-Tube_a3b4d06f-4a71-4521-b59a-6677b6e0be59.df79f85c801d27c91c2ea7d5d8b3d4e3.jpeg
+  item_price: 3.77
+  line_price: 3.77
+  sales_unit_type: null
+- item_id: '6'
+  item_quantity: 1
+  item_name: Winky Brand Sugar Free Gelatin, 3.25 oz, 12 Count Plastic Cups, Refrigerated,
+    Gluten-Free
+  item_image_url: https://i5.walmartimages.com/seo/Winky-Brand-Sugar-Free-Gelatin-3-25-oz-12-Count-Plastic-Cups-Refrigerated-Gluten-Free_407c14ed-baa0-440c-91be-5772b02046fc.d446b8869f6e54f910db48422907fec9.jpeg
+  item_price: 3.38
+  line_price: 3.38
+  sales_unit_type: null
+- item_id: '7'
+  item_quantity: 1
+  item_name: Winky Brand Gelatin, 3.5 oz, 12 Count Plastic Cups, Refrigerated, Gluten-Free
+  item_image_url: https://i5.walmartimages.com/seo/Winky-Brand-Gelatin-3-25-oz-12-Count-Plastic-Cups-Refrigerated-Gluten-Free_b312c6b0-46b7-457f-9d15-bd9989ec8494.a0aa7402e0a78cdb75cae0b77da15551.jpeg
+  item_price: 3.38
+  line_price: 3.38
+  sales_unit_type: null
+- item_id: '8'
+  item_quantity: 1
+  item_name: Winky Brand Gelatin, 3.5 oz, 12 Count Plastic Cups, Refrigerated, Gluten-Free
+  item_image_url: https://i5.walmartimages.com/seo/Winky-Brand-Gelatin-3-25-oz-12-Count-Plastic-Cups-Refrigerated-Gluten-Free_b312c6b0-46b7-457f-9d15-bd9989ec8494.a0aa7402e0a78cdb75cae0b77da15551.jpeg
+  item_price: 3.38
+  line_price: 3.38
+  sales_unit_type: null
+- item_id: '9'
+  item_quantity: 1
+  item_name: Brach's Holiday Cherry Candy Canes, 12 Count Box, 5.3 oz
+  item_image_url: https://i5.walmartimages.com/seo/Brach-s-Holiday-Cherry-Candy-Canes-12-Count-Box-5-3-oz_735d9cf7-1297-416c-8675-252188d40f78.564a39ed03782f85b803e849429a6923.jpeg
+  item_price: 1.24
+  line_price: 1.24
+  sales_unit_type: null
+- item_id: '10'
+  item_quantity: 1
+  item_name: Wrigley's Freedent Spearmint Chewing Gum - 5 Stick Pack (Pack of 8)
+  item_image_url: https://i5.walmartimages.com/seo/Wrigley-s-Freedent-Spearmint-Chewing-Gum-5-Stick-Pack-Pack-of-8_dd68d4a6-c780-44f0-bb7b-e962236a7971.f174c0a3c835ee03f371367be1a8fd14.jpeg
+  item_price: 3.48
+  line_price: 3.48
+  sales_unit_type: null
+- item_id: '11'
+  item_quantity: 1
+  item_name: Trolli Sour Brite Crawlers, Candy, Cherry-Lemon, Strawberry-Grape & Orange-Lime,
+    Sweet and Sour, Gummy Worms, 7.2 oz
+  item_image_url: https://i5.walmartimages.com/seo/Trolli-Sour-Brite-Crawlers-Candy-Cherry-Lemon-Strawberry-Grape-Orange-Lime-Sweet-and-Sour-Gummy-Worms-7-2-oz_ade97316-e457-42c6-95b9-3fa2a4d1f425.8c49dcc2b1d6b2d78419a4b00f5b0568.jpeg
+  item_price: 2.48
+  line_price: 2.48
+  sales_unit_type: null
+- item_id: '12'
+  item_quantity: 0
+  item_name: Trolli Sour Brite Crawlers, Candy, Cherry-Lemon, Strawberry-Grape & Orange-Lime,
+    Sweet and Sour, Gummy Worms, 7.2 oz
+  item_image_url: https://i5.walmartimages.com/seo/Trolli-Sour-Brite-Crawlers-Candy-Cherry-Lemon-Strawberry-Grape-Orange-Lime-Sweet-and-Sour-Gummy-Worms-7-2-oz_ade97316-e457-42c6-95b9-3fa2a4d1f425.8c49dcc2b1d6b2d78419a4b00f5b0568.jpeg
+  item_price: 0
+  line_price: 0
+  sales_unit_type: null
+- item_id: '13'
+  item_quantity: 1
+  item_name: Brach's Raspberry Holiday Candy Canes, 12 Count Box, 5.3 oz
+  item_image_url: https://i5.walmartimages.com/seo/Brach-s-Raspberry-Holiday-Candy-Canes-12-Count-Box-5-3-oz_312db568-77be-45c2-8331-7e807b064cc0.a76d5838d711cbf80094642547a5964e.jpeg
+  item_price: 1.24
+  line_price: 1.24
+  sales_unit_type: null
+- item_id: '14'
+  item_quantity: 1
+  item_name: Clear American Sparkling Water, Peach, 33.8 fl oz
+  item_image_url: https://i5.walmartimages.com/seo/Clear-American-Peach-Sparkling-Water-33-8-fl-oz_eadd95db-15a2-4521-b740-db628aca6377.e6d5f5bde40ce1a66a29ecd6cb64341b.jpeg
+  item_price: 0.7
+  line_price: 0.7
+  sales_unit_type: null
+- item_id: '15'
+  item_quantity: 1
+  item_name: Clear American Sparkling Water, Peach, 33.8 fl oz
+  item_image_url: https://i5.walmartimages.com/seo/Clear-American-Peach-Sparkling-Water-33-8-fl-oz_eadd95db-15a2-4521-b740-db628aca6377.e6d5f5bde40ce1a66a29ecd6cb64341b.jpeg
+  item_price: 0.7
+  line_price: 0.7
+  sales_unit_type: null
+- item_id: '16'
+  item_quantity: 1
+  item_name: Clear American Sparkling Water, Key Lime 33.8 fl oz
+  item_image_url: https://i5.walmartimages.com/seo/Clear-American-Sparkling-Water-Key-Lime-33-8-fl-oz_1c1c8a6e-ed12-4377-9e3b-2ce5b35aabfc.8c3308bda48dc787a2e5fa00e5198b82.jpeg
+  item_price: 0.7
+  line_price: 0.7
+  sales_unit_type: null
+- item_id: '17'
+  item_quantity: 1
+  item_name: Clear American Sparkling Water, Peach, 33.8 fl oz
+  item_image_url: https://i5.walmartimages.com/seo/Clear-American-Peach-Sparkling-Water-33-8-fl-oz_eadd95db-15a2-4521-b740-db628aca6377.e6d5f5bde40ce1a66a29ecd6cb64341b.jpeg
+  item_price: 0.7
+  line_price: 0.7
+  sales_unit_type: null
+- item_id: '18'
+  item_quantity: 1
+  item_name: Clear American Sparkling Water, Key Lime 33.8 fl oz
+  item_image_url: https://i5.walmartimages.com/seo/Clear-American-Sparkling-Water-Key-Lime-33-8-fl-oz_1c1c8a6e-ed12-4377-9e3b-2ce5b35aabfc.8c3308bda48dc787a2e5fa00e5198b82.jpeg
+  item_price: 0.7
+  line_price: 0.7
+  sales_unit_type: null
+- item_id: '19'
+  item_quantity: 1
+  item_name: Clear American Sparkling Water, Wild Cherry, 33.8 fl oz
+  item_image_url: https://i5.walmartimages.com/seo/Sam-s-Choice-Clear-American-Wild-Cherry-Sparkling-Water-1-Liter_b20282df-04dd-4ed8-9452-5909785b6bd7.14cc0c7cac261d3afe80c0d722164722.jpeg
+  item_price: 0.7
+  line_price: 0.7
+  sales_unit_type: null
+- item_id: '20'
+  item_quantity: 1
+  item_name: Clear American Sparkling Water, Wild Cherry, 33.8 fl oz
+  item_image_url: https://i5.walmartimages.com/seo/Sam-s-Choice-Clear-American-Wild-Cherry-Sparkling-Water-1-Liter_b20282df-04dd-4ed8-9452-5909785b6bd7.14cc0c7cac261d3afe80c0d722164722.jpeg
+  item_price: 0.7
+  line_price: 0.7
+  sales_unit_type: null
+- item_id: '21'
+  item_quantity: 1
+  item_name: Clear American Sparkling Water, Peach, 33.8 fl oz
+  item_image_url: https://i5.walmartimages.com/seo/Clear-American-Peach-Sparkling-Water-33-8-fl-oz_eadd95db-15a2-4521-b740-db628aca6377.e6d5f5bde40ce1a66a29ecd6cb64341b.jpeg
+  item_price: 0.7
+  line_price: 0.7
+  sales_unit_type: null
+- item_id: '22'
+  item_quantity: 1
+  item_name: Clear American Sparkling Water, Key Lime 33.8 fl oz
+  item_image_url: https://i5.walmartimages.com/seo/Clear-American-Sparkling-Water-Key-Lime-33-8-fl-oz_1c1c8a6e-ed12-4377-9e3b-2ce5b35aabfc.8c3308bda48dc787a2e5fa00e5198b82.jpeg
+  item_price: 0.7
+  line_price: 0.7
+  sales_unit_type: null
+- item_id: '23'
+  item_quantity: 1
+  item_name: Clear American Fuji Apple Sparkling Water, 1 Liter Bottle
+  item_image_url: https://i5.walmartimages.com/seo/Clear-American-Fuji-Apple-Sparkling-Water-1-Liter_e59f19f1-c33c-4755-bb26-04df29136aa1.4a2e617c76dec8007249bdc6e59dd551.jpeg
+  item_price: 0.7
+  line_price: 0.7
+  sales_unit_type: null
+- item_id: '24'
+  item_quantity: 1
+  item_name: 5 Gum Spearmint Rain Sugar Free Chewing Gum - 15 Ct (6 Pack)
+  item_image_url: https://i5.walmartimages.com/seo/5-Gum-Spearmint-Rain-Sugar-Free-Chewing-Gum-15-Ct-6-Pack_d411a4cb-ae15-49bc-b31f-210e7a5ccf34.3a4f11ee063045e5b29b4c6b1a3baf51.jpeg
+  item_price: 8.28
+  line_price: 8.28
+  sales_unit_type: null
+- item_id: '25'
+  item_quantity: 1
+  item_name: Brach's Peppermint Candy Canes, Holiday Christmas Candy, 12 Count, 5.3
+    oz
+  item_image_url: https://i5.walmartimages.com/seo/Brach-s-Peppermint-Candy-Canes-Holiday-Christmas-Candy-12-Count-5-3-oz_f0eb261a-e8d4-4dae-9f1f-50f71c7f98c5.58f9847b1dfe004aa6a44f0d2ae8e9a3.jpeg
+  item_price: 1.24
+  line_price: 1.24
+  sales_unit_type: null
+- item_id: '26'
+  item_quantity: 1
+  item_name: Brach's Peppermint Candy Canes, Holiday Christmas Candy, 12 Count, 5.3
+    oz
+  item_image_url: https://i5.walmartimages.com/seo/Brach-s-Peppermint-Candy-Canes-Holiday-Christmas-Candy-12-Count-5-3-oz_f0eb261a-e8d4-4dae-9f1f-50f71c7f98c5.58f9847b1dfe004aa6a44f0d2ae8e9a3.jpeg
+  item_price: 1.24
+  line_price: 1.24
+  sales_unit_type: null
+- item_id: '27'
+  item_quantity: 1
+  item_name: Clear American Cherry Limeade Sparkling Water, 33.8 fl oz
+  item_image_url: https://i5.walmartimages.com/seo/Clear-American-Cherry-Limeade-Sparkling-Water-33-8-fl-oz_751f23e2-a2c3-42a9-8ebf-6465875b1644.03efde4289d98fb9b20b42cc29888c6a.jpeg
+  item_price: 0.7
+  line_price: 0.7
+  sales_unit_type: null
+- item_id: '28'
+  item_quantity: 1
+  item_name: Clear American Cherry Limeade Sparkling Water, 33.8 fl oz
+  item_image_url: https://i5.walmartimages.com/seo/Clear-American-Cherry-Limeade-Sparkling-Water-33-8-fl-oz_751f23e2-a2c3-42a9-8ebf-6465875b1644.03efde4289d98fb9b20b42cc29888c6a.jpeg
+  item_price: 0.7
+  line_price: 0.7
+  sales_unit_type: null
+- item_id: '29'
+  item_quantity: 1
+  item_name: Clear American Sparkling Water, Key Lime 33.8 fl oz
+  item_image_url: https://i5.walmartimages.com/seo/Clear-American-Sparkling-Water-Key-Lime-33-8-fl-oz_1c1c8a6e-ed12-4377-9e3b-2ce5b35aabfc.8c3308bda48dc787a2e5fa00e5198b82.jpeg
+  item_price: 0.7
+  line_price: 0.7
+  sales_unit_type: null
+- item_id: '30'
+  item_quantity: 1
+  item_name: Clear American Cherry Limeade Sparkling Water, 12 fl oz, 12 Count
+  item_image_url: https://i5.walmartimages.com/seo/Clear-American-Cherry-Limeade-Sparkling-Water-12-fl-oz-12-Count_3e2e9b79-5264-4e47-8d55-0c899917a1ae.c9ae1796d2e3ea4d1c75a75a4050dbde.jpeg
+  item_price: 4.12
+  line_price: 4.12
+  sales_unit_type: null
+- item_id: '31'
+  item_quantity: 1
+  item_name: Clear American Pineapple Coconut Sparkling Water, 12 oz, 12 Count
+  item_image_url: https://i5.walmartimages.com/seo/Clear-American-Pineapple-Coconut-Sparkling-Water-12-oz-12-Count_f4c93c9f-f861-4566-907f-44cdbaea5ac3.e61d67428ab64b3f210cdb6e42ae1339.jpeg
+  item_price: 4.12
+  line_price: 4.12
+  sales_unit_type: null
+- item_id: '32'
+  item_quantity: 1
+  item_name: ARM & HAMMER Powder Laundry Detergent, Alpine Clean, 9.56 lb, 155 Loads
+  item_image_url: https://i5.walmartimages.com/seo/ARM-HAMMER-Powder-Laundry-Detergent-Alpine-Clean-9-56-lb-155-Loads_5f5c3e23-bcb2-485c-a429-d214ba28ccb4.2a8bb5d292c389f86517da1116fc112d.jpeg
+  item_price: 14.98
+  line_price: 14.98
+  sales_unit_type: null
+metadata:
+  source_file: dec11
+  processed_at: '2025-07-03T08:45:48.641669'

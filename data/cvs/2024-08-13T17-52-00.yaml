@@ -1,0 +1,123 @@
+items:
+  rx: {}
+  fs:
+    total: 4
+    name: SKITTLES SOUR      1.8Z
+    image: ''
+number: 5083-2-706-20240813
+type:
+- STORE
+alertStatus: []
+filterByStatus: true
+date: '2024-08-13T17:52:00Z'
+totalCost: '62.14'
+status:
+- Purchased
+statusCode: '0000'
+statusDesc: Success
+conversationId: rrt-5053823307997761644-b-gea1-66878-61079-98
+order:
+  type:
+  - STORE
+  number: 5083-2-706-20240813
+  date: '2024-08-13T17:52:00Z'
+  splitShipment: false
+  ecCard: '2276'
+  cost:
+    subTotal: '82.46'
+    savings: '-20.63'
+    tax: '0.31'
+    shipping: ''
+    total: '62.14'
+    state: FL
+    feminineTax: '0'
+    totalReturnAmount: '0.00'
+  shipped: []
+  canceled: []
+  pickup: []
+  inStore:
+  - status: Purchased
+    totalCost: 82.46
+    fsItems:
+    - name: CVS Beauty Women's 2 Blade Gentle Touch Disposable Razors, 10 CT
+      itemId: '919505'
+      itemSize: '10.00'
+      itemSizeUOM: Ct
+      itemWeight: '0.20'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '3.19'
+      priceFinal: '3.19'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '3.19'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: Skittles Sour Candy, Full Size, Bag, 1.8 oz
+      itemId: '142500'
+      itemSize: '1.80'
+      itemSizeUOM: OZ
+      itemWeight: '0.10'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '1.79'
+      priceFinal: '1.79'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '1.79'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: NicoDermCQ Transdermal System 7mg Patch, Step 3, 14 CT
+      itemId: '144886'
+      itemSize: '14.00'
+      itemSizeUOM: Ct
+      itemWeight: '0.33'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '57.99'
+      priceFinal: '57.99'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '57.99'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: CVS Health Women's Formula Multivitamin Caplets, 200 CT
+      itemId: '277457'
+      itemSize: '200.00'
+      itemSizeUOM: Ct
+      itemWeight: '0.10'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '19.49'
+      priceFinal: '19.49'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '19.49'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    pickupStoreId: '5083'
+  return: []
+  paymentMethod:
+  - type: Credit/Debit/EBT
+    lastFourDigits: '8747'
+    amountCharged: '62.14'
+  - type: Credit/Debit/EBT
+    lastFourDigits: '8747'
+    amountReturned: '0.00'
+  splitFulfillment: false
+  returnEligible: false
+  returnEligibleFinalDate: '2024-10-12T00:00:00Z'
+  txnNo: '706'
+  regNo: '2'

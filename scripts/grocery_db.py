@@ -314,6 +314,75 @@ class GroceryDB:
                 );
             """)
 
+            # Create Publix purchases table (single table design matching other retailers)
+            cur.execute("""
+                CREATE TABLE IF NOT EXISTS publix_purchases (
+                    id SERIAL PRIMARY KEY,
+
+                    -- Order header info (repeated for each item)
+                    transaction_number VARCHAR(100) NOT NULL,
+                    receipt_id VARCHAR(200),
+                    purchase_date DATE NOT NULL,
+                    purchase_time TIME,
+
+                    -- Store info
+                    store_name VARCHAR(100),
+                    store_address VARCHAR(200),
+                    store_manager VARCHAR(100),
+                    store_phone VARCHAR(20),
+
+                    -- Order totals
+                    order_total DECIMAL(10,2),
+                    sales_tax DECIMAL(10,2),
+                    grand_total DECIMAL(10,2),
+                    vendor_coupon_amount DECIMAL(10,2),
+                    store_coupon_amount DECIMAL(10,2),
+                    digital_coupon_savings DECIMAL(10,2),
+                    total_savings DECIMAL(10,2),
+
+                    -- Item details
+                    item_id VARCHAR(100),
+                    item_name VARCHAR(300) NOT NULL,
+                    item_description VARCHAR(500),
+                    item_quantity INTEGER DEFAULT 1,
+                    item_price DECIMAL(10,2),
+                    item_size_description VARCHAR(100),
+                    item_image_url VARCHAR(500),
+                    item_detail_url VARCHAR(500),
+                    upc VARCHAR(100),
+                    base_product_id VARCHAR(200),
+                    retail_sub_section_number VARCHAR(50),
+                    activation_status VARCHAR(10),
+
+                    -- Receipt line item info
+                    receipt_line_text VARCHAR(500),
+                    is_voided_item BOOLEAN DEFAULT FALSE,
+                    item_tax_flag VARCHAR(10),  -- T, H, F, etc.
+
+                    -- Payment info
+                    payment_method VARCHAR(100),
+                    payment_amount DECIMAL(10,2),
+                    payment_account_number VARCHAR(100),
+                    payment_auth_number VARCHAR(100),
+                    payment_trace_number VARCHAR(100),
+                    payment_reference_number VARCHAR(100),
+
+                    -- FSA info
+                    fsa_prescription_amount DECIMAL(10,2),
+                    fsa_non_prescription_amount DECIMAL(10,2),
+                    fsa_total DECIMAL(10,2),
+
+                    -- Staff info
+                    cashier_name VARCHAR(100),
+                    supervisor_number VARCHAR(20),
+
+                    -- Metadata
+                    raw_data JSONB,
+                    created_at TIMESTAMP DEFAULT NOW(),
+                    updated_at TIMESTAMP DEFAULT NOW()
+                );
+            """)
+
             # Create indexes
             cur.execute("""
                 CREATE INDEX IF NOT EXISTS idx_costco_purchase_date 
@@ -386,6 +455,27 @@ class GroceryDB:
             cur.execute("""
                 CREATE INDEX IF NOT EXISTS idx_cvs_store_id
                 ON cvs_purchases(store_id);
+            """)
+
+            # Create Publix indexes
+            cur.execute("""
+                CREATE INDEX IF NOT EXISTS idx_publix_purchase_date
+                ON publix_purchases(purchase_date);
+            """)
+
+            cur.execute("""
+                CREATE INDEX IF NOT EXISTS idx_publix_transaction_number
+                ON publix_purchases(transaction_number);
+            """)
+
+            cur.execute("""
+                CREATE INDEX IF NOT EXISTS idx_publix_item_name
+                ON publix_purchases(item_name);
+            """)
+
+            cur.execute("""
+                CREATE INDEX IF NOT EXISTS idx_publix_store_name
+                ON publix_purchases(store_name);
             """)
 
             conn.commit()

@@ -1,0 +1,123 @@
+items:
+  rx: {}
+  fs:
+    total: 4
+    name: 5 COBALT GUM       15CT
+    image: ''
+number: 5083-2-7950-20250413
+type:
+- STORE
+alertStatus: []
+filterByStatus: true
+date: '2025-04-13T18:30:00Z'
+totalCost: '40.33'
+status:
+- Purchased
+statusCode: '0000'
+statusDesc: Success
+conversationId: rrt-8711127808971674525-c-gea1-732716-1283081-225
+order:
+  type:
+  - STORE
+  number: 5083-2-7950-20250413
+  date: '2025-04-13T18:30:00Z'
+  splitShipment: false
+  ecCard: '2276'
+  cost:
+    subTotal: '41.36'
+    savings: '-1.40'
+    tax: '0.37'
+    shipping: ''
+    total: '40.33'
+    state: FL
+    feminineTax: '0'
+    totalReturnAmount: '0.00'
+  shipped: []
+  canceled: []
+  pickup: []
+  inStore:
+  - status: Purchased
+    totalCost: 39.96
+    fsItems:
+    - name: 5 Gum Peppermint Cobalt Sugarfree Gum, 15 ct
+      itemId: '423865'
+      itemSize: '15.00'
+      itemSizeUOM: Ct
+      itemWeight: '7.00'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '2.69'
+      priceFinal: '2.69'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '2.69'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: Zicam Immune Support Gummies, Citrus Strawberry, 70 CT
+      itemId: '201163'
+      itemSize: '70.00'
+      itemSizeUOM: Ct
+      itemWeight: '0.56'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '15.99'
+      priceFinal: '15.99'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '15.99'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: ALTOIDS Spearmint Sugar Free Breath Mints, Single Pack, 1.76 oz
+      itemId: '238078'
+      itemSize: '1.76'
+      itemSizeUOM: OZ
+      itemWeight: '0.10'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '3.89'
+      priceFinal: '2.49'
+      savings: '1.40'
+      tax: 0
+      lineTotalWithoutTax: '2.49'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: Airborne Vitamin C Gummies, Zesty Orange, 42 CT
+      itemId: '566503'
+      itemSize: '42.00'
+      itemSizeUOM: Ct
+      itemWeight: '0.60'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '18.79'
+      priceFinal: '18.79'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '18.79'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    pickupStoreId: '5083'
+  return: []
+  paymentMethod:
+  - type: Credit/Debit/EBT
+    lastFourDigits: '8494'
+    amountCharged: '40.33'
+  - type: Credit/Debit/EBT
+    lastFourDigits: '8494'
+    amountReturned: '0.00'
+  splitFulfillment: false
+  returnEligible: false
+  returnEligibleFinalDate: '2025-06-12T00:00:00Z'
+  txnNo: '7950'
+  regNo: '2'

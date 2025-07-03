@@ -1,0 +1,204 @@
+order_id: '831966054614867976660'
+purchase_date: '2022-10-13'
+store_name: Pembroke pines Supercenter
+order_totals:
+  subtotal: 117.55
+  tax_total: 4.45
+  grand_total: 122
+items:
+- item_id: '0'
+  item_quantity: 1
+  item_name: NIVEA Skin Firming + Toning Body Gel-Cream, Q10 and L-Carnitine, Non-Greasy,
+    6.7 oz
+  item_image_url: https://i5.walmartimages.com/seo/NIVEA-Skin-Firming-and-Toning-Body-Gel-Cream-with-Q10-6-7-Oz-Tube_fb5c8e9a-6249-4762-8442-eeba97a7d6a9.f33201dace96f07f3bb2c2c63c1b49d7.jpeg
+  item_price: 12.77
+  line_price: 12.77
+  sales_unit_type: null
+- item_id: '1'
+  item_quantity: 1
+  item_name: Jet-Alert Double Strength Caffeine 200 mg Caplets, 90 Ct
+  item_image_url: https://i5.walmartimages.com/seo/Jet-Alert-Double-Strength-Caffeine-200-mg-Caplets-90-Ct_c447ff75-42dd-4be3-b24d-b1a9281b1449.28de439ec178f4b01db89ea39d21db4d.jpeg
+  item_price: 3.48
+  line_price: 3.48
+  sales_unit_type: null
+- item_id: '2'
+  item_quantity: 1
+  item_name: Barbasol Mens Shaving Cream Soothing Aloe - 10 oz
+  item_image_url: https://i5.walmartimages.com/seo/Barbasol-Mens-Shaving-Cream-Soothing-Aloe-10-oz_8e871007-a6ce-4520-a5da-d0ed4e943d3c.ab95d4180d9348d37fbe75d4611be07f.jpeg
+  item_price: 1.84
+  line_price: 1.84
+  sales_unit_type: null
+- item_id: '3'
+  item_quantity: 1
+  item_name: Maggi Caldo Sabor A Pollo Chicken Flavored Bouillon Powder, Granulated
+    Chicken Soup Seasoning 7.9 oz
+  item_image_url: https://i5.walmartimages.com/seo/Maggi-Granulated-Chicken-Flavor-Bouillon-Ground-7-9-oz_86d66179-ec6a-4b1e-9f4d-f9ddbbad6541.0dc0d16649130d7c5c8c1dc1cb7d5216.jpeg
+  item_price: 1.88
+  line_price: 1.88
+  sales_unit_type: null
+- item_id: '4'
+  item_quantity: 1
+  item_name: Propel Electrolyte Enhanced Water Drink Mix Powder Packets, Grape, Zero
+    Calorie & Zero Sugar Hydration with Electrolytes and Vitamins C & E, (10 Packets)
+  item_image_url: https://i5.walmartimages.com/seo/Propel-Powder-Packets-Drink-Mixes-with-Electrolytes-Vitamins-and-No-Sugar-Grape-0-08-oz-10-Ct_172290f8-543a-434e-a913-21534a77b15d.01d61ca9185e0b8b207fddc55ffa87ed.jpeg
+  item_price: 2.48
+  line_price: 2.48
+  sales_unit_type: null
+- item_id: '5'
+  item_quantity: 1
+  item_name: Propel Immune Support Electrolyte Drink Mix Powder, Orange Raspberry,
+    10 Count Packets
+  item_image_url: https://i5.walmartimages.com/seo/Propel-Immune-Support-Electrolyte-Mix-Orange-Raspberry-10-Packets_f7c25466-2355-456a-8379-0bb0f85a9cab.d2322b533b85fa3cb126890d7a55a8b4.jpeg
+  item_price: 2.48
+  line_price: 2.48
+  sales_unit_type: null
+- item_id: '6'
+  item_quantity: 1
+  item_name: Propel Electrolyte Enhanced Water Drink Mix Powder Packets, Grape, Zero
+    Calorie & Zero Sugar Hydration with Electrolytes and Vitamins C & E, (10 Packets)
+  item_image_url: https://i5.walmartimages.com/seo/Propel-Powder-Packets-Drink-Mixes-with-Electrolytes-Vitamins-and-No-Sugar-Grape-0-08-oz-10-Ct_172290f8-543a-434e-a913-21534a77b15d.01d61ca9185e0b8b207fddc55ffa87ed.jpeg
+  item_price: 2.48
+  line_price: 2.48
+  sales_unit_type: null
+- item_id: '7'
+  item_quantity: 1
+  item_name: Propel Immune Support Electrolyte Drink Mix Powder, Lemon Blackberry,
+    10 Count Packets
+  item_image_url: https://i5.walmartimages.com/seo/Propel-Immune-Support-Electrolyte-Water-Beverage-Powder-Mix-Lemon-Blackberry-1-Box-10-Packets_b0fde3ea-f38e-4baa-8273-bacaff6adc13.d45d77561d26aaefd0819aecb90b2413.jpeg
+  item_price: 2.48
+  line_price: 2.48
+  sales_unit_type: null
+- item_id: '8'
+  item_quantity: 1
+  item_name: DAP Alex Fast Dry 5.5 oz White Acrylic Latex Silicone Caulk
+  item_image_url: https://i5.walmartimages.com/seo/DAP-Alex-Fast-Dry-5-5-oz-White-Acrylic-Latex-Caulk-Plus-Silicone_a252ded4-87ed-4f62-900f-1ad6730be073.66062c0d75d1a65083e28aec436b0d53.jpeg
+  item_price: 3.84
+  line_price: 3.84
+  sales_unit_type: null
+- item_id: '9'
+  item_quantity: 1
+  item_name: ScotchBlue Original Painter's Tape, Blue, 1.88 in x 60 yd, 2 Rolls
+  item_image_url: https://i5.walmartimages.com/seo/ScotchBlue-Original-Painter-s-Tape-Blue-1-88-in-x-60-yd-2-Rolls_376c2534-27fc-455a-ac76-24f65cd79301.6ad288160bfaff1e8ee08a2244e97590.jpeg
+  item_price: 14.74
+  line_price: 14.74
+  sales_unit_type: null
+- item_id: '10'
+  item_quantity: 1
+  item_name: Old El Paso Crunchy Taco Shells, Gluten-Free, 18 Ct., 6.89 oz.
+  item_image_url: https://i5.walmartimages.com/seo/Old-El-Paso-Crunchy-Taco-Shells-Gluten-Free-18-Ct-6-89-oz_ed9416a8-bd22-4b68-a79c-8b222870f92e.a7c5c2540b9d1adbacd0f06b969a49d1.jpeg
+  item_price: 2.88
+  line_price: 2.88
+  sales_unit_type: null
+- item_id: '11'
+  item_quantity: 1
+  item_name: Nature's Own 100% Whole Wheat, Whole Wheat Bread, 20 oz Loaf, Shelf-Stable
+  item_image_url: https://i5.walmartimages.com/seo/Nature-s-Own-100-Whole-Wheat-Whole-Wheat-Bread-20-oz-Loaf-Shelf-Stable_3253480e-6e8e-4c94-978c-377508f70ba1.26967afd9d63cf1d44813c912b228893.jpeg
+  item_price: 3.34
+  line_price: 3.34
+  sales_unit_type: null
+- item_id: '12'
+  item_quantity: 1
+  item_name: Wonder Bread Classic White Sandwich Bread, Sliced White Bread, 20 oz
+    Loaf, Shelf-Stable
+  item_image_url: https://i5.walmartimages.com/seo/Wonder-Bread-Classic-White-Sandwich-Bread-Sliced-White-Bread-20-oz-Loaf-Shelf-Stable_ea31fd15-d9d1-4282-a09d-7937061451db.874488afdc4c3153a28609b2b78d3d5c.jpeg
+  item_price: 2.72
+  line_price: 2.72
+  sales_unit_type: null
+- item_id: '13'
+  item_quantity: 1
+  item_name: CHIPS AHOY! Original Chocolate Chip Cookies, Family Size, 18.2 oz
+  item_image_url: https://i5.walmartimages.com/seo/CHIPS-AHOY-Original-Chocolate-Chip-Cookies-Family-Size-18-2-oz_2322ee64-3d4f-4206-9ffe-50da99801e9f.d754e778958ba2bada102fd47031e4e1.jpeg
+  item_price: 3.5
+  line_price: 3.5
+  sales_unit_type: null
+- item_id: '14'
+  item_quantity: 1
+  item_name: Healthy Choice Power Bowls Basil Pesto Chicken, Frozen Meal 9.25 oz (Frozen)
+  item_image_url: https://i5.walmartimages.com/seo/Healthy-Choice-Power-Bowls-Basil-Pesto-Chicken-Frozen-Meal-9-25-oz-Frozen_7b7126b9-43ec-4b9a-bd48-03584d271c17.425f8845c6977e2a1e00f27b83ef4ac4.jpeg
+  item_price: 3.98
+  line_price: 3.98
+  sales_unit_type: null
+- item_id: '15'
+  item_quantity: 1
+  item_name: Healthy Choice Power Bowls Basil Pesto Chicken, Frozen Meal 9.25 oz (Frozen)
+  item_image_url: https://i5.walmartimages.com/seo/Healthy-Choice-Power-Bowls-Basil-Pesto-Chicken-Frozen-Meal-9-25-oz-Frozen_7b7126b9-43ec-4b9a-bd48-03584d271c17.425f8845c6977e2a1e00f27b83ef4ac4.jpeg
+  item_price: 3.98
+  line_price: 3.98
+  sales_unit_type: null
+- item_id: '16'
+  item_quantity: 1
+  item_name: Healthy Choice Power Bowls Korean-Inspired Beef, Frozen Asian Meal, 9.5
+    oz (Frozen)
+  item_image_url: https://i5.walmartimages.com/seo/Healthy-Choice-Power-Bowls-Korean-Inspired-Beef-Frozen-Asian-Meal-9-5-oz-Frozen_fba82d2a-4f71-4f06-8924-b580b663f1e1.714daa6487959871190c5cb422a61417.jpeg
+  item_price: 3.98
+  line_price: 3.98
+  sales_unit_type: null
+- item_id: '17'
+  item_quantity: 1
+  item_name: Healthy Choice Power Bowls Korean-Inspired Beef, Frozen Asian Meal, 9.5
+    oz (Frozen)
+  item_image_url: https://i5.walmartimages.com/seo/Healthy-Choice-Power-Bowls-Korean-Inspired-Beef-Frozen-Asian-Meal-9-5-oz-Frozen_fba82d2a-4f71-4f06-8924-b580b663f1e1.714daa6487959871190c5cb422a61417.jpeg
+  item_price: 3.98
+  line_price: 3.98
+  sales_unit_type: null
+- item_id: '18'
+  item_quantity: 1
+  item_name: P.F. Chang's Home Menu Chicken Teriyaki Bowl, Frozen Meal, 11 oz (Frozen)
+  item_image_url: https://i5.walmartimages.com/seo/P-F-Chang-s-Home-Menu-Chicken-Teriyaki-Bowl-Frozen-Meal-11-oz-Frozen_f7ba4a88-f322-4b58-bbc6-435598d5d917.bd1b8fc127d0406113a164ff4ad5c1e4.jpeg
+  item_price: 3.98
+  line_price: 3.98
+  sales_unit_type: null
+- item_id: '19'
+  item_quantity: 1
+  item_name: P.F. Chang's Home Menu Chicken Teriyaki Bowl, Frozen Meal, 11 oz (Frozen)
+  item_image_url: https://i5.walmartimages.com/seo/P-F-Chang-s-Home-Menu-Chicken-Teriyaki-Bowl-Frozen-Meal-11-oz-Frozen_f7ba4a88-f322-4b58-bbc6-435598d5d917.bd1b8fc127d0406113a164ff4ad5c1e4.jpeg
+  item_price: 3.98
+  line_price: 3.98
+  sales_unit_type: null
+- item_id: '20'
+  item_quantity: 1
+  item_name: "Marie Callender\u2019s Chicken Pot Pie Large Size Frozen Meal, 15 oz.\
+    \ (frozen)"
+  item_image_url: https://i5.walmartimages.com/seo/Marie-Callender-s-Chicken-Pot-Pie-Large-Size-Frozen-Meal-15-oz-frozen_bdd53226-b7cd-4c5d-b19a-a0e41c7e2854.110eeb55e9bc4cde4f46d8359baee6c5.jpeg
+  item_price: 3.48
+  line_price: 3.48
+  sales_unit_type: null
+- item_id: '21'
+  item_quantity: 1
+  item_name: "Marie Callender\u2019s Chicken Pot Pie Large Size Frozen Meal, 15 oz.\
+    \ (frozen)"
+  item_image_url: https://i5.walmartimages.com/seo/Marie-Callender-s-Chicken-Pot-Pie-Large-Size-Frozen-Meal-15-oz-frozen_bdd53226-b7cd-4c5d-b19a-a0e41c7e2854.110eeb55e9bc4cde4f46d8359baee6c5.jpeg
+  item_price: 3.48
+  line_price: 3.48
+  sales_unit_type: null
+- item_id: '22'
+  item_quantity: 1
+  item_name: Coca-Cola Soda Pop, 2 Liters Bottle
+  item_image_url: https://i5.walmartimages.com/seo/Coca-Cola-Soda-Pop-2-Liters-Bottle_276fc3fd-fb2b-4c06-a277-5960a7e56495.c49f20b917881d57ead19e24bbad7b23.jpeg
+  item_price: 2.48
+  line_price: 2.48
+  sales_unit_type: null
+- item_id: '23'
+  item_quantity: 1
+  item_name: Canada Dry Caffeine Free Ginger Ale Soda Pop, 2 L, Bottle
+  item_image_url: https://i5.walmartimages.com/seo/Canada-Dry-Caffeine-Free-Ginger-Ale-Soda-Pop-2-L-Bottle_ea4d324e-9857-4c44-83c0-9325a8ab0435.ce719d17ee6efd1b7039ffa61ac0fdc2.jpeg
+  item_price: 2.08
+  line_price: 2.08
+  sales_unit_type: null
+- item_id: '24'
+  item_quantity: 1
+  item_name: Great Value Soft & Strong Premium Toilet Paper, 24 Mega Rolls
+  item_image_url: https://i5.walmartimages.com/seo/Great-Value-Soft-Strong-Premium-Toilet-Paper-24-Mega-Rolls_316a3aa8-2d2b-4e3a-99c8-38f2115aca98.a6ad4df82f49bf7597d72b11e79569a6.jpeg
+  item_price: 15.88
+  line_price: 15.88
+  sales_unit_type: null
+- item_id: '25'
+  item_quantity: 1
+  item_name: Great Value Purified Drinking Water, 16.9 Fl. Oz., 40 Count
+  item_image_url: https://i5.walmartimages.com/seo/Great-Value-Purified-Drinking-Water-16-9-Fl-Oz-40-Count_061099c8-2637-49ad-9706-506d42bbe542.33c33902d22157d2c215a61e15fd4a4b.jpeg
+  item_price: 5.36
+  line_price: 5.36
+  sales_unit_type: null
+metadata:
+  source_file: oct13
+  processed_at: '2025-07-03T08:46:00.921979'

@@ -1,0 +1,46 @@
+order_id: '74804222880623772491'
+purchase_date: '2023-02-01'
+store_name: Pembroke pines Supercenter
+order_totals:
+  subtotal: 8.96
+  tax_total: 0
+  grand_total: 8.96
+items:
+- item_id: '0'
+  item_quantity: 1
+  item_name: Badia Pure Selected Saffron, Azafran
+  item_image_url: https://i5.walmartimages.com/seo/Badia-Pure-Selected-Saffron-Azafran_3d13cffb-1cf2-4278-814f-7696ed22cf28_1.33d93ef0d9600cba4e856e9a05767340.jpeg
+  item_price: 4.98
+  line_price: 4.98
+  sales_unit_type: null
+- item_id: '1'
+  item_quantity: 1
+  item_name: Badia Bay Leaves Whole, Bottle
+  item_image_url: https://i5.walmartimages.com/seo/Badia-Bay-Leaves-Whole-Bottle_94a0d53b-9125-474d-938d-0c0e0c7ec0db.a29e8173f8583320f8256ea5e1bd4f45.jpeg
+  item_price: 1.24
+  line_price: 1.24
+  sales_unit_type: null
+- item_id: '2'
+  item_quantity: 1
+  item_name: Fresh Curly Parsley Bunch, Each
+  item_image_url: https://i5.walmartimages.com/seo/Fresh-Curly-Parsley-Bunch-Each_7aef0185-b42c-4b90-aaaf-48eefc101ba2.985ed9881b0a6d0cb308dc5d923c3433.jpeg
+  item_price: 0.98
+  line_price: 0.98
+  sales_unit_type: null
+- item_id: '3'
+  item_quantity: 1
+  item_name: Fresh Green Onions Bunch, Each
+  item_image_url: https://i5.walmartimages.com/seo/Fresh-Green-Onions-Bunch-Each_e3e6b87a-735c-4e00-b35b-c566d3f56ff3.e7440b87be49eb20ac956d0a2690822e.jpeg
+  item_price: 0.88
+  line_price: 0.88
+  sales_unit_type: null
+- item_id: '4'
+  item_quantity: 1
+  item_name: Fresh Cilantro, Bunch
+  item_image_url: https://i5.walmartimages.com/seo/Fresh-Cilantro-Bunch_3c692ae5-58c5-4e87-abf7-1ff4c79cce8c.e8683ca8b44b72dab407cb5784864404.jpeg
+  item_price: 0.88
+  line_price: 0.88
+  sales_unit_type: null
+metadata:
+  source_file: feb01
+  processed_at: '2025-07-03T08:45:49.780078'

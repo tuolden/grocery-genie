@@ -1,0 +1,438 @@
+barcode_src: data:image/png;base64,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
+fsa_info: {}
+grand_total: 54.71
+order_total: 51.33
+payment_info: {}
+products: &id001
+- ActivationStatus: A
+  BaseProductId: RIO-CBV-148074
+  Categories: null
+  FavoriteProductId: null
+  ItemDescription: null
+  ItemDetailUrl: /pd/RIO-CBV-148074
+  ItemId: 330060
+  ItemImageUrl: https://images.publixcdn.com/pct/images/products/330000/330060-75x75-A.jpg
+  ItemName: Sprite Soda, Lemon-Lime
+  ItemQuantity: 1
+  PimsCode: null
+  RetailSubSectionNumber: '88'
+  SizeDescription: 12 - 12 fl oz (355 ml) cans [144 fl oz (4.26 l)]
+  UPC: '4900002892'
+- ActivationStatus: A
+  BaseProductId: RIO-PCI-118972
+  Categories: null
+  FavoriteProductId: null
+  ItemDescription: null
+  ItemDetailUrl: /pd/RIO-PCI-118972
+  ItemId: 95066
+  ItemImageUrl: https://images.publixcdn.com/pct/images/products/95000/095066-75x75-A.jpg
+  ItemName: White Mountain Bread
+  ItemQuantity: 1
+  PimsCode: null
+  RetailSubSectionNumber: '561'
+  SizeDescription: 16 oz Pkg
+  UPC: '29506600000'
+- ActivationStatus: A
+  BaseProductId: RIO-PCI-237651
+  Categories: null
+  FavoriteProductId: null
+  ItemDescription: null
+  ItemDetailUrl: /pd/RIO-PCI-237651
+  ItemId: 24886
+  ItemImageUrl: https://images.publixcdn.com/pct/images/products/20000/024886-75x75-A.jpg
+  ItemName: Publix Mango Strawberry Blueberry Parfait
+  ItemQuantity: 2
+  PimsCode: null
+  RetailSubSectionNumber: '127'
+  SizeDescription: 1 Container
+  UPC: '22488600000'
+- ActivationStatus: A
+  BaseProductId: RIO-CBV-148141
+  Categories: null
+  FavoriteProductId: null
+  ItemDescription: null
+  ItemDetailUrl: /pd/RIO-CBV-148141
+  ItemId: 330058
+  ItemImageUrl: https://images.publixcdn.com/pct/images/products/330000/330058-75x75-A.jpg
+  ItemName: Diet Coke Soda, Fridge Pack
+  ItemQuantity: 1
+  PimsCode: null
+  RetailSubSectionNumber: '88'
+  SizeDescription: 12 - 12 fl oz (355 ml) cans [144 fl oz (4.26 l)]
+  UPC: '4900002891'
+- ActivationStatus: A
+  BaseProductId: RIO-PCI-617801
+  Categories: null
+  FavoriteProductId: null
+  ItemDescription: null
+  ItemDetailUrl: /pd/RIO-PCI-617801
+  ItemId: 297892
+  ItemImageUrl: https://images.publixcdn.com/pct/images/products/295000/297892-75x75-A.jpg
+  ItemName: Sprite Soda, Zero Sugar, Chill, Cherry Lime
+  ItemQuantity: 1
+  PimsCode: null
+  RetailSubSectionNumber: '88'
+  SizeDescription: 12 - 12 fl oz (355 ml) cans [144 fl oz (4.26 l)]
+  UPC: '4900055565'
+- ActivationStatus: A
+  BaseProductId: RIO-PCI-149494
+  Categories: null
+  FavoriteProductId: null
+  ItemDescription: null
+  ItemDetailUrl: /pd/RIO-PCI-149494
+  ItemId: 305082
+  ItemImageUrl: https://images.publixcdn.com/pct/images/products/305000/305082-75x75-A.jpg
+  ItemName: Fresca Sparkling Soda Water, Grapefruit Citrus, Original, Fridge Pack
+  ItemQuantity: 3
+  PimsCode: null
+  RetailSubSectionNumber: '88'
+  SizeDescription: 12 - 12 fl oz (355 ml) cans [144 fl oz (4.26 l)]
+  UPC: '4900003105'
+- ActivationStatus: A
+  BaseProductId: RIO-CBV-148100
+  Categories: null
+  FavoriteProductId: null
+  ItemDescription: null
+  ItemDetailUrl: /pd/RIO-CBV-148100
+  ItemId: 330057
+  ItemImageUrl: https://images.publixcdn.com/pct/images/products/330000/330057-75x75-A.jpg
+  ItemName: Coca-Cola Cola, Original Taste, Fridge Pack
+  ItemQuantity: 2
+  PimsCode: null
+  RetailSubSectionNumber: '88'
+  SizeDescription: 12 - 12 fl oz (355 ml) cans [144 fl oz (4.26 l)]
+  UPC: '4900002890'
+purchase_date: '2025-04-19'
+purchase_time: '16:21:23'
+raw_data:
+  detail:
+    Amount: 54.71
+    BarcodeSrc: data:image/png;base64,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
+    Currency: USD
+    CustomerId: 18309194
+    FacilityId: 21
+    FacilityName: Publix At Glade Crossing
+    FacilityType: null
+    GrandTotal: 54.71
+    ItemCount: 7
+    OrderTotal: 51.33
+    Products: *id001
+    ReceiptId: 00214JQ058427
+    ReceiptLineItems:
+    - AccountNumber: '    '
+      IsGiftcardItem: 0
+      ItemAmount: 10.29
+      ItemCode: 00004900003105
+      ItemPrice: 10.29
+      ItemQty: 1
+      ItemSeqNo: 1
+      ItemTypeDescription: Normal Sale
+      ItemWeight: 0.0
+      MSUQty: 1
+      NetAmount: 10.29
+      SavingAmount: 0.0
+    - AccountNumber: '    '
+      IsGiftcardItem: 0
+      ItemAmount: 10.29
+      ItemCode: 00004900003105
+      ItemPrice: 10.29
+      ItemQty: 1
+      ItemSeqNo: 2
+      ItemTypeDescription: Normal Sale
+      ItemWeight: 0.0
+      MSUQty: 1
+      NetAmount: 10.29
+      SavingAmount: 0.0
+    - AccountNumber: '    '
+      IsGiftcardItem: 0
+      ItemAmount: 10.29
+      ItemCode: 00004900003105
+      ItemPrice: 10.29
+      ItemQty: 1
+      ItemSeqNo: 3
+      ItemTypeDescription: Normal Sale
+      ItemWeight: 0.0
+      MSUQty: 1
+      NetAmount: 0.0
+      SavingAmount: 10.29
+    - AccountNumber: '    '
+      IsGiftcardItem: 0
+      ItemAmount: 10.29
+      ItemCode: 00004900002891
+      ItemPrice: 10.29
+      ItemQty: 1
+      ItemSeqNo: 4
+      ItemTypeDescription: Normal Sale
+      ItemWeight: 0.0
+      MSUQty: 1
+      NetAmount: 0.0
+      SavingAmount: 10.29
+    - AccountNumber: '    '
+      IsGiftcardItem: 0
+      ItemAmount: 10.29
+      ItemCode: 00004900002890
+      ItemPrice: 10.29
+      ItemQty: 1
+      ItemSeqNo: 5
+      ItemTypeDescription: Normal Sale
+      ItemWeight: 0.0
+      MSUQty: 1
+      NetAmount: 10.29
+      SavingAmount: 0.0
+    - AccountNumber: '    '
+      IsGiftcardItem: 0
+      ItemAmount: 10.29
+      ItemCode: 00004900002890
+      ItemPrice: 10.29
+      ItemQty: 1
+      ItemSeqNo: 6
+      ItemTypeDescription: Normal Sale
+      ItemWeight: 0.0
+      MSUQty: 1
+      NetAmount: 0.0
+      SavingAmount: 10.29
+    - AccountNumber: '    '
+      IsGiftcardItem: 0
+      ItemAmount: 10.29
+      ItemCode: 00004900055565
+      ItemPrice: 10.29
+      ItemQty: 1
+      ItemSeqNo: 7
+      ItemTypeDescription: Normal Sale
+      ItemWeight: 0.0
+      MSUQty: 1
+      NetAmount: 10.29
+      SavingAmount: 0.0
+    - AccountNumber: '    '
+      IsGiftcardItem: 0
+      ItemAmount: 10.29
+      ItemCode: 00004900002892
+      ItemPrice: 10.29
+      ItemQty: 1
+      ItemSeqNo: 8
+      ItemTypeDescription: Normal Sale
+      ItemWeight: 0.0
+      MSUQty: 1
+      NetAmount: 0.0
+      SavingAmount: 10.29
+    - AccountNumber: '    '
+      IsGiftcardItem: 0
+      ItemAmount: 2.99
+      ItemCode: 00029506600000
+      ItemPrice: 2.99
+      ItemQty: 0
+      ItemSeqNo: 9
+      ItemTypeDescription: Normal Sale
+      ItemWeight: 1.0
+      MSUQty: 1
+      NetAmount: 2.99
+      SavingAmount: 1.16
+    - AccountNumber: '    '
+      IsGiftcardItem: 0
+      ItemAmount: 3.59
+      ItemCode: 00022488600000
+      ItemPrice: 3.59
+      ItemQty: 0
+      ItemSeqNo: 10
+      ItemTypeDescription: Normal Sale
+      ItemWeight: 1.0
+      MSUQty: 1
+      NetAmount: 3.59
+      SavingAmount: 0.0
+    - AccountNumber: '    '
+      IsGiftcardItem: 0
+      ItemAmount: 3.59
+      ItemCode: 00022488600000
+      ItemPrice: 3.59
+      ItemQty: 0
+      ItemSeqNo: 11
+      ItemTypeDescription: Normal Sale
+      ItemWeight: 1.0
+      MSUQty: 1
+      NetAmount: 3.59
+      SavingAmount: 0.0
+    ReceiptLogoId: 1
+    ReceiptTenderLineItems:
+    - TenderAmount: 54.71
+      TenderFeeAmount: 0.0
+      TenderNumberDescription: Credit Card
+    ReceiptText: '            GLADES CROSSING              &#10;           2465 Glades
+      Circle            &#10;            Weston, FL 33327             &#10;     Store
+      Manager: Heath Wernicki       &#10;              954-217-0022               &#10;            0021
+      4JQ 058 427             &#10;  FRESCA                       10.29 T F &#10;  FRESCA                       10.29
+      T F &#10;  FRESCA                       10.29 T F &#10;  DIET COCA-COLA               10.29
+      T F &#10;     Promotion                -10.29 T F &#10;     Promotion                -10.29
+      T F &#10;  COCA-COLA CLASSIC            10.29 T F &#10;  COCA-COLA CLASSIC            10.29
+      T F &#10;  SPRITE CHILL ZERO            10.29 T F &#10;  SPRITE 12 PK 12 OZ           10.29
+      T F &#10;     Promotion                -10.29 T F &#10;     Promotion                -10.29
+      T F &#10;  WHITE MTN BREAD               2.99   F &#10;     You Saved        1.16               &#10;  MANGO
+      STR BLUE PAR            3.59 T F &#10;  MANGO STR BLUE PAR            3.59 T
+      F &#10;    Order Total                51.33     &#10;      Sales Tax                 3.38     &#10;    Grand
+      Total                54.71     &#10; Credit          Payment       54.71     &#10;  Change                        0.00     &#10;Savings
+      Summary                          &#10;  Special Price Savings        42.32     &#10;**************************************   &#10;*       Your
+      Savings at Publix       *   &#10;*                42.32               *   &#10;**************************************   &#10;  Customer
+      ID Accepted                   &#10;      Receipt ID: 0021 4JQ 058 427       &#10;
+      - - - - - - - - - - - - - - - - - - -   &#10;      PRESTO!                            &#10;      Trace
+      #: 052315                    &#10;      Reference #: 1136062951            &#10;      Acct
+      #: XXXXXXXXXXXX8494           &#10;      Purchase VISA                      &#10;      Amount:
+      $54.71                     &#10;      Auth #: 03612D                     &#10;
+      - - - - - - - - - - - - - - - - - - -   &#10;CREDIT CARD                     PURCHASE
+      &#10;A0000000031010               VISA CREDIT &#10;Entry Method:                  Chip
+      Read &#10;Mode:                             Issuer &#10; - - - - - - - - - -
+      - - - - - - - - -   &#10;Your cashier was Sophia                  &#10;04/19/2025
+      16:21 S0021  R105 8427 C0254  &#10;                                         &#10;        Join
+      the Publix family!          &#10;   Apply today at apply.publix.jobs.     &#10;  We&#39;re
+      an equal opportunity employer.   &#10;                                         &#10;       Publix
+      Super Markets, Inc.        &#10;                                         &#10;'
+    SalesTransactionNumber: 1403
+    StoreCouponAmount: 0.0
+    TaxAmount: 3.38
+    TransactionDate: '2025-04-19T16:21:23'
+    TransactionKey: nBpbNiGPY8AEXFUaQMrjyp5Wd4OR7PeL2xu4r5s8QBMjJbmyGkwYiD87-zHy8xkwHHj6pXnNK3CkiP5BAXrGvINWXn-eTCvuOGaVnENV2Zg%3D
+    TransactionNumber: 8427
+    TransactionSource: PurchaseHistory
+    VendorCouponAmount: 0.0
+    custtranstypeid: 1
+  original_purchase:
+    Id: nBpbNiGPY8AEXFUaQMrjyp5Wd4OR7PeL2xu4r5s8QBMjJbmyGkwYiD87-zHy8xkwHHj6pXnNK3CkiP5BAXrGvINWXn-eTCvuOGaVnENV2Zg%3D
+    IsCancelled: false
+    IsGiftCardOrder: false
+    IsOnlineOrder: false
+    Items:
+    - Id: '330060'
+      ImageUrl: https://images.publixcdn.com/pct/images/products/330000/330060-75x75-A.jpg
+      NoImageUrl: null
+      Quantity: 1
+    - Id: '95066'
+      ImageUrl: https://images.publixcdn.com/pct/images/products/95000/095066-75x75-A.jpg
+      NoImageUrl: null
+      Quantity: 1
+    - Id: '24886'
+      ImageUrl: https://images.publixcdn.com/pct/images/products/20000/024886-75x75-A.jpg
+      NoImageUrl: null
+      Quantity: 2
+    - Id: '330058'
+      ImageUrl: https://images.publixcdn.com/pct/images/products/330000/330058-75x75-A.jpg
+      NoImageUrl: null
+      Quantity: 1
+    - Id: '297892'
+      ImageUrl: https://images.publixcdn.com/pct/images/products/295000/297892-75x75-A.jpg
+      NoImageUrl: null
+      Quantity: 1
+    - Id: '305082'
+      ImageUrl: https://images.publixcdn.com/pct/images/products/305000/305082-75x75-A.jpg
+      NoImageUrl: null
+      Quantity: 3
+    - Id: '330057'
+      ImageUrl: https://images.publixcdn.com/pct/images/products/330000/330057-75x75-A.jpg
+      NoImageUrl: null
+      Quantity: 2
+    LineItems: []
+    PaidOnline: false
+    PaymentStatus: null
+    Payments: null
+    PickupDate: '0001-01-01T00:00:00'
+    PickupName: null
+    PurchaseDate: '2025-04-19T16:21:23'
+    RefundTotal: 0.0
+    Status: null
+    StoreId: 21
+    StoreName: Publix At Glade Crossing
+    StoreTimezone: null
+    Subtotal: 0.0
+    Taxes: null
+    Total: 0.0
+    TotalPrice: 54.71
+    TotalSavings: null
+    TotalTax: 0.0
+  scraped_at: '2025-07-03T15:19:30.014609'
+  source: publix_detail_api
+receipt_id: nBpbNiGPY8AEXFUaQMrjyp5Wd4OR7PeL2xu4r5s8QBMjJbmyGkwYiD87-zHy8xkwHHj6pXnNK3CkiP5BAXrGvINWXn-eTCvuOGaVnENV2Zg%3D
+receipt_items:
+- is_voided: false
+  line_text: WHITE MTN BREAD               2.99   F
+  name: WHITE MTN BREAD
+  price: 2.99
+  tax_flag: F
+- is_voided: false
+  line_text: You Saved        1.16
+  name: You
+  price: null
+  tax_flag: ''
+- is_voided: false
+  line_text: Order Total                51.33
+  name: Order
+  price: null
+  tax_flag: ''
+- is_voided: false
+  line_text: Sales Tax                 3.38
+  name: Sales
+  price: null
+  tax_flag: ''
+- is_voided: false
+  line_text: Grand Total                54.71
+  name: Grand
+  price: null
+  tax_flag: ''
+- is_voided: false
+  line_text: Credit          Payment       54.71
+  name: Credit
+  price: null
+  tax_flag: ''
+- is_voided: false
+  line_text: Change                        0.00
+  name: Change
+  price: 0.0
+  tax_flag: ''
+- is_voided: false
+  line_text: Special Price Savings        42.32
+  name: Special Price
+  price: null
+  tax_flag: ''
+- is_voided: false
+  line_text: 'Amount: $54.71'
+  name: 'Amount:'
+  price: null
+  tax_flag: ''
+receipt_text: '            GLADES CROSSING              &#10;           2465 Glades
+  Circle            &#10;            Weston, FL 33327             &#10;     Store
+  Manager: Heath Wernicki       &#10;              954-217-0022               &#10;            0021
+  4JQ 058 427             &#10;  FRESCA                       10.29 T F &#10;  FRESCA                       10.29
+  T F &#10;  FRESCA                       10.29 T F &#10;  DIET COCA-COLA               10.29
+  T F &#10;     Promotion                -10.29 T F &#10;     Promotion                -10.29
+  T F &#10;  COCA-COLA CLASSIC            10.29 T F &#10;  COCA-COLA CLASSIC            10.29
+  T F &#10;  SPRITE CHILL ZERO            10.29 T F &#10;  SPRITE 12 PK 12 OZ           10.29
+  T F &#10;     Promotion                -10.29 T F &#10;     Promotion                -10.29
+  T F &#10;  WHITE MTN BREAD               2.99   F &#10;     You Saved        1.16               &#10;  MANGO
+  STR BLUE PAR            3.59 T F &#10;  MANGO STR BLUE PAR            3.59 T F &#10;    Order
+  Total                51.33     &#10;      Sales Tax                 3.38     &#10;    Grand
+  Total                54.71     &#10; Credit          Payment       54.71     &#10;  Change                        0.00     &#10;Savings
+  Summary                          &#10;  Special Price Savings        42.32     &#10;**************************************   &#10;*       Your
+  Savings at Publix       *   &#10;*                42.32               *   &#10;**************************************   &#10;  Customer
+  ID Accepted                   &#10;      Receipt ID: 0021 4JQ 058 427       &#10;
+  - - - - - - - - - - - - - - - - - - -   &#10;      PRESTO!                            &#10;      Trace
+  #: 052315                    &#10;      Reference #: 1136062951            &#10;      Acct
+  #: XXXXXXXXXXXX8494           &#10;      Purchase VISA                      &#10;      Amount:
+  $54.71                     &#10;      Auth #: 03612D                     &#10; -
+  - - - - - - - - - - - - - - - - - -   &#10;CREDIT CARD                     PURCHASE
+  &#10;A0000000031010               VISA CREDIT &#10;Entry Method:                  Chip
+  Read &#10;Mode:                             Issuer &#10; - - - - - - - - - - - -
+  - - - - - - -   &#10;Your cashier was Sophia                  &#10;04/19/2025 16:21
+  S0021  R105 8427 C0254  &#10;                                         &#10;        Join
+  the Publix family!          &#10;   Apply today at apply.publix.jobs.     &#10;  We&#39;re
+  an equal opportunity employer.   &#10;                                         &#10;       Publix
+  Super Markets, Inc.        &#10;                                         &#10;'
+savings: {}
+staff_info:
+  cashier: Sophia
+store_coupon_amount: 0.0
+store_info:
+  address: 2465 Glades Circle
+  city_state_zip: Weston, FL 33327
+  manager: Heath Wernicki
+  name: GLADES CROSSING
+  phone: 954-217-0022
+store_name: Publix At Glade Crossing
+tax_amount: 3.38
+transaction_number: 8427
+vendor_coupon_amount: 0.0

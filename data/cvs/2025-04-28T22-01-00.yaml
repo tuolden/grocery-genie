@@ -1,0 +1,106 @@
+items:
+  rx: {}
+  fs:
+    total: 3
+    name: TAKIS ROLLS DRAGON 9.9Z
+    image: ''
+number: 5083-17-6689-20250428
+type:
+- STORE
+alertStatus: []
+filterByStatus: true
+date: '2025-04-28T22:01:00Z'
+totalCost: '19.15'
+status:
+- Purchased
+statusCode: '0000'
+statusDesc: Success
+conversationId: rrt-3922985034873294501-d-gea1-65360-46885-731
+order:
+  type:
+  - STORE
+  number: 5083-17-6689-20250428
+  date: '2025-04-28T22:01:00Z'
+  splitShipment: false
+  ecCard: '2276'
+  cost:
+    subTotal: '18.27'
+    savings: '-0.00'
+    tax: '0.88'
+    shipping: ''
+    total: '19.15'
+    state: FL
+    feminineTax: '0'
+    totalReturnAmount: '0.00'
+  shipped: []
+  canceled: []
+  pickup: []
+  inStore:
+  - status: Purchased
+    totalCost: 18.27
+    fsItems:
+    - name: Buncha Crunch Candy, 8 oz
+      itemId: '882533'
+      itemSize: '8.00'
+      itemSizeUOM: OZ
+      itemWeight: '0.43'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '6.99'
+      priceFinal: '6.99'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '6.99'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: Lindt Excellence Lime Dark Chocolate Candy Bar, 3.5 oz
+      itemId: '403583'
+      itemSize: '3.50'
+      itemSizeUOM: OZ
+      itemWeight: '0.27'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '5.49'
+      priceFinal: '5.49'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '5.49'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: TAKIS ROLLS DRAGON SWEET CHILI
+      itemId: '547094'
+      itemSize: '9.90'
+      itemSizeUOM: OZ
+      itemWeight: '0.63'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '5.79'
+      priceFinal: '5.79'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '5.79'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    pickupStoreId: '5083'
+  return: []
+  paymentMethod:
+  - type: Credit/Debit/EBT
+    lastFourDigits: '4321'
+    amountCharged: '19.15'
+  - type: Credit/Debit/EBT
+    lastFourDigits: '4321'
+    amountReturned: '0.00'
+  splitFulfillment: false
+  returnEligible: false
+  returnEligibleFinalDate: '2025-06-27T00:00:00Z'
+  txnNo: '6689'
+  regNo: '17'

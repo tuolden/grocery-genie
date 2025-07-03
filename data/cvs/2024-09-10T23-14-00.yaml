@@ -1,0 +1,123 @@
+items:
+  rx: {}
+  fs:
+    total: 4
+    name: TMPX PRL SPR TMPNS 36CT
+    image: ''
+number: 5083-3-8529-20240910
+type:
+- STORE
+alertStatus: []
+filterByStatus: true
+date: '2024-09-10T23:14:00Z'
+totalCost: '31.94'
+status:
+- Purchased
+statusCode: '0000'
+statusDesc: Success
+conversationId: rrt-3068777324587238959-c-gea1-65541-24350-1
+order:
+  type:
+  - STORE
+  number: 5083-3-8529-20240910
+  date: '2024-09-10T23:14:00Z'
+  splitShipment: false
+  ecCard: '2276'
+  cost:
+    subTotal: '30.56'
+    savings: '-0.00'
+    tax: '1.38'
+    shipping: ''
+    total: '31.94'
+    state: FL
+    feminineTax: '0'
+    totalReturnAmount: '0.00'
+  shipped: []
+  canceled: []
+  pickup: []
+  inStore:
+  - status: Purchased
+    totalCost: 30.560000000000002
+    fsItems:
+    - name: Pop-arazzi Exfoliating Bath & Shower Gloves (Assorted Colors)
+      itemId: '410654'
+      itemSize: '1.00'
+      itemSizeUOM: EACH
+      itemWeight: '0.04'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '5.99'
+      priceFinal: '5.99'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '5.99'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: one+other Medium Hold Ponytailers, Black, 60 CT
+      itemId: '284327'
+      itemSize: '60.00'
+      itemSizeUOM: Ct
+      itemWeight: '0.17'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '6.59'
+      priceFinal: '6.59'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '6.59'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: Tampax Pearl Super Tampons, 36 CT
+      itemId: '583999'
+      itemSize: '36.00'
+      itemSizeUOM: Ct
+      itemWeight: '0.58'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '10.99'
+      priceFinal: '10.99'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '10.99'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: Conair Velvet Touch Mid-Size Cushion Brush, Assorted Colors
+      itemId: '184619'
+      itemSize: '1.00'
+      itemSizeUOM: EACH
+      itemWeight: '1.49'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '6.99'
+      priceFinal: '6.99'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '6.99'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    pickupStoreId: '5083'
+  return: []
+  paymentMethod:
+  - type: Credit/Debit/EBT
+    lastFourDigits: '0225'
+    amountCharged: '31.94'
+  - type: Credit/Debit/EBT
+    lastFourDigits: '0225'
+    amountReturned: '0.00'
+  splitFulfillment: false
+  returnEligible: false
+  returnEligibleFinalDate: '2024-11-09T00:00:00Z'
+  txnNo: '8529'
+  regNo: '3'

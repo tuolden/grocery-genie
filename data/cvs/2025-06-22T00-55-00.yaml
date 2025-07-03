@@ -1,0 +1,123 @@
+items:
+  rx: {}
+  fs:
+    total: 4
+    name: TWZRMN MINI SL PT  EACH
+    image: ''
+number: 5083-18-9327-20250621
+type:
+- STORE
+alertStatus: []
+filterByStatus: true
+date: '2025-06-22T00:55:00Z'
+totalCost: '63.95'
+status:
+- Purchased
+statusCode: '0000'
+statusDesc: Success
+conversationId: rrt-3922985034873294501-d-gea1-65362-53388-87
+order:
+  type:
+  - STORE
+  number: 5083-18-9327-20250621
+  date: '2025-06-22T00:55:00Z'
+  splitShipment: false
+  ecCard: '2276'
+  cost:
+    subTotal: '59.76'
+    savings: '-0.00'
+    tax: '4.19'
+    shipping: ''
+    total: '63.95'
+    state: FL
+    feminineTax: '0'
+    totalReturnAmount: '0.00'
+  shipped: []
+  canceled: []
+  pickup: []
+  inStore:
+  - status: Purchased
+    totalCost: 59.75999999999999
+    fsItems:
+    - name: Hero Cosmetics Mighty Patch Original Acne Patch, 30CT
+      itemId: '324432'
+      itemSize: '30.00'
+      itemSizeUOM: Ct
+      itemWeight: '0.04'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '13.49'
+      priceFinal: '13.49'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '13.49'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: The Honey Pot Intimate Wash, Bergamot Rose, 5.5 OZ
+      itemId: '564051'
+      itemSize: '5.51'
+      itemSizeUOM: OZ
+      itemWeight: '0.39'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '11.49'
+      priceFinal: '11.49'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '11.49'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: Revlon Extra Curl Lash Curler
+      itemId: '680292'
+      itemSize: '1.00'
+      itemSizeUOM: EACH
+      itemWeight: '0.10'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '10.29'
+      priceFinal: '10.29'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '10.29'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: Tweezerman Pink Perfection Petite Tweezer Set
+      itemId: '906398'
+      itemSize: '1.00'
+      itemSizeUOM: EACH
+      itemWeight: '0.65'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '24.49'
+      priceFinal: '24.49'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '24.49'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    pickupStoreId: '5083'
+  return: []
+  paymentMethod:
+  - type: Credit/Debit/EBT
+    lastFourDigits: '8494'
+    amountCharged: '63.95'
+  - type: Credit/Debit/EBT
+    lastFourDigits: '8494'
+    amountReturned: '0.00'
+  splitFulfillment: false
+  returnEligible: true
+  returnEligibleFinalDate: '2025-08-20T00:00:00Z'
+  txnNo: '9327'
+  regNo: '18'

@@ -1,0 +1,123 @@
+items:
+  rx: {}
+  fs:
+    total: 4
+    name: CVS CLD&HT DRY SPR 1Z
+    image: ''
+number: 5083-17-7866-20241129
+type:
+- STORE
+alertStatus: []
+filterByStatus: true
+date: '2024-11-29T14:52:00Z'
+totalCost: '60.32'
+status:
+- Purchased
+statusCode: '0000'
+statusDesc: Success
+conversationId: rrt-3024830282911917713-c-gea1-4160404-3950768-16
+order:
+  type:
+  - STORE
+  number: 5083-17-7866-20241129
+  date: '2024-11-29T14:52:00Z'
+  splitShipment: false
+  ecCard: '2276'
+  cost:
+    subTotal: '63.46'
+    savings: '-6.50'
+    tax: '3.36'
+    shipping: ''
+    total: '60.32'
+    state: FL
+    feminineTax: '0'
+    totalReturnAmount: '0.00'
+  shipped: []
+  canceled: []
+  pickup: []
+  inStore:
+  - status: Purchased
+    totalCost: 56.96
+    fsItems:
+    - name: CVS Health Cold & Hot Pain Relief Menthol 16% Dry Spray, 4 OZ
+      itemId: '365469'
+      itemSize: '1.00'
+      itemSizeUOM: OZ
+      itemWeight: '0.38'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '8.99'
+      priceFinal: '8.99'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '8.99'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: Vicks VapoInhaler Portable Nasal Inhaler, Non-Medicated, 2 CT
+      itemId: '198990'
+      itemSize: '1.00'
+      itemSizeUOM: EACH
+      itemWeight: '0.10'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '18.49'
+      priceFinal: '11.99'
+      savings: '6.50'
+      tax: 0
+      lineTotalWithoutTax: '11.99'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: Paul Mitchell Tea Tree Special Shampoo Invigorating
+      itemId: '253051'
+      itemSize: '16.90'
+      itemSizeUOM: OZ
+      itemWeight: '0.10'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '30.99'
+      priceFinal: '30.99'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '30.99'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: Safeguard Hand Wash Notes of Lavender, 15.5 oz
+      itemId: '636592'
+      itemSize: '15.50'
+      itemSizeUOM: OZ
+      itemWeight: '1.21'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '4.99'
+      priceFinal: '4.99'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '4.99'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    pickupStoreId: '5083'
+  return: []
+  paymentMethod:
+  - type: Credit/Debit/EBT
+    lastFourDigits: '0225'
+    amountCharged: '60.32'
+  - type: Credit/Debit/EBT
+    lastFourDigits: '0225'
+    amountReturned: '0.00'
+  splitFulfillment: false
+  returnEligible: false
+  returnEligibleFinalDate: '2025-01-28T00:00:00Z'
+  txnNo: '7866'
+  regNo: '17'

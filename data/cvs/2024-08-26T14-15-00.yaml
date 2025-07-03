@@ -1,0 +1,72 @@
+items:
+  rx: {}
+  fs:
+    total: 1
+    name: FIFO COLORS USB CA EACH
+    image: ''
+number: 3956-17-5444-20240826
+type:
+- STORE
+alertStatus: []
+filterByStatus: true
+date: '2024-08-26T14:15:00Z'
+totalCost: '6.36'
+status:
+- Purchased
+statusCode: '0000'
+statusDesc: Success
+conversationId: rrt-6893341591667774970-b-gea1-1208001-1307530-21
+order:
+  type:
+  - STORE
+  number: 3956-17-5444-20240826
+  date: '2024-08-26T14:15:00Z'
+  splitShipment: false
+  ecCard: '2276'
+  cost:
+    subTotal: '7.99'
+    savings: '-2.05'
+    tax: '0.42'
+    shipping: ''
+    total: '6.36'
+    state: FL
+    feminineTax: '0'
+    totalReturnAmount: '0.00'
+  shipped: []
+  canceled: []
+  pickup: []
+  inStore:
+  - status: Purchased
+    totalCost: 7.99
+    fsItems:
+    - name: FIFO Colors USB Cable for iDevices
+      itemId: '443695'
+      itemSize: '1.00'
+      itemSizeUOM: EACH
+      itemWeight: '1.00'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '7.99'
+      priceFinal: '7.99'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '7.99'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    pickupStoreId: '3956'
+  return: []
+  paymentMethod:
+  - type: Credit/Debit/EBT
+    lastFourDigits: '8747'
+    amountCharged: '6.36'
+  - type: Credit/Debit/EBT
+    lastFourDigits: '8747'
+    amountReturned: '0.00'
+  splitFulfillment: false
+  returnEligible: false
+  returnEligibleFinalDate: '2024-10-25T00:00:00Z'
+  txnNo: '5444'
+  regNo: '17'

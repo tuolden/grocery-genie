@@ -1,0 +1,90 @@
+items:
+  rx: {}
+  fs:
+    total: 2
+    name: CVS B SPRTSPR50 BN 9.1Z
+    image: ''
+number: 5083-18-2190-20240803
+type:
+- STORE
+alertStatus: []
+filterByStatus: true
+date: '2024-08-03T19:11:00Z'
+totalCost: '18.40'
+status:
+- Purchased
+statusCode: '0000'
+statusDesc: Success
+conversationId: rrt-3449212690009846577-d-gea1-848775-2712338-170
+order:
+  type:
+  - STORE
+  number: 5083-18-2190-20240803
+  date: '2024-08-03T19:11:00Z'
+  splitShipment: false
+  ecCard: '2276'
+  cost:
+    subTotal: '24.47'
+    savings: '-7.28'
+    tax: '1.21'
+    shipping: ''
+    total: '18.40'
+    state: FL
+    feminineTax: '0'
+    totalReturnAmount: '0.00'
+  shipped: []
+  canceled: []
+  pickup: []
+  inStore:
+  - status: Purchased
+    totalCost: 24.47
+    fsItems:
+    - name: CVS Health Sport Clear Spray Sunscreen Broad Spectrum SPF 50
+      itemId: '838270'
+      itemSize: '9.10'
+      itemSizeUOM: OZ
+      itemWeight: '0.25'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '11.29'
+      priceFinal: '11.29'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '11.29'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: Arrid XX Extra Dry Aerosol Antiperspirant & Deodorant Dry Spray, Regular,
+        6 OZ
+      itemId: '174169'
+      itemSize: '6.00'
+      itemSizeUOM: OZ
+      itemWeight: '0.01'
+      itemWeightUOM: LBS
+      qty: 2
+      priceTotal: '13.18'
+      priceFinal: '13.18'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '13.18'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    pickupStoreId: '5083'
+  return: []
+  paymentMethod:
+  - type: Credit/Debit/EBT
+    lastFourDigits: '0225'
+    amountCharged: '18.40'
+  - type: Credit/Debit/EBT
+    lastFourDigits: '0225'
+    amountReturned: '0.00'
+  splitFulfillment: false
+  returnEligible: false
+  returnEligibleFinalDate: '2024-10-02T00:00:00Z'
+  txnNo: '2190'
+  regNo: '18'

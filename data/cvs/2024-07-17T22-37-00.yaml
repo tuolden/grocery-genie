@@ -1,0 +1,72 @@
+items:
+  rx: {}
+  fs:
+    total: 1
+    name: ELF ON PNT BRW KT  KIT
+    image: ''
+number: 5083-18-1870-20240717
+type:
+- STORE
+alertStatus: []
+filterByStatus: true
+date: '2024-07-17T22:37:00Z'
+totalCost: '6.42'
+status:
+- Purchased
+statusCode: '0000'
+statusDesc: Success
+conversationId: rrt-3024830282911917713-c-gea1-4160404-3948140-219
+order:
+  type:
+  - STORE
+  number: 5083-18-1870-20240717
+  date: '2024-07-17T22:37:00Z'
+  splitShipment: false
+  ecCard: '2276'
+  cost:
+    subTotal: '6.00'
+    savings: '-0.00'
+    tax: '0.42'
+    shipping: ''
+    total: '6.42'
+    state: FL
+    feminineTax: '0'
+    totalReturnAmount: '0.00'
+  shipped: []
+  canceled: []
+  pickup: []
+  inStore:
+  - status: Purchased
+    totalCost: 6
+    fsItems:
+    - name: e.l.f. On Point Brow Kit
+      itemId: '262573'
+      itemSize: '1.00'
+      itemSizeUOM: EACH
+      itemWeight: '0.10'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '6.00'
+      priceFinal: '6.00'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '6.00'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    pickupStoreId: '5083'
+  return: []
+  paymentMethod:
+  - type: Credit/Debit/EBT
+    lastFourDigits: '8747'
+    amountCharged: '6.42'
+  - type: Credit/Debit/EBT
+    lastFourDigits: '8747'
+    amountReturned: '0.00'
+  splitFulfillment: false
+  returnEligible: false
+  returnEligibleFinalDate: '2024-09-15T00:00:00Z'
+  txnNo: '1870'
+  regNo: '18'

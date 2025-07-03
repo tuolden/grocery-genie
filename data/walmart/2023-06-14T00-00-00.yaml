@@ -1,0 +1,427 @@
+order_id: '451094530620621131476'
+purchase_date: '2023-06-14'
+store_name: Sunrise Supercenter
+order_totals:
+  subtotal: 277.46
+  tax_total: 12.19
+  grand_total: 289.65
+items:
+- item_id: '0'
+  item_quantity: 1
+  item_name: Cesar Steak Lovers Wet Dog Food Variety Pack, 3.5 Oz Trays (36 Pack)
+  item_image_url: https://i5.walmartimages.com/seo/Cesar-Steak-Lovers-Wet-Dog-Food-Variety-Pack-3-5-Oz-Trays-36-Pack_c8ab2d20-201d-44ed-aec6-bb2bde6b764c.4387ab474e8f18cebec5eebeca1ae25b.jpeg
+  item_price: 40.98
+  line_price: 40.98
+  sales_unit_type: null
+- item_id: '1'
+  item_quantity: 1
+  item_name: Michelob ULTRA Superior Light American Lager Beer, 24 Pack, 12 fl oz
+    Aluminum Cans, 4.2 % ABV
+  item_image_url: https://i5.walmartimages.com/seo/Michelob-ULTRA-Superior-Light-American-Lager-Beer-24-Pack-12-fl-oz-Aluminum-Cans-4-2-ABV_60b7e0f4-96d2-4770-bb36-6c96a3a5d7c8.14624fdb1e6f40db64d92eb6f49733fd.jpeg
+  item_price: 22.98
+  line_price: 22.98
+  sales_unit_type: null
+- item_id: '2'
+  item_quantity: 1
+  item_name: Canada Dry Ginger Ale, 12 Fl Oz, 12 Count
+  item_image_url: https://i5.walmartimages.com/seo/Canada-Dry-Ginger-Ale-12-Fl-Oz-12-Count_fe4040ec-897b-4ae6-a83c-d4224b16f858.d35ed99f370b7cba6ae6e6e7156b6c44.jpeg
+  item_price: 6.98
+  line_price: 6.98
+  sales_unit_type: null
+- item_id: '3'
+  item_quantity: 1
+  item_name: Seagrams Ginger Ale Soda Soft Drinks, 7.5 fl oz, 10 Pack
+  item_image_url: https://i5.walmartimages.com/seo/Seagrams-Ginger-Ale-Soda-Soft-Drinks-7-5-fl-oz-10-Pack_f1c52fe7-3b7d-4417-a0cc-85cbf4649927.13a685117f373fbb96bc680080eae8a5.jpeg
+  item_price: 5.88
+  line_price: 5.88
+  sales_unit_type: null
+- item_id: '4'
+  item_quantity: 1
+  item_name: Coca-Cola Mini Soda Pop Fridge Pack, 7.5 fl oz Cans, 10 Pack
+  item_image_url: https://i5.walmartimages.com/seo/Coca-Cola-Mini-Soda-Pop-Fridge-Pack-7-5-fl-oz-Cans-10-Pack_9841f29d-a7ef-41d7-a215-de9f9b42029e.606505af0e51e16578a2e70cc0daca01.jpeg
+  item_price: 5.88
+  line_price: 5.88
+  sales_unit_type: null
+- item_id: '5'
+  item_quantity: 1
+  item_name: Clear American Tangerine Mango, 33.8 fl oz
+  item_image_url: https://i5.walmartimages.com/seo/Clear-American-Tangerine-Mango-33-8-fl-oz_c0c44c9a-793a-413a-8f1b-1b4858e7ee0e.a248923913c7104bf91fc0459bc87995.jpeg
+  item_price: 0.76
+  line_price: 0.76
+  sales_unit_type: null
+- item_id: '6'
+  item_quantity: 1
+  item_name: Clear American Tangerine Mango, 33.8 fl oz
+  item_image_url: https://i5.walmartimages.com/seo/Clear-American-Tangerine-Mango-33-8-fl-oz_c0c44c9a-793a-413a-8f1b-1b4858e7ee0e.a248923913c7104bf91fc0459bc87995.jpeg
+  item_price: 0.76
+  line_price: 0.76
+  sales_unit_type: null
+- item_id: '7'
+  item_quantity: 1
+  item_name: Clear American Tangerine Mango, 33.8 fl oz
+  item_image_url: https://i5.walmartimages.com/seo/Clear-American-Tangerine-Mango-33-8-fl-oz_c0c44c9a-793a-413a-8f1b-1b4858e7ee0e.a248923913c7104bf91fc0459bc87995.jpeg
+  item_price: 0.76
+  line_price: 0.76
+  sales_unit_type: null
+- item_id: '8'
+  item_quantity: 1
+  item_name: Clear American Tangerine Mango, 33.8 fl oz
+  item_image_url: https://i5.walmartimages.com/seo/Clear-American-Tangerine-Mango-33-8-fl-oz_c0c44c9a-793a-413a-8f1b-1b4858e7ee0e.a248923913c7104bf91fc0459bc87995.jpeg
+  item_price: 0.76
+  line_price: 0.76
+  sales_unit_type: null
+- item_id: '9'
+  item_quantity: 1
+  item_name: Clear American Tangerine Mango, 33.8 fl oz
+  item_image_url: https://i5.walmartimages.com/seo/Clear-American-Tangerine-Mango-33-8-fl-oz_c0c44c9a-793a-413a-8f1b-1b4858e7ee0e.a248923913c7104bf91fc0459bc87995.jpeg
+  item_price: 0.76
+  line_price: 0.76
+  sales_unit_type: null
+- item_id: '10'
+  item_quantity: 1
+  item_name: Clear American Tangerine Mango, 33.8 fl oz
+  item_image_url: https://i5.walmartimages.com/seo/Clear-American-Tangerine-Mango-33-8-fl-oz_c0c44c9a-793a-413a-8f1b-1b4858e7ee0e.a248923913c7104bf91fc0459bc87995.jpeg
+  item_price: 0.76
+  line_price: 0.76
+  sales_unit_type: null
+- item_id: '11'
+  item_quantity: 1
+  item_name: Clear American Tangerine Mango, 33.8 fl oz
+  item_image_url: https://i5.walmartimages.com/seo/Clear-American-Tangerine-Mango-33-8-fl-oz_c0c44c9a-793a-413a-8f1b-1b4858e7ee0e.a248923913c7104bf91fc0459bc87995.jpeg
+  item_price: 0.76
+  line_price: 0.76
+  sales_unit_type: null
+- item_id: '12'
+  item_quantity: 1
+  item_name: Clear American Tangerine Mango, 33.8 fl oz
+  item_image_url: https://i5.walmartimages.com/seo/Clear-American-Tangerine-Mango-33-8-fl-oz_c0c44c9a-793a-413a-8f1b-1b4858e7ee0e.a248923913c7104bf91fc0459bc87995.jpeg
+  item_price: 0.76
+  line_price: 0.76
+  sales_unit_type: null
+- item_id: '13'
+  item_quantity: 1
+  item_name: Clear American Tangerine Mango, 33.8 fl oz
+  item_image_url: https://i5.walmartimages.com/seo/Clear-American-Tangerine-Mango-33-8-fl-oz_c0c44c9a-793a-413a-8f1b-1b4858e7ee0e.a248923913c7104bf91fc0459bc87995.jpeg
+  item_price: 0.76
+  line_price: 0.76
+  sales_unit_type: null
+- item_id: '14'
+  item_quantity: 1
+  item_name: Clear American Tangerine Mango, 33.8 fl oz
+  item_image_url: https://i5.walmartimages.com/seo/Clear-American-Tangerine-Mango-33-8-fl-oz_c0c44c9a-793a-413a-8f1b-1b4858e7ee0e.a248923913c7104bf91fc0459bc87995.jpeg
+  item_price: 0.76
+  line_price: 0.76
+  sales_unit_type: null
+- item_id: '15'
+  item_quantity: 1
+  item_name: Clear American Tangerine Mango, 33.8 fl oz
+  item_image_url: https://i5.walmartimages.com/seo/Clear-American-Tangerine-Mango-33-8-fl-oz_c0c44c9a-793a-413a-8f1b-1b4858e7ee0e.a248923913c7104bf91fc0459bc87995.jpeg
+  item_price: 0.76
+  line_price: 0.76
+  sales_unit_type: null
+- item_id: '16'
+  item_quantity: 1
+  item_name: Clear American Tangerine Mango, 33.8 fl oz
+  item_image_url: https://i5.walmartimages.com/seo/Clear-American-Tangerine-Mango-33-8-fl-oz_c0c44c9a-793a-413a-8f1b-1b4858e7ee0e.a248923913c7104bf91fc0459bc87995.jpeg
+  item_price: 0.76
+  line_price: 0.76
+  sales_unit_type: null
+- item_id: '17'
+  item_quantity: 1
+  item_name: Great Value 100% Orange Juice, 128 fl oz
+  item_image_url: https://i5.walmartimages.com/seo/Great-Value-100-Orange-Juice-128-fl-oz_d80d4c9c-d901-48c6-b2a1-a85f2f5a47a3.37411d4313bd1ecf36ad496bed3d8dc0.jpeg
+  item_price: 5.78
+  line_price: 5.78
+  sales_unit_type: null
+- item_id: '18'
+  item_quantity: 1
+  item_name: Pringles Variety Pack Potato Crisps Chips, Lunch Snacks, 16 Count
+  item_image_url: https://i5.walmartimages.com/seo/Pringles-Variety-Pack-Potato-Crisps-Chips-Lunch-Snacks-16-Count_d2723aa9-b4d4-4c7e-9d34-d2dac7a5e439.2ca1abe9b633073ff499a9e415c98f83.jpeg
+  item_price: 15.18
+  line_price: 15.18
+  sales_unit_type: null
+- item_id: '19'
+  item_quantity: 1
+  item_name: Equate Baby Pure Cornstarch Baby Powder with Aloe Vera and Vitamin E,
+    15 oz
+  item_image_url: https://i5.walmartimages.com/seo/Equate-Baby-Aloe-Vera-and-Vitamin-E-Hypoallergenic-Pure-Cornstarch-Baby-Powder-15-oz_687e1a88-24aa-4178-983f-9df9fd6b9e88_1.a864c636686498c489cc72ca7952f013.jpeg
+  item_price: 1.98
+  line_price: 1.98
+  sales_unit_type: null
+- item_id: '20'
+  item_quantity: 1
+  item_name: Equate Baby Pure Cornstarch Baby Powder with Aloe Vera and Vitamin E,
+    15 oz
+  item_image_url: https://i5.walmartimages.com/seo/Equate-Baby-Aloe-Vera-and-Vitamin-E-Hypoallergenic-Pure-Cornstarch-Baby-Powder-15-oz_687e1a88-24aa-4178-983f-9df9fd6b9e88_1.a864c636686498c489cc72ca7952f013.jpeg
+  item_price: 1.98
+  line_price: 1.98
+  sales_unit_type: null
+- item_id: '21'
+  item_quantity: 1
+  item_name: Equate Baby Pure Cornstarch Baby Powder with Aloe Vera and Vitamin E,
+    15 oz
+  item_image_url: https://i5.walmartimages.com/seo/Equate-Baby-Aloe-Vera-and-Vitamin-E-Hypoallergenic-Pure-Cornstarch-Baby-Powder-15-oz_687e1a88-24aa-4178-983f-9df9fd6b9e88_1.a864c636686498c489cc72ca7952f013.jpeg
+  item_price: 1.98
+  line_price: 1.98
+  sales_unit_type: null
+- item_id: '22'
+  item_quantity: 1
+  item_name: Equate Baby Pure Cornstarch Baby Powder with Aloe Vera and Vitamin E,
+    15 oz
+  item_image_url: https://i5.walmartimages.com/seo/Equate-Baby-Aloe-Vera-and-Vitamin-E-Hypoallergenic-Pure-Cornstarch-Baby-Powder-15-oz_687e1a88-24aa-4178-983f-9df9fd6b9e88_1.a864c636686498c489cc72ca7952f013.jpeg
+  item_price: 1.98
+  line_price: 1.98
+  sales_unit_type: null
+- item_id: '23'
+  item_quantity: 1
+  item_name: Astroglide X Liquid, Premium Silicone Personal Lubricant, Waterproof
+    Lube, Travel Friendly Size, 2.5oz
+  item_image_url: https://i5.walmartimages.com/seo/Astroglide-X-Liquid-Premium-Silicone-Personal-Lubricant-Waterproof-Lube-Travel-Friendly-Size-2-5oz_730c9a97-e203-40de-af11-b8edba9ae77c_1.c8c772b47558980ba8b3f8f02ece5697.jpeg
+  item_price: 9.97
+  line_price: 9.97
+  sales_unit_type: null
+- item_id: '24'
+  item_quantity: 1
+  item_name: 5 Gum Peppermint Cobalt Sugar Free Chewing Gum - 15 Ct (6 Pack)
+  item_image_url: https://i5.walmartimages.com/seo/5-Gum-Peppermint-Cobalt-Sugar-Free-Chewing-Gum-15-Ct-6-Pack_9a1ddca9-de98-46ef-9b29-524489855a00.b99d9b36e9e3b1ef3378f50428cb48ef.jpeg
+  item_price: 8.34
+  line_price: 8.34
+  sales_unit_type: null
+- item_id: '25'
+  item_quantity: 1
+  item_name: Hefty Slider Freezer Kitchen Storage Bags, gallon Size, 40 Count
+  item_image_url: https://i5.walmartimages.com/seo/Hefty-Slider-Freezer-Kitchen-Storage-Bags-gallon-Size-40-Count_fee46976-9587-4892-8b33-76ebb448fb92.a5a384f5b2367b5ccfaf3cb8f068399c.jpeg
+  item_price: 6.32
+  line_price: 6.32
+  sales_unit_type: null
+- item_id: '26'
+  item_quantity: 1
+  item_name: Hefty Party On Disposable Plastic Cups, Red, 18 oz, 50 Count
+  item_image_url: https://i5.walmartimages.com/seo/Hefty-Party-On-Disposable-Plastic-Cups-Red-18-oz-50-Count_8382f4b9-eb99-4faa-b42c-b9475134ec12.a288b34022b3d855086b564bb11485cb.jpeg
+  item_price: 5.84
+  line_price: 5.84
+  sales_unit_type: null
+- item_id: '27'
+  item_quantity: 1
+  item_name: Snack Pack Pink STARBURST Flavored Juicy Gels Cups, 3.25 oz 6 Count
+  item_image_url: https://i5.walmartimages.com/seo/Snack-Pack-Pink-STARBURST-Flavored-Juicy-Gels-Cups-3-25-oz-6-Count_260d48fa-097f-431e-8e88-72bce63d6a81.c380471a0fbb579e2a744611d1e609ec.jpeg
+  item_price: 2.84
+  line_price: 2.84
+  sales_unit_type: null
+- item_id: '28'
+  item_quantity: 1
+  item_name: Snack Pack Fanta Orange Flavored Juicy Gels, 6 Count Snack Cups
+  item_image_url: https://i5.walmartimages.com/seo/Snack-Pack-Fanta-Orange-Flavored-Juicy-Gels-6-Count-Snack-Cups_55da328b-dee1-4b49-a669-8295243db75c.99241bdc33563d51c43f0e0b1d8a4dff.jpeg
+  item_price: 2.97
+  line_price: 2.97
+  sales_unit_type: null
+- item_id: '29'
+  item_quantity: 1
+  item_name: Trolli Sour Brite Crawlers, Candy, Very Berry, Sweet and Sour, Gummy
+    Worms, 14 oz
+  item_image_url: https://i5.walmartimages.com/seo/Trolli-Sour-Brite-Crawlers-Candy-Very-Berry-Sweet-and-Sour-Gummy-Worms-14-oz_d53a3f4f-b8d3-4b26-97d2-23f0d76c2ee1.d0e6f7a817eb40ad7840b63af5ea9fe5.jpeg
+  item_price: 3.58
+  line_price: 3.58
+  sales_unit_type: null
+- item_id: '30'
+  item_quantity: 1
+  item_name: Hershey's, Kit Kat And Reese's Assorted Flavored Candy, Party Pack 33.38
+    oz
+  item_image_url: https://i5.walmartimages.com/seo/Hershey-s-Kit-Kat-And-Reese-s-Assorted-Flavored-Candy-Party-Pack-33-38-oz_7fb128b3-7b5a-4a83-a1db-6a496c16f108.d7c6c1fbcc7864b594815d175ee8e981.jpeg
+  item_price: 13.24
+  line_price: 13.24
+  sales_unit_type: null
+- item_id: '31'
+  item_quantity: 1
+  item_name: Jell-O Original Strawberry Jello Cups Gelatin Snack Value Pack, 8 Ct
+    Cups
+  item_image_url: https://i5.walmartimages.com/seo/Jell-O-Original-Strawberry-Jello-Cups-Gelatin-Snack-Value-Pack-8-Ct-Cups_0e4fc66f-a861-4d28-a2fe-1ed5631617f9.82ec08582f79da855bde39adfce4a35a.jpeg
+  item_price: 4.38
+  line_price: 4.38
+  sales_unit_type: null
+- item_id: '32'
+  item_quantity: 1
+  item_name: Febreze Bathroom Air Freshener, Small Spaces Odor-Fighting, Gain Honey
+    Berry Hula, 2 Count
+  item_image_url: https://i5.walmartimages.com/seo/Febreze-Small-Spaces-Air-Freshener-Odor-Fighting-Gain-Honey-Berry-Hula-2-Count_46324fd2-4c10-4b4c-b0c1-5f72a2228314.45d761a105885d21248b5d1adb8633bc.jpeg
+  item_price: 5.48
+  line_price: 5.48
+  sales_unit_type: null
+- item_id: '33'
+  item_quantity: 1
+  item_name: Fantastik All-Purpose Cleaner, Fresh Scent, 32 Ounce Trigger Bottle
+  item_image_url: https://i5.walmartimages.com/seo/Fantastik-All-Purpose-Cleaner-Fresh-Scent-32-Ounce-Trigger-Bottle_e1620dd0-19a9-4096-9327-26e378fb76c9.ca2e5df06ebc3589ae668d348ee39df7.jpeg
+  item_price: 3.22
+  line_price: 3.22
+  sales_unit_type: null
+- item_id: '34'
+  item_quantity: 1
+  item_name: Equate EaseBetween Super Soft Interdental Picks, Value Pack with Convenient
+    Travel Case, Flexible Bristles, Standard Teeth Spacing, 50 Count
+  item_image_url: https://i5.walmartimages.com/seo/Equate-EaseBetween-Super-Soft-Interdental-Picks-Value-Pack-with-Convenient-Travel-Case-Flexible-Bristles-Standard-Teeth-Spacing-50-Count_7eaeb3d5-45fb-47c9-837b-af0ba0333a3e_2.672154372cfef66dfe799fd96c4d5cdb.jpeg
+  item_price: 2.54
+  line_price: 2.54
+  sales_unit_type: null
+- item_id: '35'
+  item_quantity: 1
+  item_name: Arrid XX Extra Extra Dry Ultra Clear Aerosol Antiperspirant Deodorant,
+    Ultra Fresh, Twin Pack 6 oz
+  item_image_url: https://i5.walmartimages.com/seo/Arrid-XX-Extra-Extra-Dry-Ultra-Clear-Aerosol-Antiperspirant-Deodorant-Ultra-Fresh-Twin-Pack-6-oz_84d7fda1-3f44-4075-aae2-1aa5ce0f60c9.94add05e342c6321ef1407cb39066d57.jpeg
+  item_price: 8.96
+  line_price: 8.96
+  sales_unit_type: null
+- item_id: '36'
+  item_quantity: 1
+  item_name: ZEISS Gentle and Thorough Cleaning Eyeglass Lens Cleaner Wipes, 100 Count
+  item_image_url: https://i5.walmartimages.com/seo/ZEISS-Gentle-and-Thorough-Cleaning-Eyeglass-Lens-Cleaner-Wipes-100-Count_1d0c6f42-a21b-4cc6-a371-b1d5dbf10965.c90fd53da8fece85ba4ed020cf838630.jpeg
+  item_price: 5.72
+  line_price: 5.72
+  sales_unit_type: null
+- item_id: '37'
+  item_quantity: 1
+  item_name: Mylanta Maximum Strength Liquid Antacid + Anti-Gas, Classic Flavor, 12
+    fl oz
+  item_image_url: https://i5.walmartimages.com/seo/Mylanta-Maximum-Strength-Liquid-Antacid-Anti-Gas-Classic-Flavor-12-fl-oz_8e70c767-a6d3-44db-8f82-c31cb91b1aa8.3ce6a98b171e3357652d8b7c12b4dbdf.jpeg
+  item_price: 8.34
+  line_price: 8.34
+  sales_unit_type: null
+- item_id: '38'
+  item_quantity: 1
+  item_name: HARIBO Peaches Gummies Fruity Peach Flavor Gummy Candy, 8oz, Share Size
+    Bag
+  item_image_url: https://i5.walmartimages.com/seo/Haribo-Gummy-Candy-Peaches-Gummies-Large-Peg-Bag-8-oz_e36d1f81-4e9e-4c16-b582-7102297685ee.350b00b4b2a1d5042c4ccb248b6e5999.jpeg
+  item_price: 2.38
+  line_price: 2.38
+  sales_unit_type: null
+- item_id: '39'
+  item_quantity: 1
+  item_name: HARIBO Peaches Gummies Fruity Peach Flavor Gummy Candy, 8oz, Share Size
+    Bag
+  item_image_url: https://i5.walmartimages.com/seo/Haribo-Gummy-Candy-Peaches-Gummies-Large-Peg-Bag-8-oz_e36d1f81-4e9e-4c16-b582-7102297685ee.350b00b4b2a1d5042c4ccb248b6e5999.jpeg
+  item_price: 2.38
+  line_price: 2.38
+  sales_unit_type: null
+- item_id: '40'
+  item_quantity: 1
+  item_name: Takis Fuego Mini 25 pc / 1.23 oz Bite Size Multipack, Hot Chili Pepper
+    & Lime Rolled Tortilla Chips
+  item_image_url: https://i5.walmartimages.com/seo/Takis-Fuego-Mini-25-pc-1-23-oz-Bite-Size-Multipack-Hot-Chili-Pepper-Lime-Rolled-Tortilla-Chips_a27e38b0-54dd-4df0-85bb-78363ea03baa.edf9c5bc65ad48a2f789b49cf480354a.jpeg
+  item_price: 14.24
+  line_price: 14.24
+  sales_unit_type: null
+- item_id: '41'
+  item_quantity: 1
+  item_name: Old El Paso Stand 'N Stuff Taco Dinner Kit, 8.8 oz.
+  item_image_url: https://i5.walmartimages.com/seo/Old-El-Paso-Stand-N-Stuff-Taco-Dinner-Kit-8-8-oz_5da70bd2-a1f6-4019-bdc4-d75e82f2e079.42bad84fe8023a91f50e6c2798385a6c.jpeg
+  item_price: 3.58
+  line_price: 3.58
+  sales_unit_type: null
+- item_id: '42'
+  item_quantity: 1
+  item_name: Old El Paso Stand 'N Stuff Taco Dinner Kit, 8.8 oz.
+  item_image_url: https://i5.walmartimages.com/seo/Old-El-Paso-Stand-N-Stuff-Taco-Dinner-Kit-8-8-oz_5da70bd2-a1f6-4019-bdc4-d75e82f2e079.42bad84fe8023a91f50e6c2798385a6c.jpeg
+  item_price: 3.58
+  line_price: 3.58
+  sales_unit_type: null
+- item_id: '43'
+  item_quantity: 1
+  item_name: Barilla Classic Non-GMO, Kosher Certified Linguine Pasta, 16 oz
+  item_image_url: https://i5.walmartimages.com/seo/Barilla-Classic-Non-GMO-Kosher-Certified-Linguine-Pasta-16-oz_789e7080-aaba-4c86-8161-ec05037d5594.77327b227bb02f421cc3a8e95111e64a.jpeg
+  item_price: 1.84
+  line_price: 1.84
+  sales_unit_type: null
+- item_id: '44'
+  item_quantity: 1
+  item_name: Barilla Classic Non-GMO, Kosher Certified Linguine Pasta, 16 oz
+  item_image_url: https://i5.walmartimages.com/seo/Barilla-Classic-Non-GMO-Kosher-Certified-Linguine-Pasta-16-oz_789e7080-aaba-4c86-8161-ec05037d5594.77327b227bb02f421cc3a8e95111e64a.jpeg
+  item_price: 1.84
+  line_price: 1.84
+  sales_unit_type: null
+- item_id: '45'
+  item_quantity: 1
+  item_name: Barilla Classic Non-GMO, Kosher Certified Linguine Pasta, 16 oz
+  item_image_url: https://i5.walmartimages.com/seo/Barilla-Classic-Non-GMO-Kosher-Certified-Linguine-Pasta-16-oz_789e7080-aaba-4c86-8161-ec05037d5594.77327b227bb02f421cc3a8e95111e64a.jpeg
+  item_price: 1.84
+  line_price: 1.84
+  sales_unit_type: null
+- item_id: '46'
+  item_quantity: 1
+  item_name: Barilla Classic Non-GMO, Kosher Certified Linguine Pasta, 16 oz
+  item_image_url: https://i5.walmartimages.com/seo/Barilla-Classic-Non-GMO-Kosher-Certified-Linguine-Pasta-16-oz_789e7080-aaba-4c86-8161-ec05037d5594.77327b227bb02f421cc3a8e95111e64a.jpeg
+  item_price: 1.84
+  line_price: 1.84
+  sales_unit_type: null
+- item_id: '47'
+  item_quantity: 1
+  item_name: Barilla Classic Non-GMO, Kosher Certified Linguine Pasta, 16 oz
+  item_image_url: https://i5.walmartimages.com/seo/Barilla-Classic-Non-GMO-Kosher-Certified-Linguine-Pasta-16-oz_789e7080-aaba-4c86-8161-ec05037d5594.77327b227bb02f421cc3a8e95111e64a.jpeg
+  item_price: 1.84
+  line_price: 1.84
+  sales_unit_type: null
+- item_id: '48'
+  item_quantity: 1
+  item_name: Barilla Classic Non-GMO, Kosher Certified Penne Pasta, 16 oz
+  item_image_url: https://i5.walmartimages.com/seo/Barilla-Classic-Non-GMO-Kosher-Certified-Penne-Pasta-16-oz_1dab454e-ceb6-4a79-aa5b-58dbf203beae.e5ee5a0cdcd5f245083c08c4a7fd074a.jpeg
+  item_price: 1.84
+  line_price: 1.84
+  sales_unit_type: null
+- item_id: '49'
+  item_quantity: 1
+  item_name: Barilla Classic Non-GMO, Kosher Certified Penne Pasta, 16 oz
+  item_image_url: https://i5.walmartimages.com/seo/Barilla-Classic-Non-GMO-Kosher-Certified-Penne-Pasta-16-oz_1dab454e-ceb6-4a79-aa5b-58dbf203beae.e5ee5a0cdcd5f245083c08c4a7fd074a.jpeg
+  item_price: 1.84
+  line_price: 1.84
+  sales_unit_type: null
+- item_id: '50'
+  item_quantity: 1
+  item_name: Barilla Classic Non-GMO, Kosher Certified Farfalle Pasta, 16 oz
+  item_image_url: https://i5.walmartimages.com/seo/Barilla-Classic-Non-GMO-Kosher-Certified-Farfalle-Pasta-16-oz_0d72ab6d-c8b9-4a16-8910-aab2cfcfa965.74daf9af20dca0b343b0660969a6a0dd.jpeg
+  item_price: 1.84
+  line_price: 1.84
+  sales_unit_type: null
+- item_id: '51'
+  item_quantity: 1
+  item_name: Barilla Classic Non-GMO, Kosher Certified Rigatoni Pasta, 16 oz
+  item_image_url: https://i5.walmartimages.com/seo/Barilla-Classic-Non-GMO-Kosher-Certified-Rigatoni-Pasta-16-oz_4b6e2884-1ac0-44d7-a87c-f0a9699b6ee2.1d55f6fd71d3174905f9e7391d7cdb46.jpeg
+  item_price: 1.84
+  line_price: 1.84
+  sales_unit_type: null
+- item_id: '52'
+  item_quantity: 1
+  item_name: Barilla Classic Non-GMO, Kosher Certified Rigatoni Pasta, 16 oz
+  item_image_url: https://i5.walmartimages.com/seo/Barilla-Classic-Non-GMO-Kosher-Certified-Rigatoni-Pasta-16-oz_4b6e2884-1ac0-44d7-a87c-f0a9699b6ee2.1d55f6fd71d3174905f9e7391d7cdb46.jpeg
+  item_price: 1.84
+  line_price: 1.84
+  sales_unit_type: null
+- item_id: '53'
+  item_quantity: 1
+  item_name: Blue Bell Dutch Chocolate and Homemade Vanilla Ice Cream Cups, 3.0 fl
+    oz, 12 Count
+  item_image_url: https://i5.walmartimages.com/seo/Blue-Bell-Dutch-Chocolate-and-Homemade-Vanilla-Ice-Cream-Cups-3-0-fl-oz-12-Count_c842c9e8-7a89-4fec-b64b-755c5dd30779.9d51435fbf602d6ea1933805a63bc108.jpeg
+  item_price: 8.94
+  line_price: 8.94
+  sales_unit_type: null
+- item_id: '54'
+  item_quantity: 2.95
+  item_name: Fresh Banana, Each
+  item_image_url: https://i5.walmartimages.com/seo/Fresh-Banana-Each_5939a6fa-a0d6-431c-88c6-b4f21608e4be.f7cd0cc487761d74c69b7731493c1581.jpeg
+  item_price: 1.56
+  line_price: 1.56
+  sales_unit_type: null
+- item_id: '55'
+  item_quantity: 1
+  item_name: Red Baron Pepperoni Thin Crust Frozen Pizza, 15.78 oz
+  item_image_url: https://i5.walmartimages.com/seo/Red-Baron-Pepperoni-Thin-Crust-Frozen-Pizza-15-78-oz_663a5e36-308c-4cd7-a895-603c10b358ff.ab848240ff56fd8119ed4ddfe7e0533e.jpeg
+  item_price: 4.98
+  line_price: 4.98
+  sales_unit_type: null
+- item_id: '56'
+  item_quantity: 1
+  item_name: Red Baron Supreme Classic Crust Frozen Pizza, 23.46 oz
+  item_image_url: https://i5.walmartimages.com/seo/Red-Baron-Supreme-Classic-Crust-Frozen-Pizza-23-46-oz_80211a57-b08c-4d42-a1f5-940bc428bdb2.e01ac3fa38b902be1de7cbd3c571a535.jpeg
+  item_price: 4.98
+  line_price: 4.98
+  sales_unit_type: null
+metadata:
+  source_file: jun14
+  processed_at: '2025-07-03T08:45:55.669971'

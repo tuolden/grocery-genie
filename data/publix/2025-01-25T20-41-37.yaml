@@ -1,0 +1,884 @@
+barcode_src: data:image/png;base64,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
+fsa_info: {}
+grand_total: 101.25
+order_total: 100.6
+payment_info: {}
+products: &id001
+- ActivationStatus: A
+  BaseProductId: RIO-PCI-107740
+  Categories: null
+  FavoriteProductId: null
+  ItemDescription: null
+  ItemDetailUrl: /pd/RIO-PCI-107740
+  ItemId: 24341
+  ItemImageUrl: https://images.publixcdn.com/pct/images/products/20000/024341-75x75-A.jpg
+  ItemName: Cilantro
+  ItemQuantity: 1
+  PimsCode: null
+  RetailSubSectionNumber: '315'
+  SizeDescription: 1 Each
+  UPC: '4889'
+- ActivationStatus: A
+  BaseProductId: RIO-PCI-607536
+  Categories: null
+  FavoriteProductId: null
+  ItemDescription: null
+  ItemDetailUrl: /pd/RIO-PCI-607536
+  ItemId: 288928
+  ItemImageUrl: https://images.publixcdn.com/pct/images/products/285000/288928-75x75-A.jpg
+  ItemName: Celebrity GOAT, CRANBERRY CELEBRITY 4 OZ
+  ItemQuantity: 1
+  PimsCode: null
+  RetailSubSectionNumber: '19'
+  SizeDescription: 4 ounce
+  UPC: '7127039080'
+- ActivationStatus: A
+  BaseProductId: RIO-PCI-104396
+  Categories: null
+  FavoriteProductId: null
+  ItemDescription: null
+  ItemDetailUrl: /pd/RIO-PCI-104396
+  ItemId: 12830
+  ItemImageUrl: https://images.publixcdn.com/pct/images/products/10000/012830-75x75-A.jpg
+  ItemName: Kikkoman Soy Sauce
+  ItemQuantity: 1
+  PimsCode: null
+  RetailSubSectionNumber: '167'
+  SizeDescription: 15 fl oz (444 ml)
+  UPC: '4139000090'
+- ActivationStatus: A
+  BaseProductId: RIO-PCI-200059
+  Categories: null
+  FavoriteProductId: null
+  ItemDescription: null
+  ItemDetailUrl: /pd/RIO-PCI-200059
+  ItemId: 70054
+  ItemImageUrl: https://images.publixcdn.com/pct/images/products/70000/070054-75x75-A.jpg
+  ItemName: Oscar Mayer Smoked Sausage, Smookies, Hardwood Smoked
+  ItemQuantity: 1
+  PimsCode: null
+  RetailSubSectionNumber: '616'
+  SizeDescription: 14 oz
+  UPC: '4470000783'
+- ActivationStatus: A
+  BaseProductId: RIO-PCI-157550
+  Categories: null
+  FavoriteProductId: null
+  ItemDescription: null
+  ItemDetailUrl: /pd/RIO-PCI-157550
+  ItemId: 720302
+  ItemImageUrl: https://images.publixcdn.com/pct/images/products/720000/720302-75x75-A.jpg
+  ItemName: Goya Prime Premium Black Beans
+  ItemQuantity: 2
+  PimsCode: null
+  RetailSubSectionNumber: '47'
+  SizeDescription: 29 oz (1 lb 13 oz) 822 g
+  UPC: '4133102465'
+- ActivationStatus: A
+  BaseProductId: RIO-PCI-155159
+  Categories: null
+  FavoriteProductId: null
+  ItemDescription: null
+  ItemDetailUrl: /pd/RIO-PCI-155159
+  ItemId: 796384
+  ItemImageUrl: https://images.publixcdn.com/pct/images/products/795000/796384-75x75-A.jpg
+  ItemName: Kraft American Cheese Slices with 2% Milk
+  ItemQuantity: 1
+  PimsCode: null
+  RetailSubSectionNumber: '585'
+  SizeDescription: 22 ct
+  UPC: '2100002492'
+- ActivationStatus: A
+  BaseProductId: RIO-PCI-102601
+  Categories: null
+  FavoriteProductId: null
+  ItemDescription: null
+  ItemDetailUrl: /pd/RIO-PCI-102601
+  ItemId: 6218
+  ItemImageUrl: https://images.publixcdn.com/pct/images/products/5000/006218-75x75-A.jpg
+  ItemName: Welch&#39;s Jelly, Concord Grape
+  ItemQuantity: 1
+  PimsCode: null
+  RetailSubSectionNumber: '156'
+  SizeDescription: 20 oz (1.25 lb) 566 g
+  UPC: '4180000019'
+- ActivationStatus: A
+  BaseProductId: RIO-PCI-520279
+  Categories: null
+  FavoriteProductId: null
+  ItemDescription: null
+  ItemDetailUrl: /pd/RIO-PCI-520279
+  ItemId: 215333
+  ItemImageUrl: https://images.publixcdn.com/pct/images/products/215000/215333-75x75-A.jpg
+  ItemName: Huy Fong Chili Sauce, Hot, Sriracha
+  ItemQuantity: 1
+  PimsCode: null
+  RetailSubSectionNumber: '167'
+  SizeDescription: 28 oz (1 lb 12 oz) 793 g
+  UPC: '2446306116'
+- ActivationStatus: A
+  BaseProductId: RIO-PCI-107150
+  Categories: null
+  FavoriteProductId: null
+  ItemDescription: null
+  ItemDetailUrl: /pd/RIO-PCI-107150
+  ItemId: 23453
+  ItemImageUrl: https://images.publixcdn.com/pct/images/products/20000/023453-75x75-A.jpg
+  ItemName: Publix Idaho Russet Potatoes
+  ItemQuantity: 1
+  PimsCode: null
+  RetailSubSectionNumber: '711'
+  SizeDescription: 5 lb Bag
+  UPC: '4141500985'
+- ActivationStatus: A
+  BaseProductId: RIO-PCI-107286
+  Categories: null
+  FavoriteProductId: null
+  ItemDescription: null
+  ItemDetailUrl: /pd/RIO-PCI-107286
+  ItemId: 23491
+  ItemImageUrl: https://images.publixcdn.com/pct/images/products/20000/023491-75x75-A.jpg
+  ItemName: Yellow Name
+  ItemQuantity: 1
+  PimsCode: null
+  RetailSubSectionNumber: '867'
+  SizeDescription: ''
+  UPC: '4818'
+- ActivationStatus: A
+  BaseProductId: RIO-PCI-114055
+  Categories: null
+  FavoriteProductId: null
+  ItemDescription: null
+  ItemDetailUrl: /pd/RIO-PCI-114055
+  ItemId: 71501
+  ItemImageUrl: https://images.publixcdn.com/pct/images/products/70000/071501-75x75-A.jpg
+  ItemName: Kraft Natural Cheese, Mozzarella, Fat Free
+  ItemQuantity: 1
+  PimsCode: null
+  RetailSubSectionNumber: '584'
+  SizeDescription: 7 oz (198 g)
+  UPC: '2100005447'
+- ActivationStatus: A
+  BaseProductId: RIO-PCI-140587
+  Categories: null
+  FavoriteProductId: null
+  ItemDescription: null
+  ItemDetailUrl: /pd/RIO-PCI-140587
+  ItemId: 193113
+  ItemImageUrl: https://images.publixcdn.com/pct/images/products/190000/193113-75x75-A.jpg
+  ItemName: Jell-O Zero Sugar Lemon-Lime Flavor Gelatin Snack Cups
+  ItemQuantity: 1
+  PimsCode: null
+  RetailSubSectionNumber: '61'
+  SizeDescription: 4 ct
+  UPC: '4300004608'
+- ActivationStatus: null
+  BaseProductId: RIO-PCI-608824
+  Categories: null
+  FavoriteProductId: null
+  ItemDescription: null
+  ItemDetailUrl: null
+  ItemId: 290392
+  ItemImageUrl: https://images.publixcdn.com/pct/images/products/290000/290392-75x75-A.jpg
+  ItemName: Pure Life Baby Purified Water
+  ItemQuantity: 2
+  PimsCode: null
+  RetailSubSectionNumber: '101'
+  SizeDescription: 1 gal (3.79 l)
+  UPC: '6827436027'
+- ActivationStatus: A
+  BaseProductId: RIO-PCI-607422
+  Categories: null
+  FavoriteProductId: null
+  ItemDescription: null
+  ItemDetailUrl: /pd/RIO-PCI-607422
+  ItemId: 289006
+  ItemImageUrl: https://images.publixcdn.com/pct/images/products/285000/289006-75x75-A.jpg
+  ItemName: The Laughing Cow&reg; Creamy Light Spreadable Cheese Wedges, 8 pack (5.4
+    oz)
+  ItemQuantity: 2
+  PimsCode: null
+  RetailSubSectionNumber: '416'
+  SizeDescription: 8 cheese wedges [5.4 oz (154 g)]
+  UPC: '4175702539'
+- ActivationStatus: A
+  BaseProductId: RIO-PCI-622194
+  Categories: null
+  FavoriteProductId: null
+  ItemDescription: null
+  ItemDetailUrl: /pd/RIO-PCI-622194
+  ItemId: 321478
+  ItemImageUrl: https://images.publixcdn.com/pct/images/products/320000/321478-75x75-A.jpg
+  ItemName: Mission Tortilla Wraps, Zero Net Carbs, Original
+  ItemQuantity: 2
+  PimsCode: null
+  RetailSubSectionNumber: '104'
+  SizeDescription: 8 tortilla wraps [11.29 oz (320 g)]
+  UPC: '7373107195'
+- ActivationStatus: A
+  BaseProductId: RIO-PCI-122563
+  Categories: null
+  FavoriteProductId: null
+  ItemDescription: null
+  ItemDetailUrl: /pd/RIO-PCI-122563
+  ItemId: 117696
+  ItemImageUrl: https://images.publixcdn.com/pct/images/products/115000/117696-75x75-A.jpg
+  ItemName: Bear Naked Granola Cereal, Fruit and Nut
+  ItemQuantity: 1
+  PimsCode: null
+  RetailSubSectionNumber: '958'
+  SizeDescription: 12 oz (340 g)
+  UPC: '85641600001'
+- ActivationStatus: A
+  BaseProductId: RIO-PCI-154449
+  Categories: null
+  FavoriteProductId: null
+  ItemDescription: null
+  ItemDetailUrl: /pd/RIO-PCI-154449
+  ItemId: 783251
+  ItemImageUrl: https://images.publixcdn.com/pct/images/products/780000/783251-75x75-A.jpg
+  ItemName: Blue Bell Homemade Homemade Vanilla Ice Cream Cups
+  ItemQuantity: 1
+  PimsCode: null
+  RetailSubSectionNumber: '285'
+  SizeDescription: 12 - 3 fl oz (88 ml) cups [36 fl oz (1 l)]
+  UPC: '7189900375'
+- ActivationStatus: A
+  BaseProductId: RIO-PCI-152555
+  Categories: null
+  FavoriteProductId: null
+  ItemDescription: null
+  ItemDetailUrl: /pd/RIO-PCI-152555
+  ItemId: 335923
+  ItemImageUrl: https://images.publixcdn.com/pct/images/products/335000/335923-75x75-A.jpg
+  ItemName: Goya Lentils
+  ItemQuantity: 1
+  PimsCode: null
+  RetailSubSectionNumber: '138'
+  SizeDescription: 14 oz (397 g)
+  UPC: '4133102306'
+purchase_date: '2025-01-25'
+purchase_time: '20:41:37'
+raw_data:
+  detail:
+    Amount: 101.25
+    BarcodeSrc: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJsAAAAyCAIAAADEED79AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAkoSURBVHhe7ZbtbV3JDgQdngNyOM5FqTgTvx72nJoWOZK1gLWLZ7j+bLHIc3U/sIC//HzNl8KSRTBaRMZ0ismO1GaTIwctMjapzcJR4JZaLhyFfRbggI5bBB2Zfi3AKnvzOQo7pZaHMT9HnLoIRovImE4x2ZHabHLkoEXGJrVZOArcUsuFo7DPAhzQcYugI9OvBVhlbz5HYafU8jDm54hTF8FoERnTKSY7UptNjhy0yNikNgtHgVtquXAU9lmAAzpuEXRk+rUAq+zN5yjslFoexvwcceoiGC0iYzrFZEdqs8mRgxYZm9Rm4ShwSy0XjsI+C3BAxy2Cjky/FmCVvfkchZ1Sy8OYnyNOXQSjRWRMp5jsSG02OXLQImOT2iwcBW6p5cJR2GcBDui4RdCR6dcCrLI3n6OwU2p5GPNzxKmLYLSIjOkUkx2pzSZHDlpkbFKbhaPALbVcOAr7LMABHbcIOjL9WoBV9uZzFHZKLQ9jfo44dRGMFpExnWKyI7XZ5MhBi4xNarNwFLillgtHYZ8FOKDjFkFHpl8LsMrefI7CTqnlYczPEacugtEiMqZTTHakNpscOWiRsUltFo4Ct9Ry4SjsswAHdNwi6Mj0awFW2ZvPUdgptTyM+Tni1EUwWkTGdIrJjtRmkyMHLTI2qc3CUeCWWi4chX0W4ICOWwQdmX4twCp78zkKO6WWhzE/R5y6CEaLyJhOMdmR2mxy5KBFxia1WTgK3FLLhaOwzwIc0HGLoCPTrwVYZW8+R2Gn1PIw5ueIUxfBaBEZ0ykmO1KbTY4ctMjYpDYLR4FbarlwFPZZgAM6bhF0ZPq1AKvszeco7JRaHsb8HHHqIhgtImM6xWRHarPJkYMWGZvUZuEocEstF47CPgtwQMctgo5MvxZglb35HIWdUsvDmJ8jTl0Eo0VkTKeY7EhtNjly0CJjk9osHAVuqeXCUdhnAQ7ouEXQkenXAqyyN5+jsFNqeRjzc8Spi2C0iIzpFJMdqc0mRw5aZGxSm4WjwC21XDgK+yzAAR23CDoy/VqAVfbmcxR2Si0PY36OOHURjBaRMZ1isiO12eTIQYuMTWqzcBS4pZYLR2GfBTig4xZBR6ZfC7DK3nyOwk6p5WHMzxGnLoLRIjKmU0x2pDabHDlokbFJbRaOArfUcuEo7LMAB3TcIujI9GsBVtmbz1HYKbU8jPk54tRFMFpExnSKyY7UZpMjBy0yNqnNwlHgllouHIV9FuCAjlsEHZl+LcAqe/M5CjullocxP0ecughGi8iYTjHZkdpscuSgRcYmtVk4CtxSy4WjsM8CHNBxi6Aj068FWGVvPkdhp9TyMObniFMXwWgRGdMpJjtSm02OHLTI2KQ2C0eBW2q5cBT2WYADOm4RdGT6tQCr7M3nKOyUWh7G/Bxx6iIYLSJjOsVkR2qzyZGDFhmb1GbhKHBLLReOwj4LcEDHLYKOTL8WYJW9+RyFnVLLw5ifI05dBKNFZEynmOxIbTY5ctAiY5PaLBwFbqnlwlHYZwEO6LhF0JHp1wKssjefo7BTankY83PEqYtgtIiM6RSTHanNJkcOWmRsUpuFo8AttVw4CvsswAEdtwg6Mv1agFX25nMUdkotD2N+jjh1EYwWkTGdYrIjtdnkyEGLjE1qs3AUuKWWC0dhnwU4oOMWQUemXwuwyt58jsJOqeVhzM8Rpy6C0SIyplNMdqQ2mxw5aJGxSW0WjgK31HLhKOyzAAd03CLoyPRrAVbZm89R2Cm1PIz5OeLURTBaRMZ0ismO1GaTIwctMjapzcJR4JZaLhyFfRbggI5bBB2Zfi3AKnvzOQo7pZaHMT9HnLoIRovImE4x2ZHabHLkoEXGJrVZOArcUsuFo7DPAhzQcYugI9OvBVhlbz5HYafU8jDm54hTF8FoERnTKSY7UptNjhy0yNikNgtHgVtquXAU9lmAAzpuEXRk+rUAq+zN5yjslFoexvwcceoiGC0iYzrFZEdqs8mRgxYZm9Rm4ShwSy0XjsI+C3BAxy2Cjky/FmCVvfkchZ1Sy8OYnyNOXQSjRWRMp5jsSG02OXLQImOT2iwcBW6p5cJR2GcBDui4RdCR6dcCrLI3n6OwU2p5GPNzxKmLYLSIjOkUkx2pzSZHDlpkbFKbhaPALbVcOAr7LMABHbcIOjL9WoBV9uZzFHZKLQ9jfo44dRGMFpExnWKyI7XZ5MhBi4xNarNwFLillgtHYZ8FOKDjFkFHpl8LsMrefI7CTqnlYczPEacugtEiMqZTTHakNpscOWiRsUltFo4Ct9Ry4SjsswAHdNwi6Mj0awFW2ZvPUdgptTyM+Tni1EUwWkTGdIrJjtRmkyMHLTI2qc3CUeCWWi4chX0W4ICOWwQdmX4twCp78zkKO6WWhzE/R5y6CEaLyJhOMdmR2mxy5KBFxia1WTgK3FLLhaOwzwIc0HGLoCPTrwVYZW8+R2Gn1PLQ57/8v/P3F/3T+PuL/mn8/UX/NP7+on8an/eLvnzzP8W+fHvZ5eeP7193Wzydwy9fv/9weiNutHsd83Xn+Xvby5vMB25vKC8//DiH8+39bj7rF+VbX58lfrv86MXZ1zdRuiyeefXQmsdXfcbzIubdrZbXN7nrut7PvnX5ocfjr8ZLfhaf9IvyYf0h+Djj0+SXkU8dTqxv5svXb9/iW3n1vIn0y+18kxEPv7p8//FX7fr6v5PP+UXPJxR8hiVf14+S/5Mp7tP10PiwKz4v9ePlZW3z7vr98JLvb69v8lV8+PXlu4+/ehv8+c/iX/xFV9yfbOmrg9e/sqmjUcfrjH3V9eLvb48snjdZ/33Rptjr6+U/e/xxHfw5v+gr1ieriyV7TQvy29istJ8IDZ6//v72yOJ5k+s9jFe/Xn78ce/Nt+/52GfwX/2iz0W/nJ92PN6+qfnavMz72+ubZLt4603W5ccff4XifE+/k3/zX0bJ9Xu5nsZLmXVFya9QvjTSL7fjTd7fz+3yHzwe3Nrv5ZN+0fPFnW/wWOn+NtZH3Hp5JtcPLcVrlYuPbvk7iH1fRH3r8kOP3z7i5/FZv6jffHE+wfpom/xYXJ7v+o3LYv7IcQ3XvwrP9vIm84Go18uPPn7S6zf+GXzeL/qf8vLy/cfbX9372/9rfv78HzuLxpW5ORkpAAAAAElFTkSuQmCC
+    Currency: USD
+    CustomerId: 18309194
+    FacilityId: 583
+    FacilityName: Weston Lakes Plaza
+    FacilityType: null
+    GrandTotal: 101.25
+    ItemCount: 18
+    OrderTotal: 100.6
+    Products: *id001
+    ReceiptId: 05831QQ060069
+    ReceiptLineItems:
+    - AccountNumber: '    '
+      IsGiftcardItem: 0
+      ItemAmount: 5.99
+      ItemCode: 00007373107195
+      ItemPrice: 5.99
+      ItemQty: 1
+      ItemSeqNo: 1
+      ItemTypeDescription: Normal Sale
+      ItemWeight: 0.0
+      MSUQty: 1
+      NetAmount: 5.99
+      SavingAmount: 0.0
+    - AccountNumber: '    '
+      IsGiftcardItem: 0
+      ItemAmount: 5.99
+      ItemCode: 00007373107195
+      ItemPrice: 5.99
+      ItemQty: 1
+      ItemSeqNo: 2
+      ItemTypeDescription: Normal Sale
+      ItemWeight: 0.0
+      MSUQty: 1
+      NetAmount: 5.99
+      SavingAmount: 0.0
+    - AccountNumber: '    '
+      IsGiftcardItem: 0
+      ItemAmount: 4.45
+      ItemCode: 00007127039080
+      ItemPrice: 4.45
+      ItemQty: 1
+      ItemSeqNo: 3
+      ItemTypeDescription: Normal Sale
+      ItemWeight: 0.0
+      MSUQty: 1
+      NetAmount: 4.45
+      SavingAmount: 0.0
+    - AccountNumber: '    '
+      IsGiftcardItem: 0
+      ItemAmount: 5.25
+      ItemCode: '00002100005447'
+      ItemPrice: 5.25
+      ItemQty: 1
+      ItemSeqNo: 4
+      ItemTypeDescription: Normal Sale
+      ItemWeight: 0.0
+      MSUQty: 1
+      NetAmount: 5.25
+      SavingAmount: 0.0
+    - AccountNumber: '    '
+      IsGiftcardItem: 0
+      ItemAmount: 12.23
+      ItemCode: 00000000004818
+      ItemPrice: 4.99
+      ItemQty: 0
+      ItemSeqNo: 5
+      ItemTypeDescription: Normal Sale
+      ItemWeight: 2.45
+      MSUQty: 1
+      NetAmount: 12.23
+      SavingAmount: 0.0
+    - AccountNumber: '    '
+      IsGiftcardItem: 0
+      ItemAmount: 4.93
+      ItemCode: 00004470000783
+      ItemPrice: 4.93
+      ItemQty: 1
+      ItemSeqNo: 6
+      ItemTypeDescription: Normal Sale
+      ItemWeight: 0.0
+      MSUQty: 1
+      NetAmount: 4.93
+      SavingAmount: 0.0
+    - AccountNumber: '    '
+      IsGiftcardItem: 0
+      ItemAmount: 3.99
+      ItemCode: 00004141500985
+      ItemPrice: 3.99
+      ItemQty: 1
+      ItemSeqNo: 7
+      ItemTypeDescription: Normal Sale
+      ItemWeight: 0.0
+      MSUQty: 1
+      NetAmount: 3.99
+      SavingAmount: 2.17
+    - AccountNumber: '    '
+      IsGiftcardItem: 0
+      ItemAmount: 3.45
+      ItemCode: 00004180000019
+      ItemPrice: 3.45
+      ItemQty: 1
+      ItemSeqNo: 8
+      ItemTypeDescription: Normal Sale
+      ItemWeight: 0.0
+      MSUQty: 1
+      NetAmount: 3.45
+      SavingAmount: 0.0
+    - AccountNumber: '    '
+      IsGiftcardItem: 0
+      ItemAmount: 4.15
+      ItemCode: 00004139000090
+      ItemPrice: 4.15
+      ItemQty: 1
+      ItemSeqNo: 9
+      ItemTypeDescription: Normal Sale
+      ItemWeight: 0.0
+      MSUQty: 1
+      NetAmount: 4.15
+      SavingAmount: 0.0
+    - AccountNumber: '    '
+      IsGiftcardItem: 0
+      ItemAmount: 3.09
+      ItemCode: '00004133102465'
+      ItemPrice: 3.09
+      ItemQty: 1
+      ItemSeqNo: 10
+      ItemTypeDescription: Normal Sale
+      ItemWeight: 0.0
+      MSUQty: 1
+      NetAmount: 3.09
+      SavingAmount: 0.0
+    - AccountNumber: '    '
+      IsGiftcardItem: 0
+      ItemAmount: 3.09
+      ItemCode: '00004133102465'
+      ItemPrice: 3.09
+      ItemQty: 1
+      ItemSeqNo: 11
+      ItemTypeDescription: Normal Sale
+      ItemWeight: 0.0
+      MSUQty: 1
+      NetAmount: 3.09
+      SavingAmount: 0.0
+    - AccountNumber: '    '
+      IsGiftcardItem: 0
+      ItemAmount: 2.39
+      ItemCode: 00006827436027
+      ItemPrice: 2.39
+      ItemQty: 1
+      ItemSeqNo: 12
+      ItemTypeDescription: Normal Sale
+      ItemWeight: 0.0
+      MSUQty: 1
+      NetAmount: 2.39
+      SavingAmount: 0.0
+    - AccountNumber: '    '
+      IsGiftcardItem: 0
+      ItemAmount: 2.39
+      ItemCode: 00006827436027
+      ItemPrice: 2.39
+      ItemQty: 1
+      ItemSeqNo: 13
+      ItemTypeDescription: Normal Sale
+      ItemWeight: 0.0
+      MSUQty: 1
+      NetAmount: 2.39
+      SavingAmount: 0.0
+    - AccountNumber: '    '
+      IsGiftcardItem: 0
+      ItemAmount: 3.06
+      ItemCode: 00004300004608
+      ItemPrice: 3.06
+      ItemQty: 1
+      ItemSeqNo: 14
+      ItemTypeDescription: Normal Sale
+      ItemWeight: 0.0
+      MSUQty: 1
+      NetAmount: 3.06
+      SavingAmount: 0.0
+    - AccountNumber: '    '
+      IsGiftcardItem: 0
+      ItemAmount: 6.19
+      ItemCode: '00002446306116'
+      ItemPrice: 6.19
+      ItemQty: 1
+      ItemSeqNo: 15
+      ItemTypeDescription: Normal Sale
+      ItemWeight: 0.0
+      MSUQty: 1
+      NetAmount: 6.19
+      SavingAmount: 0.0
+    - AccountNumber: '    '
+      IsGiftcardItem: 0
+      ItemAmount: 2.09
+      ItemCode: '00004133102306'
+      ItemPrice: 2.09
+      ItemQty: 1
+      ItemSeqNo: 16
+      ItemTypeDescription: Normal Sale
+      ItemWeight: 0.0
+      MSUQty: 1
+      NetAmount: 2.09
+      SavingAmount: 0.0
+    - AccountNumber: '    '
+      IsGiftcardItem: 0
+      ItemAmount: 9.29
+      ItemCode: 00007189900375
+      ItemPrice: 9.29
+      ItemQty: 1
+      ItemSeqNo: 17
+      ItemTypeDescription: Normal Sale
+      ItemWeight: 0.0
+      MSUQty: 1
+      NetAmount: 9.29
+      SavingAmount: 0.0
+    - AccountNumber: '    '
+      IsGiftcardItem: 0
+      ItemAmount: 6.09
+      ItemCode: 00085641600001
+      ItemPrice: 6.09
+      ItemQty: 1
+      ItemSeqNo: 18
+      ItemTypeDescription: Normal Sale
+      ItemWeight: 0.0
+      MSUQty: 1
+      NetAmount: 6.09
+      SavingAmount: 0.0
+    - AccountNumber: '    '
+      IsGiftcardItem: 0
+      ItemAmount: 1.55
+      ItemCode: 00000000004889
+      ItemPrice: 1.55
+      ItemQty: 1
+      ItemSeqNo: 19
+      ItemTypeDescription: Normal Sale
+      ItemWeight: 0.0
+      MSUQty: 1
+      NetAmount: 1.55
+      SavingAmount: 0.0
+    - AccountNumber: '    '
+      IsGiftcardItem: 0
+      ItemAmount: 6.59
+      ItemCode: 00002100002492
+      ItemPrice: 6.59
+      ItemQty: 1
+      ItemSeqNo: 20
+      ItemTypeDescription: Normal Sale
+      ItemWeight: 0.0
+      MSUQty: 1
+      NetAmount: 6.59
+      SavingAmount: 0.0
+    - AccountNumber: '    '
+      IsGiftcardItem: 0
+      ItemAmount: 4.35
+      ItemCode: 00004175702539
+      ItemPrice: 4.35
+      ItemQty: 1
+      ItemSeqNo: 21
+      ItemTypeDescription: Normal Sale
+      ItemWeight: 0.0
+      MSUQty: 1
+      NetAmount: 4.35
+      SavingAmount: 0.0
+    - AccountNumber: '    '
+      IsGiftcardItem: 0
+      ItemAmount: 4.35
+      ItemCode: 00004175702539
+      ItemPrice: 4.35
+      ItemQty: 1
+      ItemSeqNo: 22
+      ItemTypeDescription: Normal Sale
+      ItemWeight: 0.0
+      MSUQty: 1
+      NetAmount: 0.0
+      SavingAmount: 4.35
+    ReceiptLogoId: 1
+    ReceiptTenderLineItems:
+    - TenderAmount: 101.25
+      TenderFeeAmount: 0.0
+      TenderNumberDescription: Credit Card
+    ReceiptText: '           Weston Lakes Plaza            &#10;            294 Indian
+      Trace             &#10;            Weston, FL 33326             &#10;      Store
+      Manager: Juan Cardona        &#10;              954-384-4190               &#10;            0583
+      1QQ 060 069             &#10;  MISN ZRO CARB TACO            5.99   F &#10;  MISN
+      ZRO CARB TACO            5.99   F &#10;  CELEBRITY CRAN CIN            4.45   F
+      &#10;  KR FF MOZZ SHRD               5.25   F &#10;  NAME YELLOW                            &#10;  2.45
+      lb @     4.99/ lb       12.23   F &#10;  OM SMOKIE LINKS               4.93   F
+      &#10;  POTATOES IDAHO                3.99   F &#10;     You Saved        2.17               &#10;  WELCH
+      GRAPE JELLY             3.45   F &#10;  KIKKOMAN SOY SAUCE            4.15   F
+      &#10;  GOYA BLACK BEANS              3.09   F &#10;  GOYA BLACK BEANS              3.09   F
+      &#10;  PURE LIFE BABY                2.39   F &#10;  PURE LIFE BABY                2.39   F
+      &#10;  JELL-O SF LEMON LI            3.06   F &#10;  CHILI SRIRACHA SCE            6.19   F
+      &#10;  LENTILS BAG                   2.09   F &#10;  BLUE BELL I/C CUPS            9.29
+      T F &#10;  BEAR NAKED FRT/NUT            6.09   F &#10;  CILANTRO                      1.55   F
+      &#10;  KR 2% SINGLE AMER             6.59   F &#10;  LC LIGHT 8 PACK               4.35   F
+      &#10;  LC LIGHT 8 PACK               4.35   F &#10;     Promotion                 -4.35   F
+      &#10;    Order Total               100.60     &#10;      Sales Tax                 0.65     &#10;    Grand
+      Total               101.25     &#10; Credit          Payment      101.25     &#10;  Change                        0.00     &#10;Savings
+      Summary                          &#10;  Special Price Savings         6.52     &#10;**************************************   &#10;*       Your
+      Savings at Publix       *   &#10;*                 6.52               *   &#10;**************************************   &#10;  Customer
+      ID Accepted                   &#10;      Receipt ID: 0583 1QQ 060 069       &#10;
+      - - - - - - - - - - - - - - - - - - -   &#10;      PRESTO!                            &#10;      Trace
+      #: 067395                    &#10;      Reference #: 1137458044            &#10;      Acct
+      #: XXXXXXXXXXXX0225           &#10;      Purchase VISA                      &#10;      Amount:
+      $101.25                    &#10;      Auth #: 04029D                     &#10;
+      - - - - - - - - - - - - - - - - - - -   &#10;CREDIT CARD                     PURCHASE
+      &#10;A0000000031010               VISA CREDIT &#10;Entry Method:                  Cntctless
+      &#10;Mode:                             Issuer &#10; - - - - - - - - - - - -
+      - - - - - - -   &#10;Your cashier was Shyla                   &#10;01/25/2025
+      20:41 S0583  R106 0069 C0210  &#10;                                         &#10;        Join
+      the Publix family!          &#10;   Apply today at apply.publix.jobs.     &#10;  We&#39;re
+      an equal opportunity employer.   &#10;                                         &#10;       Publix
+      Super Markets, Inc.        &#10;                                         &#10;'
+    SalesTransactionNumber: 1332
+    StoreCouponAmount: 0.0
+    TaxAmount: 0.65
+    TransactionDate: '2025-01-25T20:41:37'
+    TransactionKey: HHC-QovKnvr-OW1NvdXnWtyPHpsjFnsBb_1DRpr68YRwSXEDcx-scIbaNN9pu-Pele5gH-iXw3WCVy-cf_2J-tWijv1YhvHTsMOr6lwY2Hc%3D
+    TransactionNumber: 69
+    TransactionSource: PurchaseHistory
+    VendorCouponAmount: 0.0
+    custtranstypeid: 1
+  original_purchase:
+    Id: HHC-QovKnvr-OW1NvdXnWtyPHpsjFnsBb_1DRpr68YRwSXEDcx-scIbaNN9pu-Pele5gH-iXw3WCVy-cf_2J-tWijv1YhvHTsMOr6lwY2Hc%3D
+    IsCancelled: false
+    IsGiftCardOrder: false
+    IsOnlineOrder: false
+    Items:
+    - Id: '24341'
+      ImageUrl: https://images.publixcdn.com/pct/images/products/20000/024341-75x75-A.jpg
+      NoImageUrl: null
+      Quantity: 1
+    - Id: '288928'
+      ImageUrl: https://images.publixcdn.com/pct/images/products/285000/288928-75x75-A.jpg
+      NoImageUrl: null
+      Quantity: 1
+    - Id: '12830'
+      ImageUrl: https://images.publixcdn.com/pct/images/products/10000/012830-75x75-A.jpg
+      NoImageUrl: null
+      Quantity: 1
+    - Id: '70054'
+      ImageUrl: https://images.publixcdn.com/pct/images/products/70000/070054-75x75-A.jpg
+      NoImageUrl: null
+      Quantity: 1
+    - Id: '720302'
+      ImageUrl: https://images.publixcdn.com/pct/images/products/720000/720302-75x75-A.jpg
+      NoImageUrl: null
+      Quantity: 2
+    - Id: '796384'
+      ImageUrl: https://images.publixcdn.com/pct/images/products/795000/796384-75x75-A.jpg
+      NoImageUrl: null
+      Quantity: 1
+    - Id: '6218'
+      ImageUrl: https://images.publixcdn.com/pct/images/products/5000/006218-75x75-A.jpg
+      NoImageUrl: null
+      Quantity: 1
+    - Id: '215333'
+      ImageUrl: https://images.publixcdn.com/pct/images/products/215000/215333-75x75-A.jpg
+      NoImageUrl: null
+      Quantity: 1
+    - Id: '23453'
+      ImageUrl: https://images.publixcdn.com/pct/images/products/20000/023453-75x75-A.jpg
+      NoImageUrl: null
+      Quantity: 1
+    - Id: '23491'
+      ImageUrl: https://images.publixcdn.com/pct/images/products/20000/023491-75x75-A.jpg
+      NoImageUrl: null
+      Quantity: 1
+    - Id: '71501'
+      ImageUrl: https://images.publixcdn.com/pct/images/products/70000/071501-75x75-A.jpg
+      NoImageUrl: null
+      Quantity: 1
+    - Id: '193113'
+      ImageUrl: https://images.publixcdn.com/pct/images/products/190000/193113-75x75-A.jpg
+      NoImageUrl: null
+      Quantity: 1
+    - Id: '290392'
+      ImageUrl: https://images.publixcdn.com/pct/images/products/290000/290392-75x75-A.jpg
+      NoImageUrl: null
+      Quantity: 2
+    - Id: '289006'
+      ImageUrl: https://images.publixcdn.com/pct/images/products/285000/289006-75x75-A.jpg
+      NoImageUrl: null
+      Quantity: 2
+    - Id: '321478'
+      ImageUrl: https://images.publixcdn.com/pct/images/products/320000/321478-75x75-A.jpg
+      NoImageUrl: null
+      Quantity: 2
+    - Id: '117696'
+      ImageUrl: https://images.publixcdn.com/pct/images/products/115000/117696-75x75-A.jpg
+      NoImageUrl: null
+      Quantity: 1
+    - Id: '783251'
+      ImageUrl: https://images.publixcdn.com/pct/images/products/780000/783251-75x75-A.jpg
+      NoImageUrl: null
+      Quantity: 1
+    - Id: '335923'
+      ImageUrl: https://images.publixcdn.com/pct/images/products/335000/335923-75x75-A.jpg
+      NoImageUrl: null
+      Quantity: 1
+    LineItems: []
+    PaidOnline: false
+    PaymentStatus: null
+    Payments: null
+    PickupDate: '0001-01-01T00:00:00'
+    PickupName: null
+    PurchaseDate: '2025-01-25T20:41:37'
+    RefundTotal: 0.0
+    Status: null
+    StoreId: 583
+    StoreName: Weston Lakes Plaza
+    StoreTimezone: null
+    Subtotal: 0.0
+    Taxes: null
+    Total: 0.0
+    TotalPrice: 101.25
+    TotalSavings: null
+    TotalTax: 0.0
+  scraped_at: '2025-07-03T15:19:28.858426'
+  source: publix_detail_api
+receipt_id: HHC-QovKnvr-OW1NvdXnWtyPHpsjFnsBb_1DRpr68YRwSXEDcx-scIbaNN9pu-Pele5gH-iXw3WCVy-cf_2J-tWijv1YhvHTsMOr6lwY2Hc%3D
+receipt_items:
+- is_voided: false
+  line_text: MISN ZRO CARB TACO            5.99   F
+  name: MISN ZRO CARB TACO
+  price: 5.99
+  tax_flag: F
+- is_voided: false
+  line_text: MISN ZRO CARB TACO            5.99   F
+  name: MISN ZRO CARB TACO
+  price: 5.99
+  tax_flag: F
+- is_voided: false
+  line_text: CELEBRITY CRAN CIN            4.45   F
+  name: CELEBRITY CRAN CIN
+  price: 4.45
+  tax_flag: F
+- is_voided: false
+  line_text: KR FF MOZZ SHRD               5.25   F
+  name: KR FF MOZZ SHRD
+  price: 5.25
+  tax_flag: F
+- is_voided: false
+  line_text: 2.45 lb @     4.99/ lb       12.23   F
+  name: 2.45 lb @     4.99/ lb
+  price: 12.23
+  tax_flag: F
+- is_voided: false
+  line_text: OM SMOKIE LINKS               4.93   F
+  name: OM SMOKIE LINKS
+  price: 4.93
+  tax_flag: F
+- is_voided: false
+  line_text: POTATOES IDAHO                3.99   F
+  name: POTATOES IDAHO
+  price: 3.99
+  tax_flag: F
+- is_voided: false
+  line_text: You Saved        2.17
+  name: You
+  price: null
+  tax_flag: ''
+- is_voided: false
+  line_text: WELCH GRAPE JELLY             3.45   F
+  name: WELCH GRAPE JELLY
+  price: 3.45
+  tax_flag: F
+- is_voided: false
+  line_text: KIKKOMAN SOY SAUCE            4.15   F
+  name: KIKKOMAN SOY SAUCE
+  price: 4.15
+  tax_flag: F
+- is_voided: false
+  line_text: GOYA BLACK BEANS              3.09   F
+  name: GOYA BLACK BEANS
+  price: 3.09
+  tax_flag: F
+- is_voided: false
+  line_text: GOYA BLACK BEANS              3.09   F
+  name: GOYA BLACK BEANS
+  price: 3.09
+  tax_flag: F
+- is_voided: false
+  line_text: PURE LIFE BABY                2.39   F
+  name: PURE LIFE BABY
+  price: 2.39
+  tax_flag: F
+- is_voided: false
+  line_text: PURE LIFE BABY                2.39   F
+  name: PURE LIFE BABY
+  price: 2.39
+  tax_flag: F
+- is_voided: false
+  line_text: JELL-O SF LEMON LI            3.06   F
+  name: JELL-O SF LEMON LI
+  price: 3.06
+  tax_flag: F
+- is_voided: false
+  line_text: CHILI SRIRACHA SCE            6.19   F
+  name: CHILI SRIRACHA SCE
+  price: 6.19
+  tax_flag: F
+- is_voided: false
+  line_text: LENTILS BAG                   2.09   F
+  name: LENTILS BAG
+  price: 2.09
+  tax_flag: F
+- is_voided: false
+  line_text: BEAR NAKED FRT/NUT            6.09   F
+  name: BEAR NAKED FRT/NUT
+  price: 6.09
+  tax_flag: F
+- is_voided: false
+  line_text: CILANTRO                      1.55   F
+  name: CILANTRO
+  price: 1.55
+  tax_flag: F
+- is_voided: false
+  line_text: KR 2% SINGLE AMER             6.59   F
+  name: KR 2% SINGLE AMER
+  price: 6.59
+  tax_flag: F
+- is_voided: false
+  line_text: LC LIGHT 8 PACK               4.35   F
+  name: LC LIGHT 8 PACK
+  price: 4.35
+  tax_flag: F
+- is_voided: false
+  line_text: LC LIGHT 8 PACK               4.35   F
+  name: LC LIGHT 8 PACK
+  price: 4.35
+  tax_flag: F
+- is_voided: true
+  line_text: Promotion                 -4.35   F
+  name: Promotion
+  price: 4.35
+  tax_flag: F
+- is_voided: false
+  line_text: Order Total               100.60
+  name: Order
+  price: null
+  tax_flag: ''
+- is_voided: false
+  line_text: Sales Tax                 0.65
+  name: Sales
+  price: null
+  tax_flag: ''
+- is_voided: false
+  line_text: Grand Total               101.25
+  name: Grand
+  price: null
+  tax_flag: ''
+- is_voided: false
+  line_text: Credit          Payment      101.25
+  name: Credit
+  price: null
+  tax_flag: ''
+- is_voided: false
+  line_text: Change                        0.00
+  name: Change
+  price: 0.0
+  tax_flag: ''
+- is_voided: false
+  line_text: Special Price Savings         6.52
+  name: Special Price
+  price: null
+  tax_flag: ''
+- is_voided: false
+  line_text: 'Amount: $101.25'
+  name: 'Amount:'
+  price: null
+  tax_flag: ''
+receipt_text: '           Weston Lakes Plaza            &#10;            294 Indian
+  Trace             &#10;            Weston, FL 33326             &#10;      Store
+  Manager: Juan Cardona        &#10;              954-384-4190               &#10;            0583
+  1QQ 060 069             &#10;  MISN ZRO CARB TACO            5.99   F &#10;  MISN
+  ZRO CARB TACO            5.99   F &#10;  CELEBRITY CRAN CIN            4.45   F
+  &#10;  KR FF MOZZ SHRD               5.25   F &#10;  NAME YELLOW                            &#10;  2.45
+  lb @     4.99/ lb       12.23   F &#10;  OM SMOKIE LINKS               4.93   F
+  &#10;  POTATOES IDAHO                3.99   F &#10;     You Saved        2.17               &#10;  WELCH
+  GRAPE JELLY             3.45   F &#10;  KIKKOMAN SOY SAUCE            4.15   F &#10;  GOYA
+  BLACK BEANS              3.09   F &#10;  GOYA BLACK BEANS              3.09   F
+  &#10;  PURE LIFE BABY                2.39   F &#10;  PURE LIFE BABY                2.39   F
+  &#10;  JELL-O SF LEMON LI            3.06   F &#10;  CHILI SRIRACHA SCE            6.19   F
+  &#10;  LENTILS BAG                   2.09   F &#10;  BLUE BELL I/C CUPS            9.29
+  T F &#10;  BEAR NAKED FRT/NUT            6.09   F &#10;  CILANTRO                      1.55   F
+  &#10;  KR 2% SINGLE AMER             6.59   F &#10;  LC LIGHT 8 PACK               4.35   F
+  &#10;  LC LIGHT 8 PACK               4.35   F &#10;     Promotion                 -4.35   F
+  &#10;    Order Total               100.60     &#10;      Sales Tax                 0.65     &#10;    Grand
+  Total               101.25     &#10; Credit          Payment      101.25     &#10;  Change                        0.00     &#10;Savings
+  Summary                          &#10;  Special Price Savings         6.52     &#10;**************************************   &#10;*       Your
+  Savings at Publix       *   &#10;*                 6.52               *   &#10;**************************************   &#10;  Customer
+  ID Accepted                   &#10;      Receipt ID: 0583 1QQ 060 069       &#10;
+  - - - - - - - - - - - - - - - - - - -   &#10;      PRESTO!                            &#10;      Trace
+  #: 067395                    &#10;      Reference #: 1137458044            &#10;      Acct
+  #: XXXXXXXXXXXX0225           &#10;      Purchase VISA                      &#10;      Amount:
+  $101.25                    &#10;      Auth #: 04029D                     &#10; -
+  - - - - - - - - - - - - - - - - - -   &#10;CREDIT CARD                     PURCHASE
+  &#10;A0000000031010               VISA CREDIT &#10;Entry Method:                  Cntctless
+  &#10;Mode:                             Issuer &#10; - - - - - - - - - - - - - -
+  - - - - -   &#10;Your cashier was Shyla                   &#10;01/25/2025 20:41
+  S0583  R106 0069 C0210  &#10;                                         &#10;        Join
+  the Publix family!          &#10;   Apply today at apply.publix.jobs.     &#10;  We&#39;re
+  an equal opportunity employer.   &#10;                                         &#10;       Publix
+  Super Markets, Inc.        &#10;                                         &#10;'
+savings: {}
+staff_info:
+  cashier: Shyla
+store_coupon_amount: 0.0
+store_info:
+  address: 294 Indian Trace
+  city_state_zip: Weston, FL 33326
+  manager: Juan Cardona
+  name: Weston Lakes Plaza
+  phone: 954-384-4190
+store_name: Weston Lakes Plaza
+tax_amount: 0.65
+transaction_number: 69
+vendor_coupon_amount: 0.0

@@ -1,0 +1,326 @@
+barcode_src: data:image/png;base64,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
+fsa_info: {}
+grand_total: 28.28
+order_total: 27.51
+payment_info: {}
+products: &id001
+- ActivationStatus: A
+  BaseProductId: RIO-PCI-169626
+  Categories: null
+  FavoriteProductId: null
+  ItemDescription: null
+  ItemDetailUrl: /pd/RIO-PCI-169626
+  ItemId: 925555
+  ItemImageUrl: https://images.publixcdn.com/pct/images/products/925000/925555-75x75-A.jpg
+  ItemName: Potted Basil
+  ItemQuantity: 1
+  PimsCode: null
+  RetailSubSectionNumber: '117'
+  SizeDescription: 6 in Pot
+  UPC: '60783900001'
+- ActivationStatus: A
+  BaseProductId: RIO-PCI-621279
+  Categories: null
+  FavoriteProductId: null
+  ItemDescription: null
+  ItemDetailUrl: /pd/RIO-PCI-621279
+  ItemId: 320512
+  ItemImageUrl: https://images.publixcdn.com/pct/images/products/320000/320512-75x75-A.jpg
+  ItemName: eos Shea Better Body Lotion, Coconut Waters, 24H Moisture
+  ItemQuantity: 1
+  PimsCode: null
+  RetailSubSectionNumber: '399'
+  SizeDescription: 16 fl oz (473 ml)
+  UPC: '84004470702'
+- ActivationStatus: A
+  BaseProductId: RIO-PCI-106593
+  Categories: null
+  FavoriteProductId: null
+  ItemDescription: null
+  ItemDetailUrl: /pd/RIO-PCI-106593
+  ItemId: 20550
+  ItemImageUrl: https://images.publixcdn.com/pct/images/products/20000/020550-75x75-A.jpg
+  ItemName: Boar&#39;s Head Delicatessen Style Mustard
+  ItemQuantity: 1
+  PimsCode: null
+  RetailSubSectionNumber: '215'
+  SizeDescription: 9.5 oz (269 g)
+  UPC: '4242116001'
+- ActivationStatus: A
+  BaseProductId: RIO-PCI-168742
+  Categories: null
+  FavoriteProductId: null
+  ItemDescription: null
+  ItemDetailUrl: /pd/RIO-PCI-168742
+  ItemId: 913621
+  ItemImageUrl: https://images.publixcdn.com/pct/images/products/910000/913621-75x75-A.jpg
+  ItemName: Fresh Attitude Arugula, Prewashed
+  ItemQuantity: 1
+  PimsCode: null
+  RetailSubSectionNumber: '541'
+  SizeDescription: 142 g (5 oz)
+  UPC: '88804800009'
+- ActivationStatus: A
+  BaseProductId: RIO-PCI-178185
+  Categories: null
+  FavoriteProductId: null
+  ItemDescription: null
+  ItemDetailUrl: /pd/RIO-PCI-178185
+  ItemId: 951820
+  ItemImageUrl: https://images.publixcdn.com/pct/images/products/950000/951820-75x75-A.jpg
+  ItemName: Publix Deli Honey Goat Cheese Log
+  ItemQuantity: 1
+  PimsCode: null
+  RetailSubSectionNumber: '19'
+  SizeDescription: 4 oz Pkg
+  UPC: '4141538462'
+purchase_date: '2025-06-16'
+purchase_time: '20:09:54'
+raw_data:
+  detail:
+    Amount: 28.28
+    BarcodeSrc: data:image/png;base64,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
+    Currency: USD
+    CustomerId: 18309194
+    FacilityId: 583
+    FacilityName: Weston Lakes Plaza
+    FacilityType: null
+    GrandTotal: 28.28
+    ItemCount: 5
+    OrderTotal: 27.51
+    Products: *id001
+    ReceiptId: 05836GQ712981
+    ReceiptLineItems:
+    - AccountNumber: '    '
+      IsGiftcardItem: 0
+      ItemAmount: 3.79
+      ItemCode: 00004141538462
+      ItemPrice: 3.79
+      ItemQty: 1
+      ItemSeqNo: 1
+      ItemTypeDescription: Normal Sale
+      ItemWeight: 0.0
+      MSUQty: 1
+      NetAmount: 3.79
+      SavingAmount: 0.0
+    - AccountNumber: '    '
+      IsGiftcardItem: 0
+      ItemAmount: 3.49
+      ItemCode: '00004242116001'
+      ItemPrice: 3.49
+      ItemQty: 1
+      ItemSeqNo: 2
+      ItemTypeDescription: Normal Sale
+      ItemWeight: 0.0
+      MSUQty: 1
+      NetAmount: 3.49
+      SavingAmount: 0.0
+    - AccountNumber: '    '
+      IsGiftcardItem: 0
+      ItemAmount: 10.99
+      ItemCode: 00084004470702
+      ItemPrice: 10.99
+      ItemQty: 1
+      ItemSeqNo: 3
+      ItemTypeDescription: Normal Sale
+      ItemWeight: 0.0
+      MSUQty: 1
+      NetAmount: 10.99
+      SavingAmount: 0.0
+    - AccountNumber: '    '
+      IsGiftcardItem: 0
+      ItemAmount: 4.09
+      ItemCode: 00088804800009
+      ItemPrice: 4.09
+      ItemQty: 1
+      ItemSeqNo: 4
+      ItemTypeDescription: Normal Sale
+      ItemWeight: 0.0
+      MSUQty: 1
+      NetAmount: 4.09
+      SavingAmount: 0.0
+    - AccountNumber: '    '
+      IsGiftcardItem: 0
+      ItemAmount: 5.15
+      ItemCode: 00060783900001
+      ItemPrice: 5.15
+      ItemQty: 1
+      ItemSeqNo: 5
+      ItemTypeDescription: Normal Sale
+      ItemWeight: 0.0
+      MSUQty: 1
+      NetAmount: 5.15
+      SavingAmount: 0.0
+    ReceiptLogoId: 1
+    ReceiptTenderLineItems:
+    - TenderAmount: 28.28
+      TenderFeeAmount: 0.0
+      TenderNumberDescription: Credit Card
+    ReceiptText: '           Weston Lakes Plaza            &#10;            294 Indian
+      Trace             &#10;            Weston, FL 33326             &#10;      Store
+      Manager: Juan Cardona        &#10;              954-384-4190               &#10;  DELI
+      GOAT HONEY               3.79   F &#10;  BH SQUEEZABLE MUST            3.49   F
+      &#10;  EOS BL COCNT WTRS            10.99 T   &#10;  ARUGULA                       4.09   F
+      &#10;  POTTED BASIL                  5.15   F &#10;    Order Total                27.51     &#10;      Sales
+      Tax                 0.77     &#10;    Grand Total                28.28     &#10;
+      Credit          Payment       28.28     &#10;  Change                        0.00     &#10;  Customer
+      ID Accepted                   &#10;      Receipt ID: 0583 6GQ 712 981       &#10;
+      - - - - - - - - - - - - - - - - - - -   &#10;      PRESTO!                            &#10;      Trace
+      #: 714212                    &#10;      Reference #: 1254795730            &#10;      Acct
+      #: XXXXXXXXXXXX4321           &#10;      Purchase VISA                      &#10;      Amount:
+      $28.28                     &#10;      Auth #: 030920                     &#10;
+      - - - - - - - - - - - - - - - - - - -   &#10;CREDIT CARD                     PURCHASE
+      &#10;A0000000980840                  US DEBIT &#10;Entry Method:                  Cntctless
+      &#10;Mode:                             Issuer &#10; - - - - - - - - - - - -
+      - - - - - - -   &#10;Your cashier was Self-Checkout Lane 1    &#10;06/16/2025
+      20:09 S0583  R171 2981 C0771  &#10;                                         &#10;        Join
+      the Publix family!          &#10;   Apply today at apply.publix.jobs.     &#10;  We&#39;re
+      an equal opportunity employer.   &#10;                                         &#10;       Publix
+      Super Markets, Inc.        &#10;                                         &#10;'
+    SalesTransactionNumber: 2056
+    StoreCouponAmount: 0.0
+    TaxAmount: 0.77
+    TransactionDate: '2025-06-16T20:09:54'
+    TransactionKey: 4mWba-JfanKbuBh62sTt9WhLgi6cqPhffE1zuXC9GHRx_gdToLDkPIMdecyWYQ8_7P4QV-4MBLET19pjvZ-0MD301_r2a0-oiEtxGE0ePDo%3D
+    TransactionNumber: 2981
+    TransactionSource: PurchaseHistory
+    VendorCouponAmount: 0.0
+    custtranstypeid: 1
+  original_purchase:
+    Id: 4mWba-JfanKbuBh62sTt9WhLgi6cqPhffE1zuXC9GHRx_gdToLDkPIMdecyWYQ8_7P4QV-4MBLET19pjvZ-0MD301_r2a0-oiEtxGE0ePDo%3D
+    IsCancelled: false
+    IsGiftCardOrder: false
+    IsOnlineOrder: false
+    Items:
+    - Id: '925555'
+      ImageUrl: https://images.publixcdn.com/pct/images/products/925000/925555-75x75-A.jpg
+      NoImageUrl: null
+      Quantity: 1
+    - Id: '320512'
+      ImageUrl: https://images.publixcdn.com/pct/images/products/320000/320512-75x75-A.jpg
+      NoImageUrl: null
+      Quantity: 1
+    - Id: '20550'
+      ImageUrl: https://images.publixcdn.com/pct/images/products/20000/020550-75x75-A.jpg
+      NoImageUrl: null
+      Quantity: 1
+    - Id: '913621'
+      ImageUrl: https://images.publixcdn.com/pct/images/products/910000/913621-75x75-A.jpg
+      NoImageUrl: null
+      Quantity: 1
+    - Id: '951820'
+      ImageUrl: https://images.publixcdn.com/pct/images/products/950000/951820-75x75-A.jpg
+      NoImageUrl: null
+      Quantity: 1
+    LineItems: []
+    PaidOnline: false
+    PaymentStatus: null
+    Payments: null
+    PickupDate: '0001-01-01T00:00:00'
+    PickupName: null
+    PurchaseDate: '2025-06-16T20:09:54'
+    RefundTotal: 0.0
+    Status: null
+    StoreId: 583
+    StoreName: Weston Lakes Plaza
+    StoreTimezone: null
+    Subtotal: 0.0
+    Taxes: null
+    Total: 0.0
+    TotalPrice: 28.28
+    TotalSavings: null
+    TotalTax: 0.0
+  scraped_at: '2025-07-03T15:19:30.661239'
+  source: publix_detail_api
+receipt_id: 4mWba-JfanKbuBh62sTt9WhLgi6cqPhffE1zuXC9GHRx_gdToLDkPIMdecyWYQ8_7P4QV-4MBLET19pjvZ-0MD301_r2a0-oiEtxGE0ePDo%3D
+receipt_items:
+- is_voided: false
+  line_text: DELI GOAT HONEY               3.79   F
+  name: DELI GOAT HONEY
+  price: 3.79
+  tax_flag: F
+- is_voided: false
+  line_text: BH SQUEEZABLE MUST            3.49   F
+  name: BH SQUEEZABLE MUST
+  price: 3.49
+  tax_flag: F
+- is_voided: false
+  line_text: EOS BL COCNT WTRS            10.99 T
+  name: EOS BL COCNT WTRS
+  price: 10.99
+  tax_flag: T
+- is_voided: false
+  line_text: ARUGULA                       4.09   F
+  name: ARUGULA
+  price: 4.09
+  tax_flag: F
+- is_voided: false
+  line_text: POTTED BASIL                  5.15   F
+  name: POTTED BASIL
+  price: 5.15
+  tax_flag: F
+- is_voided: false
+  line_text: Order Total                27.51
+  name: Order
+  price: null
+  tax_flag: ''
+- is_voided: false
+  line_text: Sales Tax                 0.77
+  name: Sales
+  price: null
+  tax_flag: ''
+- is_voided: false
+  line_text: Grand Total                28.28
+  name: Grand
+  price: null
+  tax_flag: ''
+- is_voided: false
+  line_text: Credit          Payment       28.28
+  name: Credit
+  price: null
+  tax_flag: ''
+- is_voided: false
+  line_text: Change                        0.00
+  name: Change
+  price: 0.0
+  tax_flag: ''
+- is_voided: false
+  line_text: 'Amount: $28.28'
+  name: 'Amount:'
+  price: null
+  tax_flag: ''
+receipt_text: '           Weston Lakes Plaza            &#10;            294 Indian
+  Trace             &#10;            Weston, FL 33326             &#10;      Store
+  Manager: Juan Cardona        &#10;              954-384-4190               &#10;  DELI
+  GOAT HONEY               3.79   F &#10;  BH SQUEEZABLE MUST            3.49   F
+  &#10;  EOS BL COCNT WTRS            10.99 T   &#10;  ARUGULA                       4.09   F
+  &#10;  POTTED BASIL                  5.15   F &#10;    Order Total                27.51     &#10;      Sales
+  Tax                 0.77     &#10;    Grand Total                28.28     &#10;
+  Credit          Payment       28.28     &#10;  Change                        0.00     &#10;  Customer
+  ID Accepted                   &#10;      Receipt ID: 0583 6GQ 712 981       &#10;
+  - - - - - - - - - - - - - - - - - - -   &#10;      PRESTO!                            &#10;      Trace
+  #: 714212                    &#10;      Reference #: 1254795730            &#10;      Acct
+  #: XXXXXXXXXXXX4321           &#10;      Purchase VISA                      &#10;      Amount:
+  $28.28                     &#10;      Auth #: 030920                     &#10; -
+  - - - - - - - - - - - - - - - - - -   &#10;CREDIT CARD                     PURCHASE
+  &#10;A0000000980840                  US DEBIT &#10;Entry Method:                  Cntctless
+  &#10;Mode:                             Issuer &#10; - - - - - - - - - - - - - -
+  - - - - -   &#10;Your cashier was Self-Checkout Lane 1    &#10;06/16/2025 20:09
+  S0583  R171 2981 C0771  &#10;                                         &#10;        Join
+  the Publix family!          &#10;   Apply today at apply.publix.jobs.     &#10;  We&#39;re
+  an equal opportunity employer.   &#10;                                         &#10;       Publix
+  Super Markets, Inc.        &#10;                                         &#10;'
+savings: {}
+staff_info:
+  cashier: Self-Checkout Lane 1
+store_coupon_amount: 0.0
+store_info:
+  address: 294 Indian Trace
+  city_state_zip: Weston, FL 33326
+  manager: Juan Cardona
+  name: Weston Lakes Plaza
+  phone: 954-384-4190
+store_name: Weston Lakes Plaza
+tax_amount: 0.77
+transaction_number: 2981
+vendor_coupon_amount: 0.0

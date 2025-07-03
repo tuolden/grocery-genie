@@ -1,0 +1,106 @@
+items:
+  rx: {}
+  fs:
+    total: 3
+    name: EOS WMN CSH SHV OL 6Z
+    image: ''
+number: 10184-17-9345-20250425
+type:
+- STORE
+alertStatus: []
+filterByStatus: true
+date: '2025-04-26T03:53:00Z'
+totalCost: '30.40'
+status:
+- Purchased
+statusCode: '0000'
+statusDesc: Success
+conversationId: rrt-1893003591783605619-d-gea1-2466114-5005745-2
+order:
+  type:
+  - STORE
+  number: 10184-17-9345-20250425
+  date: '2025-04-26T03:53:00Z'
+  splitShipment: false
+  ecCard: '2276'
+  cost:
+    subTotal: '29.27'
+    savings: '-1.30'
+    tax: '2.43'
+    shipping: ''
+    total: '30.40'
+    state: AZ
+    feminineTax: '0'
+    totalReturnAmount: '0.00'
+  shipped: []
+  canceled: []
+  pickup: []
+  inStore:
+  - status: Purchased
+    totalCost: 27.97
+    fsItems:
+    - name: Garnier Nutrisse Nourishing Permanent Hair Color Creme, 61 Light Ash Brown
+      itemId: '172445'
+      itemSize: '1.00'
+      itemSizeUOM: EACH
+      itemWeight: '0.10'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '10.99'
+      priceFinal: '10.99'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '10.99'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: Schick Hydro Silk Ultimate Pubic Skin Protection 3-Blade Razors, 3 CT
+      itemId: '876572'
+      itemSize: '3.00'
+      itemSizeUOM: Ct
+      itemWeight: '0.15'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '8.99'
+      priceFinal: '8.99'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '8.99'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: eos Women's Cashmere Shave Oil, 6 OZ
+      itemId: '192254'
+      itemSize: '6.00'
+      itemSizeUOM: OZ
+      itemWeight: '0.38'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '9.29'
+      priceFinal: '7.99'
+      savings: '1.30'
+      tax: 0
+      lineTotalWithoutTax: '7.99'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    pickupStoreId: '10184'
+  return: []
+  paymentMethod:
+  - type: Credit/Debit/EBT
+    lastFourDigits: '5151'
+    amountCharged: '30.40'
+  - type: Credit/Debit/EBT
+    lastFourDigits: '5151'
+    amountReturned: '0.00'
+  splitFulfillment: false
+  returnEligible: false
+  returnEligibleFinalDate: '2025-06-24T00:00:00Z'
+  txnNo: '9345'
+  regNo: '17'

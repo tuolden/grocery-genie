@@ -1,0 +1,91 @@
+items:
+  rx: {}
+  fs:
+    total: 2
+    name: RVLN CLSK LTGLDBRN 54
+    image: ''
+number: 5083-17-1348-20240721
+type:
+- STORE
+alertStatus: []
+filterByStatus: true
+date: '2024-07-21T21:57:00Z'
+totalCost: '12.40'
+status:
+- Purchased
+statusCode: '0000'
+statusDesc: Success
+conversationId: rrt-3024830282911917713-c-gea1-4160404-3950768-24
+order:
+  type:
+  - STORE
+  number: 5083-17-1348-20240721
+  date: '2024-07-21T21:57:00Z'
+  splitShipment: false
+  ecCard: '2276'
+  cost:
+    subTotal: '11.58'
+    savings: '-0.00'
+    tax: '0.82'
+    shipping: ''
+    total: '12.40'
+    state: FL
+    feminineTax: '0'
+    totalReturnAmount: '0.00'
+  shipped: []
+  canceled: []
+  pickup: []
+  inStore:
+  - status: Purchased
+    totalCost: 11.58
+    fsItems:
+    - name: Revlon Colorsilk With Bond Repair Complex Permanent Hair Color, 054 Light
+        Golden Brown
+      itemId: '872663'
+      itemSize: '1.00'
+      itemSizeUOM: EACH
+      itemWeight: '0.10'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '5.79'
+      priceFinal: '5.79'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '5.79'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: Revlon Colorsilk With Bond Repair Complex Permanent Hair Color, 020 Brown
+        Black
+      itemId: '872697'
+      itemSize: '1.00'
+      itemSizeUOM: EACH
+      itemWeight: '0.10'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '5.79'
+      priceFinal: '5.79'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '5.79'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    pickupStoreId: '5083'
+  return: []
+  paymentMethod:
+  - type: Credit/Debit/EBT
+    lastFourDigits: '8747'
+    amountCharged: '12.40'
+  - type: Credit/Debit/EBT
+    lastFourDigits: '8747'
+    amountReturned: '0.00'
+  splitFulfillment: false
+  returnEligible: false
+  returnEligibleFinalDate: '2024-09-19T00:00:00Z'
+  txnNo: '1348'
+  regNo: '17'

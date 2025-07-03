@@ -1,0 +1,321 @@
+order_id: 073220592443215525012
+purchase_date: '2023-03-05'
+store_name: Sunrise Supercenter
+order_totals:
+  subtotal: 205.85
+  tax_total: 7.3
+  grand_total: 213.15
+items:
+- item_id: '0'
+  item_quantity: 1
+  item_name: Home Logic 2.5 Bushel Extra Large Plastic Laundry Hamper, White, Adult
+    / Tween
+  item_image_url: https://i5.walmartimages.com/seo/Home-Logic-2-5-Bushel-XL-Lamper-Plastic-Laundry-Basket-White-Adult-Tween_54e62cb6-ed02-4dc6-84b5-8eb7fb5cd5b3.cbf32509e76a41bfa86a32facdeb0b47.jpeg
+  item_price: 15.98
+  line_price: 15.98
+  sales_unit_type: null
+- item_id: '1'
+  item_quantity: 1
+  item_name: Home Logic 2.5 Bushel Extra Large Plastic Laundry Hamper, White, Adult
+    / Tween
+  item_image_url: https://i5.walmartimages.com/seo/Home-Logic-2-5-Bushel-XL-Lamper-Plastic-Laundry-Basket-White-Adult-Tween_54e62cb6-ed02-4dc6-84b5-8eb7fb5cd5b3.cbf32509e76a41bfa86a32facdeb0b47.jpeg
+  item_price: 15.98
+  line_price: 15.98
+  sales_unit_type: null
+- item_id: '2'
+  item_quantity: 1
+  item_name: Great Value Chocolate Dipped Vanilla Flavored Ice Cream Cones, 34.4 oz,
+    8 Pack
+  item_image_url: https://i5.walmartimages.com/seo/Great-Value-Chocolate-Dipped-Vanilla-Flavored-Ice-Cream-Cones-34-4-oz-8-Pack_c2995118-d14a-4750-b70b-2e2745f24551.ddf15d1aab3528038a995a9a5f8cdbff.jpeg
+  item_price: 4.98
+  line_price: 4.98
+  sales_unit_type: null
+- item_id: '3'
+  item_quantity: 1
+  item_name: Great Value Whole Strawberries, 16 oz
+  item_image_url: https://i5.walmartimages.com/seo/GV-Whole-Strawb-16oz_14b5eca6-798a-43fa-91be-f365ec3fc646.f54aab8f1878d45f752a6dfec54dad12.jpeg
+  item_price: 2.24
+  line_price: 2.24
+  sales_unit_type: null
+- item_id: '4'
+  item_quantity: 1
+  item_name: Great Value Whole Strawberries, 16 oz
+  item_image_url: https://i5.walmartimages.com/seo/GV-Whole-Strawb-16oz_14b5eca6-798a-43fa-91be-f365ec3fc646.f54aab8f1878d45f752a6dfec54dad12.jpeg
+  item_price: 2.24
+  line_price: 2.24
+  sales_unit_type: null
+- item_id: '5'
+  item_quantity: 1
+  item_name: Great Value Blueberries, 16 oz (Frozen)
+  item_image_url: https://i5.walmartimages.com/seo/Great-Value-Blueberries-16-oz-Frozen_6f2e186d-015c-4132-a8be-fc460737ba01.fe208fb564a9ca95f1b7e2b62bf88b69.jpeg
+  item_price: 2.98
+  line_price: 2.98
+  sales_unit_type: null
+- item_id: '6'
+  item_quantity: 1
+  item_name: Great Value Blueberries, 16 oz (Frozen)
+  item_image_url: https://i5.walmartimages.com/seo/Great-Value-Blueberries-16-oz-Frozen_6f2e186d-015c-4132-a8be-fc460737ba01.fe208fb564a9ca95f1b7e2b62bf88b69.jpeg
+  item_price: 2.98
+  line_price: 2.98
+  sales_unit_type: null
+- item_id: '7'
+  item_quantity: 1
+  item_name: Parodontax Teeth Whitening Toothpaste for Bleeding Gums, 3.4 Oz, 2 Pack,
+    Unflavored, for Adults
+  item_image_url: https://i5.walmartimages.com/seo/Parodontax-Teeth-Whitening-Toothpaste-for-Bleeding-Gums-3-4-Oz-2-Pack-Unflavored-for-Adults_c8237e90-7528-4004-a0ab-47683566acca.3e9b94e1fd781272df4efcb63b7cd787.jpeg
+  item_price: 12.48
+  line_price: 12.48
+  sales_unit_type: null
+- item_id: '8'
+  item_quantity: 1
+  item_name: Oscar Mayer Classic Beef Franks Hot Dogs, 10 Count Pack
+  item_image_url: https://i5.walmartimages.com/seo/Oscar-Mayer-Classic-Beef-Franks-Hot-Dogs-10-Count-Refrigerated-Plastic-Vacuum-Pack_d0b42a42-daa1-4e1f-bbc6-e7d08b6f0de2.01e39d30720e27d111b713c33e821764.jpeg
+  item_price: 3.84
+  line_price: 3.84
+  sales_unit_type: null
+- item_id: '9'
+  item_quantity: 1
+  item_name: Goya Yuca Cassava, 24 oz
+  item_image_url: https://i5.walmartimages.com/seo/Goya-Yuca-Cassava-24-oz_d1739b17-5849-452f-bd6f-2d3d5fa76736_1.97a9569e913ab5e42ba9d4bec2c6f23e.jpeg
+  item_price: 2.97
+  line_price: 2.97
+  sales_unit_type: null
+- item_id: '10'
+  item_quantity: 1
+  item_name: Great Value Swiss Deli Style Sliced Cheese, 8 oz Packagem 12 Slices
+  item_image_url: https://i5.walmartimages.com/seo/Great-Value-Deli-Style-Sliced-Swiss-Cheese-8oz-12-Slices-Plastic-Packaging_9f43892f-9377-4c34-af8a-4e7d86f851bf.a2c0b0528dc215cc60698cf0fd59d033.jpeg
+  item_price: 2.22
+  line_price: 2.22
+  sales_unit_type: null
+- item_id: '11'
+  item_quantity: 1
+  item_name: Kraft Mozzarella Shredded Cheese, 8 oz Bag
+  item_image_url: https://i5.walmartimages.com/seo/Kraft-Mozzarella-Shredded-Cheese-8-oz-Bag_15a18689-44a7-4212-bd42-851b5ef5f6c3.46016e467f2ecdf7361304312b0b692f.jpeg
+  item_price: 2.98
+  line_price: 2.98
+  sales_unit_type: null
+- item_id: '12'
+  item_quantity: 1
+  item_name: Nature's Own 100% Whole Wheat, Whole Wheat Bread, 20 oz Loaf, Shelf-Stable
+  item_image_url: https://i5.walmartimages.com/seo/Nature-s-Own-100-Whole-Wheat-Whole-Wheat-Bread-20-oz-Loaf-Shelf-Stable_3253480e-6e8e-4c94-978c-377508f70ba1.26967afd9d63cf1d44813c912b228893.jpeg
+  item_price: 3.34
+  line_price: 3.34
+  sales_unit_type: null
+- item_id: '13'
+  item_quantity: 1
+  item_name: Great Value Hamburger Buns, 8 Count, 11 oz
+  item_image_url: https://i5.walmartimages.com/seo/Great-Value-Hamburger-Buns-8-Count-11-oz_737cb89a-5c4a-48bf-a28f-130b4b9c4d7d.f06c6f71d6e51c12448ca74f27368ce7.jpeg
+  item_price: 1.38
+  line_price: 1.38
+  sales_unit_type: null
+- item_id: '14'
+  item_quantity: 1
+  item_name: Nature's Own 100% Whole Wheat, Whole Wheat Bread, 20 oz Loaf, Shelf-Stable
+  item_image_url: https://i5.walmartimages.com/seo/Nature-s-Own-100-Whole-Wheat-Whole-Wheat-Bread-20-oz-Loaf-Shelf-Stable_3253480e-6e8e-4c94-978c-377508f70ba1.26967afd9d63cf1d44813c912b228893.jpeg
+  item_price: 3.34
+  line_price: 3.34
+  sales_unit_type: null
+- item_id: '15'
+  item_quantity: 1
+  item_name: M&M's Variety Pack Full Size Milk Chocolate Candy Bars - 18 Ct
+  item_image_url: https://i5.walmartimages.com/seo/M-M-s-Variety-Pack-Full-Size-Milk-Chocolate-Candy-Bars-18-Ct_651556cf-42d3-44ee-953f-fbf7d194fbd0.0f1b4c2dfc2e85fa577f42ea68eab726.jpeg
+  item_price: 17.28
+  line_price: 17.28
+  sales_unit_type: null
+- item_id: '16'
+  item_quantity: 1
+  item_name: Barilla Classic Non-GMO, Kosher Certified Penne Pasta, 16 oz
+  item_image_url: https://i5.walmartimages.com/seo/Barilla-Classic-Non-GMO-Kosher-Certified-Penne-Pasta-16-oz_1dab454e-ceb6-4a79-aa5b-58dbf203beae.e5ee5a0cdcd5f245083c08c4a7fd074a.jpeg
+  item_price: 1.84
+  line_price: 1.84
+  sales_unit_type: null
+- item_id: '17'
+  item_quantity: 1
+  item_name: CHIPS AHOY! Original Chocolate Chip Cookies, Family Size, 18.2 oz
+  item_image_url: https://i5.walmartimages.com/seo/CHIPS-AHOY-Original-Chocolate-Chip-Cookies-Family-Size-18-2-oz_2322ee64-3d4f-4206-9ffe-50da99801e9f.d754e778958ba2bada102fd47031e4e1.jpeg
+  item_price: 4.58
+  line_price: 4.58
+  sales_unit_type: null
+- item_id: '18'
+  item_quantity: 1
+  item_name: Barilla Classic Non-GMO, Kosher Certified Fettuccine Pasta, 16 oz
+  item_image_url: https://i5.walmartimages.com/seo/Barilla-Classic-Non-GMO-Kosher-Certified-Fettuccine-Pasta-16-oz_79d37839-a717-4182-b459-846e28ced494.01a5741659528d08229888380ec498eb.jpeg
+  item_price: 1.84
+  line_price: 1.84
+  sales_unit_type: null
+- item_id: '19'
+  item_quantity: 1
+  item_name: Barilla Classic Non-GMO, Kosher Certified Fettuccine Pasta, 16 oz
+  item_image_url: https://i5.walmartimages.com/seo/Barilla-Classic-Non-GMO-Kosher-Certified-Fettuccine-Pasta-16-oz_79d37839-a717-4182-b459-846e28ced494.01a5741659528d08229888380ec498eb.jpeg
+  item_price: 1.84
+  line_price: 1.84
+  sales_unit_type: null
+- item_id: '20'
+  item_quantity: 1
+  item_name: "Snickers Fun Size Chocolate Candy Bars Father\u2019s Day Gift - 10.59\
+    \ oz"
+  item_image_url: https://i5.walmartimages.com/seo/Snickers-Chocolate-Candy-Bars-Fun-Size-10-59-oz-Bag_ade6e8c6-6c03-48f2-8772-68f2f76e0d21.ca54eaba0c5639cbef7e7bf3e85826dd.jpeg
+  item_price: 4.88
+  line_price: 4.88
+  sales_unit_type: null
+- item_id: '21'
+  item_quantity: 1
+  item_name: HARIBO Peaches Gummies Fruity Peach Flavor Gummy Candy, 8oz, Share Size
+    Bag
+  item_image_url: https://i5.walmartimages.com/seo/Haribo-Gummy-Candy-Peaches-Gummies-Large-Peg-Bag-8-oz_e36d1f81-4e9e-4c16-b582-7102297685ee.350b00b4b2a1d5042c4ccb248b6e5999.jpeg
+  item_price: 2.34
+  line_price: 2.34
+  sales_unit_type: null
+- item_id: '22'
+  item_quantity: 1
+  item_name: HARIBO Peaches Gummies Fruity Peach Flavor Gummy Candy, 8oz, Share Size
+    Bag
+  item_image_url: https://i5.walmartimages.com/seo/Haribo-Gummy-Candy-Peaches-Gummies-Large-Peg-Bag-8-oz_e36d1f81-4e9e-4c16-b582-7102297685ee.350b00b4b2a1d5042c4ccb248b6e5999.jpeg
+  item_price: 2.34
+  line_price: 2.34
+  sales_unit_type: null
+- item_id: '23'
+  item_quantity: 1
+  item_name: Starburst Favereds Fruit Chews Chewy Candy, Sharing Size - 15.6 oz Bag
+  item_image_url: https://i5.walmartimages.com/seo/Starburst-Favereds-Fruit-Chews-Chewy-Candy-Sharing-Size-15-6-oz-Bag_2a54dfad-060e-4206-a2ab-7c78f49e4518.89a788a6032942e8ab58fcf8fb58c87b.jpeg
+  item_price: 3.78
+  line_price: 3.78
+  sales_unit_type: null
+- item_id: '24'
+  item_quantity: 1
+  item_name: Great Value Hot Dog Buns, White, 11 oz, 8 Count
+  item_image_url: https://i5.walmartimages.com/seo/Great-Value-Hot-Dog-Buns-White-11-oz-8-Count_668fbae9-e0a0-4cba-a28d-3f34b91c0f62.a5267b2052ddb5234e6beabe5cf8310b.jpeg
+  item_price: 1.38
+  line_price: 1.38
+  sales_unit_type: null
+- item_id: '25'
+  item_quantity: 1
+  item_name: 5 Gum Spearmint Rain Sugar Free Chewing Gum - 15 ct (3 Pack)
+  item_image_url: https://i5.walmartimages.com/seo/5-Gum-Spearmint-Rain-Sugar-Free-Chewing-Gum-15-ct-3-Pack_bb0b3b93-5cdb-4b76-bbdd-355740767bc0.8c4441b776702d01a7808322f4d53774.jpeg
+  item_price: 4.48
+  line_price: 4.48
+  sales_unit_type: null
+- item_id: '26'
+  item_quantity: 1
+  item_name: Great Value Taters Seasoned and Shredded Potatoes, 32 oz, 2 lbs (Frozen)
+  item_image_url: https://i5.walmartimages.com/seo/Great-Value-Taters-Seasoned-and-Shredded-Potatoes_f927e38b-c3df-4440-baf4-4cd4e4edde1c.bfe58c8b5cb73cfe890ba7d3da76ce88.jpeg
+  item_price: 3.32
+  line_price: 3.32
+  sales_unit_type: null
+- item_id: '27'
+  item_quantity: 1
+  item_name: Red Baron Pepperoni Brick Oven Frozen Pizza, 17.89 oz
+  item_image_url: https://i5.walmartimages.com/seo/Red-Baron-Pepperoni-Brick-Oven-Frozen-Pizza-17-89-oz_df1b825a-9306-434a-9eab-69d7ce691d2f.e7f2f2d9821fdc7bee9d2c7ef1d52977.jpeg
+  item_price: 4.77
+  line_price: 4.77
+  sales_unit_type: null
+- item_id: '28'
+  item_quantity: 1
+  item_name: Red Baron Pepperoni Brick Oven Frozen Pizza, 17.89 oz
+  item_image_url: https://i5.walmartimages.com/seo/Red-Baron-Pepperoni-Brick-Oven-Frozen-Pizza-17-89-oz_df1b825a-9306-434a-9eab-69d7ce691d2f.e7f2f2d9821fdc7bee9d2c7ef1d52977.jpeg
+  item_price: 4.77
+  line_price: 4.77
+  sales_unit_type: null
+- item_id: '29'
+  item_quantity: 1
+  item_name: Great Value Thin Crust Supreme Frozen Pizza 18.25oz
+  item_image_url: https://i5.walmartimages.com/seo/Great-Value-Thin-Crust-Supreme-Frozen-Pizza-18-25oz_f8fc7162-693d-4227-b812-e4ccbba2d41f.948b2fee435f29972a969d56d98ba282.jpeg
+  item_price: 3.98
+  line_price: 3.98
+  sales_unit_type: null
+- item_id: '30'
+  item_quantity: 1
+  item_name: Jimmy Dean Sausage Egg & Cheese Biscuit Breakfast Sandwich, 18 oz, 4
+    Count (Frozen)
+  item_image_url: https://i5.walmartimages.com/seo/Jimmy-Dean-Sausage-Egg-Cheese-Biscuit-Sandwich-18-oz-4-Ct-Frozen_c866b1b4-6f89-45c2-a4e6-e1f9ae7d3c89.c3aa47021ea9b5092397204995491082.jpeg
+  item_price: 6.58
+  line_price: 6.58
+  sales_unit_type: null
+- item_id: '31'
+  item_quantity: 1
+  item_name: King's Hawaiian Original Hawaiian Sweet Rolls 12 Count, 12oz, Shelf-Stable
+  item_image_url: https://i5.walmartimages.com/seo/King-s-Hawaiian-Original-Hawaiian-Sweet-Rolls-12-Count_3dd0c370-49e0-4018-938c-afcc59559dd7.1e5340c56264e3a6aac257c3a8a816a5.jpeg
+  item_price: 4.33
+  line_price: 4.33
+  sales_unit_type: null
+- item_id: '32'
+  item_quantity: 1
+  item_name: Marketside All Butter Whole Croissants, 9.5 oz, 6 Count
+  item_image_url: https://i5.walmartimages.com/seo/Marketside-All-Butter-Whole-Croissants-9-5-oz-6-Count_838adc42-4834-41c1-ab8e-f3ccfff428b5.27ab5e19d5f7da52c041efa6a26ab0b8.jpeg
+  item_price: 4.98
+  line_price: 4.98
+  sales_unit_type: null
+- item_id: '33'
+  item_quantity: 1
+  item_name: Fresh Blueberries, 1 Pint Container
+  item_image_url: https://i5.walmartimages.com/seo/Fresh-Blueberries-1-Pint-Container_58566f1b-31b1-4e76-b0c2-39403a93c0c7.c8b5bd91935856cbdb15b7587d8c031e.jpeg
+  item_price: 3.98
+  line_price: 3.98
+  sales_unit_type: null
+- item_id: '34'
+  item_quantity: 1
+  item_name: Great Value Liquid Rinse Agent, Unscented Scent, 16 Fluid Ounce, 1 Count
+  item_image_url: https://i5.walmartimages.com/seo/Great-Value-Liquid-Rinse-Agent-Unscented-Scent-16-Fluid-Ounce-1-Count_cd034b29-63f6-48d2-8307-19aa0fdc16f7.648024a96fb04ef9df1b5cd0a3ebc2ed.jpeg
+  item_price: 5.72
+  line_price: 5.72
+  sales_unit_type: null
+- item_id: '35'
+  item_quantity: 1
+  item_name: Great Value Tile & Grout Brush
+  item_image_url: https://i5.walmartimages.com/seo/Great-Value-Tile-Grout-Brush_28fea259-8403-4669-a00c-5338a65a5579_1.af97692262f49f7dfce95cc7598f39ce.png
+  item_price: 1.86
+  line_price: 1.86
+  sales_unit_type: null
+- item_id: '36'
+  item_quantity: 1
+  item_name: Raid Ant & Roach Insect Count Killer, Indoor Insecticide, Residual Killing
+    Power, Outdoor Fresh Scent, 17.5 oz
+  item_image_url: https://i5.walmartimages.com/seo/Raid-Ant-Roach-Insect-Killer-Indoor-Insecticide-Spray-Outdoor-Fresh-Scent-17-5-oz_5709c889-4a64-4f54-83a1-06ed30dece52.7946acaed78fe53ab47a3cae5bca0c20.jpeg
+  item_price: 4.74
+  line_price: 4.74
+  sales_unit_type: null
+- item_id: '37'
+  item_quantity: 1
+  item_name: Combat Max Large Roach Killing Bait Stations, Child-resistant, 8 Count
+  item_image_url: https://i5.walmartimages.com/seo/Combat-Max-Large-Roach-Killing-Bait-Stations-Child-resistant-8-Count_234c44c7-1aeb-48c3-905f-218a530413c6_2.0b1f798cf660c6bef8d45719173a268b.jpeg
+  item_price: 7.62
+  line_price: 7.62
+  sales_unit_type: null
+- item_id: '38'
+  item_quantity: 1
+  item_name: Arrid XX Extra Dry Aerosol Antiperspirant Deodorant, Regular, 6 oz
+  item_image_url: https://i5.walmartimages.com/seo/Arrid-XX-Extra-Dry-Aerosol-Antiperspirant-Deodorant-Regular-6-oz_54fa1517-f608-42d6-a839-0ba41926163b.45d74d3d169afdd8c32e4724ee58e5d2.jpeg
+  item_price: 4.78
+  line_price: 4.78
+  sales_unit_type: null
+- item_id: '39'
+  item_quantity: 1
+  item_name: Fresh Strawberries, 2 lb, Container
+  item_image_url: https://i5.walmartimages.com/seo/Fresh-Strawberries-2-lb-Container_dd2bcd97-25af-4a91-9258-989853e16b2f_1.36dd4f1579a25d423741d9970de3ddac.jpeg
+  item_price: 4.78
+  line_price: 4.78
+  sales_unit_type: null
+- item_id: '40'
+  item_quantity: 1
+  item_name: Land O Lakes, All-Natural Large Brown Eggs, 12 Count
+  item_image_url: https://i5.walmartimages.com/seo/Land-O-Lakes-All-Natural-Large-Brown-Eggs-12-Count_a2f2e5f7-b608-444c-a8ac-2c071310baf1.f8ac9b4d6b9c533a32f37bd4bd160ce6.jpeg
+  item_price: 4.13
+  line_price: 4.13
+  sales_unit_type: null
+- item_id: '41'
+  item_quantity: 1
+  item_name: Great Value 100% Orange Juice, 128 fl oz
+  item_image_url: https://i5.walmartimages.com/seo/Great-Value-100-Orange-Juice-128-fl-oz_d80d4c9c-d901-48c6-b2a1-a85f2f5a47a3.37411d4313bd1ecf36ad496bed3d8dc0.jpeg
+  item_price: 5.78
+  line_price: 5.78
+  sales_unit_type: null
+- item_id: '42'
+  item_quantity: 1
+  item_name: Great Value, 2% Reduced Fat Milk, Gallon, Refrigerated
+  item_image_url: https://i5.walmartimages.com/seo/Great-Value-2-Reduced-Fat-Milk-Gallon-Refrigerated_22a6459a-13b6-4057-aeae-45e62c69e8f8.47f793426ff66fa6432c948d836704f0.jpeg
+  item_price: 3.22
+  line_price: 3.22
+  sales_unit_type: null
+metadata:
+  source_file: mar5
+  processed_at: '2025-07-03T08:45:57.283230'

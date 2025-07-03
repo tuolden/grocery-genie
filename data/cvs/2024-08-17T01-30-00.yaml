@@ -1,0 +1,72 @@
+items:
+  rx: {}
+  fs:
+    total: 1
+    name: NEUT ULTSHR LTN 70 3Z
+    image: ''
+number: 5083-18-3705-20240816
+type:
+- STORE
+alertStatus: []
+filterByStatus: true
+date: '2024-08-17T01:30:00Z'
+totalCost: '16.47'
+status:
+- Purchased
+statusCode: '0000'
+statusDesc: Success
+conversationId: rrt-3024830282911917713-c-gea1-4160404-3948140-214
+order:
+  type:
+  - STORE
+  number: 5083-18-3705-20240816
+  date: '2024-08-17T01:30:00Z'
+  splitShipment: false
+  ecCard: '2276'
+  cost:
+    subTotal: '16.79'
+    savings: '-1.50'
+    tax: '1.18'
+    shipping: ''
+    total: '16.47'
+    state: FL
+    feminineTax: '0'
+    totalReturnAmount: '0.00'
+  shipped: []
+  canceled: []
+  pickup: []
+  inStore:
+  - status: Purchased
+    totalCost: 16.79
+    fsItems:
+    - name: Neutrogena Ultra Sheer Dry-Touch SPF 70 Sunscreen Lotion, 3 OZ
+      itemId: '401226'
+      itemSize: '3.00'
+      itemSizeUOM: OZ
+      itemWeight: '2.00'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '16.79'
+      priceFinal: '16.79'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '16.79'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    pickupStoreId: '5083'
+  return: []
+  paymentMethod:
+  - type: Credit/Debit/EBT
+    lastFourDigits: '0225'
+    amountCharged: '16.47'
+  - type: Credit/Debit/EBT
+    lastFourDigits: '0225'
+    amountReturned: '0.00'
+  splitFulfillment: false
+  returnEligible: false
+  returnEligibleFinalDate: '2024-10-15T00:00:00Z'
+  txnNo: '3705'
+  regNo: '18'

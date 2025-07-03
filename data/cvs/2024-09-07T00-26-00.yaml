@@ -1,0 +1,90 @@
+items:
+  rx: {}
+  fs:
+    total: 2
+    name: CVS SLEEP 50MG GEL 32CT
+    image: ''
+number: 5083-2-3456-20240906
+type:
+- STORE
+alertStatus: []
+filterByStatus: true
+date: '2024-09-07T00:26:00Z'
+totalCost: '35.72'
+status:
+- Purchased
+statusCode: '0000'
+statusDesc: Success
+conversationId: rrt-4442886904748939841-b-gea1-65876-393976-32
+order:
+  type:
+  - STORE
+  number: 5083-2-3456-20240906
+  date: '2024-09-07T00:26:00Z'
+  splitShipment: false
+  ecCard: '2276'
+  cost:
+    subTotal: '33.97'
+    savings: '-0.00'
+    tax: '1.75'
+    shipping: ''
+    total: '35.72'
+    state: FL
+    feminineTax: '0'
+    totalReturnAmount: '0.00'
+  shipped: []
+  canceled: []
+  pickup: []
+  inStore:
+  - status: Purchased
+    totalCost: 33.97
+    fsItems:
+    - name: CVS Health Maximum Strength Nighttime Sleep Aid Diphenhydramine HCI 50
+        MG Softgels, 32 CT
+      itemId: '864199'
+      itemSize: '32.00'
+      itemSizeUOM: Ct
+      itemWeight: '0.12'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '8.99'
+      priceFinal: '8.99'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '8.99'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: CVS Health Sport Clear Sunscreen Spray SPF 50, 9.1 OZ
+      itemId: '438691'
+      itemSize: '9.10'
+      itemSizeUOM: OZ
+      itemWeight: '0.76'
+      itemWeightUOM: LBS
+      qty: 2
+      priceTotal: '24.98'
+      priceFinal: '24.98'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '24.98'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    pickupStoreId: '5083'
+  return: []
+  paymentMethod:
+  - type: Credit/Debit/EBT
+    lastFourDigits: '0225'
+    amountCharged: '35.72'
+  - type: Credit/Debit/EBT
+    lastFourDigits: '0225'
+    amountReturned: '0.00'
+  splitFulfillment: false
+  returnEligible: false
+  returnEligibleFinalDate: '2024-11-05T00:00:00Z'
+  txnNo: '3456'
+  regNo: '2'

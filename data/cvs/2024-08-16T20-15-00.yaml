@@ -1,0 +1,140 @@
+items:
+  rx: {}
+  fs:
+    total: 5
+    name: CLGT 360 OW TB     2CT
+    image: ''
+number: 10644-17-1097-20240816
+type:
+- STORE
+alertStatus: []
+filterByStatus: true
+date: '2024-08-16T20:15:00Z'
+totalCost: '48.69'
+status:
+- Purchased
+statusCode: '0000'
+statusDesc: Success
+conversationId: rrt-4766149014146791833-c-gea1-1959748-4919491-122
+order:
+  type:
+  - STORE
+  number: 10644-17-1097-20240816
+  date: '2024-08-16T20:15:00Z'
+  splitShipment: false
+  ecCard: '2276'
+  cost:
+    subTotal: '47.15'
+    savings: '-0.00'
+    tax: '1.54'
+    shipping: ''
+    total: '48.69'
+    state: FL
+    feminineTax: '0'
+    totalReturnAmount: '0.00'
+  shipped: []
+  canceled: []
+  pickup: []
+  inStore:
+  - status: Purchased
+    totalCost: 47.14999999999999
+    fsItems:
+    - name: Beauty 360 Eye Makeup Remover, 4 OZ
+      itemId: '368207'
+      itemSize: '4.00'
+      itemSizeUOM: OZ
+      itemWeight: '0.10'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '9.59'
+      priceFinal: '9.59'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '9.59'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: Kinder Joy Go Wild Egg, 0.7 oz
+      itemId: '448408'
+      itemSize: '0.70'
+      itemSizeUOM: OZ
+      itemWeight: '0.10'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '3.29'
+      priceFinal: '3.29'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '3.29'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: Ace for Men Natural Boar Bristles Brush, Black, 1 CT
+      itemId: '588559'
+      itemSize: '1.00'
+      itemSizeUOM: EACH
+      itemWeight: '0.28'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '8.99'
+      priceFinal: '8.99'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '8.99'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: Colgate 360 Optic White Whitening Toothbrush, Medium, 2 CT
+      itemId: '304208'
+      itemSize: '2.00'
+      itemSizeUOM: Ct
+      itemWeight: '0.10'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '7.79'
+      priceFinal: '7.79'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '7.79'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: CVS Health Stool Softener Softgels, 100 MG, 100 CT
+      itemId: '310425'
+      itemSize: '100.00'
+      itemSizeUOM: Ct
+      itemWeight: '0.13'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '17.49'
+      priceFinal: '17.49'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '17.49'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    pickupStoreId: '10644'
+  return: []
+  paymentMethod:
+  - type: Credit/Debit/EBT
+    lastFourDigits: '8747'
+    amountCharged: '48.69'
+  - type: Credit/Debit/EBT
+    lastFourDigits: '8747'
+    amountReturned: '0.00'
+  splitFulfillment: false
+  returnEligible: false
+  returnEligibleFinalDate: '2024-10-15T00:00:00Z'
+  txnNo: '1097'
+  regNo: '17'

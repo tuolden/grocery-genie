@@ -1,0 +1,107 @@
+items:
+  rx: {}
+  fs:
+    total: 3
+    name: AUSS CURLS DT MILK 6.7Z
+    image: ''
+number: 5083-18-2863-20250104
+type:
+- STORE
+alertStatus: []
+filterByStatus: true
+date: '2025-01-04T22:08:00Z'
+totalCost: '45.20'
+status:
+- Purchased
+statusCode: '0000'
+statusDesc: Success
+conversationId: rrt-1893003591783605619-d-gea1-2466114-5005745-4
+order:
+  type:
+  - STORE
+  number: 5083-18-2863-20250104
+  date: '2025-01-04T22:08:00Z'
+  splitShipment: false
+  ecCard: '2276'
+  cost:
+    subTotal: '50.95'
+    savings: '-8.71'
+    tax: '2.96'
+    shipping: ''
+    total: '45.20'
+    state: FL
+    feminineTax: '0'
+    totalReturnAmount: '0.00'
+  shipped: []
+  canceled: []
+  pickup: []
+  inStore:
+  - status: Purchased
+    totalCost: 50.95
+    fsItems:
+    - name: 'Summers Eve Ultimate Odor Blocker Wash '
+      itemId: '554937'
+      itemSize: '15.00'
+      itemSizeUOM: OZ
+      itemWeight: '1.11'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '7.99'
+      priceFinal: '7.99'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '7.99'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: Secret Clinical Strength 48-Hour Invisible Solid Antiperspirant Stick,
+        Completely Clean, 2.6 OZ
+      itemId: '298315'
+      itemSize: '2.60'
+      itemSizeUOM: OZ
+      itemWeight: '0.30'
+      itemWeightUOM: LBS
+      qty: 2
+      priceTotal: '30.98'
+      priceFinal: '30.98'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '30.98'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: Aussie Miracle Curls Leave-In Detangling Milk Treatment, 6.7 OZ
+      itemId: '359655'
+      itemSize: '6.70'
+      itemSizeUOM: OZ
+      itemWeight: '0.50'
+      itemWeightUOM: LBS
+      qty: 2
+      priceTotal: '11.98'
+      priceFinal: '11.98'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '11.98'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    pickupStoreId: '5083'
+  return: []
+  paymentMethod:
+  - type: Credit/Debit/EBT
+    lastFourDigits: '0225'
+    amountCharged: '45.20'
+  - type: Credit/Debit/EBT
+    lastFourDigits: '0225'
+    amountReturned: '0.00'
+  splitFulfillment: false
+  returnEligible: false
+  returnEligibleFinalDate: '2025-03-05T00:00:00Z'
+  txnNo: '2863'
+  regNo: '18'

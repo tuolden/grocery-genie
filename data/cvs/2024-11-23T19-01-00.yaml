@@ -1,0 +1,89 @@
+items:
+  rx: {}
+  fs:
+    total: 2
+    name: AMAZON $100        EACH
+    image: ''
+number: 5083-3-8340-20241123
+type:
+- STORE
+alertStatus: []
+filterByStatus: true
+date: '2024-11-23T19:01:00Z'
+totalCost: '350.00'
+status:
+- Purchased
+statusCode: '0000'
+statusDesc: Success
+conversationId: rrt-3922985034873294501-d-gea1-65360-53438-81
+order:
+  type:
+  - STORE
+  number: 5083-3-8340-20241123
+  date: '2024-11-23T19:01:00Z'
+  splitShipment: false
+  ecCard: '2276'
+  cost:
+    subTotal: '350.00'
+    savings: '-0.00'
+    tax: '0.00'
+    shipping: ''
+    total: '350.00'
+    state: FL
+    feminineTax: '0'
+    totalReturnAmount: '0.00'
+  shipped: []
+  canceled: []
+  pickup: []
+  inStore:
+  - status: Purchased
+    totalCost: 350
+    fsItems:
+    - name: Amazon.com $100 RGNL
+      itemId: '810018'
+      itemSize: '1.00'
+      itemSizeUOM: EACH
+      itemWeight: '0.10'
+      itemWeightUOM: LBS
+      qty: 3
+      priceTotal: '300.00'
+      priceFinal: '300.00'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '300.00'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: Amazon.com $50 Gift Card
+      itemId: '470388'
+      itemSize: '1.00'
+      itemSizeUOM: EACH
+      itemWeight: '0.10'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '50.00'
+      priceFinal: '50.00'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '50.00'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    pickupStoreId: '5083'
+  return: []
+  paymentMethod:
+  - type: Credit/Debit/EBT
+    lastFourDigits: '0225'
+    amountCharged: '350.00'
+  - type: Credit/Debit/EBT
+    lastFourDigits: '0225'
+    amountReturned: '0.00'
+  splitFulfillment: false
+  returnEligible: false
+  returnEligibleFinalDate: '2025-01-22T00:00:00Z'
+  txnNo: '8340'
+  regNo: '3'

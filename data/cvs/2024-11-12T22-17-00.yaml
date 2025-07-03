@@ -1,0 +1,159 @@
+items:
+  rx: {}
+  fs:
+    total: 6
+    name: ESSIE EXPRESSIE    EXPR
+    image: ''
+number: 5083-18-3411-20241112
+type:
+- STORE
+alertStatus: []
+filterByStatus: true
+date: '2024-11-12T22:17:00Z'
+totalCost: '77.04'
+status:
+- Purchased
+statusCode: '0000'
+statusDesc: Success
+conversationId: rrt-4505565999609188807-b-gea1-646463-1273746-40
+order:
+  type:
+  - STORE
+  number: 5083-18-3411-20241112
+  date: '2024-11-12T22:17:00Z'
+  splitShipment: false
+  ecCard: '2276'
+  cost:
+    subTotal: '79.73'
+    savings: '-6.96'
+    tax: '4.27'
+    shipping: ''
+    total: '77.04'
+    state: FL
+    feminineTax: '0'
+    totalReturnAmount: '0.00'
+  shipped: []
+  canceled: []
+  pickup: []
+  inStore:
+  - status: Purchased
+    totalCost: 79.73
+    fsItems:
+    - name: Sally Hansen Insta-Dri 3.0 Nail Color, White On Time
+      itemId: '215310'
+      itemSize: '1.00'
+      itemSizeUOM: EACH
+      itemWeight: '0.10'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '7.29'
+      priceFinal: '7.29'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '7.29'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: Mentos Pure Fresh Spearmint Gum, 80 ct
+      itemId: '414079'
+      itemSize: '80.00'
+      itemSizeUOM: Ct
+      itemWeight: '0.42'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '6.99'
+      priceFinal: '6.99'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '6.99'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: Secret Clinical Strength 48-Hour Invisible Solid Antiperspirant Stick,
+        Completely Clean, 2.6 OZ
+      itemId: '298315'
+      itemSize: '2.60'
+      itemSizeUOM: OZ
+      itemWeight: '0.30'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '15.49'
+      priceFinal: '15.49'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '15.49'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: Differin Daily Brightening Exfoliator, 6 OZ
+      itemId: '610682'
+      itemSize: '6.00'
+      itemSizeUOM: OZ
+      itemWeight: '0.43'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '12.99'
+      priceFinal: '12.99'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '12.99'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: essie expressie Quick-Dry Nail Polish, Vegan, express to impress (mint
+        green), 0.33 fl oz
+      itemId: '294647'
+      itemSize: '0.33'
+      itemSizeUOM: OZ
+      itemWeight: '0.11'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '9.99'
+      priceFinal: '9.99'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '9.99'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: NIVEA Skin Firming & Toning Gel-Cream, 6.7 OZ
+      itemId: '412181'
+      itemSize: '6.70'
+      itemSizeUOM: OZ
+      itemWeight: '0.10'
+      itemWeightUOM: LBS
+      qty: 2
+      priceTotal: '26.98'
+      priceFinal: '26.98'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '26.98'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    pickupStoreId: '5083'
+  return: []
+  paymentMethod:
+  - type: Credit/Debit/EBT
+    lastFourDigits: '8747'
+    amountCharged: '77.04'
+  - type: Credit/Debit/EBT
+    lastFourDigits: '8747'
+    amountReturned: '0.00'
+  splitFulfillment: false
+  returnEligible: false
+  returnEligibleFinalDate: '2025-01-11T00:00:00Z'
+  txnNo: '3411'
+  regNo: '18'

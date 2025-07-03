@@ -1,0 +1,209 @@
+{
+  "scraped_at": "2025-07-03T15:19:30.446295",
+  "source": "publix_detail_api",
+  "original_purchase": {
+    "Id": "9fZj7BoHggBrDFXBpZAjZpaLvzzpof1h5q50qX4ZoQ1jjDUYceqHberLh9i2_-lc79JMWjwfx2JuoIcAcHlvRPsNxiFMtjjHF2XTmecqD_4%3D",
+    "StoreName": "Weston Lakes Plaza",
+    "StoreId": 583,
+    "StoreTimezone": null,
+    "PurchaseDate": "2025-05-09T17:05:30",
+    "TotalPrice": 13.66,
+    "IsOnlineOrder": false,
+    "IsGiftCardOrder": false,
+    "PaidOnline": false,
+    "Subtotal": 0.0,
+    "TotalSavings": null,
+    "TotalTax": 0.0,
+    "Taxes": null,
+    "Total": 0.0,
+    "PickupDate": "0001-01-01T00:00:00",
+    "PickupName": null,
+    "Status": null,
+    "PaymentStatus": null,
+    "IsCancelled": false,
+    "RefundTotal": 0.0,
+    "Payments": null,
+    "Items": [
+      {
+        "Id": "95008",
+        "ImageUrl": "https://images.publixcdn.com/pct/images/products/95000/095008-75x75-A.jpg",
+        "NoImageUrl": null,
+        "Quantity": 1
+      },
+      {
+        "Id": "204374",
+        "ImageUrl": "https://images.publixcdn.com/pct/images/products/200000/204374-75x75-A.jpg",
+        "NoImageUrl": null,
+        "Quantity": 1
+      },
+      {
+        "Id": "210778",
+        "ImageUrl": "https://images.publixcdn.com/pct/images/products/210000/210778-75x75-A.jpg",
+        "NoImageUrl": null,
+        "Quantity": 1
+      },
+      {
+        "Id": "10547",
+        "ImageUrl": "https://images.publixcdn.com/pct/images/products/10000/010547-75x75-A.jpg",
+        "NoImageUrl": null,
+        "Quantity": 1
+      }
+    ],
+    "LineItems": []
+  },
+  "detail": {
+    "ReceiptLogoId": 1,
+    "ReceiptText": "           Weston Lakes Plaza            &#10;            294 Indian Trace             &#10;            Weston, FL 33326             &#10;      Store Manager: Juan Cardona        &#10;              954-384-4190               &#10;            0583 59Q 062 483             &#10;  NUTELLA &amp; GO PRTZL            2.29   F &#10;  FRENCH BREAD 12OZ             3.09   F &#10;  CESAR HD POT ROAST            1.75 T   &#10;  PUB #4 CONE FILTER            5.99 T   &#10;    Order Total                13.12     &#10;      Sales Tax                 0.54     &#10;    Grand Total                13.66     &#10; Credit          Payment       13.66     &#10;  Change                        0.00     &#10;  Customer ID Accepted                   &#10;      Receipt ID: 0583 59Q 062 483       &#10; - - - - - - - - - - - - - - - - - - -   &#10;      PRESTO!                            &#10;      Trace #: 067562                    &#10;      Reference #: 0955107996            &#10;      Acct #: XXXXXXXXXXXX4321           &#10;      Purchase VISA                      &#10;      Amount: $13.66                     &#10;      Auth #: 070517                     &#10; - - - - - - - - - - - - - - - - - - -   &#10;CREDIT CARD                     PURCHASE &#10;A0000000980840                  US DEBIT &#10;Entry Method:                  Cntctless &#10;Mode:                             Issuer &#10; - - - - - - - - - - - - - - - - - - -   &#10;Your cashier was Crista                  &#10;05/09/2025 17:05 S0583  R106 2483 C0249  &#10;                                         &#10;        Join the Publix family!          &#10;   Apply today at apply.publix.jobs.     &#10;  We&#39;re an equal opportunity employer.   &#10;                                         &#10;       Publix Super Markets, Inc.        &#10;                                         &#10;",
+    "BarcodeSrc": "data:image/png;base64,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",
+    "TransactionNumber": 2483,
+    "VendorCouponAmount": 0.0,
+    "StoreCouponAmount": 0.0,
+    "OrderTotal": 13.12,
+    "TaxAmount": 0.54,
+    "GrandTotal": 13.66,
+    "Products": [
+      {
+        "ItemId": 95008,
+        "ItemName": "French Bread",
+        "ItemDescription": null,
+        "PimsCode": null,
+        "RetailSubSectionNumber": "561",
+        "ItemQuantity": 1,
+        "ItemImageUrl": "https://images.publixcdn.com/pct/images/products/95000/095008-75x75-A.jpg",
+        "ItemDetailUrl": "/pd/RIO-PCI-118869",
+        "SizeDescription": "12 oz Pkg",
+        "ActivationStatus": "A",
+        "BaseProductId": "RIO-PCI-118869",
+        "UPC": "29500800000",
+        "FavoriteProductId": null,
+        "Categories": null
+      },
+      {
+        "ItemId": 204374,
+        "ItemName": "Cesar Home Delights Pot Roast with Spring Vegetables Dinner in Sauce Canine Cuisine",
+        "ItemDescription": null,
+        "PimsCode": null,
+        "RetailSubSectionNumber": "182",
+        "ItemQuantity": 1,
+        "ItemImageUrl": "https://images.publixcdn.com/pct/images/products/200000/204374-75x75-A.jpg",
+        "ItemDetailUrl": "/pd/RIO-PCI-505535",
+        "SizeDescription": "100 g (3.5 oz)",
+        "ActivationStatus": "A",
+        "BaseProductId": "RIO-PCI-505535",
+        "UPC": "2310010836",
+        "FavoriteProductId": null,
+        "Categories": null
+      },
+      {
+        "ItemId": 210778,
+        "ItemName": "Nutella &amp; Go! Hazelnut Spread + Pretzel Sticks",
+        "ItemDescription": null,
+        "PimsCode": null,
+        "RetailSubSectionNumber": "784",
+        "ItemQuantity": 1,
+        "ItemImageUrl": "https://images.publixcdn.com/pct/images/products/210000/210778-75x75-A.jpg",
+        "ItemDetailUrl": "/pd/RIO-PCI-514582",
+        "SizeDescription": "1.9 oz (54 g)",
+        "ActivationStatus": "A",
+        "BaseProductId": "RIO-PCI-514582",
+        "UPC": "980080009",
+        "FavoriteProductId": null,
+        "Categories": null
+      },
+      {
+        "ItemId": 10547,
+        "ItemName": "Publix Coffee Filters, No 4 Cone Style",
+        "ItemDescription": null,
+        "PimsCode": null,
+        "RetailSubSectionNumber": "254",
+        "ItemQuantity": 1,
+        "ItemImageUrl": "https://images.publixcdn.com/pct/images/products/10000/010547-75x75-A.jpg",
+        "ItemDetailUrl": "/pd/RIO-PCI-103882",
+        "SizeDescription": "200 count",
+        "ActivationStatus": "A",
+        "BaseProductId": "RIO-PCI-103882",
+        "UPC": "4141502207",
+        "FavoriteProductId": null,
+        "Categories": null
+      }
+    ],
+    "ReceiptLineItems": [
+      {
+        "ItemCode": "00000980080009",
+        "ItemSeqNo": 1,
+        "ItemQty": 1,
+        "ItemWeight": 0.0,
+        "ItemPrice": 2.29,
+        "ItemAmount": 2.29,
+        "SavingAmount": 0.0,
+        "NetAmount": 2.29,
+        "ItemTypeDescription": "Normal Sale",
+        "IsGiftcardItem": 0,
+        "AccountNumber": "    ",
+        "MSUQty": 1
+      },
+      {
+        "ItemCode": "00029500800000",
+        "ItemSeqNo": 2,
+        "ItemQty": 0,
+        "ItemWeight": 1.0,
+        "ItemPrice": 3.09,
+        "ItemAmount": 3.09,
+        "SavingAmount": 0.0,
+        "NetAmount": 3.09,
+        "ItemTypeDescription": "Normal Sale",
+        "IsGiftcardItem": 0,
+        "AccountNumber": "    ",
+        "MSUQty": 1
+      },
+      {
+        "ItemCode": "00002310010836",
+        "ItemSeqNo": 3,
+        "ItemQty": 1,
+        "ItemWeight": 0.0,
+        "ItemPrice": 1.75,
+        "ItemAmount": 1.75,
+        "SavingAmount": 0.0,
+        "NetAmount": 1.75,
+        "ItemTypeDescription": "Normal Sale",
+        "IsGiftcardItem": 0,
+        "AccountNumber": "    ",
+        "MSUQty": 1
+      },
+      {
+        "ItemCode": "00004141502207",
+        "ItemSeqNo": 4,
+        "ItemQty": 1,
+        "ItemWeight": 0.0,
+        "ItemPrice": 5.99,
+        "ItemAmount": 5.99,
+        "SavingAmount": 0.0,
+        "NetAmount": 5.99,
+        "ItemTypeDescription": "Normal Sale",
+        "IsGiftcardItem": 0,
+        "AccountNumber": "    ",
+        "MSUQty": 1
+      }
+    ],
+    "ReceiptTenderLineItems": [
+      {
+        "TenderNumberDescription": "Credit Card",
+        "TenderAmount": 13.66,
+        "TenderFeeAmount": 0.0
+      }
+    ],
+    "custtranstypeid": 1,
+    "TransactionKey": "9fZj7BoHggBrDFXBpZAjZpaLvzzpof1h5q50qX4ZoQ1jjDUYceqHberLh9i2_-lc79JMWjwfx2JuoIcAcHlvRPsNxiFMtjjHF2XTmecqD_4%3D",
+    "ReceiptId": "058359Q062483",
+    "TransactionSource": "PurchaseHistory",
+    "FacilityId": 583,
+    "TransactionDate": "2025-05-09T17:05:30",
+    "SalesTransactionNumber": 943,
+    "FacilityName": "Weston Lakes Plaza",
+    "FacilityType": null,
+    "CustomerId": 18309194,
+    "Amount": 13.66,
+    "Currency": "USD",
+    "ItemCount": 4
+  }
+}

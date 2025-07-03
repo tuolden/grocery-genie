@@ -1,0 +1,89 @@
+items:
+  rx: {}
+  fs:
+    total: 2
+    name: ALTDS SPEARMINT    1.76
+    image: ''
+number: 7019-13-6385-20250629
+type:
+- STORE
+alertStatus: []
+filterByStatus: true
+date: '2025-06-29T15:05:00Z'
+totalCost: '68.79'
+status:
+- Purchased
+statusCode: '0000'
+statusDesc: Success
+conversationId: rrt-7152547171538615360-d-gea1-3109927-1475222-3
+order:
+  type:
+  - STORE
+  number: 7019-13-6385-20250629
+  date: '2025-06-29T15:05:00Z'
+  splitShipment: false
+  ecCard: '2276'
+  cost:
+    subTotal: '68.38'
+    savings: '-0.00'
+    tax: '0.41'
+    shipping: ''
+    total: '68.79'
+    state: NY
+    feminineTax: '0'
+    totalReturnAmount: '0.00'
+  shipped: []
+  canceled: []
+  pickup: []
+  inStore:
+  - status: Purchased
+    totalCost: 68.38
+    fsItems:
+    - name: CVS Health Sugar Free Nicotine 4mg Lozenge, Mint, 135 CT
+      itemId: '491745'
+      itemSize: '135.00'
+      itemSizeUOM: Ct
+      itemWeight: '0.10'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '63.79'
+      priceFinal: '63.79'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '63.79'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: ALTOIDS Spearmint Sugar Free Breath Mints, Single Pack, 1.76 oz
+      itemId: '238078'
+      itemSize: '1.76'
+      itemSizeUOM: OZ
+      itemWeight: '0.10'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '4.59'
+      priceFinal: '4.59'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '4.59'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    pickupStoreId: '7019'
+  return: []
+  paymentMethod:
+  - type: Credit/Debit/EBT
+    lastFourDigits: '8494'
+    amountCharged: '68.79'
+  - type: Credit/Debit/EBT
+    lastFourDigits: '8494'
+    amountReturned: '0.00'
+  splitFulfillment: false
+  returnEligible: true
+  returnEligibleFinalDate: '2025-08-28T00:00:00Z'
+  txnNo: '6385'
+  regNo: '13'

@@ -1,0 +1,96 @@
+order_id: '66377701766975356754'
+purchase_date: '2022-10-01'
+store_name: Pembroke pines Supercenter
+order_totals:
+  subtotal: 85.78
+  tax_total: 4.22
+  grand_total: 90
+items:
+- item_id: '0'
+  item_quantity: 1
+  item_name: Takis Fuego 9.9 oz Sharing Size Bag, Hot Chili Pepper & Lime Rolled Tortilla
+    Chips
+  item_image_url: https://i5.walmartimages.com/seo/Takis-Fuego-9-9-oz-Sharing-Size-Bag-Hot-Chili-Pepper-Lime-Rolled-Tortilla-Chips_ce60e10f-61f5-44c0-81a4-29014c08643e.9512f82d04b119186dbd96b4995abd41.jpeg
+  item_price: 3.48
+  line_price: 3.48
+  sales_unit_type: null
+- item_id: '1'
+  item_quantity: 1
+  item_name: Takis Fuego Mini 25 pc / 1.23 oz Bite Size Multipack, Hot Chili Pepper
+    & Lime Rolled Tortilla Chips
+  item_image_url: https://i5.walmartimages.com/seo/Takis-Fuego-Mini-25-pc-1-23-oz-Bite-Size-Multipack-Hot-Chili-Pepper-Lime-Rolled-Tortilla-Chips_a27e38b0-54dd-4df0-85bb-78363ea03baa.edf9c5bc65ad48a2f789b49cf480354a.jpeg
+  item_price: 12.18
+  line_price: 12.18
+  sales_unit_type: null
+- item_id: '2'
+  item_quantity: 1
+  item_name: Propel Electrolyte Enhanced Water Drink Mix Powder Packets, Raspberry
+    Lemonade, Zero Calorie & Zero Sugar Hydration with Electrolytes and Vitamins C
+    & E, (10 Packets)
+  item_image_url: https://i5.walmartimages.com/seo/Propel-Powder-Packets-Drink-Mix-with-Electrolytes-Vitamins-and-No-Sugar-Raspberry-Lemonade-0-08-oz-10-Packets_fe25de98-3a3d-4c6f-8b14-8d9c12d87f6a.a3f8f95e6999ab3f44f58d3a4814481e.jpeg
+  item_price: 2.48
+  line_price: 2.48
+  sales_unit_type: null
+- item_id: '3'
+  item_quantity: 1
+  item_name: Propel Electrolyte Enhanced Water Drink Mix Powder Packets, Berry, Zero
+    Calorie & Zero Sugar Hydration with Electrolytes and Vitamins C & E, (10 Packets)
+  item_image_url: https://i5.walmartimages.com/seo/Propel-Zero-Sugar-Berry-Powdered-Electrolyte-Vitamin-Drink-Mix-0-08-oz-10-Packets_b0282089-36b8-4801-89f2-823d45ff3a88.f58524159895824618e7110a2412dc39.jpeg
+  item_price: 2.48
+  line_price: 2.48
+  sales_unit_type: null
+- item_id: '4'
+  item_quantity: 1
+  item_name: HARIBO Gummy Candy, Fruity Watermelon Gummies, 6.3 oz, Share Size Bag
+  item_image_url: https://i5.walmartimages.com/seo/HARIBO-Watermelon-Gummy-6-3oz_9cfc0820-4db5-48f5-8f6f-a398ff0124f2.893c707f47dd8cefb1083619989c730b.jpeg
+  item_price: 2.34
+  line_price: 2.34
+  sales_unit_type: null
+- item_id: '5'
+  item_quantity: 1
+  item_name: HARIBO Frogs Gummies Peach Flavor Gummy Candy, 8oz, Share Size Bag
+  item_image_url: https://i5.walmartimages.com/seo/Haribo-Frogs-Gummi-Candies-8oz_cef2849f-5b55-425b-bb12-3dd51c0bc994.d87d87eb628ea2b67317f71f75de685e.jpeg
+  item_price: 2.34
+  line_price: 2.34
+  sales_unit_type: null
+- item_id: '6'
+  item_quantity: 1
+  item_name: HARIBO Twin Snakes Gummies Original Sweet and Sour Assorted Fruit Flavor
+    Gummy Candy, 8 oz, Share Size Bag
+  item_image_url: https://i5.walmartimages.com/seo/HARIBO-Twin-Snakes-Sweet-Sour-Gummi-Candies-8-oz_59480ed6-b90b-4805-b1c0-739546057fcd.9eaea47e9ea776116f7b9cf71a0c0598.jpeg
+  item_price: 2.34
+  line_price: 2.34
+  sales_unit_type: null
+- item_id: '7'
+  item_quantity: 1
+  item_name: 5 Gum Peppermint Cobalt Sugar Free Chewing Gum - 15 Ct (6 Pack)
+  item_image_url: https://i5.walmartimages.com/seo/5-Gum-Peppermint-Cobalt-Sugar-Free-Chewing-Gum-15-Ct-6-Pack_9a1ddca9-de98-46ef-9b29-524489855a00.b99d9b36e9e3b1ef3378f50428cb48ef.jpeg
+  item_price: 8.28
+  line_price: 8.28
+  sales_unit_type: null
+- item_id: '8'
+  item_quantity: 1
+  item_name: "Marie Callender\u2019s Italiano Lasagna With Ricotta Cheese Meal to\
+    \ Share, Frozen Meal, 31 oz (Frozen)"
+  item_image_url: https://i5.walmartimages.com/seo/Marie-Callender-s-Italiano-Lasagna-With-Ricotta-Cheese-Meal-to-Share-Frozen-Meal-31-oz-Frozen_745bed40-112d-4ea3-9ab7-de952046ad8d.d1ffb735338963e6318415f5f8cbe620.jpeg
+  item_price: 6.57
+  line_price: 6.57
+  sales_unit_type: null
+- item_id: '9'
+  item_quantity: 1
+  item_name: Great Value, 2% Reduced Fat Milk, Gallon, Refrigerated
+  item_image_url: https://i5.walmartimages.com/seo/Great-Value-2-Reduced-Fat-Milk-Gallon-Refrigerated_22a6459a-13b6-4057-aeae-45e62c69e8f8.47f793426ff66fa6432c948d836704f0.jpeg
+  item_price: 3.32
+  line_price: 3.32
+  sales_unit_type: null
+- item_id: '10'
+  item_quantity: 1
+  item_name: Cesar Home Delights & Classic Loaf In Sauce Wet Dog Food, 3.5 Oz. Variety
+    Pack Of 36
+  item_image_url: https://i5.walmartimages.com/seo/Cesar-Home-Delights-Classic-Loaf-In-Sauce-Wet-Dog-Food-3-5-Oz-Variety-Pack-Of-36_26389f67-bf85-4326-a1fe-3c6f853cdeba.ff0be761a702cdd1cec78c97c7c25e6b.jpeg
+  item_price: 39.97
+  line_price: 39.97
+  sales_unit_type: null
+metadata:
+  source_file: oct01
+  processed_at: '2025-07-03T08:46:00.654942'

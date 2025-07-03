@@ -1,0 +1,123 @@
+items:
+  rx: {}
+  fs:
+    total: 4
+    name: XTEND BRI PWDR     13.7
+    image: ''
+number: 5083-17-2066-20241230
+type:
+- STORE
+alertStatus: []
+filterByStatus: true
+date: '2024-12-31T00:03:00Z'
+totalCost: '124.46'
+status:
+- Purchased
+statusCode: '0000'
+statusDesc: Success
+conversationId: rrt-5053823307997761644-b-gea1-66881-60690-109
+order:
+  type:
+  - STORE
+  number: 5083-17-2066-20241230
+  date: '2024-12-31T00:03:00Z'
+  splitShipment: false
+  ecCard: '2276'
+  cost:
+    subTotal: '129.46'
+    savings: '-5.00'
+    tax: '0.00'
+    shipping: ''
+    total: '124.46'
+    state: FL
+    feminineTax: '0'
+    totalReturnAmount: '0.00'
+  shipped: []
+  canceled: []
+  pickup: []
+  inStore:
+  - status: Purchased
+    totalCost: 124.46
+    fsItems:
+    - name: Amazing Grass Green Superfood, Original
+      itemId: '284225'
+      itemSize: '8.50'
+      itemSizeUOM: OZ
+      itemWeight: '0.53'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '32.99'
+      priceFinal: '32.99'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '32.99'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: Xtend BCAA Blue Raspberry Ice Powder, 13.76 OZ
+      itemId: '182778'
+      itemSize: '13.76'
+      itemSizeUOM: OZ
+      itemWeight: '1.11'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '24.99'
+      priceFinal: '19.99'
+      savings: '5.00'
+      tax: 0
+      lineTotalWithoutTax: '19.99'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: CVS Health Collagen Peptides Powder, 20 OZ
+      itemId: '273911'
+      itemSize: '20.00'
+      itemSizeUOM: OZ
+      itemWeight: '1.32'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '39.99'
+      priceFinal: '39.99'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '39.99'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: Garden of Life Women's Daily Care Probiotic Capsules, 30 CT
+      itemId: '305079'
+      itemSize: '30.00'
+      itemSizeUOM: Ct
+      itemWeight: '0.40'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '31.49'
+      priceFinal: '31.49'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '31.49'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    pickupStoreId: '5083'
+  return: []
+  paymentMethod:
+  - type: Credit/Debit/EBT
+    lastFourDigits: '8747'
+    amountCharged: '124.46'
+  - type: Credit/Debit/EBT
+    lastFourDigits: '8747'
+    amountReturned: '0.00'
+  splitFulfillment: false
+  returnEligible: false
+  returnEligibleFinalDate: '2025-02-28T00:00:00Z'
+  txnNo: '2066'
+  regNo: '17'

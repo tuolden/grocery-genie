@@ -1,0 +1,89 @@
+items:
+  rx: {}
+  fs:
+    total: 2
+    name: ABRV OTG CS FB TRT .07Z
+    image: ''
+number: 5083-17-9281-20250205
+type:
+- STORE
+alertStatus: []
+filterByStatus: true
+date: '2025-02-06T02:39:00Z'
+totalCost: '35.98'
+status:
+- Purchased
+statusCode: '0000'
+statusDesc: Success
+conversationId: rrt-1893003591783605619-d-gea1-2466112-5004445-67
+order:
+  type:
+  - STORE
+  number: 5083-17-9281-20250205
+  date: '2025-02-06T02:39:00Z'
+  splitShipment: false
+  ecCard: '2276'
+  cost:
+    subTotal: '35.98'
+    savings: '-0.00'
+    tax: '0.00'
+    shipping: ''
+    total: '35.98'
+    state: FL
+    feminineTax: '0'
+    totalReturnAmount: '0.00'
+  shipped: []
+  canceled: []
+  pickup: []
+  inStore:
+  - status: Purchased
+    totalCost: 35.98
+    fsItems:
+    - name: ABREVA ON THE GO COLD SORE/FEVER BLISTER TREATMENT
+      itemId: '978036'
+      itemSize: '0.07'
+      itemSizeUOM: OZ
+      itemWeight: '0.10'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '24.49'
+      priceFinal: '24.49'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '24.49'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: Nature's Bounty L-Lysine Tablets 1000mg, 60CT
+      itemId: '328276'
+      itemSize: '60.00'
+      itemSizeUOM: Ct
+      itemWeight: '0.10'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '11.49'
+      priceFinal: '11.49'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '11.49'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    pickupStoreId: '5083'
+  return: []
+  paymentMethod:
+  - type: Credit/Debit/EBT
+    lastFourDigits: '8747'
+    amountCharged: '35.98'
+  - type: Credit/Debit/EBT
+    lastFourDigits: '8747'
+    amountReturned: '0.00'
+  splitFulfillment: false
+  returnEligible: false
+  returnEligibleFinalDate: '2025-04-06T00:00:00Z'
+  txnNo: '9281'
+  regNo: '17'

@@ -1,0 +1,101 @@
+{
+  "scraped_at": "2025-07-03T15:19:29.612086",
+  "source": "publix_detail_api",
+  "original_purchase": {
+    "Id": "Y0VI9VQdk1eJkVAHVrTyXOor-St-jQhDc6DgzO4KMeWmHCiofaXZFQDjysI2HkpuhaRyo5udX5rpjMuMK5gXtfOxpDAC-thLyTw0s2mKxis%3D",
+    "StoreName": "Weston Lakes Plaza",
+    "StoreId": 583,
+    "StoreTimezone": null,
+    "PurchaseDate": "2025-03-31T19:43:41",
+    "TotalPrice": 4.09,
+    "IsOnlineOrder": false,
+    "IsGiftCardOrder": false,
+    "PaidOnline": false,
+    "Subtotal": 0.0,
+    "TotalSavings": null,
+    "TotalTax": 0.0,
+    "Taxes": null,
+    "Total": 0.0,
+    "PickupDate": "0001-01-01T00:00:00",
+    "PickupName": null,
+    "Status": null,
+    "PaymentStatus": null,
+    "IsCancelled": false,
+    "RefundTotal": 0.0,
+    "Payments": null,
+    "Items": [
+      {
+        "Id": "913621",
+        "ImageUrl": "https://images.publixcdn.com/pct/images/products/910000/913621-75x75-A.jpg",
+        "NoImageUrl": null,
+        "Quantity": 1
+      }
+    ],
+    "LineItems": []
+  },
+  "detail": {
+    "ReceiptLogoId": 1,
+    "ReceiptText": "           Weston Lakes Plaza            &#10;            294 Indian Trace             &#10;            Weston, FL 33326             &#10;      Store Manager: Juan Cardona        &#10;              954-384-4190               &#10;            0583 3WQ 079 792             &#10;  ARUGULA                       4.09   F &#10;    Order Total                 4.09     &#10;      Sales Tax                 0.00     &#10;    Grand Total                 4.09     &#10; Credit          Payment        4.09     &#10;  Change                        0.00     &#10;  Customer ID Accepted                   &#10;      Receipt ID: 0583 3WQ 079 792       &#10; - - - - - - - - - - - - - - - - - - -   &#10;      PRESTO!                            &#10;      Trace #: 075166                    &#10;      Reference #: 1196664478            &#10;      Acct #: XXXXXXXXXXXX4321           &#10;      Purchase VISA                      &#10;      Amount: $4.09                      &#10;      Auth #: 084319                     &#10; - - - - - - - - - - - - - - - - - - -   &#10;CREDIT CARD                     PURCHASE &#10;A0000000980840                  US DEBIT &#10;Entry Method:                  Cntctless &#10;Mode:                             Issuer &#10; - - - - - - - - - - - - - - - - - - -   &#10;Your cashier was Alma                    &#10;03/31/2025 19:43 S0583  R107 9792 C0252  &#10;                                         &#10;        Join the Publix family!          &#10;   Apply today at apply.publix.jobs.     &#10;  We&#39;re an equal opportunity employer.   &#10;                                         &#10;       Publix Super Markets, Inc.        &#10;                                         &#10;",
+    "BarcodeSrc": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJsAAAAyCAIAAADEED79AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAn7SURBVHhe7ZZRltRIEgQ53hyI43CXvsrchPUIS5miMsUA+7rZWR72ofGw8JRKVY+BT19f+dQQpgmOhDDlzBqY3tCbxRzNVT3KSiAjw5SG3hTIQD6NWNCTw+ZBzxU2L70s1vx0UEkAxkDW9PLmmK+SVUxwJIQpZ9bA9IbeLOZorupRVgIZGaY09KZABvJpxIKeHDYPeq6weellseang0oCMAayppc3x3yVrGKCIyFMObMGpjf0ZjFHc1WPshLIyDCloTcFMpBPIxb05LB50HOFzUsvizU/HVQSgDGQNb28OearZBUTHAlhypk1ML2hN4s5mqt6lJVARoYpDb0pkIF8GrGgJ4fNg54rbF56Waz56aCSAIyBrOnlzTFfJauY4EgIU86sgekNvVnM0VzVo6wEMjJMaehNgQzk04gFPTlsHvRcYfPSy2LNTweVBGAMZE0vb475KlnFBEdCmHJmDUxv6M1ijuaqHmUlkJFhSkNvCmQgn0Ys6Mlh86DnCpuXXhZrfjqoJABjIGt6eXPMV8kqJjgSwpQza2B6Q28WczRX9SgrgYwMUxp6UyAD+TRiQU8Omwc9V9i89LJY89NBJQEYA1nTy5tjvkpWMcGREKacWQPTG3qzmKO5qkdZCWRkmNLQmwIZyKcRC3py2DzoucLmpZfFmp8OKgnAGMiaXt4c81WyigmOhDDlzBqY3tCbxRzNVT3KSiAjw5SG3hTIQD6NWNCTw+ZBzxU2L70s1vx0UEkAxkDW9PLmmK+SVUxwJIQpZ9bA9IbeLOZorupRVgIZGaY09KZABvJpxIKeHDYPeq6weellseang0oCMAayppc3x3yVrGKCIyFMObMGpjf0ZjFHc1WPshLIyDCloTcFMpBPIxb05LB50HOFzUsvizU/HVQSgDGQNb28OearZBUTHAlhypk1ML2hN4s5mqt6lJVARoYpDb0pkIF8GrGgJ4fNg54rbF56Waz56aCSAIyBrOnlzTFfJauY4EgIU86sgekNvVnM0VzVo6wEMjJMaehNgQzk04gFPTlsHvRcYfPSy2LNTweVBGAMZE0vb475KlnFBEdCmHJmDUxv6M1ijuaqHmUlkJFhSkNvCmQgn0Ys6Mlh86DnCpuXXhZrfjqoJABjIGt6eXPMV8kqJjgSwpQza2B6Q28WczRX9SgrgYwMUxp6UyAD+TRiQU8Omwc9V9i89LJY89NBJQEYA1nTy5tjvkpWMcGREKacWQPTG3qzmKO5qkdZCWRkmNLQmwIZyKcRC3py2DzoucLmpZfFmp8OKgnAGMiaXt4c81WyigmOhDDlzBqY3tCbxRzNVT3KSiAjw5SG3hTIQD6NWNCTw+ZBzxU2L70s1vx0UEkAxkDW9PLmmK+SVUxwJIQpZ9bA9IbeLOZorupRVgIZGaY09KZABvJpxIKeHDYPeq6weellseang0oCMAayppc3x3yVrGKCIyFMObMGpjf0ZjFHc1WPshLIyDCloTcFMpBPIxb05LB50HOFzUsvizU/HVQSgDGQNb28OearZBUTHAlhypk1ML2hN4s5mqt6lJVARoYpDb0pkIF8GrGgJ4fNg54rbF56Waz56aCSAIyBrOnlzTFfJauY4EgIU86sgekNvVnM0VzVo6wEMjJMaehNgQzk04gFPTlsHvRcYfPSy2LNTweVBGAMZE0vb475KlnFBEdCmHJmDUxv6M1ijuaqHmUlkJFhSkNvCmQgn0Ys6Mlh86DnCpuXXhZrfjqoJABjIGt6eXPMV8kqJjgSwpQza2B6Q28WczRX9SgrgYwMUxp6UyAD+TRiQU8Omwc9V9i89LJY89NBJQEYA1nTy5tjvkpWMcGREKacWQPTG3qzmKO5qkdZCWRkmNLQmwIZyKcRC3py2DzoucLmpZfFmp8OKgnAGMiaXt4c81WyigmOhDDlzBqY3tCbxRzNVT3KSiAjw5SG3hTIQD6NWNCTw+ZBzxU2L70s1vx0UEkAxkDW9PLmmK+SVUxwJIQpZ9bA9IbeLOZorupRVgIZGaY09KZABvJpxIKeHDYPeq6weellseang0oCMAayppc3x3yVrGKCIyFMObMGpjf0ZjFHc1WPshLIyDCloTcFMpBPIxb05LB50HOFzUsvizU/HVQSgDGQNb28OearZBUTHAlhypk1ML2hN4s5mqt6lJVARoYpDb0pkIF8GrGgJ4fNg54rbF56Waz56aCSAIyBrOnlzTFfJauY4EgIU86sgekNvVnM0VzVo6wEMjJMaehNgQzk04gFPTlsHvRcYfPSy2LNTweVBGAMZE0vb475KlnFBEdCmHJmDUxv6M1ijuaqHmUlkJFhSkNvCmQgn0Ys6Mlh86DnCpuXXhZrfjqoJABjIGt6eXPMV8kqJjgSwpQza2B6Q28WczRX9SgrgYwMUxp6UyAD+TRiQU8Omwc9V9i89LJY89NBJQEYA1nTy5tjvkpWMcGREKacWQPTG3qzmKO5qkdZCWRkmNLQmwIZyKcRC3py2DzoucLmpZfFmp8OKgnAGMiaXt4c81WyigmOhDDlzBqY3tCbxRzNVT3KSiAjw5SG3hTIQD6NWNCTw+ZBzxU2L70s1vx0UEkAxkDW9PLmmK+SVUxwJIQpZ9bA9IbeLOZorupRVgIZGaY09KZABvJpxIKeHDYPeq6weellseang0oCMAayppc3+/yH/3f+/KK/G39+0d+NP7/o78afX/R34+N+0bfP/FPs0+e3Zb7+/eWv5YrLW/z015e/UT8qI8aa/f24fuC1n8+eZwrve36kCzZ67/DjzXB/hv0TvCMf9YvmjfjU9Wrji5rfd3Pv+307Vhpnvi3L3V9OpmAJ4Yd46d2fqZfnR73xGeOY7oXvNMftn5/0PnzQL+q3xDv5dsfX8PJu49TNP8r75uv2b/MZb587vzwDhhr3n3dblFrrlw/yMjTfa37n+LvxMb/oy1fjp6+QP0Ov/9uJXNXxldyU3L/lKcdXkxiX3auYlRsf+/xRL6yR7+VcND/eLF4a78sv/EVLrtcYP0mod375laFLuz2k301C31GRaonx2EHZrhsKz8Lr0Zquan9kj/1Msyh3fqR34lf+GZ3US3VjvJ1uML8cmfJ6VP5732bduf9ThfP517E7FK8f9TxZn7D5/GUe+4km3YcP9G78r37Rq7E3X16+eTw+ZO6QyLVFLXOX9Zfot2/Ao/7hoz4eXMzn/USznvbt6rvwK/9lNLkKL9vH6uO3NWXlz5/328SMgsvkikONW70+fx7b+a+aFR/e5Z35oF/0fsn7bcd7V1yvVq+54sOZsX6UTW3cFf3VTTGet9rjvDceTwh1k3GL50/a/FhzyA/lo35Rv7n91RfzG7B5v/Bj8xvH8S9f1us33ozDclUePup37vHjT7uaPkO2I+/Fx/2i/3re3vLX78q/DV+//gcxvEY2qdr7SAAAAABJRU5ErkJggg==",
+    "TransactionNumber": 9792,
+    "VendorCouponAmount": 0.0,
+    "StoreCouponAmount": 0.0,
+    "OrderTotal": 4.09,
+    "TaxAmount": 0.0,
+    "GrandTotal": 4.09,
+    "Products": [
+      {
+        "ItemId": 913621,
+        "ItemName": "Fresh Attitude Arugula, Prewashed",
+        "ItemDescription": null,
+        "PimsCode": null,
+        "RetailSubSectionNumber": "541",
+        "ItemQuantity": 1,
+        "ItemImageUrl": "https://images.publixcdn.com/pct/images/products/910000/913621-75x75-A.jpg",
+        "ItemDetailUrl": "/pd/RIO-PCI-168742",
+        "SizeDescription": "142 g (5 oz)",
+        "ActivationStatus": "A",
+        "BaseProductId": "RIO-PCI-168742",
+        "UPC": "88804800009",
+        "FavoriteProductId": null,
+        "Categories": null
+      }
+    ],
+    "ReceiptLineItems": [
+      {
+        "ItemCode": "00088804800009",
+        "ItemSeqNo": 1,
+        "ItemQty": 1,
+        "ItemWeight": 0.0,
+        "ItemPrice": 4.09,
+        "ItemAmount": 4.09,
+        "SavingAmount": 0.0,
+        "NetAmount": 4.09,
+        "ItemTypeDescription": "Normal Sale",
+        "IsGiftcardItem": 0,
+        "AccountNumber": "    ",
+        "MSUQty": 1
+      }
+    ],
+    "ReceiptTenderLineItems": [
+      {
+        "TenderNumberDescription": "Credit Card",
+        "TenderAmount": 4.09,
+        "TenderFeeAmount": 0.0
+      }
+    ],
+    "custtranstypeid": 1,
+    "TransactionKey": "Y0VI9VQdk1eJkVAHVrTyXOor-St-jQhDc6DgzO4KMeWmHCiofaXZFQDjysI2HkpuhaRyo5udX5rpjMuMK5gXtfOxpDAC-thLyTw0s2mKxis%3D",
+    "ReceiptId": "05833WQ079792",
+    "TransactionSource": "PurchaseHistory",
+    "FacilityId": 583,
+    "TransactionDate": "2025-03-31T19:43:41",
+    "SalesTransactionNumber": 1579,
+    "FacilityName": "Weston Lakes Plaza",
+    "FacilityType": null,
+    "CustomerId": 18309194,
+    "Amount": 4.09,
+    "Currency": "USD",
+    "ItemCount": 1
+  }
+}

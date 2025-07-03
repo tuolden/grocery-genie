@@ -1,0 +1,358 @@
+barcode_src: data:image/png;base64,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
+fsa_info: {}
+grand_total: 35.33
+order_total: 34.35
+payment_info: {}
+products: &id001
+- ActivationStatus: A
+  BaseProductId: RIO-PCI-514582
+  Categories: null
+  FavoriteProductId: null
+  ItemDescription: null
+  ItemDetailUrl: /pd/RIO-PCI-514582
+  ItemId: 210778
+  ItemImageUrl: https://images.publixcdn.com/pct/images/products/210000/210778-75x75-A.jpg
+  ItemName: Nutella &amp; Go! Hazelnut Spread + Pretzel Sticks
+  ItemQuantity: 1
+  PimsCode: null
+  RetailSubSectionNumber: '784'
+  SizeDescription: 1.9 oz (54 g)
+  UPC: '980080009'
+- ActivationStatus: A
+  BaseProductId: RIO-PCI-579236
+  Categories: null
+  FavoriteProductId: null
+  ItemDescription: null
+  ItemDetailUrl: /pd/RIO-PCI-579236
+  ItemId: 316521
+  ItemImageUrl: https://images.publixcdn.com/pct/images/products/315000/316521-75x75-A.jpg
+  ItemName: Michelob Ultra Beer, Superior Light
+  ItemQuantity: 1
+  PimsCode: null
+  RetailSubSectionNumber: '217'
+  SizeDescription: 12 - 7.5 fl oz cans
+  UPC: '1820020396'
+- ActivationStatus: A
+  BaseProductId: RIO-SNK-159646
+  Categories: null
+  FavoriteProductId: null
+  ItemDescription: null
+  ItemDetailUrl: /pd/RIO-SNK-159646
+  ItemId: 857344
+  ItemImageUrl: https://images.publixcdn.com/pct/images/products/855000/857344-75x75-A.jpg
+  ItemName: Tostitos Tortilla Chips, Triangles, Hint of Lime Flavored
+  ItemQuantity: 1
+  PimsCode: null
+  RetailSubSectionNumber: '987'
+  SizeDescription: 11 oz (311.8 g)
+  UPC: '2840051794'
+- ActivationStatus: A
+  BaseProductId: RIO-PCI-158278
+  Categories: null
+  FavoriteProductId: null
+  ItemDescription: null
+  ItemDetailUrl: /pd/RIO-PCI-158278
+  ItemId: 731903
+  ItemImageUrl: https://images.publixcdn.com/pct/images/products/730000/731903-75x75-A.jpg
+  ItemName: Tostitos Salsa Con Queso, Medium
+  ItemQuantity: 1
+  PimsCode: null
+  RetailSubSectionNumber: '987'
+  SizeDescription: 23 oz (652 g)
+  UPC: '2840006740'
+- ActivationStatus: A
+  BaseProductId: RIO-PCI-110724
+  Categories: null
+  FavoriteProductId: null
+  ItemDescription: null
+  ItemDetailUrl: /pd/RIO-PCI-110724
+  ItemId: 42946
+  ItemImageUrl: https://images.publixcdn.com/pct/images/products/40000/042946-75x75-A.jpg
+  ItemName: Altoids Mints, Wintergreen
+  ItemQuantity: 1
+  PimsCode: null
+  RetailSubSectionNumber: '193'
+  SizeDescription: 1.76 oz (50 g)
+  UPC: '2200015934'
+- ActivationStatus: A
+  BaseProductId: RIO-PCI-150790
+  Categories: null
+  FavoriteProductId: null
+  ItemDescription: null
+  ItemDetailUrl: /pd/RIO-PCI-150790
+  ItemId: 372206
+  ItemImageUrl: https://images.publixcdn.com/pct/images/products/370000/372206-75x75-A.jpg
+  ItemName: Tostitos Tortilla Chips, Cantina, Thin &amp; Crispy
+  ItemQuantity: 1
+  PimsCode: null
+  RetailSubSectionNumber: '987'
+  SizeDescription: 10 oz (283.5 g)
+  UPC: '2840052846'
+purchase_date: '2025-02-09'
+purchase_time: '16:20:49'
+raw_data:
+  detail:
+    Amount: 35.33
+    BarcodeSrc: data:image/png;base64,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
+    Currency: USD
+    CustomerId: 18309194
+    FacilityId: 583
+    FacilityName: Weston Lakes Plaza
+    FacilityType: null
+    GrandTotal: 35.33
+    ItemCount: 6
+    OrderTotal: 34.35
+    Products: *id001
+    ReceiptId: 058329Q028113
+    ReceiptLineItems:
+    - AccountNumber: '    '
+      IsGiftcardItem: 0
+      ItemAmount: 10.49
+      ItemCode: 00001820020396
+      ItemPrice: 10.49
+      ItemQty: 1
+      ItemSeqNo: 1
+      ItemTypeDescription: Normal Sale
+      ItemWeight: 0.0
+      MSUQty: 1
+      NetAmount: 10.49
+      SavingAmount: 0.0
+    - AccountNumber: '    '
+      IsGiftcardItem: 0
+      ItemAmount: 6.09
+      ItemCode: 00002840006740
+      ItemPrice: 6.09
+      ItemQty: 1
+      ItemSeqNo: 2
+      ItemTypeDescription: Normal Sale
+      ItemWeight: 0.0
+      MSUQty: 1
+      NetAmount: 6.09
+      SavingAmount: 0.0
+    - AccountNumber: '    '
+      IsGiftcardItem: 0
+      ItemAmount: 5.99
+      ItemCode: 00002840051794
+      ItemPrice: 5.99
+      ItemQty: 1
+      ItemSeqNo: 3
+      ItemTypeDescription: Normal Sale
+      ItemWeight: 0.0
+      MSUQty: 1
+      NetAmount: 5.99
+      SavingAmount: 0.0
+    - AccountNumber: '    '
+      IsGiftcardItem: 0
+      ItemAmount: 5.99
+      ItemCode: 00002840052846
+      ItemPrice: 5.99
+      ItemQty: 1
+      ItemSeqNo: 4
+      ItemTypeDescription: Normal Sale
+      ItemWeight: 0.0
+      MSUQty: 1
+      NetAmount: 5.99
+      SavingAmount: 0.0
+    - AccountNumber: '    '
+      IsGiftcardItem: 0
+      ItemAmount: 2.29
+      ItemCode: 00000980080009
+      ItemPrice: 2.29
+      ItemQty: 1
+      ItemSeqNo: 5
+      ItemTypeDescription: Normal Sale
+      ItemWeight: 0.0
+      MSUQty: 1
+      NetAmount: 2.29
+      SavingAmount: 0.0
+    - AccountNumber: '    '
+      IsGiftcardItem: 0
+      ItemAmount: 3.5
+      ItemCode: 00002200015934
+      ItemPrice: 7.0
+      ItemQty: 1
+      ItemSeqNo: 6
+      ItemTypeDescription: Normal Sale
+      ItemWeight: 0.0
+      MSUQty: 2
+      NetAmount: 3.5
+      SavingAmount: 0.0
+    ReceiptLogoId: 1
+    ReceiptTenderLineItems:
+    - TenderAmount: 35.33
+      TenderFeeAmount: 0.0
+      TenderNumberDescription: Credit Card
+    ReceiptText: '           Weston Lakes Plaza            &#10;            294 Indian
+      Trace             &#10;            Weston, FL 33326             &#10;      Store
+      Manager: Juan Cardona        &#10;              954-384-4190               &#10;            0583
+      29Q 028 113             &#10;  MICHELB ULTRA 12PK           10.49 T   &#10;  TOSTITOS
+      CON QUESO            6.09   F &#10;  TOSTITOS R/ST LIME            5.99   F
+      &#10;  TOSTITOS CANT THIN            5.99   F &#10;  NUTELLA &amp; GO PRTZL            2.29   F
+      &#10;  ALTOID_WINTERGREEN                     &#10;  1 @   2 FOR      7.00         3.50
+      T F &#10;    Order Total                34.35     &#10;      Sales Tax                 0.98     &#10;    Grand
+      Total                35.33     &#10; Credit          Payment       35.33     &#10;  Change                        0.00     &#10;  Customer
+      ID Accepted                   &#10;      Receipt ID: 0583 29Q 028 113       &#10;
+      - - - - - - - - - - - - - - - - - - -   &#10;      PRESTO!                            &#10;      Trace
+      #: 025812                    &#10;      Reference #: 1151196353            &#10;      Acct
+      #: XXXXXXXXXXXX0225           &#10;      Purchase VISA                      &#10;      Amount:
+      $35.33                     &#10;      Auth #: 01356D                     &#10;
+      - - - - - - - - - - - - - - - - - - -   &#10;CREDIT CARD                     PURCHASE
+      &#10;A0000000031010               VISA CREDIT &#10;Entry Method:                  Cntctless
+      &#10;Mode:                             Issuer &#10; - - - - - - - - - - - -
+      - - - - - - -   &#10;Cashier Confirmed - Age Over 21          &#10;Your cashier
+      was Nicole                  &#10;02/09/2025 16:20 S0583  R102 8113 C0215  &#10;                                         &#10;        Join
+      the Publix family!          &#10;   Apply today at apply.publix.jobs.     &#10;  We&#39;re
+      an equal opportunity employer.   &#10;                                         &#10;       Publix
+      Super Markets, Inc.        &#10;                                         &#10;'
+    SalesTransactionNumber: 266
+    StoreCouponAmount: 0.0
+    TaxAmount: 0.98
+    TransactionDate: '2025-02-09T16:20:49'
+    TransactionKey: jkE8sNWYO7FuOf3jRVtQ1NuO4UlsBYmqxkKrtVKrpjNTlRP0XcYiXoF5eMSDhcQLBrCJ2WRqI_yHm0sfGrc9QKrw7OGWWnuha7O9-boa6vk%3D
+    TransactionNumber: 8113
+    TransactionSource: PurchaseHistory
+    VendorCouponAmount: 0.0
+    custtranstypeid: 1
+  original_purchase:
+    Id: jkE8sNWYO7FuOf3jRVtQ1NuO4UlsBYmqxkKrtVKrpjNTlRP0XcYiXoF5eMSDhcQLBrCJ2WRqI_yHm0sfGrc9QKrw7OGWWnuha7O9-boa6vk%3D
+    IsCancelled: false
+    IsGiftCardOrder: false
+    IsOnlineOrder: false
+    Items:
+    - Id: '210778'
+      ImageUrl: https://images.publixcdn.com/pct/images/products/210000/210778-75x75-A.jpg
+      NoImageUrl: null
+      Quantity: 1
+    - Id: '316521'
+      ImageUrl: https://images.publixcdn.com/pct/images/products/315000/316521-75x75-A.jpg
+      NoImageUrl: null
+      Quantity: 1
+    - Id: '857344'
+      ImageUrl: https://images.publixcdn.com/pct/images/products/855000/857344-75x75-A.jpg
+      NoImageUrl: null
+      Quantity: 1
+    - Id: '731903'
+      ImageUrl: https://images.publixcdn.com/pct/images/products/730000/731903-75x75-A.jpg
+      NoImageUrl: null
+      Quantity: 1
+    - Id: '42946'
+      ImageUrl: https://images.publixcdn.com/pct/images/products/40000/042946-75x75-A.jpg
+      NoImageUrl: null
+      Quantity: 1
+    - Id: '372206'
+      ImageUrl: https://images.publixcdn.com/pct/images/products/370000/372206-75x75-A.jpg
+      NoImageUrl: null
+      Quantity: 1
+    LineItems: []
+    PaidOnline: false
+    PaymentStatus: null
+    Payments: null
+    PickupDate: '0001-01-01T00:00:00'
+    PickupName: null
+    PurchaseDate: '2025-02-09T16:20:49'
+    RefundTotal: 0.0
+    Status: null
+    StoreId: 583
+    StoreName: Weston Lakes Plaza
+    StoreTimezone: null
+    Subtotal: 0.0
+    Taxes: null
+    Total: 0.0
+    TotalPrice: 35.33
+    TotalSavings: null
+    TotalTax: 0.0
+  scraped_at: '2025-07-03T15:19:29.130531'
+  source: publix_detail_api
+receipt_id: jkE8sNWYO7FuOf3jRVtQ1NuO4UlsBYmqxkKrtVKrpjNTlRP0XcYiXoF5eMSDhcQLBrCJ2WRqI_yHm0sfGrc9QKrw7OGWWnuha7O9-boa6vk%3D
+receipt_items:
+- is_voided: false
+  line_text: MICHELB ULTRA 12PK           10.49 T
+  name: MICHELB ULTRA 12PK
+  price: 10.49
+  tax_flag: T
+- is_voided: false
+  line_text: TOSTITOS CON QUESO            6.09   F
+  name: TOSTITOS CON QUESO
+  price: 6.09
+  tax_flag: F
+- is_voided: false
+  line_text: TOSTITOS R/ST LIME            5.99   F
+  name: TOSTITOS R/ST LIME
+  price: 5.99
+  tax_flag: F
+- is_voided: false
+  line_text: TOSTITOS CANT THIN            5.99   F
+  name: TOSTITOS CANT THIN
+  price: 5.99
+  tax_flag: F
+- is_voided: false
+  line_text: NUTELLA &amp; GO PRTZL            2.29   F
+  name: NUTELLA &amp; GO PRTZL
+  price: 2.29
+  tax_flag: F
+- is_voided: false
+  line_text: Order Total                34.35
+  name: Order
+  price: null
+  tax_flag: ''
+- is_voided: false
+  line_text: Sales Tax                 0.98
+  name: Sales
+  price: null
+  tax_flag: ''
+- is_voided: false
+  line_text: Grand Total                35.33
+  name: Grand
+  price: null
+  tax_flag: ''
+- is_voided: false
+  line_text: Credit          Payment       35.33
+  name: Credit
+  price: null
+  tax_flag: ''
+- is_voided: false
+  line_text: Change                        0.00
+  name: Change
+  price: 0.0
+  tax_flag: ''
+- is_voided: false
+  line_text: 'Amount: $35.33'
+  name: 'Amount:'
+  price: null
+  tax_flag: ''
+receipt_text: '           Weston Lakes Plaza            &#10;            294 Indian
+  Trace             &#10;            Weston, FL 33326             &#10;      Store
+  Manager: Juan Cardona        &#10;              954-384-4190               &#10;            0583
+  29Q 028 113             &#10;  MICHELB ULTRA 12PK           10.49 T   &#10;  TOSTITOS
+  CON QUESO            6.09   F &#10;  TOSTITOS R/ST LIME            5.99   F &#10;  TOSTITOS
+  CANT THIN            5.99   F &#10;  NUTELLA &amp; GO PRTZL            2.29   F
+  &#10;  ALTOID_WINTERGREEN                     &#10;  1 @   2 FOR      7.00         3.50
+  T F &#10;    Order Total                34.35     &#10;      Sales Tax                 0.98     &#10;    Grand
+  Total                35.33     &#10; Credit          Payment       35.33     &#10;  Change                        0.00     &#10;  Customer
+  ID Accepted                   &#10;      Receipt ID: 0583 29Q 028 113       &#10;
+  - - - - - - - - - - - - - - - - - - -   &#10;      PRESTO!                            &#10;      Trace
+  #: 025812                    &#10;      Reference #: 1151196353            &#10;      Acct
+  #: XXXXXXXXXXXX0225           &#10;      Purchase VISA                      &#10;      Amount:
+  $35.33                     &#10;      Auth #: 01356D                     &#10; -
+  - - - - - - - - - - - - - - - - - -   &#10;CREDIT CARD                     PURCHASE
+  &#10;A0000000031010               VISA CREDIT &#10;Entry Method:                  Cntctless
+  &#10;Mode:                             Issuer &#10; - - - - - - - - - - - - - -
+  - - - - -   &#10;Cashier Confirmed - Age Over 21          &#10;Your cashier was
+  Nicole                  &#10;02/09/2025 16:20 S0583  R102 8113 C0215  &#10;                                         &#10;        Join
+  the Publix family!          &#10;   Apply today at apply.publix.jobs.     &#10;  We&#39;re
+  an equal opportunity employer.   &#10;                                         &#10;       Publix
+  Super Markets, Inc.        &#10;                                         &#10;'
+savings: {}
+staff_info:
+  cashier: Nicole
+store_coupon_amount: 0.0
+store_info:
+  address: 294 Indian Trace
+  city_state_zip: Weston, FL 33326
+  manager: Juan Cardona
+  name: Weston Lakes Plaza
+  phone: 954-384-4190
+store_name: Weston Lakes Plaza
+tax_amount: 0.98
+transaction_number: 8113
+vendor_coupon_amount: 0.0

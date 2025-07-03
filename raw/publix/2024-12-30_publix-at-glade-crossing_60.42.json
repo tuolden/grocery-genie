@@ -1,0 +1,90 @@
+{
+  "scraped_at": "2025-07-03T15:10:17.485636",
+  "source": "publix_list_api",
+  "purchase": {
+    "Id": "XEjVwCKyXa7GcB7N6G3IWxbgIZ948g-AE-XTNxY6bcmdBhlgwfm5_JjD4x6CF7BTH1HLCrxuOA80ro4rPtS6DA%3D%3D",
+    "StoreName": "Publix At Glade Crossing",
+    "StoreId": 21,
+    "StoreTimezone": null,
+    "PurchaseDate": "2024-12-30T15:00:00",
+    "TotalPrice": 60.42,
+    "IsOnlineOrder": false,
+    "IsGiftCardOrder": false,
+    "PaidOnline": false,
+    "Subtotal": 0.0,
+    "TotalSavings": null,
+    "TotalTax": 0.0,
+    "Taxes": null,
+    "Total": 0.0,
+    "PickupDate": "0001-01-01T00:00:00",
+    "PickupName": null,
+    "Status": null,
+    "PaymentStatus": null,
+    "IsCancelled": false,
+    "RefundTotal": 0.0,
+    "Payments": null,
+    "Items": [
+      {
+        "Id": "4843",
+        "ImageUrl": "https://images.publixcdn.com/pct/images/products/0/004843-75x75-A.jpg",
+        "NoImageUrl": null,
+        "Quantity": 5
+      },
+      {
+        "Id": "283419",
+        "ImageUrl": "https://images.publixcdn.com/pct/images/products/280000/283419-75x75-A.jpg",
+        "NoImageUrl": null,
+        "Quantity": 1
+      },
+      {
+        "Id": "235119",
+        "ImageUrl": "https://images.publixcdn.com/pct/images/products/235000/235119-75x75-A.jpg",
+        "NoImageUrl": null,
+        "Quantity": 1
+      },
+      {
+        "Id": "24352",
+        "ImageUrl": "https://images.publixcdn.com/pct/images/products/20000/024352-75x75-A.jpg",
+        "NoImageUrl": null,
+        "Quantity": 1
+      },
+      {
+        "Id": "960669",
+        "ImageUrl": "https://images.publixcdn.com/pct/images/products/960000/960669-75x75-A.jpg",
+        "NoImageUrl": null,
+        "Quantity": 1
+      },
+      {
+        "Id": "99331",
+        "ImageUrl": "https://images.publixcdn.com/pct/images/products/95000/099331-75x75-A.jpg",
+        "NoImageUrl": null,
+        "Quantity": 1
+      },
+      {
+        "Id": "277312",
+        "ImageUrl": "https://images.publixcdn.com/pct/images/products/275000/277312-75x75-A.jpg",
+        "NoImageUrl": null,
+        "Quantity": 2
+      },
+      {
+        "Id": "159430",
+        "ImageUrl": "https://images.publixcdn.com/pct/images/products/155000/159430-75x75-A.jpg",
+        "NoImageUrl": null,
+        "Quantity": 1
+      },
+      {
+        "Id": "428468",
+        "ImageUrl": "https://images.publixcdn.com/pct/images/products/425000/428468-75x75-A.jpg",
+        "NoImageUrl": null,
+        "Quantity": 1
+      },
+      {
+        "Id": "42221",
+        "ImageUrl": "https://images.publixcdn.com/pct/images/products/40000/042221-75x75-A.jpg",
+        "NoImageUrl": null,
+        "Quantity": 1
+      }
+    ],
+    "LineItems": []
+  }
+}

@@ -1,0 +1,98 @@
+order_id: '31996324664068218895'
+purchase_date: '2022-09-03'
+store_name: Cooper city Supercenter
+order_totals:
+  subtotal: 95.88
+  tax_total: 3.73
+  grand_total: 99.61
+items:
+- item_id: '0'
+  item_quantity: 1
+  item_name: Great Value Soft & Strong Premium Toilet Paper, 18 Mega Rolls
+  item_image_url: https://i5.walmartimages.com/seo/Great-Value-Soft-Strong-Premium-Toilet-Paper-18-Mega-Rolls_74eeeb7f-446d-47af-8d62-53f1255a7b2c.fdc6e93cab4211df1020c528cb6a215d.jpeg
+  item_price: 14.82
+  line_price: 14.82
+  sales_unit_type: null
+- item_id: '1'
+  item_quantity: 1
+  item_name: Doritos Nacho Cheese Tortilla Snack Chips, 1oz, 10 Count Bags
+  item_image_url: https://i5.walmartimages.com/seo/Doritos-Nacho-Cheese-Tortilla-Snack-Chips-1oz-10-Count-Bags_13ef82b7-ff91-4d8e-a115-133618ecf8f3.7992609a444e3a4e890db3735a541177.jpeg
+  item_price: 6.48
+  line_price: 6.48
+  sales_unit_type: null
+- item_id: '2'
+  item_quantity: 1
+  item_name: Lay's Classic Potato Snack Chips, 1 oz Bags, 10 Count Multipack
+  item_image_url: https://i5.walmartimages.com/seo/Lay-s-Classic-Potato-Snack-Chips-1-oz-Bags-10-Count-Multipack_6c974dcf-e189-4a01-996c-e1cffff9485a.6d36ea61664e07665b7e6912fe17e1c0.jpeg
+  item_price: 6.48
+  line_price: 6.48
+  sales_unit_type: null
+- item_id: '3'
+  item_quantity: 1
+  item_name: SodaStream CO-2 Spare Carbonator, 60-Liter
+  item_image_url: https://i5.walmartimages.com/seo/SodaStream-CO-2-Spare-Carbonator-60-Liter_f018108e-4304-4eea-8afd-ea2d01bb44ec.816d364585ae1761f32bf8fb2755340b.jpeg
+  item_price: 29.96
+  line_price: 29.96
+  sales_unit_type: null
+- item_id: '4'
+  item_quantity: 1
+  item_name: Great Value 100% Orange Juice, 128 fl oz
+  item_image_url: https://i5.walmartimages.com/seo/Great-Value-100-Orange-Juice-128-fl-oz_d80d4c9c-d901-48c6-b2a1-a85f2f5a47a3.37411d4313bd1ecf36ad496bed3d8dc0.jpeg
+  item_price: 4.58
+  line_price: 4.58
+  sales_unit_type: null
+- item_id: '5'
+  item_quantity: 1
+  item_name: Canada Dry Caffeine Free Ginger Ale Soda Pop, 2 L, Bottle
+  item_image_url: https://i5.walmartimages.com/seo/Canada-Dry-Caffeine-Free-Ginger-Ale-Soda-Pop-2-L-Bottle_ea4d324e-9857-4c44-83c0-9325a8ab0435.ce719d17ee6efd1b7039ffa61ac0fdc2.jpeg
+  item_price: 2.08
+  line_price: 2.08
+  sales_unit_type: null
+- item_id: '6'
+  item_quantity: 1
+  item_name: Takis Fuego 9.9 oz Sharing Size Bag, Hot Chili Pepper & Lime Rolled Tortilla
+    Chips
+  item_image_url: https://i5.walmartimages.com/seo/Takis-Fuego-9-9-oz-Sharing-Size-Bag-Hot-Chili-Pepper-Lime-Rolled-Tortilla-Chips_ce60e10f-61f5-44c0-81a4-29014c08643e.9512f82d04b119186dbd96b4995abd41.jpeg
+  item_price: 3.48
+  line_price: 3.48
+  sales_unit_type: null
+- item_id: '7'
+  item_quantity: 1
+  item_name: Blue Bell Dutch Chocolate and Homemade Vanilla Ice Cream Cups, 3.0 fl
+    oz, 12 Count
+  item_image_url: https://i5.walmartimages.com/seo/Blue-Bell-Dutch-Chocolate-and-Homemade-Vanilla-Ice-Cream-Cups-3-0-fl-oz-12-Count_c842c9e8-7a89-4fec-b64b-755c5dd30779.9d51435fbf602d6ea1933805a63bc108.jpeg
+  item_price: 8.94
+  line_price: 8.94
+  sales_unit_type: null
+- item_id: '8'
+  item_quantity: 1
+  item_name: Red Baron Pepperoni Brick Oven Frozen Pizza, 17.89 oz
+  item_image_url: https://i5.walmartimages.com/seo/Red-Baron-Pepperoni-Brick-Oven-Frozen-Pizza-17-89-oz_df1b825a-9306-434a-9eab-69d7ce691d2f.e7f2f2d9821fdc7bee9d2c7ef1d52977.jpeg
+  item_price: 4.48
+  line_price: 4.48
+  sales_unit_type: null
+- item_id: '9'
+  item_quantity: 1
+  item_name: Red Baron Pepperoni Classic Crust Frozen Pizza, 20.61 oz
+  item_image_url: https://i5.walmartimages.com/seo/Red-Baron-Pepperoni-Classic-Crust-Frozen-Pizza-20-61-oz_d1f49f5f-fc5d-4d27-896e-981426ef5b91.652787928867811cfd94435593f7c8b4.jpeg
+  item_price: 4.48
+  line_price: 4.48
+  sales_unit_type: null
+- item_id: '10'
+  item_quantity: 1
+  item_name: Great Value Wood Fired Spicy Pepperoni Pizza, 12.8 oz
+  item_image_url: https://i5.walmartimages.com/seo/Great-Value-Wood-Fired-Spicy-Pepperoni-Pizza-12-8-oz_948f9b40-bdaa-4ec6-8e69-20016587e569.d686b88c1fc3bfcd6b227303816235fc.jpeg
+  item_price: 3.62
+  line_price: 3.62
+  sales_unit_type: null
+- item_id: '11'
+  item_quantity: 1
+  item_name: Gatorade Thirst Quencher Fruit Punch Sports Drinks, 20 fl oz, 8 Count
+    Bottles
+  item_image_url: https://i5.walmartimages.com/seo/Gatorade-Thirst-Quencher-Fruit-Punch-Sports-Drinks-20-fl-oz-8-Count-Bottles_0a7b8776-2333-473f-a46c-a9f45c1d7cad.54a3e00c91e36fa11df1b760a817bc5f.jpeg
+  item_price: 6.48
+  line_price: 6.48
+  sales_unit_type: null
+metadata:
+  source_file: sep03
+  processed_at: '2025-07-03T08:46:01.641750'

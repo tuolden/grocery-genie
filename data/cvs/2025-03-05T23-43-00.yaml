@@ -1,0 +1,143 @@
+items:
+  rx: {}
+  fs:
+    total: 5
+    name: GAR VIT C CLNS BLM 3.38
+    image: ''
+number: 5083-18-1467-20250305
+type:
+- STORE
+alertStatus: []
+filterByStatus: true
+date: '2025-03-05T23:43:00Z'
+totalCost: '49.73'
+status:
+- Purchased
+statusCode: '0000'
+statusDesc: Success
+conversationId: rrt-3024830282911917713-c-gea1-4160404-3948140-196
+order:
+  type:
+  - STORE
+  number: 5083-18-1467-20250305
+  date: '2025-03-05T23:43:00Z'
+  splitShipment: false
+  ecCard: '2276'
+  cost:
+    subTotal: '54.95'
+    savings: '-7.50'
+    tax: '2.28'
+    shipping: ''
+    total: '49.73'
+    state: FL
+    feminineTax: '0'
+    totalReturnAmount: '0.00'
+  shipped: []
+  canceled: []
+  pickup: []
+  inStore:
+  - status: Purchased
+    totalCost: 47.45
+    fsItems:
+    - name: essie expressie Quick-Dry Nail Polish, Vegan, millennium momentum (muted
+        beige), 0.33 fl oz
+      itemId: '306532'
+      itemSize: '0.33'
+      itemSizeUOM: OZ
+      itemWeight: '0.11'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '9.99'
+      priceFinal: '9.99'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '9.99'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: Always Ultra Thin Pads with Flexi-Wings, Size 1, Regular, 36 CT
+      itemId: '25478'
+      itemSize: '36.00'
+      itemSizeUOM: Ct
+      itemWeight: '0.10'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '7.99'
+      priceFinal: '7.99'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '7.99'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: Garnier SkinActive Erase It All Makeup Cleansing Balm with Vitamin C,
+        4.2 OZ
+      itemId: '576949'
+      itemSize: '3.38'
+      itemSizeUOM: OZ
+      itemWeight: '0.45'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '14.99'
+      priceFinal: '7.49'
+      savings: '7.50'
+      tax: 0
+      lineTotalWithoutTax: '7.49'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: Organyc Organic Cotton Pads for Sensitive Skin, Moderate, 10 CT
+      itemId: '953476'
+      itemSize: '10.00'
+      itemSizeUOM: Ct
+      itemWeight: '0.19'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '6.99'
+      priceFinal: '6.99'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '6.99'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: Garnier SkinActive Erase It All Makeup Cleansing Balm with Hyaluronic
+        Acid, 4.2 OZ
+      itemId: '576910'
+      itemSize: '3.38'
+      itemSizeUOM: OZ
+      itemWeight: '0.45'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '14.99'
+      priceFinal: '14.99'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '14.99'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    pickupStoreId: '5083'
+  return: []
+  paymentMethod:
+  - type: Credit/Debit/EBT
+    lastFourDigits: '4321'
+    amountCharged: '49.73'
+  - type: Credit/Debit/EBT
+    lastFourDigits: '4321'
+    amountReturned: '0.00'
+  splitFulfillment: false
+  returnEligible: false
+  returnEligibleFinalDate: '2025-05-04T00:00:00Z'
+  txnNo: '1467'
+  regNo: '18'

@@ -1,0 +1,89 @@
+items:
+  rx: {}
+  fs:
+    total: 2
+    name: THY AHA TNR        12Z
+    image: ''
+number: 5083-18-1557-20241030
+type:
+- STORE
+alertStatus: []
+filterByStatus: true
+date: '2024-10-30T22:58:00Z'
+totalCost: '23.52'
+status:
+- Purchased
+statusCode: '0000'
+statusDesc: Success
+conversationId: rrt-110398306299666949-d-gea1-65642-138063-33
+order:
+  type:
+  - STORE
+  number: 5083-18-1557-20241030
+  date: '2024-10-30T22:58:00Z'
+  splitShipment: false
+  ecCard: '2276'
+  cost:
+    subTotal: '24.98'
+    savings: '-3.00'
+    tax: '1.54'
+    shipping: ''
+    total: '23.52'
+    state: FL
+    feminineTax: '0'
+    totalReturnAmount: '0.00'
+  shipped: []
+  canceled: []
+  pickup: []
+  inStore:
+  - status: Purchased
+    totalCost: 21.98
+    fsItems:
+    - name: Dove Exfoliating Body Polish, Crushed Macadamia & Rice Milk, 10.5 oz
+      itemId: '229767'
+      itemSize: '10.50'
+      itemSizeUOM: OZ
+      itemWeight: '0.01'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '9.99'
+      priceFinal: '6.99'
+      savings: '3.00'
+      tax: 0
+      lineTotalWithoutTax: '6.99'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    - name: Thayers 2% AHA Toner with Glycolic and Lactic Acids, 12 oz
+      itemId: '674183'
+      itemSize: '12.00'
+      itemSizeUOM: OZ
+      itemWeight: '0.86'
+      itemWeightUOM: LBS
+      qty: 1
+      priceTotal: '14.99'
+      priceFinal: '14.99'
+      savings: '0.00'
+      tax: 0
+      lineTotalWithoutTax: '14.99'
+      ecRewardsEligible: 'false'
+      image: ''
+      url: ''
+      status: Picked Up
+      inStoreOnlyItem: true
+    pickupStoreId: '5083'
+  return: []
+  paymentMethod:
+  - type: Credit/Debit/EBT
+    lastFourDigits: '0225'
+    amountCharged: '23.52'
+  - type: Credit/Debit/EBT
+    lastFourDigits: '0225'
+    amountReturned: '0.00'
+  splitFulfillment: false
+  returnEligible: false
+  returnEligibleFinalDate: '2024-12-29T00:00:00Z'
+  txnNo: '1557'
+  regNo: '18'

@@ -1,0 +1,66 @@
+{
+  "scraped_at": "2025-07-03T15:10:17.485180",
+  "source": "publix_list_api",
+  "purchase": {
+    "Id": "uif-Kk0S7gEq99t-BVtpWi5ib4_aNa18AGDdo86zV-5tPKAhbVUV23OrOErwHQ1Qf3fhWrxdzR2Um3414FWB1W5tWO0Nj0r0hpJHd83_PVA%3D",
+    "StoreName": "Country Isles Plaza",
+    "StoreId": 1469,
+    "StoreTimezone": null,
+    "PurchaseDate": "2025-01-21T20:09:36",
+    "TotalPrice": 44.55,
+    "IsOnlineOrder": false,
+    "IsGiftCardOrder": false,
+    "PaidOnline": false,
+    "Subtotal": 0.0,
+    "TotalSavings": null,
+    "TotalTax": 0.0,
+    "Taxes": null,
+    "Total": 0.0,
+    "PickupDate": "0001-01-01T00:00:00",
+    "PickupName": null,
+    "Status": null,
+    "PaymentStatus": null,
+    "IsCancelled": false,
+    "RefundTotal": 0.0,
+    "Payments": null,
+    "Items": [
+      {
+        "Id": "120526",
+        "ImageUrl": "https://images.publixcdn.com/pct/images/products/120000/120526-75x75-A.jpg",
+        "NoImageUrl": null,
+        "Quantity": 1
+      },
+      {
+        "Id": "24494",
+        "ImageUrl": "https://images.publixcdn.com/pct/images/products/20000/024494-75x75-A.jpg",
+        "NoImageUrl": null,
+        "Quantity": 2
+      },
+      {
+        "Id": "8119",
+        "ImageUrl": "https://images.publixcdn.com/pct/images/products/5000/008119-75x75-A.jpg",
+        "NoImageUrl": null,
+        "Quantity": 1
+      },
+      {
+        "Id": "25104",
+        "ImageUrl": "https://images.publixcdn.com/pct/images/products/25000/025104-75x75-A.jpg",
+        "NoImageUrl": null,
+        "Quantity": 1
+      },
+      {
+        "Id": "984819",
+        "ImageUrl": "https://images.publixcdn.com/pct/images/products/980000/984819-75x75-A.jpg",
+        "NoImageUrl": null,
+        "Quantity": 1
+      },
+      {
+        "Id": "117696",
+        "ImageUrl": "https://images.publixcdn.com/pct/images/products/115000/117696-75x75-A.jpg",
+        "NoImageUrl": null,
+        "Quantity": 1
+      }
+    ],
+    "LineItems": []
+  }
+}

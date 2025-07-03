@@ -1,0 +1,111 @@
+order_id: '65320799103210506032'
+purchase_date: '2023-12-31'
+store_name: Sunrise Supercenter
+order_totals:
+  subtotal: 44.06
+  tax_total: 0.16
+  grand_total: 44.22
+items:
+- item_id: '0'
+  item_quantity: 1
+  item_name: Chobani Low-Fat Greek Yogurt Key Lime Blended 5.3oz 4PK
+  item_image_url: https://i5.walmartimages.com/seo/Chobani-Non-Fat-Greek-Yogurt-Key-Lime-4PK-Cup_9b418180-f08c-41b6-964c-59ba1c78df7f.a3a0ddb7e91a039fa9845017ba0c4cbc.png
+  item_price: 3.98
+  line_price: 3.98
+  sales_unit_type: null
+- item_id: '1'
+  item_quantity: 1
+  item_name: Too Good & Co. Lower Sugar Mixed Berry Flavored Low Fat Greek Yogurt
+    Cultured Product, 5.3 oz, 4 Count
+  item_image_url: https://i5.walmartimages.com/seo/Too-Good-Co-Lower-Sugar-Mixed-Berry-Flavored-Low-Fat-Greek-Yogurt-Cultured-Product-5-3-oz-4-Count_e5e6d5bb-c259-49c0-ad63-365898e61027.2da158505d3ade3e818580c82a22c2dd.jpeg
+  item_price: 4.16
+  line_price: 4.16
+  sales_unit_type: null
+- item_id: '2'
+  item_quantity: 1
+  item_name: Schweppes Caffeine Free Ginger Ale Soda Pop, 20 fl oz, Bottle
+  item_image_url: https://i5.walmartimages.com/seo/Schweppes-Ginger-Ale-20-fl-oz_3a198a00-3b89-42ec-aa92-7445acf80b94.c6afda1b322a26af9ffa94f9b3acec90.jpeg
+  item_price: 2.28
+  line_price: 2.28
+  sales_unit_type: null
+- item_id: '3'
+  item_quantity: 1
+  item_name: Oscar Mayer Smokies Hardwood Smoked Sausage Hot Dogs, 8 Ct Pack
+  item_image_url: https://i5.walmartimages.com/seo/Oscar-Mayer-Smokies-Hardwood-Smoked-Sausage-Hot-Dogs-8-Ct-Pack_ab615882-3bbe-44fd-b056-ef63acc26ab7.7dabfd883fb7c09f88a8db867d7d932f.jpeg
+  item_price: 2.84
+  line_price: 2.84
+  sales_unit_type: null
+- item_id: '4'
+  item_quantity: 1
+  item_name: "Sargento\xAE Sliced Swiss Natural Cheese, 11 slices"
+  item_image_url: https://i5.walmartimages.com/seo/Sargento-Sliced-Swiss-Natural-Cheese-11-slices_72758476-17a9-48a1-8ea4-ff499f6e9f3d.034cdae521cf5bfaaf9fd7c902882aed.jpeg
+  item_price: 3.18
+  line_price: 3.18
+  sales_unit_type: null
+- item_id: '5'
+  item_quantity: 1
+  item_name: Hillshire Farm Ultra Thin Oven Roasted Turkey Breast Deli Lunch Meat,
+    16 oz
+  item_image_url: https://i5.walmartimages.com/seo/Hillshire-Farm-Ultra-Thin-Oven-Roasted-Turkey-Breast-Sliced-Refrigerated-16-oz-Plastic-Bag_b652ae99-7a3a-4210-9af8-252cd3e4c400.927f6d0001e89a805f853a4eaab412ec.jpeg
+  item_price: 7.5
+  line_price: 7.5
+  sales_unit_type: null
+- item_id: '6'
+  item_quantity: 1
+  item_name: Fresh Mint, 0.5 oz Clamshell
+  item_image_url: https://i5.walmartimages.com/seo/Fresh-Mint-0-5-oz-Clamshell_15505e1f-822a-4596-841d-94cc37b5f26f.5e1102f70415b33c6eccc94b5c70ee1e.jpeg
+  item_price: 1.78
+  line_price: 1.78
+  sales_unit_type: null
+- item_id: '7'
+  item_quantity: 1
+  item_name: Marketside Bake at Home Twin Demi Baguette, 12 oz, 2 Count
+  item_image_url: https://i5.walmartimages.com/seo/Marketside-Bake-at-Home-Twin-Demi-Baguette-12-oz-2-Count_7b8547b2-c7af-4ee9-86c3-4a201c49a60f.5e799ba436a8857a386576a88f0c808a.jpeg
+  item_price: 1.98
+  line_price: 1.98
+  sales_unit_type: null
+- item_id: '8'
+  item_quantity: 1
+  item_name: Fresh Celery Sticks, 20 oz Bag
+  item_image_url: https://i5.walmartimages.com/seo/Fresh-Celery-Sticks-20-oz-Bag_7cf2e316-000b-4d96-bdb0-b7e5545ffe28.7fe22eeb04592e2447ffeacf29b12ff1.jpeg
+  item_price: 2.98
+  line_price: 2.98
+  sales_unit_type: null
+- item_id: '9'
+  item_quantity: 1
+  item_name: Marketside Bake at Home Twin Demi Baguette, 12 oz, 2 Count
+  item_image_url: https://i5.walmartimages.com/seo/Marketside-Bake-at-Home-Twin-Demi-Baguette-12-oz-2-Count_7b8547b2-c7af-4ee9-86c3-4a201c49a60f.5e799ba436a8857a386576a88f0c808a.jpeg
+  item_price: 1.98
+  line_price: 1.98
+  sales_unit_type: null
+- item_id: '10'
+  item_quantity: 1
+  item_name: Marketside Caesar Salad Kit, 11.55 oz Bag, Fresh
+  item_image_url: https://i5.walmartimages.com/seo/Marketside-Caesar-Salad-Kit-11-55-oz-Bag-Fresh_0bacb33a-b488-4929-a0a0-67ef1962dc69.37e3433846f6badfd5fb315afe207f6a.jpeg
+  item_price: 3.98
+  line_price: 3.98
+  sales_unit_type: null
+- item_id: '11'
+  item_quantity: 1
+  item_name: Fresh Mint, 0.5 oz Clamshell
+  item_image_url: https://i5.walmartimages.com/seo/Fresh-Mint-0-5-oz-Clamshell_15505e1f-822a-4596-841d-94cc37b5f26f.5e1102f70415b33c6eccc94b5c70ee1e.jpeg
+  item_price: 1.78
+  line_price: 1.78
+  sales_unit_type: null
+- item_id: '12'
+  item_quantity: 1
+  item_name: Fresh Blueberries, 1 Pint Container
+  item_image_url: https://i5.walmartimages.com/seo/Fresh-Blueberries-1-Pint-Container_58566f1b-31b1-4e76-b0c2-39403a93c0c7.c8b5bd91935856cbdb15b7587d8c031e.jpeg
+  item_price: 4.67
+  line_price: 4.67
+  sales_unit_type: null
+- item_id: '13'
+  item_quantity: 0.58
+  item_name: Fresh Broccoli Crowns, Each
+  item_image_url: https://i5.walmartimages.com/seo/Fresh-Broccoli-Crowns-Each_c721459d-3826-4461-9e79-c077d5cf191e_3.ca214f10bb3c042f473588af8b240eca.jpeg
+  item_price: 0.97
+  line_price: 0.97
+  sales_unit_type: null
+metadata:
+  source_file: dec31
+  processed_at: '2025-07-03T08:45:49.472954'
