@@ -287,6 +287,525 @@ class OtherPurchasesSmokeTest:
                         'price': 3.49
                     }
                 ]
+            },
+
+            # Scenario 9: Electronics store
+            {
+                'filename': '2025-07-11T12-00-00.yaml',
+                'store_name': 'SMOKE_TEST_ELECTRONICS',
+                'receipt_source': 'image',
+                'items': [
+                    {
+                        'item_name': 'SMOKE_TEST_USB_CABLE',
+                        'variant': '6ft USB-C',
+                        'quantity': 2,
+                        'quantity_unit': 'pieces',
+                        'price': 19.99,
+                        'original_text': 'USB-C CABLE 6FT'
+                    },
+                    {
+                        'item_name': 'SMOKE_TEST_PHONE_CHARGER',
+                        'variant': '20W fast charger',
+                        'quantity': 1,
+                        'price': 29.99
+                    }
+                ]
+            },
+
+            # Scenario 10: Restaurant/Food service
+            {
+                'filename': '2025-07-11T12-15-00.yaml',
+                'store_name': 'SMOKE_TEST_RESTAURANT',
+                'receipt_source': 'manual',
+                'purchase_notes': 'Lunch order',
+                'items': [
+                    {
+                        'item_name': 'SMOKE_TEST_BURGER_COMBO',
+                        'variant': 'with fries and drink',
+                        'quantity': 1,
+                        'price': 12.99,
+                        'original_text': 'BURGER COMBO #1'
+                    },
+                    {
+                        'item_name': 'SMOKE_TEST_EXTRA_SAUCE',
+                        'variant': 'spicy mayo',
+                        'quantity': 2,
+                        'quantity_unit': 'packets',
+                        'price': 0.50
+                    }
+                ]
+            },
+
+            # Scenario 11: Gas station convenience store
+            {
+                'filename': '2025-07-11T12-30-00.yaml',
+                'store_name': 'SMOKE_TEST_GAS_STATION',
+                'items': [
+                    {
+                        'item_name': 'SMOKE_TEST_GASOLINE',
+                        'variant': 'regular unleaded',
+                        'quantity': 12,
+                        'quantity_unit': 'gallons',
+                        'price': 36.48
+                    },
+                    {
+                        'item_name': 'SMOKE_TEST_ENERGY_DRINK',
+                        'variant': '16oz can',
+                        'quantity': 1,
+                        'price': 2.99
+                    },
+                    {
+                        'item_name': 'SMOKE_TEST_SNACK_BAR',
+                        'quantity': 3,
+                        'price': 4.47
+                    }
+                ]
+            },
+
+            # Scenario 12: Hardware store
+            {
+                'filename': '2025-07-11T12-45-00.yaml',
+                'store_name': 'SMOKE_TEST_HARDWARE',
+                'receipt_source': 'text',
+                'items': [
+                    {
+                        'item_name': 'SMOKE_TEST_SCREWS',
+                        'variant': '2 inch wood screws',
+                        'quantity': 50,
+                        'quantity_unit': 'pieces',
+                        'price': 8.99,
+                        'original_text': 'WOOD SCREWS 2IN 50PK'
+                    },
+                    {
+                        'item_name': 'SMOKE_TEST_DRILL_BIT',
+                        'variant': '1/4 inch',
+                        'quantity': 1,
+                        'price': 3.49
+                    }
+                ]
+            },
+
+            # Scenario 13: Pet store
+            {
+                'filename': '2025-07-11T13-00-00.yaml',
+                'store_name': 'SMOKE_TEST_PET_STORE',
+                'items': [
+                    {
+                        'item_name': 'SMOKE_TEST_DOG_FOOD',
+                        'variant': '30lb bag premium',
+                        'quantity': 1,
+                        'quantity_unit': 'bag',
+                        'price': 45.99
+                    },
+                    {
+                        'item_name': 'SMOKE_TEST_CAT_TREATS',
+                        'variant': 'salmon flavor',
+                        'quantity': 2,
+                        'quantity_unit': 'bags',
+                        'price': 7.98
+                    },
+                    {
+                        'item_name': 'SMOKE_TEST_PET_TOY',
+                        'variant': 'rope toy',
+                        'quantity': 1,
+                        'price': 4.99
+                    }
+                ]
+            },
+
+            # Scenario 14: Bookstore
+            {
+                'filename': '2025-07-11T13-15-00.yaml',
+                'store_name': 'SMOKE_TEST_BOOKSTORE',
+                'receipt_source': 'manual',
+                'items': [
+                    {
+                        'item_name': 'SMOKE_TEST_NOVEL',
+                        'variant': 'hardcover fiction',
+                        'quantity': 1,
+                        'price': 24.99,
+                        'original_text': 'FICTION HARDCOVER'
+                    },
+                    {
+                        'item_name': 'SMOKE_TEST_MAGAZINE',
+                        'variant': 'tech monthly',
+                        'quantity': 2,
+                        'price': 11.98
+                    }
+                ]
+            },
+
+            # Scenario 15: Coffee shop
+            {
+                'filename': '2025-07-11T13-30-00.yaml',
+                'store_name': 'SMOKE_TEST_COFFEE_SHOP',
+                'items': [
+                    {
+                        'item_name': 'SMOKE_TEST_LATTE',
+                        'variant': 'large oat milk',
+                        'quantity': 1,
+                        'price': 5.25
+                    },
+                    {
+                        'item_name': 'SMOKE_TEST_PASTRY',
+                        'variant': 'blueberry muffin',
+                        'quantity': 1,
+                        'price': 3.50
+                    },
+                    {
+                        'item_name': 'SMOKE_TEST_COFFEE_BEANS',
+                        'variant': '1lb dark roast',
+                        'quantity': 1,
+                        'quantity_unit': 'bag',
+                        'price': 12.99
+                    }
+                ]
+            },
+
+            # Scenario 16: Clothing store
+            {
+                'filename': '2025-07-11T13-45-00.yaml',
+                'store_name': 'SMOKE_TEST_CLOTHING',
+                'receipt_source': 'image',
+                'items': [
+                    {
+                        'item_name': 'SMOKE_TEST_T_SHIRT',
+                        'variant': 'size L blue',
+                        'quantity': 2,
+                        'price': 39.98,
+                        'original_text': 'T-SHIRT L BLUE'
+                    },
+                    {
+                        'item_name': 'SMOKE_TEST_JEANS',
+                        'variant': 'size 32x30',
+                        'quantity': 1,
+                        'price': 59.99
+                    }
+                ]
+            },
+
+            # Scenario 17: Florist
+            {
+                'filename': '2025-07-11T14-00-00.yaml',
+                'store_name': 'SMOKE_TEST_FLORIST',
+                'purchase_notes': 'Anniversary flowers',
+                'items': [
+                    {
+                        'item_name': 'SMOKE_TEST_ROSES',
+                        'variant': 'dozen red roses',
+                        'quantity': 1,
+                        'quantity_unit': 'dozen',
+                        'price': 35.99
+                    },
+                    {
+                        'item_name': 'SMOKE_TEST_VASE',
+                        'variant': 'crystal clear',
+                        'quantity': 1,
+                        'price': 15.99
+                    }
+                ]
+            },
+
+            # Scenario 18: Bakery
+            {
+                'filename': '2025-07-11T14-15-00.yaml',
+                'store_name': 'SMOKE_TEST_BAKERY',
+                'items': [
+                    {
+                        'item_name': 'SMOKE_TEST_BIRTHDAY_CAKE',
+                        'variant': 'chocolate 8 inch',
+                        'quantity': 1,
+                        'price': 28.99,
+                        'original_text': 'CHOC CAKE 8IN'
+                    },
+                    {
+                        'item_name': 'SMOKE_TEST_CUPCAKES',
+                        'variant': 'vanilla with frosting',
+                        'quantity': 6,
+                        'quantity_unit': 'pieces',
+                        'price': 18.00
+                    },
+                    {
+                        'item_name': 'SMOKE_TEST_BREAD_ROLLS',
+                        'variant': 'dinner rolls',
+                        'quantity': 12,
+                        'price': 4.99
+                    }
+                ]
+            },
+
+            # Scenario 19: Auto parts store
+            {
+                'filename': '2025-07-11T14-30-00.yaml',
+                'store_name': 'SMOKE_TEST_AUTO_PARTS',
+                'receipt_source': 'text',
+                'items': [
+                    {
+                        'item_name': 'SMOKE_TEST_ENGINE_OIL',
+                        'variant': '5W-30 synthetic 5qt',
+                        'quantity': 1,
+                        'quantity_unit': 'bottle',
+                        'price': 24.99,
+                        'original_text': 'SYNTH OIL 5W30 5QT'
+                    },
+                    {
+                        'item_name': 'SMOKE_TEST_OIL_FILTER',
+                        'variant': 'standard replacement',
+                        'quantity': 1,
+                        'price': 8.99
+                    },
+                    {
+                        'item_name': 'SMOKE_TEST_AIR_FRESHENER',
+                        'variant': 'pine scent',
+                        'quantity': 2,
+                        'price': 3.98
+                    }
+                ]
+            },
+
+            # Scenario 20: Sporting goods store
+            {
+                'filename': '2025-07-11T14-45-00.yaml',
+                'store_name': 'SMOKE_TEST_SPORTS',
+                'items': [
+                    {
+                        'item_name': 'SMOKE_TEST_BASKETBALL',
+                        'variant': 'official size',
+                        'quantity': 1,
+                        'price': 29.99
+                    },
+                    {
+                        'item_name': 'SMOKE_TEST_WATER_BOTTLE',
+                        'variant': '32oz stainless steel',
+                        'quantity': 2,
+                        'quantity_unit': 'bottles',
+                        'price': 39.98
+                    }
+                ]
+            },
+
+            # Scenario 21: Office supply store
+            {
+                'filename': '2025-07-11T15-00-00.yaml',
+                'store_name': 'SMOKE_TEST_OFFICE_SUPPLY',
+                'receipt_source': 'manual',
+                'items': [
+                    {
+                        'item_name': 'SMOKE_TEST_PRINTER_PAPER',
+                        'variant': '500 sheets white',
+                        'quantity': 3,
+                        'quantity_unit': 'reams',
+                        'price': 23.97,
+                        'original_text': 'PAPER 500SH WHT'
+                    },
+                    {
+                        'item_name': 'SMOKE_TEST_INK_CARTRIDGE',
+                        'variant': 'black HP compatible',
+                        'quantity': 2,
+                        'price': 45.98
+                    },
+                    {
+                        'item_name': 'SMOKE_TEST_STAPLER',
+                        'variant': 'heavy duty',
+                        'quantity': 1,
+                        'price': 12.99
+                    }
+                ]
+            },
+
+            # Scenario 22: Garden center
+            {
+                'filename': '2025-07-11T15-15-00.yaml',
+                'store_name': 'SMOKE_TEST_GARDEN_CENTER',
+                'items': [
+                    {
+                        'item_name': 'SMOKE_TEST_POTTING_SOIL',
+                        'variant': '40lb organic mix',
+                        'quantity': 2,
+                        'quantity_unit': 'bags',
+                        'price': 19.98
+                    },
+                    {
+                        'item_name': 'SMOKE_TEST_FLOWER_SEEDS',
+                        'variant': 'sunflower packet',
+                        'quantity': 3,
+                        'quantity_unit': 'packets',
+                        'price': 8.97
+                    },
+                    {
+                        'item_name': 'SMOKE_TEST_GARDEN_HOSE',
+                        'variant': '50ft heavy duty',
+                        'quantity': 1,
+                        'price': 34.99
+                    }
+                ]
+            },
+
+            # Scenario 23: Toy store
+            {
+                'filename': '2025-07-11T15-30-00.yaml',
+                'store_name': 'SMOKE_TEST_TOY_STORE',
+                'purchase_notes': 'Birthday gifts',
+                'items': [
+                    {
+                        'item_name': 'SMOKE_TEST_LEGO_SET',
+                        'variant': '500 piece castle',
+                        'quantity': 1,
+                        'price': 49.99,
+                        'original_text': 'LEGO CASTLE 500PC'
+                    },
+                    {
+                        'item_name': 'SMOKE_TEST_BOARD_GAME',
+                        'variant': 'family strategy game',
+                        'quantity': 1,
+                        'price': 24.99
+                    },
+                    {
+                        'item_name': 'SMOKE_TEST_PUZZLE',
+                        'variant': '1000 piece landscape',
+                        'quantity': 2,
+                        'price': 29.98
+                    }
+                ]
+            },
+
+            # Scenario 24: Beauty supply store
+            {
+                'filename': '2025-07-11T15-45-00.yaml',
+                'store_name': 'SMOKE_TEST_BEAUTY_SUPPLY',
+                'receipt_source': 'image',
+                'items': [
+                    {
+                        'item_name': 'SMOKE_TEST_SHAMPOO',
+                        'variant': '16oz sulfate free',
+                        'quantity': 1,
+                        'quantity_unit': 'bottle',
+                        'price': 18.99
+                    },
+                    {
+                        'item_name': 'SMOKE_TEST_LIPSTICK',
+                        'variant': 'matte red',
+                        'quantity': 2,
+                        'price': 31.98,
+                        'original_text': 'LIPSTICK MATTE RED'
+                    },
+                    {
+                        'item_name': 'SMOKE_TEST_NAIL_POLISH',
+                        'variant': 'clear coat',
+                        'quantity': 1,
+                        'price': 7.99
+                    }
+                ]
+            },
+
+            # Scenario 25: Craft store
+            {
+                'filename': '2025-07-11T16-00-00.yaml',
+                'store_name': 'SMOKE_TEST_CRAFT_STORE',
+                'items': [
+                    {
+                        'item_name': 'SMOKE_TEST_YARN',
+                        'variant': 'wool blend blue',
+                        'quantity': 4,
+                        'quantity_unit': 'skeins',
+                        'price': 23.96
+                    },
+                    {
+                        'item_name': 'SMOKE_TEST_KNITTING_NEEDLES',
+                        'variant': 'size 8 bamboo',
+                        'quantity': 1,
+                        'quantity_unit': 'set',
+                        'price': 12.99
+                    },
+                    {
+                        'item_name': 'SMOKE_TEST_FABRIC_SCISSORS',
+                        'variant': '8 inch professional',
+                        'quantity': 1,
+                        'price': 19.99
+                    }
+                ]
+            },
+
+            # Scenario 26: Music store
+            {
+                'filename': '2025-07-11T16-15-00.yaml',
+                'store_name': 'SMOKE_TEST_MUSIC_STORE',
+                'receipt_source': 'manual',
+                'items': [
+                    {
+                        'item_name': 'SMOKE_TEST_GUITAR_STRINGS',
+                        'variant': 'acoustic light gauge',
+                        'quantity': 2,
+                        'quantity_unit': 'sets',
+                        'price': 19.98,
+                        'original_text': 'GUITAR STR ACOUS LT'
+                    },
+                    {
+                        'item_name': 'SMOKE_TEST_MUSIC_BOOK',
+                        'variant': 'beginner piano',
+                        'quantity': 1,
+                        'price': 14.99
+                    }
+                ]
+            },
+
+            # Scenario 27: Furniture store
+            {
+                'filename': '2025-07-11T16-30-00.yaml',
+                'store_name': 'SMOKE_TEST_FURNITURE',
+                'items': [
+                    {
+                        'item_name': 'SMOKE_TEST_DESK_LAMP',
+                        'variant': 'LED adjustable',
+                        'quantity': 1,
+                        'price': 45.99
+                    },
+                    {
+                        'item_name': 'SMOKE_TEST_THROW_PILLOW',
+                        'variant': '18x18 blue',
+                        'quantity': 2,
+                        'price': 29.98,
+                        'original_text': 'PILLOW 18X18 BLUE'
+                    },
+                    {
+                        'item_name': 'SMOKE_TEST_PICTURE_FRAME',
+                        'variant': '8x10 wood',
+                        'quantity': 3,
+                        'price': 35.97
+                    }
+                ]
+            },
+
+            # Scenario 28: Extreme edge cases and stress testing
+            {
+                'filename': '2025-07-11T16-45-00.yaml',
+                'store_name': 'SMOKE_TEST_EXTREME_CASES',
+                'receipt_source': 'text',
+                'purchase_notes': 'Testing edge cases and data limits',
+                'items': [
+                    {
+                        'item_name': 'SMOKE_TEST_VERY_LONG_ITEM_NAME_THAT_EXCEEDS_NORMAL_LENGTH_LIMITS_AND_TESTS_DATABASE_FIELD_CAPACITY',
+                        'variant': 'extra long variant description that also tests field length limits and database storage capacity',
+                        'quantity': 999,
+                        'quantity_unit': 'maximum_quantity_units',
+                        'price': 9999.99,
+                        'original_text': 'VERY LONG ORIGINAL TEXT FROM RECEIPT THAT TESTS TEXT FIELD CAPACITY AND STORAGE LIMITS'
+                    },
+                    {
+                        'item_name': 'SMOKE_TEST_EMPTY_FIELDS',
+                        'variant': '',
+                        'quantity': 0,
+                        'quantity_unit': '',
+                        'price': 0.01,
+                        'original_text': ''
+                    },
+                    {
+                        'item_name': 'SMOKE_TEST_SPECIAL_UNICODE_🛒🍎💰',
+                        'variant': 'émojis & spëcial çhars',
+                        'quantity': 1,
+                        'price': 1.23
+                    }
+                ]
             }
         ]
         
