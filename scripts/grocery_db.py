@@ -383,6 +383,39 @@ class GroceryDB:
                 );
             """)
 
+            # Create other_purchases table (generic table for non-main retailers)
+            cur.execute("""
+                CREATE TABLE IF NOT EXISTS other_purchases (
+                    id SERIAL PRIMARY KEY,
+
+                    -- Store and item identification
+                    store_name VARCHAR(200) NOT NULL,
+                    item_name VARCHAR(300) NOT NULL,
+                    variant VARCHAR(200),
+
+                    -- Quantity and pricing
+                    quantity INTEGER DEFAULT 1,
+                    quantity_unit VARCHAR(50),
+                    price DECIMAL(10,2),
+
+                    -- Purchase details
+                    purchase_date DATE NOT NULL,
+                    purchase_time TIME,
+
+                    -- Receipt source tracking
+                    receipt_source VARCHAR(50) DEFAULT 'manual',  -- 'manual', 'image', 'text'
+                    original_text TEXT,
+
+                    -- Metadata
+                    raw_data JSONB,
+                    created_at TIMESTAMP DEFAULT NOW(),
+                    updated_at TIMESTAMP DEFAULT NOW(),
+
+                    -- Composite unique constraint for upsert logic
+                    UNIQUE(store_name, item_name, purchase_date, variant)
+                );
+            """)
+
             # Create indexes
             cur.execute("""
                 CREATE INDEX IF NOT EXISTS idx_costco_purchase_date 
@@ -476,6 +509,27 @@ class GroceryDB:
             cur.execute("""
                 CREATE INDEX IF NOT EXISTS idx_publix_store_name
                 ON publix_purchases(store_name);
+            """)
+
+            # Create other_purchases indexes
+            cur.execute("""
+                CREATE INDEX IF NOT EXISTS idx_other_purchase_date
+                ON other_purchases(purchase_date);
+            """)
+
+            cur.execute("""
+                CREATE INDEX IF NOT EXISTS idx_other_store_name
+                ON other_purchases(store_name);
+            """)
+
+            cur.execute("""
+                CREATE INDEX IF NOT EXISTS idx_other_item_name
+                ON other_purchases(item_name);
+            """)
+
+            cur.execute("""
+                CREATE INDEX IF NOT EXISTS idx_other_composite_key
+                ON other_purchases(store_name, item_name, purchase_date);
             """)
 
             conn.commit()

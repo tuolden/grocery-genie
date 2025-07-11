@@ -1,0 +1,51 @@
+# Sample Other Purchases YAML File
+# Format: YYYY-MM-DDTHH-MM-SS.yaml
+# This file represents a grocery receipt from a store not in the main 4 retailers
+
+store_name: "Fresh Market Local"
+receipt_source: "manual"  # manual, image, text
+purchase_notes: "Weekly grocery shopping"
+
+items:
+  - item_name: "Organic Bananas"
+    variant: "3 lb bag"
+    quantity: 2
+    quantity_unit: "bags"
+    price: 4.99
+    original_text: "ORG BANANAS 3LB"
+    
+  - item_name: "Whole Milk"
+    variant: "1 gallon"
+    quantity: 1
+    quantity_unit: "gallon"
+    price: 3.49
+    original_text: "WHOLE MILK 1GAL"
+    
+  - item_name: "Sourdough Bread"
+    quantity: 1
+    quantity_unit: "loaf"
+    price: 2.99
+    original_text: "SOURDOUGH BREAD"
+    
+  - item_name: "Free Range Eggs"
+    variant: "dozen large"
+    quantity: 2
+    quantity_unit: "dozen"
+    price: 5.98
+    original_text: "FR RANGE EGGS LG DZ"
+    
+  - item_name: "Organic Spinach"
+    variant: "5 oz container"
+    quantity: 1
+    quantity_unit: "container"
+    price: 3.99
+    original_text: "ORG SPINACH 5OZ"
+
+# Optional metadata
+receipt_metadata:
+  total_amount: 21.44
+  tax_amount: 1.44
+  subtotal: 20.00
+  payment_method: "Credit Card"
+  cashier: "Jane D."
+  register: "3"

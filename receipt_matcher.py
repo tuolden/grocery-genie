@@ -83,9 +83,10 @@ class ReceiptMatcher:
         # Store table mappings
         self.purchase_tables = {
             'costco': 'costco_purchases',
-            'walmart': 'walmart_purchases', 
+            'walmart': 'walmart_purchases',
             'cvs': 'cvs_purchases',
-            'publix': 'publix_purchases'
+            'publix': 'publix_purchases',
+            'other': 'other_purchases'
         }
         
         self.list_tables = {
@@ -212,6 +213,10 @@ class ReceiptMatcher:
             'publix_purchases': {
                 'quantity': 'item_quantity',
                 'price': 'item_price'
+            },
+            'other_purchases': {
+                'quantity': 'quantity',
+                'price': 'price'
             }
         }
 

@@ -1,0 +1,44 @@
+# Sample Other Purchases YAML File - Different Store
+# Format: YYYY-MM-DDTHH-MM-SS.yaml
+
+store_name: "Corner Deli & Market"
+receipt_source: "manual"
+purchase_notes: "Quick lunch items"
+
+items:
+  - item_name: "Turkey Sandwich"
+    variant: "on whole wheat"
+    quantity: 1
+    quantity_unit: "sandwich"
+    price: 8.99
+    original_text: "TURKEY SAND WW"
+    
+  - item_name: "Potato Chips"
+    variant: "sea salt"
+    quantity: 1
+    quantity_unit: "bag"
+    price: 2.49
+    original_text: "CHIPS SEA SALT"
+    
+  - item_name: "Sparkling Water"
+    variant: "lemon flavored"
+    quantity: 2
+    quantity_unit: "bottles"
+    price: 3.98
+    original_text: "SPARKLING H2O LEMON"
+    
+  - item_name: "Greek Yogurt"
+    variant: "vanilla 6oz"
+    quantity: 1
+    quantity_unit: "container"
+    price: 1.99
+    original_text: "GREEK YOGURT VAN 6OZ"
+
+# Optional metadata
+receipt_metadata:
+  total_amount: 18.29
+  tax_amount: 0.84
+  subtotal: 17.45
+  payment_method: "Cash"
+  cashier: "Mike S."
+  register: "1"
