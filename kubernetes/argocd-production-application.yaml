@@ -1,0 +1,25 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: grocery-genie-production
+  namespace: argocd
+  labels:
+    app: grocery-genie
+    environment: production
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/tuolden/grocery-genie
+    targetRevision: main
+    path: kubernetes/production
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: production
+  syncPolicy:
+    automated:
+      prune: false  # More conservative in production
+      selfHeal: true
+    syncOptions:
+    - CreateNamespace=true
+    - ApplyOutOfSyncOnly=true
+  revisionHistoryLimit: 20  # Keep more history in production

@@ -1,0 +1,25 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: grocery-genie-staging
+  namespace: argocd
+  labels:
+    app: grocery-genie
+    environment: staging
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/tuolden/grocery-genie
+    targetRevision: main
+    path: kubernetes/staging
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: staging
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+    - CreateNamespace=true
+    - ApplyOutOfSyncOnly=true
+  revisionHistoryLimit: 10

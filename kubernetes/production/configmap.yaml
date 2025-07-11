@@ -1,0 +1,18 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: grocery-genie-config
+  namespace: production
+  labels:
+    app: grocery-genie
+    environment: production
+data:
+  environment: "production"
+  log_level: "INFO"
+  scraper_interval: "24h"  # Daily scraping in production
+  max_retries: "5"
+  timeout_seconds: "60"
+  # Production-specific configurations
+  enable_debug_logging: "false"
+  enable_smoke_tests: "false"
+  data_retention_days: "365"  # Longer retention in production

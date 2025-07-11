@@ -1,0 +1,47 @@
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: grocery-genie-data-pvc
+  namespace: production
+  labels:
+    app: grocery-genie
+    environment: production
+spec:
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 5Gi  # Larger storage for production
+  storageClassName: local-path
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: grocery-genie-logs-pvc
+  namespace: production
+  labels:
+    app: grocery-genie
+    environment: production
+spec:
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 2Gi  # Larger log storage for production
+  storageClassName: local-path
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: grocery-genie-raw-pvc
+  namespace: production
+  labels:
+    app: grocery-genie
+    environment: production
+spec:
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 10Gi  # Much larger raw data storage for production
+  storageClassName: local-path

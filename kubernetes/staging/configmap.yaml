@@ -1,0 +1,18 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: grocery-genie-config
+  namespace: staging
+  labels:
+    app: grocery-genie
+    environment: staging
+data:
+  environment: "staging"
+  log_level: "DEBUG"
+  scraper_interval: "12h"  # More frequent scraping in staging for testing
+  max_retries: "3"
+  timeout_seconds: "30"
+  # Staging-specific configurations
+  enable_debug_logging: "true"
+  enable_smoke_tests: "true"
+  data_retention_days: "30"  # Shorter retention in staging

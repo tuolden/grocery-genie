@@ -1,6 +1,6 @@
 # Grocery Genie - Multi-Retailer Grocery Data Collector
 
-A comprehensive grocery data collection system that gathers purchase data from multiple retailers (Costco, Walmart, Publix) and stores it in a PostgreSQL database.
+A comprehensive grocery data collection system that gathers purchase data from multiple retailers (Costco, Walmart, Publix) and stores it in a PostgreSQL database. Deployed on K3s with staging and production environments.
 
 ## 🎯 **Overview**
 
@@ -75,15 +75,23 @@ grocery-genie/
 ├── README.md                  # This file
 ├── README_COSTCO.md          # Detailed Costco scraper instructions
 ├── README_WALMART.md         # Detailed Walmart collection instructions
+├── README_STAGING.md         # Staging environment documentation
 ├── costco_scraper.py         # Main Costco scraper
 ├── walmart_data_loader.py    # Walmart data processor
 ├── yaml_to_database.py       # Database loader
 ├── requirements.txt          # Python dependencies
+├── Dockerfile                # Container image definition
+├── healthcheck.py            # Container health check script
+├── test_staging_smoke.py     # Staging environment smoke tests
 ├── data/
 │   ├── costco/              # Costco YAML files storage
 │   └── walmart/             # Walmart YAML files storage
 ├── raw/
 │   └── walmart/             # Raw Walmart HTML files
+├── kubernetes/               # K3s deployment manifests
+│   ├── staging/             # Staging environment
+│   ├── production/          # Production environment
+│   └── argocd-*.yaml       # ArgoCD applications
 └── scripts/
     ├── __init__.py
     └── grocery_db.py        # Database module
@@ -97,6 +105,27 @@ grocery-genie/
 - ✅ **Enhanced database** - 25+ fields per item
 - ✅ **Duplicate prevention** - Smart tracking of processed files
 - ✅ **Token management** - Clear instructions for token refresh
+- ✅ **K3s Deployment** - Staging and production environments
+- ✅ **GitOps CI/CD** - ArgoCD-based deployments
+- ✅ **Smoke Testing** - Automated staging validation
+
+## 🚀 **Deployment**
+
+### **Staging and Production Environments**
+
+This project supports separate staging and production environments on K3s:
+
+- **Staging**: `staging.api.grocery-genie.com` - Safe testing environment
+- **Production**: `api.grocery-genie.com` - Live production environment
+
+See **[README_STAGING.md](README_STAGING.md)** for complete deployment instructions.
+
+### **CI/CD Pipeline**
+
+1. **Push to main** → Deploy to staging → Run smoke tests
+2. **Create release** → Deploy to production (after staging validation)
+3. **ArgoCD** automatically syncs Kubernetes manifests
+4. **GitHub Actions** handles build, test, and deployment orchestration
 
 ## 🗄️ **Database Schema**
 

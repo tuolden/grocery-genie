@@ -1,0 +1,94 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: grocery-genie
+  labels:
+    app: grocery-genie
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: grocery-genie
+  template:
+    metadata:
+      labels:
+        app: grocery-genie
+    spec:
+      containers:
+      - name: grocery-genie
+        image: ghcr.io/tuolden/grocery-genie:latest
+        ports:
+        - containerPort: 8080
+        env:
+        - name: PYTHONPATH
+          value: "/app"
+        - name: ENV
+          valueFrom:
+            configMapKeyRef:
+              name: grocery-genie-config
+              key: environment
+        - name: DB_HOST
+          valueFrom:
+            secretKeyRef:
+              name: grocery-genie-secrets
+              key: db_host
+        - name: DB_PORT
+          valueFrom:
+            secretKeyRef:
+              name: grocery-genie-secrets
+              key: db_port
+        - name: DB_USER
+          valueFrom:
+            secretKeyRef:
+              name: grocery-genie-secrets
+              key: db_user
+        - name: DB_PASSWORD
+          valueFrom:
+            secretKeyRef:
+              name: grocery-genie-secrets
+              key: db_password
+        - name: DB_NAME
+          valueFrom:
+            secretKeyRef:
+              name: grocery-genie-secrets
+              key: db_name
+        livenessProbe:
+          exec:
+            command:
+            - python
+            - healthcheck.py
+          initialDelaySeconds: 30
+          periodSeconds: 30
+          timeoutSeconds: 10
+        readinessProbe:
+          exec:
+            command:
+            - python
+            - healthcheck.py
+          initialDelaySeconds: 5
+          periodSeconds: 10
+          timeoutSeconds: 5
+        resources:
+          requests:
+            memory: "256Mi"
+            cpu: "100m"
+          limits:
+            memory: "512Mi"
+            cpu: "500m"
+        volumeMounts:
+        - name: data-volume
+          mountPath: /app/data
+        - name: logs-volume
+          mountPath: /app/logs
+        - name: raw-volume
+          mountPath: /app/raw
+      volumes:
+      - name: data-volume
+        persistentVolumeClaim:
+          claimName: grocery-genie-data-pvc
+      - name: logs-volume
+        persistentVolumeClaim:
+          claimName: grocery-genie-logs-pvc
+      - name: raw-volume
+        persistentVolumeClaim:
+          claimName: grocery-genie-raw-pvc

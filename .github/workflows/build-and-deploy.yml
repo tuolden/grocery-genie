@@ -5,9 +5,11 @@ on:
     branches: [ main, develop ]
   pull_request:
     branches: [ main ]
+  release:
+    types: [ published ]
 
 env:
-  REGISTRY: black:32003
+  REGISTRY: ghcr.io
   IMAGE_NAME: grocery-genie
 
 jobs:
@@ -223,7 +225,7 @@ jobs:
   build:
     needs: test
     runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/main'
+    if: github.ref == 'refs/heads/main' || github.event_name == 'release'
 
     steps:
     - name: Checkout code
@@ -232,28 +234,29 @@ jobs:
     - name: Set up Docker Buildx
       uses: docker/setup-buildx-action@v3
 
-    - name: Build Docker image
-      run: |
-        docker build -t ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest .
-        docker build -t ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:${{ github.sha }} .
+    - name: Login to Container Registry
+      uses: docker/login-action@v3
+      with:
+        registry: ${{ env.REGISTRY }}
+        username: ${{ github.actor }}
+        password: ${{ secrets.GITHUB_TOKEN }}
 
-    - name: Test Docker image
+    - name: Build and push Docker image
       run: |
-        # Test that the image can start
-        docker run --rm ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest python --version
-        echo "Docker image test passed"
+        IMAGE_TAG=${{ env.REGISTRY }}/${{ github.repository_owner }}/${{ env.IMAGE_NAME }}:${{ github.sha }}
+        LATEST_TAG=${{ env.REGISTRY }}/${{ github.repository_owner }}/${{ env.IMAGE_NAME }}:latest
 
-    - name: Push to registry
-      run: |
-        # Note: This assumes your registry is accessible from GitHub Actions
-        # You may need to add authentication steps here
-        echo "Would push to registry: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest"
-        echo "Would push to registry: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:${{ github.sha }}"
-        # Uncomment when registry is configured:
-        # docker push ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest
-        # docker push ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:${{ github.sha }}
+        echo "🔍 LOG: Building Docker image"
+        docker build -t $IMAGE_TAG -t $LATEST_TAG .
 
-  deploy:
+        echo "🔍 LOG: Testing Docker image"
+        docker run --rm $IMAGE_TAG python --version
+
+        echo "🔍 LOG: Pushing image: $IMAGE_TAG"
+        docker push $IMAGE_TAG
+        docker push $LATEST_TAG
+
+  deploy-staging:
     needs: build
     runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/main'
@@ -262,33 +265,107 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v4
 
-    - name: Deploy to K3s
+    - name: Update staging deployment manifest
       run: |
-        echo "Deployment would happen here"
-        echo "This would typically involve:"
-        echo "1. Updating Kubernetes manifests with new image tag"
-        echo "2. Applying changes to K3s cluster"
-        echo "3. Waiting for rollout to complete"
-        echo "4. Running health checks"
-        
-        # Example deployment commands (uncomment when ready):
-        # kubectl set image deployment/grocery-genie grocery-genie=${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:${{ github.sha }}
-        # kubectl rollout status deployment/grocery-genie
-        
-        echo "Deployment simulation complete"
+        echo "🔍 LOG: Updating staging deployment manifest"
+        NEW_TAG="${{ env.REGISTRY }}/${{ github.repository_owner }}/${{ env.IMAGE_NAME }}:${{ github.sha }}"
+        echo "🔍 LOG: Updating to new tag: $NEW_TAG"
+
+        sed -i "s|image: ghcr.io/tuolden/grocery-genie:.*|image: $NEW_TAG|g" kubernetes/staging/deployment.yaml
+
+        echo "🔍 LOG: Updated image tag in staging deployment.yaml:"
+        grep "image:" kubernetes/staging/deployment.yaml
+
+    - name: Commit staging deployment changes
+      run: |
+        git config --local user.email "tuolden@gmail.com"
+        git config --local user.name "GitHub Actions"
+        git add kubernetes/staging/deployment.yaml
+        git commit -m "🚀 Deploy to staging: ${{ github.sha }}"
+        git push origin main
+        echo "🔍 LOG: Staging deployment committed, ArgoCD should detect changes"
+
+  smoke-test-staging:
+    needs: deploy-staging
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Wait for staging deployment
+      run: |
+        echo "🔍 LOG: Waiting for staging deployment to complete..."
+        sleep 60  # Give ArgoCD time to sync
+
+    - name: Run staging smoke tests
+      env:
+        ENV: staging
+        ENABLE_SMOKE_TESTS: "true"
+        ENABLE_DEBUG_LOGGING: "true"
+      run: |
+        echo "🧪 Running staging smoke tests..."
+        python test_staging_smoke.py
+        if [ $? -eq 0 ]; then
+          echo "🎉 Staging smoke tests passed!"
+        else
+          echo "❌ Staging smoke tests failed"
+          exit 1
+        fi
+
+  deploy-production:
+    needs: [deploy-staging, smoke-test-staging]
+    runs-on: ubuntu-latest
+    if: github.event_name == 'release'
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Update production deployment manifest
+      run: |
+        echo "🔍 LOG: Updating production deployment manifest"
+        NEW_TAG="${{ env.REGISTRY }}/${{ github.repository_owner }}/${{ env.IMAGE_NAME }}:${{ github.sha }}"
+        echo "🔍 LOG: Updating to new tag: $NEW_TAG"
+
+        sed -i "s|image: ghcr.io/tuolden/grocery-genie:.*|image: $NEW_TAG|g" kubernetes/production/deployment.yaml
+
+        echo "🔍 LOG: Updated image tag in production deployment.yaml:"
+        grep "image:" kubernetes/production/deployment.yaml
+
+    - name: Commit production deployment changes
+      run: |
+        git config --local user.email "tuolden@gmail.com"
+        git config --local user.name "GitHub Actions"
+        git add kubernetes/production/deployment.yaml
+        git commit -m "🚀 Deploy to production: ${{ github.sha }}"
+        git push origin main
+        echo "🔍 LOG: Production deployment committed, ArgoCD should detect changes"
 
   notify:
-    needs: [test, build, deploy]
+    needs: [test, build, deploy-staging, smoke-test-staging, deploy-production]
     runs-on: ubuntu-latest
     if: always()
 
     steps:
     - name: Notify deployment status
       run: |
-        if [ "${{ needs.deploy.result }}" == "success" ]; then
-          echo "✅ Grocery Genie deployed successfully!"
-          echo "🛒 New version is now running in production"
+        if [ "${{ needs.deploy-staging.result }}" == "success" ] && [ "${{ needs.smoke-test-staging.result }}" == "success" ]; then
+          echo "✅ Grocery Genie deployed to staging successfully!"
+          echo "🧪 Staging smoke tests passed!"
+
+          if [ "${{ github.event_name }}" == "release" ]; then
+            if [ "${{ needs.deploy-production.result }}" == "success" ]; then
+              echo "🚀 Grocery Genie deployed to production successfully!"
+              echo "🛒 New version is now running in production"
+            else
+              echo "❌ Production deployment failed"
+            fi
+          else
+            echo "ℹ️  Production deployment skipped (not a release)"
+          fi
         else
-          echo "❌ Deployment failed or was skipped"
+          echo "❌ Staging deployment or smoke tests failed"
           echo "Check the logs for more information"
         fi
