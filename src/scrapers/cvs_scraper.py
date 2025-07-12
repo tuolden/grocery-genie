@@ -278,7 +278,7 @@ def main():
     print()
 
     # Try the OAuth2 token you discovered
-    access_token = "MUST_CHANGE_TOKEN_HERE"  # noqa: S105  # From OAuth2 API response
+    access_token = "MUST_CHANGE_TOKEN_HERE"  # From OAuth2 API response
     cookies = "MUST_CHANGE_cookies_HERE"  # Full cookie string from request
     ec_card_no = "539742276"  # ExtraCare card number
     member_ids = [
@@ -286,7 +286,7 @@ def main():
         "xLDfMCXifJImN3CREh4Cmlwu09sxSB3Ereu3lm6WoM8=",
     ]  # Encrypted member IDs
 
-    if access_token == "YOUR_access_token_HERE":  # noqa: S105
+    if access_token == "YOUR_access_token_HERE":
         print("❌ Please update the authentication values in the script!")
         print("   See the comments above for instructions.")
         return

@@ -47,7 +47,7 @@ class ReceiptMatcherHandler(BaseHTTPRequestHandler):
         """Override to use our logger"""
         logger.info(f"HTTP {msg_format % args}")
 
-    def do_GET(self):  # noqa: N802
+    def do_GET(self):
         """Handle GET requests"""
         parsed_path = urlparse(self.path)
 
@@ -58,7 +58,7 @@ class ReceiptMatcherHandler(BaseHTTPRequestHandler):
         else:
             self._send_error(404, "Not Found")
 
-    def do_POST(self):  # noqa: N802
+    def do_POST(self):
         """Handle POST requests"""
         parsed_path = urlparse(self.path)
 

@@ -94,7 +94,7 @@ def convert_receipt_to_db_format(yaml_data, filename):
                 dt = datetime.fromisoformat(transaction_datetime.replace("Z", "+00:00"))
                 transaction_date = dt.strftime("%Y-%m-%d")
                 transaction_time = dt.strftime("%H:%M:%S")
-            except Exception:  # noqa: S110
+            except Exception:
                 # Try to extract from filename if datetime parsing fails
                 try:
                     # Filename format: 2025-06-13T18-43-00.yaml
@@ -179,7 +179,7 @@ def get_processed_files():
             with open(tracking_file) as f:
                 return {line.strip() for line in f.readlines()}
         return set()
-    except Exception:  # noqa: S110
+    except Exception:
         return set()
 
 
