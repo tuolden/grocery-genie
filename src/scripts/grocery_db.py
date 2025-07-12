@@ -5,9 +5,8 @@ Handles insertion, updates, and queries for grocery store purchases.
 
 import json
 import os
+
 import psycopg2
-from datetime import datetime, date
-from decimal import Decimal
 from dotenv import load_dotenv
 
 # Load environment variables
@@ -20,15 +19,15 @@ class GroceryDB:
     def __init__(self):
         # Get database configuration from environment variables
         self.db_config = {
-            'host': os.getenv('DB_HOST', 'localhost'),
-            'port': os.getenv('DB_PORT', '5432'),
-            'database': os.getenv('DB_NAME', 'grocery_genie'),
-            'user': os.getenv('DB_USER', 'postgres'),
-            'password': os.getenv('DB_PASSWORD', ''),
+            "host": os.getenv("DB_HOST", "localhost"),
+            "port": os.getenv("DB_PORT", "5432"),
+            "database": os.getenv("DB_NAME", "grocery_genie"),
+            "user": os.getenv("DB_USER", "postgres"),
+            "password": os.getenv("DB_PASSWORD", ""),
         }
 
         # Alternative: use DATABASE_URL if provided
-        database_url = os.getenv('DATABASE_URL')
+        database_url = os.getenv("DATABASE_URL")
         if database_url:
             self.database_url = database_url
         else:
@@ -40,19 +39,18 @@ class GroceryDB:
             if self.database_url:
                 # Use DATABASE_URL if provided
                 return psycopg2.connect(self.database_url)
-            else:
-                # Use individual config parameters
-                return psycopg2.connect(**self.db_config)
+            # Use individual config parameters
+            return psycopg2.connect(**self.db_config)
         except Exception as e:
             print(f"[ERROR] Database connection failed: {e}")
-            print(f"[ERROR] Check your .env file and database configuration")
+            print("[ERROR] Check your .env file and database configuration")
             raise
-    
+
     def ensure_grocery_tables(self):
         """Ensure grocery tables exist and create indexes."""
         conn = self.get_connection()
         cur = conn.cursor()
-        
+
         try:
             # Create grocery_stores table if not exists
             cur.execute("""
@@ -65,7 +63,7 @@ class GroceryDB:
                     updated_at TIMESTAMP DEFAULT NOW()
                 );
             """)
-            
+
             # Create enhanced costco_purchases table if not exists
             cur.execute("""
                 CREATE TABLE IF NOT EXISTS costco_purchases (
@@ -421,22 +419,22 @@ class GroceryDB:
                 CREATE INDEX IF NOT EXISTS idx_costco_purchase_date 
                 ON costco_purchases(purchase_date);
             """)
-            
+
             cur.execute("""
                 CREATE INDEX IF NOT EXISTS idx_costco_store_location 
                 ON costco_purchases(store_location);
             """)
-            
+
             cur.execute("""
                 CREATE INDEX IF NOT EXISTS idx_costco_item_name 
                 ON costco_purchases(item_name);
             """)
-            
+
             cur.execute("""
                 CREATE INDEX IF NOT EXISTS idx_costco_receipt_number 
                 ON costco_purchases(receipt_number);
             """)
-            
+
             # Create unique constraint to prevent duplicates
             # Drop the problematic unique constraint if it exists
             cur.execute("""
@@ -534,7 +532,7 @@ class GroceryDB:
 
             conn.commit()
             print("[✓] Grocery database tables and indexes ensured")
-            
+
         except Exception as e:
             conn.rollback()
             print(f"[ERROR] Failed to ensure grocery tables: {e}")
@@ -542,20 +540,20 @@ class GroceryDB:
         finally:
             cur.close()
             conn.close()
-    
+
     def insert_costco_purchase(self, purchase_data):
         """
         Insert a single Costco purchase record.
-        
+
         Args:
             purchase_data (dict): Purchase data with keys matching table columns
-        
+
         Returns:
             int: ID of inserted record, or None if failed
         """
         conn = self.get_connection()
         cur = conn.cursor()
-        
+
         try:
             # Enhanced insert query with all new fields
             insert_query = """
@@ -581,8 +579,8 @@ class GroceryDB:
             """
 
             # Convert raw_data to JSON string if it's a dict
-            if isinstance(purchase_data.get('raw_data'), dict):
-                purchase_data['raw_data'] = json.dumps(purchase_data['raw_data'])
+            if isinstance(purchase_data.get("raw_data"), dict):
+                purchase_data["raw_data"] = json.dumps(purchase_data["raw_data"])
 
             # Execute the query
             cur.execute(insert_query, purchase_data)
@@ -590,7 +588,7 @@ class GroceryDB:
 
             conn.commit()
             return record_id
-            
+
         except Exception as e:
             conn.rollback()
             print(f"[ERROR] Failed to insert Costco purchase: {e}")
@@ -599,14 +597,14 @@ class GroceryDB:
         finally:
             cur.close()
             conn.close()
-    
+
     def insert_costco_purchases_batch(self, purchases_list):
         """
         Insert multiple Costco purchase records in a batch.
-        
+
         Args:
             purchases_list (list): List of purchase data dictionaries
-        
+
         Returns:
             tuple: (success_count, error_count)
         """
@@ -623,8 +621,10 @@ class GroceryDB:
             except Exception as e:
                 print(f"[ERROR] Batch insert error for purchase: {e}")
                 error_count += 1
-        
-        print(f"[✓] Batch insert completed: {success_count} success, {error_count} errors")
+
+        print(
+            f"[✓] Batch insert completed: {success_count} success, {error_count} errors"
+        )
         return success_count, error_count
 
     def insert_walmart_purchase(self, purchase_data):
@@ -670,8 +670,8 @@ class GroceryDB:
             """
 
             # Convert raw_data to JSON string if it's a dict
-            if isinstance(purchase_data.get('raw_data'), dict):
-                purchase_data['raw_data'] = json.dumps(purchase_data['raw_data'])
+            if isinstance(purchase_data.get("raw_data"), dict):
+                purchase_data["raw_data"] = json.dumps(purchase_data["raw_data"])
 
             # Execute the query
             cur.execute(insert_query, purchase_data)
@@ -713,68 +713,70 @@ class GroceryDB:
                 print(f"[ERROR] Batch insert error for purchase: {e}")
                 error_count += 1
 
-        print(f"[✓] Batch insert completed: {success_count} success, {error_count} errors")
+        print(
+            f"[✓] Batch insert completed: {success_count} success, {error_count} errors"
+        )
         return success_count, error_count
-    
+
     def get_recent_costco_purchases(self, days_back=30):
         """
         Get recent Costco purchases within specified days.
-        
+
         Args:
             days_back (int): Number of days to look back
-        
+
         Returns:
             list: List of purchase records
         """
         conn = self.get_connection()
         cur = conn.cursor()
-        
+
         try:
             query = """
                 SELECT * FROM costco_purchases 
                 WHERE purchase_date >= CURRENT_DATE - INTERVAL '%s days'
                 ORDER BY purchase_date DESC, created_at DESC;
             """
-            
+
             cur.execute(query, (days_back,))
             columns = [desc[0] for desc in cur.description]
             results = []
-            
+
             for row in cur.fetchall():
-                record = dict(zip(columns, row))
+                record = dict(zip(columns, row, strict=False))
                 # Convert date/time objects to strings for JSON serialization
-                if record.get('purchase_date'):
-                    record['purchase_date'] = record['purchase_date'].isoformat()
-                if record.get('purchase_time'):
-                    record['purchase_time'] = str(record['purchase_time'])
-                if record.get('created_at'):
-                    record['created_at'] = record['created_at'].isoformat()
-                if record.get('updated_at'):
-                    record['updated_at'] = record['updated_at'].isoformat()
+                if record.get("purchase_date"):
+                    record["purchase_date"] = record["purchase_date"].isoformat()
+                if record.get("purchase_time"):
+                    record["purchase_time"] = str(record["purchase_time"])
+                if record.get("created_at"):
+                    record["created_at"] = record["created_at"].isoformat()
+                if record.get("updated_at"):
+                    record["updated_at"] = record["updated_at"].isoformat()
                 results.append(record)
-            
+
             return results
-            
+
         except Exception as e:
             print(f"[ERROR] Failed to get recent purchases: {e}")
             return []
         finally:
             cur.close()
             conn.close()
-    
+
     def get_costco_purchase_summary(self, days_back=30):
         """
         Get summary statistics for Costco purchases.
-        
+
         Args:
             days_back (int): Number of days to look back
-        
+
         Returns:
             dict: Summary statistics
         """
         conn = self.get_connection()
         cur = conn.cursor()
-        
+
         try:
             query = """
                 SELECT 
@@ -788,22 +790,23 @@ class GroceryDB:
                 FROM costco_purchases 
                 WHERE purchase_date >= CURRENT_DATE - INTERVAL '%s days';
             """
-            
+
             cur.execute(query, (days_back,))
             columns = [desc[0] for desc in cur.description]
             row = cur.fetchone()
-            
+
             if row:
-                summary = dict(zip(columns, row))
+                summary = dict(zip(columns, row, strict=False))
                 # Convert date objects to strings
-                if summary.get('earliest_purchase'):
-                    summary['earliest_purchase'] = summary['earliest_purchase'].isoformat()
-                if summary.get('latest_purchase'):
-                    summary['latest_purchase'] = summary['latest_purchase'].isoformat()
+                if summary.get("earliest_purchase"):
+                    summary["earliest_purchase"] = summary[
+                        "earliest_purchase"
+                    ].isoformat()
+                if summary.get("latest_purchase"):
+                    summary["latest_purchase"] = summary["latest_purchase"].isoformat()
                 return summary
-            else:
-                return {}
-                
+            return {}
+
         except Exception as e:
             print(f"[ERROR] Failed to get purchase summary: {e}")
             return {}
@@ -815,57 +818,59 @@ class GroceryDB:
 def parse_costco_receipt_format(receipt_text):
     """
     Parse Costco receipt text format into structured data.
-    
+
     Args:
         receipt_text (str): Raw receipt text in the format provided
-    
+
     Returns:
         dict: Parsed receipt data
     """
-    lines = receipt_text.strip().split('\n')
-    
+    lines = receipt_text.strip().split("\n")
+
     # Initialize receipt data
     receipt_data = {
-        'items': [],
-        'subtotal': None,
-        'tax_total': None,
-        'total_amount': None,
-        'purchase_date': None,
-        'store_location': None
+        "items": [],
+        "subtotal": None,
+        "tax_total": None,
+        "total_amount": None,
+        "purchase_date": None,
+        "store_location": None,
     }
-    
+
     for line in lines:
         line = line.strip()
-        
-        if line.startswith('E\t') or line.startswith('E '):
+
+        if line.startswith("E\t") or line.startswith("E "):
             # Regular item line: E	1751772	DOTS PRETZEL	9.99 N
-            parts = line.split('\t') if '\t' in line else line.split()
+            parts = line.split("\t") if "\t" in line else line.split()
             if len(parts) >= 4:
                 item = {
-                    'item_type': parts[0],
-                    'item_code': parts[1],
-                    'item_name': parts[2],
-                    'item_price': float(parts[3]) if parts[3].replace('.', '').isdigit() else 0.0,
-                    'tax_indicator': parts[4] if len(parts) > 4 else 'N'
+                    "item_type": parts[0],
+                    "item_code": parts[1],
+                    "item_name": parts[2],
+                    "item_price": float(parts[3])
+                    if parts[3].replace(".", "").isdigit()
+                    else 0.0,
+                    "tax_indicator": parts[4] if len(parts) > 4 else "N",
                 }
-                receipt_data['items'].append(item)
-        
-        elif 'SUBTOTAL' in line:
+                receipt_data["items"].append(item)
+
+        elif "SUBTOTAL" in line:
             # SUBTOTAL	360.59
             parts = line.split()
             if len(parts) >= 2:
-                receipt_data['subtotal'] = float(parts[1])
-        
-        elif 'TAX' in line and 'SUBTOTAL' not in line:
+                receipt_data["subtotal"] = float(parts[1])
+
+        elif "TAX" in line and "SUBTOTAL" not in line:
             # TAX	1.41
             parts = line.split()
             if len(parts) >= 2:
-                receipt_data['tax_total'] = float(parts[1])
-        
-        elif 'Total' in line:
+                receipt_data["tax_total"] = float(parts[1])
+
+        elif "Total" in line:
             # ****	Total	362.00
             parts = line.split()
             if len(parts) >= 2:
-                receipt_data['total_amount'] = float(parts[-1])
-    
+                receipt_data["total_amount"] = float(parts[-1])
+
     return receipt_data

@@ -1,6 +1,8 @@
-# Costco Grocery Scraper Dependencies
+# Grocery Genie Dependencies
 psycopg2-binary  # PostgreSQL database connection
-requests         # HTTP requests for Costco API
+requests         # HTTP requests for APIs
 PyYAML          # YAML file processing
 python-dotenv   # Environment variable loading
+beautifulsoup4  # HTML parsing for Walmart data
 pytest          # Testing framework for CI/CD
+ruff            # Python linter and formatter

@@ -49,6 +49,34 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
+    - name: Run code quality checks
+      run: |
+        echo "🔍 Running code quality checks..."
+
+        # Check code formatting
+        echo "📝 Checking code formatting with ruff..."
+        ruff format --check src/
+        if [ $? -eq 0 ]; then
+          echo "✅ Code formatting check passed"
+        else
+          echo "❌ Code formatting check failed"
+          echo "💡 Run 'ruff format src/' to fix formatting issues"
+          exit 1
+        fi
+
+        # Run linting
+        echo "🔍 Running linting with ruff..."
+        ruff check src/
+        if [ $? -eq 0 ]; then
+          echo "✅ Linting check passed"
+        else
+          echo "❌ Linting check failed"
+          echo "💡 Run 'ruff check --fix src/' to fix linting issues"
+          exit 1
+        fi
+
+        echo "✅ All code quality checks passed"
+
     - name: Set up test environment
       env:
         DB_HOST: localhost
@@ -103,6 +131,8 @@ jobs:
 
         # Test receipt matcher initialization
         python -c "
+        import sys
+        sys.path.append('src/services')
         from receipt_matcher import ReceiptMatcher
         matcher = ReceiptMatcher()
         print('✅ Receipt matcher initialization successful')
@@ -120,7 +150,7 @@ jobs:
         ENV: test
       run: |
         echo "🔬 Running receipt matcher unit tests..."
-        python test_receipt_matcher_unit.py
+        python tests/test_receipt_matcher_unit.py
         if [ $? -eq 0 ]; then
           echo "✅ Receipt matcher unit tests passed"
         else
@@ -138,7 +168,7 @@ jobs:
         ENV: test
       run: |
         echo "🔗 Running receipt matcher integration tests..."
-        python test_receipt_matcher.py
+        python tests/test_receipt_matcher.py
         if [ $? -eq 0 ]; then
           echo "✅ Receipt matcher integration tests passed"
         else
@@ -174,7 +204,7 @@ jobs:
         ENV: test
       run: |
         echo "🧪 Running comprehensive test suite..."
-        python run_all_tests.py
+        python tests/run_all_tests.py
         if [ $? -eq 0 ]; then
           echo "🎉 All tests passed - System is production ready!"
         else

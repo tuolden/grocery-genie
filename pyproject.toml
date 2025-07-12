@@ -1,0 +1,87 @@
+[tool.ruff.lint]
+# Enable pycodestyle (`E`) and Pyflakes (`F`) codes by default.
+select = ["E", "F", "W", "I", "N", "UP", "YTT", "S", "BLE", "FBT", "B", "A", "C4", "DTZ", "T10", "EM", "EXE", "ISC", "ICN", "G", "INP", "PIE", "T20", "PYI", "PT", "Q", "RSE", "RET", "SLF", "SIM", "TID", "TCH", "ARG", "PTH", "ERA", "PD", "PGH", "PL", "TRY", "NPY", "RUF"]
+
+# Ignore specific rules that are too strict for this project
+ignore = [
+    "S101",   # Use of assert
+    "T201",   # Print statements (we use them for CLI output)
+    "S608",   # Possible SQL injection (we use parameterized queries)
+    "PLR0913", # Too many arguments
+    "PLR0912", # Too many branches
+    "PLR0915", # Too many statements
+    "C901",   # Complex structure
+    "S311",   # Random generators for non-cryptographic purposes
+    "DTZ005", # Timezone naive datetime
+    "EM101",  # Exception must not use string literal
+    "TRY003", # Avoid specifying long messages outside exception class
+    "G004",   # Logging f-string (we use them intentionally for bright logging)
+    "EXE001", # Shebang without executable (we'll fix this separately)
+    "BLE001", # Blind exception catching (acceptable for CLI tools)
+    "TRY400", # Use logging.exception (we prefer explicit error messages)
+    "TRY300", # Consider moving to else block (not always clearer)
+    "PTH123", # Use Path.open (we'll migrate gradually)
+    "PTH120", # Use Path.parent (we'll migrate gradually)
+    "PTH118", # Use Path with / (we'll migrate gradually)
+    "PTH110", # Use Path.exists (we'll migrate gradually)
+    "PTH101", # Use Path.chmod (we'll migrate gradually)
+    "S103",   # Permissive file permissions (needed for scripts)
+    "PLR1722", # Use sys.exit (we'll fix this)
+    "RUF001", # Ambiguous unicode (emojis are intentional)
+]
+
+# Allow autofix for all enabled rules (when `--fix`) is provided.
+fixable = ["ALL"]
+unfixable = []
+
+# Exclude a variety of commonly ignored directories.
+exclude = [
+    ".bzr",
+    ".direnv",
+    ".eggs",
+    ".git",
+    ".hg",
+    ".mypy_cache",
+    ".nox",
+    ".pants.d",
+    ".pytype",
+    ".ruff_cache",
+    ".svn",
+    ".tox",
+    ".venv",
+    "__pypackages__",
+    "_build",
+    "buck-out",
+    "build",
+    "dist",
+    "node_modules",
+    "venv",
+    "data",
+    "raw",
+    "logs",
+]
+
+[tool.ruff]
+# Same as Black.
+line-length = 88
+
+
+
+# Assume Python 3.11
+target-version = "py311"
+
+[tool.ruff.lint.mccabe]
+# Unlike Flake8, default to a complexity level of 10.
+max-complexity = 10
+
+[tool.ruff.lint.per-file-ignores]
+# Tests can use magic values, assertions, etc.
+"tests/*" = ["PLR2004", "S101", "ARG", "FBT"]
+"test_*.py" = ["PLR2004", "S101", "ARG", "FBT"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["src"]
+
+[tool.ruff.lint]
+# Allow unused variables when underscore-prefixed.
+dummy-variable-rgx = "^(_+|(_+[a-zA-Z0-9_]*[a-zA-Z0-9]+?))$"
