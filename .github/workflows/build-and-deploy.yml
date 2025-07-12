@@ -353,6 +353,8 @@ jobs:
         mkdir -p data/costco data/walmart data/cvs data/publix data/other
         mkdir -p raw/walmart raw/publix
         mkdir -p logs
+        # Ensure parent directories exist
+        mkdir -p data raw
         echo "✅ Required directories created"
 
     - name: Run staging smoke tests
