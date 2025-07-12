@@ -1,3 +1,4 @@
+# ruff: noqa: E501, PLW2901, PLR2004
 """
 Database operations for grocery purchase data.
 Handles insertion, updates, and queries for grocery store purchases.

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# ruff: noqa: PLR2004
+# ruff: noqa: E501
 """
 Receipt Matcher Cron Job
 

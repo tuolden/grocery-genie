@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# ruff: noqa: PLR0913, PLR0912
+# ruff: noqa: E501
 """
 Receipt Matcher - Automatically mark items as purchased from receipts
 

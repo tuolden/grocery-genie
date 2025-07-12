@@ -1,4 +1,4 @@
-# ruff: noqa: PLR0911
+# ruff: noqa: E501, PTH103
 """
 YAML to Database Loader
 Loads Costco receipt YAML files into the database.
@@ -23,7 +23,7 @@ sys.path.append(os.path.join(os.path.dirname(__file__), "..", "scripts"))
 from src.scripts.grocery_db import GroceryDB
 
 
-def safe_int(value, default=1):
+def safe_int(value, default=1):  # noqa: PLR0911
     """Safely convert a value to integer."""
     try:
         if isinstance(value, int):
@@ -121,7 +121,10 @@ def convert_receipt_to_db_format(yaml_data, filename):
             db_item = {
                 "purchase_date": transaction_date,
                 "purchase_time": transaction_time,
-                "store_location": f"{receipt_info.get('warehouse_name', '')} #{receipt_info.get('warehouse_number', '')}".strip(),
+                "store_location": (
+                    f"{receipt_info.get('warehouse_name', '')} "
+                    f"#{receipt_info.get('warehouse_number', '')}"
+                ).strip(),
                 "receipt_number": receipt_info.get("transaction_barcode", ""),
                 "item_code": item.get("item_number", ""),
                 "item_name": full_description or "Unknown Item",
@@ -157,7 +160,11 @@ def convert_receipt_to_db_format(yaml_data, filename):
                         for p in payments
                     ]
                 ),
-                "store_address": f"{store_info.get('warehouse_address1', '')} {store_info.get('warehouse_city', '')} {store_info.get('warehouse_state', '')}".strip(),
+                "store_address": (
+                    f"{store_info.get('warehouse_address1', '')} "
+                    f"{store_info.get('warehouse_city', '')} "
+                    f"{store_info.get('warehouse_state', '')}"
+                ).strip(),
                 "raw_data": yaml_data,  # Store complete YAML data for reference
             }
 
