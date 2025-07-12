@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# ruff: noqa: N802
 """
 Receipt Matcher HTTP API
 

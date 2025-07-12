@@ -1,3 +1,4 @@
+# ruff: noqa: PLR0911
 """
 YAML to Database Loader
 Loads Costco receipt YAML files into the database.

@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# ruff: noqa: PTH208
 """
 CVS Data Loader
 

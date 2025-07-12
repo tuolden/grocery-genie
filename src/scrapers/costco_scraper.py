@@ -1,3 +1,4 @@
+# ruff: noqa: S105, DTZ007, PLR2004
 """
 Costco Warehouse Receipts Scraper
 Scrapes Costco receipts and saves them as individual YAML files.

@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# ruff: noqa: S105, PLR2004
 """
 Publix Purchase Detail Scraper
 

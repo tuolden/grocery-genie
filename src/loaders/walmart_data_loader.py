@@ -1,3 +1,4 @@
+# ruff: noqa: DTZ007, PTH103, PTH208
 """
 Walmart Data Loader
 Processes HTML files from raw/walmart/ and loads them into the database.

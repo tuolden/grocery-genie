@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# ruff: noqa: PTH103, PLR2004, PLW2901, PTH208, DTZ007
 """
 Publix Data Processor
 

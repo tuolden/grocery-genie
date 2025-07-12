@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# ruff: noqa: S105, N806, PLR2004
 """
 CVS Order Scraper
 
@@ -285,7 +286,7 @@ def main():
         "xLDfMCXifJImN3CREh4Cmlwu09sxSB3Ereu3lm6WoM8=",
     ]  # Encrypted member IDs
 
-    if access_token == "YOUR_access_token_HERE"  # noqa: S105:
+    if access_token == "YOUR_access_token_HERE":  # noqa: S105
         print("❌ Please update the authentication values in the script!")
         print("   See the comments above for instructions.")
         return
