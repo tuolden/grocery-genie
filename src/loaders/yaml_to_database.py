@@ -47,7 +47,7 @@ def safe_int(value, default=1):
 def safe_float(value, default=0.0):
     """Safely convert a value to float."""
     try:
-        if isinstance(value, (int, float)):
+        if isinstance(value, int | float):
             return float(value)
         if isinstance(value, str):
             if value == "" or value is None:
@@ -66,8 +66,7 @@ def load_yaml_file(filepath):
     """Load and parse a YAML receipt file."""
     try:
         with open(filepath) as f:
-            data = yaml.safe_load(f)
-        return data
+            return yaml.safe_load(f)
     except Exception as e:
         print(f"❌ Error loading {filepath}: {e}")
         return None
@@ -94,7 +93,7 @@ def convert_receipt_to_db_format(yaml_data, filename):
                 dt = datetime.fromisoformat(transaction_datetime.replace("Z", "+00:00"))
                 transaction_date = dt.strftime("%Y-%m-%d")
                 transaction_time = dt.strftime("%H:%M:%S")
-            except:
+            except Exception:  # noqa: S110
                 # Try to extract from filename if datetime parsing fails
                 try:
                     # Filename format: 2025-06-13T18-43-00.yaml
@@ -102,7 +101,7 @@ def convert_receipt_to_db_format(yaml_data, filename):
                     dt = datetime.fromisoformat(date_part)
                     transaction_date = dt.strftime("%Y-%m-%d")
                     transaction_time = dt.strftime("%H:%M:%S")
-                except:
+                except Exception:  # noqa: S110
                     pass
 
         # Process each item in the receipt
@@ -177,9 +176,9 @@ def get_processed_files():
         tracking_file = "./data/costco/processed_files.txt"
         if os.path.exists(tracking_file):
             with open(tracking_file) as f:
-                return set(line.strip() for line in f.readlines())
+                return {line.strip() for line in f.readlines()}
         return set()
-    except:
+    except Exception:  # noqa: S110
         return set()
 
 

@@ -10,6 +10,7 @@ Usage:
 2. Run: python publix_data_processor.py
 """
 
+import contextlib
 import json
 import os
 import re
@@ -109,12 +110,7 @@ class PublixDataProcessor:
             line = line.strip()
 
             # Skip empty lines and headers
-            if (
-                not line
-                or line.startswith("*")
-                or line.startswith("=")
-                or line.startswith("-")
-            ):
+            if not line or line.startswith(("*", "=", "-")):
                 continue
 
             # Look for item lines (have price at end)
@@ -263,7 +259,7 @@ class PublixDataProcessor:
             )
 
             # Build structured purchase data
-            purchase_data = {
+            return {
                 "transaction_number": detail.get("TransactionNumber"),
                 "receipt_id": original_purchase.get("Id"),
                 "purchase_date": purchase_date.isoformat() if purchase_date else None,
@@ -285,8 +281,6 @@ class PublixDataProcessor:
                 "barcode_src": detail.get("BarcodeSrc"),
                 "raw_data": data,
             }
-
-            return purchase_data
 
         except Exception as e:
             print(f"[ERROR] Failed to process detail file {filepath}: {e}")
@@ -448,12 +442,10 @@ class PublixDataProcessor:
             )
             purchase_time = None
             if purchase_data.get("purchase_time"):
-                try:
+                with contextlib.suppress(Exception):
                     purchase_time = datetime.strptime(
                         purchase_data.get("purchase_time"), "%H:%M:%S"
                     ).time()
-                except:
-                    pass
 
             # Store info
             store_name = purchase_data.get("store_name")

@@ -42,11 +42,11 @@ logger = logging.getLogger(__name__)
 class ReceiptMatcherHandler(BaseHTTPRequestHandler):
     """HTTP request handler for receipt matcher API"""
 
-    def log_message(self, format, *args):
+    def log_message(self, msg_format, *args):
         """Override to use our logger"""
-        logger.info(f"HTTP {format % args}")
+        logger.info(f"HTTP {msg_format % args}")
 
-    def do_GET(self):
+    def do_GET(self):  # noqa: N802
         """Handle GET requests"""
         parsed_path = urlparse(self.path)
 
@@ -57,7 +57,7 @@ class ReceiptMatcherHandler(BaseHTTPRequestHandler):
         else:
             self._send_error(404, "Not Found")
 
-    def do_POST(self):
+    def do_POST(self):  # noqa: N802
         """Handle POST requests"""
         parsed_path = urlparse(self.path)
 

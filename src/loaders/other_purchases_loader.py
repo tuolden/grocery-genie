@@ -81,7 +81,8 @@ class OtherPurchasesLoader:
 
     def _validate_filename(self, filename: str) -> bool:
         """
-        Validate filename matches YYYY-MM-DDTHH-MM-SS.yaml pattern and contains valid datetime
+        Validate filename matches YYYY-MM-DDTHH-MM-SS.yaml pattern and contains valid
+        datetime
 
         Args:
             filename: Name of the file to validate
@@ -114,7 +115,7 @@ class OtherPurchasesLoader:
         datetime_str = filename.replace(".yaml", "")
 
         # Parse datetime
-        dt = datetime.strptime(datetime_str, "%Y-%m-%dT%H-%M-%S")
+        dt = datetime.strptime(datetime_str, "%Y-%m-%dT%H-%M-%S")  # noqa: DTZ007
         return dt.date(), dt.time()
 
     def _validate_yaml_data(self, data: dict, filename: str) -> bool:
@@ -225,7 +226,8 @@ class OtherPurchasesLoader:
                     price = float(price)
                 except (ValueError, TypeError):
                     logger.warning(
-                        f"⚠️  Invalid price '{price}' for item '{item_name}', setting to NULL"
+                        f"⚠️  Invalid price '{price}' for item '{item_name}', "
+                        f"setting to NULL"
                     )
                     price = None
 
@@ -233,7 +235,8 @@ class OtherPurchasesLoader:
             upsert_query = """
                 INSERT INTO other_purchases (
                     store_name, item_name, variant, quantity, quantity_unit, price,
-                    purchase_date, purchase_time, receipt_source, original_text, raw_data
+                    purchase_date, purchase_time, receipt_source, original_text,
+                    raw_data
                 ) VALUES (
                     %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s
                 )
@@ -458,13 +461,11 @@ class OtherPurchasesLoader:
             """)
             recent_records = cur.fetchone()["recent"]
 
-            stats = {
+            return {
                 "total_records": total_records,
                 "recent_records": recent_records,
                 "stores": {store["store_name"]: store["count"] for store in stores},
             }
-
-            return stats
 
         except Exception as e:
             logger.error(f"❌ Error getting database stats: {e}")
@@ -497,7 +498,7 @@ class OtherPurchasesLoader:
         logger.info("=" * 50)
 
 
-def main():
+def main():  # noqa: PLR0911
     """Main entry point for the loader"""
     import argparse
 

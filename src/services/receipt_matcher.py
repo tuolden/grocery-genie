@@ -116,7 +116,7 @@ class ReceiptMatcher:
 
         try:
             # Create list tables for each store
-            for store, table_name in self.list_tables.items():
+            for _store, table_name in self.list_tables.items():
                 logger.info(f"📋 Creating {table_name} if not exists")
                 cur.execute(f"""
                     CREATE TABLE IF NOT EXISTS {table_name} (
@@ -135,12 +135,12 @@ class ReceiptMatcher:
 
                 # Create index for faster searching
                 cur.execute(f"""
-                    CREATE INDEX IF NOT EXISTS idx_{table_name}_item_name 
+                    CREATE INDEX IF NOT EXISTS idx_{table_name}_item_name
                     ON {table_name} (item_name)
                 """)
 
                 cur.execute(f"""
-                    CREATE INDEX IF NOT EXISTS idx_{table_name}_is_checked 
+                    CREATE INDEX IF NOT EXISTS idx_{table_name}_is_checked
                     ON {table_name} (is_checked)
                 """)
 
@@ -168,17 +168,17 @@ class ReceiptMatcher:
 
             # Create indexes for inventory
             cur.execute("""
-                CREATE INDEX IF NOT EXISTS idx_inventory_item_name 
+                CREATE INDEX IF NOT EXISTS idx_inventory_item_name
                 ON inventory (item_name)
             """)
 
             cur.execute("""
-                CREATE INDEX IF NOT EXISTS idx_inventory_store 
+                CREATE INDEX IF NOT EXISTS idx_inventory_store
                 ON inventory (store)
             """)
 
             cur.execute("""
-                CREATE INDEX IF NOT EXISTS idx_inventory_purchase_date 
+                CREATE INDEX IF NOT EXISTS idx_inventory_purchase_date
                 ON inventory (purchase_date)
             """)
 
@@ -470,7 +470,7 @@ class ReceiptMatcher:
         logger.info(f"🗑️ REMOVING FROM ALL LISTS: {match.purchase_item.item_name}")
 
         # Find similar items in all lists and remove them
-        for store, table_name in self.list_tables.items():
+        for _store, table_name in self.list_tables.items():
             cur.execute(
                 f"""
                 DELETE FROM {table_name}
@@ -589,7 +589,7 @@ def main():
 
     try:
         matcher = ReceiptMatcher(lookback_hours=args.hours)
-        stats = matcher.run_matching_process()
+        matcher.run_matching_process()
 
         logger.info("🎉 RECEIPT MATCHING COMPLETED SUCCESSFULLY")
         return 0

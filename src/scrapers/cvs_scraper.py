@@ -277,21 +277,21 @@ def main():
     print()
 
     # Try the OAuth2 token you discovered
-    ACCESS_TOKEN = "MUST_CHANGE_TOKEN_HERE"  # From OAuth2 API response
-    COOKIES = "MUST_CHANGE_COOKIES_HERE"  # Full cookie string from request
-    EC_CARD_NO = "539742276"  # ExtraCare card number
-    MEMBER_IDS = [
+    access_token = "MUST_CHANGE_TOKEN_HERE"  # noqa: S105  # From OAuth2 API response
+    cookies = "MUST_CHANGE_cookies_HERE"  # Full cookie string from request
+    ec_card_no = "539742276"  # ExtraCare card number
+    member_ids = [
         "yfCOSP9KdssdlnVcSIpBGG5nq+i9alDZio96vRH/UGM=",
         "xLDfMCXifJImN3CREh4Cmlwu09sxSB3Ereu3lm6WoM8=",
     ]  # Encrypted member IDs
 
-    if ACCESS_TOKEN == "YOUR_ACCESS_TOKEN_HERE":
+    if access_token == "YOUR_access_token_HERE"  # noqa: S105:
         print("❌ Please update the authentication values in the script!")
         print("   See the comments above for instructions.")
         return
 
     # Set authentication
-    scraper.set_authentication(ACCESS_TOKEN, COOKIES, EC_CARD_NO, MEMBER_IDS)
+    scraper.set_authentication(access_token, cookies, ec_card_no, member_ids)
 
     # Scrape orders
     print("\n🚀 Starting CVS order scraping...")

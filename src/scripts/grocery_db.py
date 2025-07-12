@@ -416,22 +416,22 @@ class GroceryDB:
 
             # Create indexes
             cur.execute("""
-                CREATE INDEX IF NOT EXISTS idx_costco_purchase_date 
+                CREATE INDEX IF NOT EXISTS idx_costco_purchase_date
                 ON costco_purchases(purchase_date);
             """)
 
             cur.execute("""
-                CREATE INDEX IF NOT EXISTS idx_costco_store_location 
+                CREATE INDEX IF NOT EXISTS idx_costco_store_location
                 ON costco_purchases(store_location);
             """)
 
             cur.execute("""
-                CREATE INDEX IF NOT EXISTS idx_costco_item_name 
+                CREATE INDEX IF NOT EXISTS idx_costco_item_name
                 ON costco_purchases(item_name);
             """)
 
             cur.execute("""
-                CREATE INDEX IF NOT EXISTS idx_costco_receipt_number 
+                CREATE INDEX IF NOT EXISTS idx_costco_receipt_number
                 ON costco_purchases(receipt_number);
             """)
 
@@ -536,7 +536,7 @@ class GroceryDB:
         except Exception as e:
             conn.rollback()
             print(f"[ERROR] Failed to ensure grocery tables: {e}")
-            raise e
+            raise
         finally:
             cur.close()
             conn.close()
@@ -733,7 +733,7 @@ class GroceryDB:
 
         try:
             query = """
-                SELECT * FROM costco_purchases 
+                SELECT * FROM costco_purchases
                 WHERE purchase_date >= CURRENT_DATE - INTERVAL '%s days'
                 ORDER BY purchase_date DESC, created_at DESC;
             """
@@ -779,7 +779,7 @@ class GroceryDB:
 
         try:
             query = """
-                SELECT 
+                SELECT
                     COUNT(*) as total_items,
                     COUNT(DISTINCT receipt_number) as total_receipts,
                     COUNT(DISTINCT purchase_date) as shopping_days,
@@ -787,7 +787,7 @@ class GroceryDB:
                     AVG(item_price) as avg_item_price,
                     MIN(purchase_date) as earliest_purchase,
                     MAX(purchase_date) as latest_purchase
-                FROM costco_purchases 
+                FROM costco_purchases
                 WHERE purchase_date >= CURRENT_DATE - INTERVAL '%s days';
             """
 
@@ -840,7 +840,7 @@ def parse_costco_receipt_format(receipt_text):
     for line in lines:
         line = line.strip()
 
-        if line.startswith("E\t") or line.startswith("E "):
+        if line.startswith(("E\t", "E ")):
             # Regular item line: E	1751772	DOTS PRETZEL	9.99 N
             parts = line.split("\t") if "\t" in line else line.split()
             if len(parts) >= 4:
