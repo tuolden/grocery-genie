@@ -21,8 +21,8 @@ from pathlib import Path
 import psycopg2
 from psycopg2.extras import RealDictCursor
 
-# Add current directory to path
-sys.path.append(os.path.dirname(__file__))
+# Add project root to path
+sys.path.append(os.path.join(os.path.dirname(__file__), '..', '..'))
 from receipt_matcher import ReceiptMatcher
 from scripts.grocery_db import GroceryDB
 

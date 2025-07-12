@@ -8,7 +8,10 @@ import sys
 import psycopg2
 import requests
 import time
-from scripts.grocery_db import get_db_connection
+
+# Add project root to path
+sys.path.append(os.path.join(os.path.dirname(__file__), '..', '..'))
+from scripts.grocery_db import GroceryDB
 
 def is_staging_environment():
     """Check if we're running in staging environment"""
@@ -18,7 +21,8 @@ def test_database_connectivity():
     """Test database connection and basic operations"""
     print("🔍 Testing database connectivity...")
     try:
-        conn = get_db_connection()
+        db = GroceryDB()
+        conn = db.get_connection()
         cursor = conn.cursor()
         
         # Test basic query
@@ -45,7 +49,8 @@ def test_data_integrity():
     """Test data integrity without modifying production data"""
     print("🔍 Testing data integrity...")
     try:
-        conn = get_db_connection()
+        db = GroceryDB()
+        conn = db.get_connection()
         cursor = conn.cursor()
         
         # Test Costco data

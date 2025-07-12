@@ -30,8 +30,8 @@ from decimal import Decimal
 import psycopg2
 from psycopg2.extras import RealDictCursor
 
-# Add current directory to path
-sys.path.append(os.path.dirname(__file__))
+# Add project root to path
+sys.path.append(os.path.join(os.path.dirname(__file__), '..', '..'))
 from other_purchases_loader import OtherPurchasesLoader
 
 # Configure logging with bright colors

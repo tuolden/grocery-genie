@@ -82,7 +82,8 @@ grocery-genie/
 ├── requirements.txt          # Python dependencies
 ├── Dockerfile                # Container image definition
 ├── healthcheck.py            # Container health check script
-├── test_staging_smoke.py     # Staging environment smoke tests
+├── tests/                    # Test suite
+│   └── smoke/               # Smoke tests for system validation
 ├── data/
 │   ├── costco/              # Costco YAML files storage
 │   └── walmart/             # Walmart YAML files storage

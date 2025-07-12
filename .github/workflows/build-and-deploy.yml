@@ -306,7 +306,7 @@ jobs:
         ENABLE_DEBUG_LOGGING: "true"
       run: |
         echo "🧪 Running staging smoke tests..."
-        python test_staging_smoke.py
+        python tests/smoke/run_all_smoke_tests.py
         if [ $? -eq 0 ]; then
           echo "🎉 Staging smoke tests passed!"
         else
