@@ -347,6 +347,14 @@ jobs:
         echo "🔍 LOG: Waiting for staging deployment to complete..."
         sleep 60  # Give ArgoCD time to sync
 
+    - name: Create required directories for smoke tests
+      run: |
+        echo "🔍 LOG: Creating required directories for staging smoke tests..."
+        mkdir -p data/costco data/walmart data/cvs data/publix data/other
+        mkdir -p raw/walmart raw/publix
+        mkdir -p logs
+        echo "✅ Required directories created"
+
     - name: Run staging smoke tests
       env:
         ENV: staging
