@@ -76,7 +76,7 @@ jobs:
             print('This is expected in CI environment - tests will handle table creation')
         "
 
-    - name: Run legacy unit tests
+    - name: Run basic unit tests
       env:
         DB_HOST: localhost
         DB_PORT: 5432
@@ -84,36 +84,27 @@ jobs:
         DB_PASSWORD: test_password
         DB_NAME: test_db
         ENV: test
-        COSTCO_USERNAME: test@example.com
-        COSTCO_PASSWORD: test_password
       run: |
-        # Run basic legacy tests (excluding full scraper test)
+        # Run basic database and functionality tests
+        echo "🔍 Running basic unit tests..."
+
+        # Test database connection
         python -c "
-        from scripts.test_costco_scraper import test_database_connection, test_receipt_parser, test_costco_scraper_init
-
-        print('🔍 Running legacy unit tests...')
-        tests_passed = 0
-        total_tests = 0
-
-        # Test database
-        total_tests += 1
-        if test_database_connection():
-            tests_passed += 1
-
-        # Test receipt parser
-        total_tests += 1
-        if test_receipt_parser():
-            tests_passed += 1
-
-        # Test scraper init
-        total_tests += 1
-        if test_costco_scraper_init():
-            tests_passed += 1
-
-        print(f'✅ Legacy tests passed: {tests_passed}/{total_tests}')
-        if tests_passed != total_tests:
-            exit(1)
+        from scripts.grocery_db import GroceryDB
+        db = GroceryDB()
+        conn = db.get_connection()
+        print('✅ Database connection successful')
+        conn.close()
         "
+
+        # Test receipt matcher initialization
+        python -c "
+        from receipt_matcher import ReceiptMatcher
+        matcher = ReceiptMatcher()
+        print('✅ Receipt matcher initialization successful')
+        "
+
+        echo "✅ Basic unit tests completed successfully"
 
     - name: Run receipt matcher unit tests
       env:
