@@ -128,8 +128,8 @@ class ComprehensiveTestRunner:
         logger.info("=" * 50)
         
         try:
-            smoke_test_script = self.script_dir / "test_receipt_matcher_smoke.py"
-            
+            smoke_test_script = self.script_dir / "tests" / "smoke" / "test_receipt_matcher_smoke.py"
+
             if not smoke_test_script.exists():
                 logger.error(f"❌ SMOKE TEST SCRIPT NOT FOUND: {smoke_test_script}")
                 return False
@@ -188,7 +188,6 @@ class ComprehensiveTestRunner:
             "receipt_matcher.py",
             "test_receipt_matcher_unit.py",
             "test_receipt_matcher.py",
-            "test_receipt_matcher_smoke.py",
             "receipt_matcher_cron.py",
             "receipt_matcher_api.py",
             "setup_receipt_matcher.py"
