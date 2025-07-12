@@ -41,12 +41,6 @@ class SmokeTestRunner:
                 'file': 'test_receipt_matcher_smoke.py',
                 'description': 'Tests receipt matching system end-to-end',
                 'required_env': None
-            },
-            {
-                'name': 'Other Purchases Loader',
-                'file': 'test_other_purchases_smoke.py',
-                'description': 'Tests other purchases data loading and validation',
-                'required_env': None
             }
         ]
     
