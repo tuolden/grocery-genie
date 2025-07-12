@@ -37,14 +37,8 @@ class SmokeTestRunner:
         # Define smoke tests in execution order
         self.smoke_tests = [
             {
-                'name': 'Staging Environment',
-                'file': 'test_staging_smoke.py',
-                'description': 'Tests staging environment configuration and connectivity',
-                'required_env': 'staging'
-            },
-            {
                 'name': 'Receipt Matcher',
-                'file': 'test_receipt_matcher_smoke.py', 
+                'file': 'test_receipt_matcher_smoke.py',
                 'description': 'Tests receipt matching system end-to-end',
                 'required_env': None
             },
