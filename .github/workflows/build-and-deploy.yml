@@ -152,7 +152,7 @@ jobs:
         ENV: test
       run: |
         echo "🔥 Running receipt matcher smoke tests..."
-        python test_receipt_matcher_smoke.py
+        python tests/smoke/test_receipt_matcher_smoke.py
         if [ $? -eq 0 ]; then
           echo "✅ Receipt matcher smoke tests passed"
         else
