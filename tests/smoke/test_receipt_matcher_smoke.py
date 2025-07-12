@@ -23,8 +23,10 @@ from psycopg2.extras import RealDictCursor
 
 # Add project root to path
 sys.path.append(os.path.join(os.path.dirname(__file__), '..', '..'))
-from receipt_matcher import ReceiptMatcher
-from scripts.grocery_db import GroceryDB
+sys.path.append(os.path.join(os.path.dirname(__file__), '..', '..', 'src', 'services'))
+sys.path.append(os.path.join(os.path.dirname(__file__), '..', '..', 'src', 'scripts'))
+from src.services.receipt_matcher import ReceiptMatcher
+from src.scripts.grocery_db import GroceryDB
 
 # Configure logging with bright colors
 logging.basicConfig(
@@ -281,8 +283,8 @@ class ReceiptMatcherSmokeTest:
         logger.info("⏰ TESTING CRON JOB EXECUTION")
         
         try:
-            # Run the cron job script (located in project root)
-            script_path = Path(__file__).parent.parent.parent / "receipt_matcher_cron.py"
+            # Run the cron job script (located in src/services)
+            script_path = Path(__file__).parent.parent.parent / "src" / "services" / "receipt_matcher_cron.py"
 
             if not script_path.exists():
                 logger.warning(f"⚠️  CRON SCRIPT NOT FOUND: {script_path} (optional test)")
@@ -327,8 +329,8 @@ class ReceiptMatcherSmokeTest:
         logger.info("🌐 TESTING HTTP API ENDPOINTS")
         
         try:
-            # Start API server (located in project root)
-            api_script = Path(__file__).parent.parent.parent / "receipt_matcher_api.py"
+            # Start API server (located in src/api)
+            api_script = Path(__file__).parent.parent.parent / "src" / "api" / "receipt_matcher_api.py"
 
             if not api_script.exists():
                 logger.warning(f"⚠️  API SCRIPT NOT FOUND: {api_script} (optional test)")

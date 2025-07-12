@@ -24,6 +24,7 @@ from psycopg2.extras import RealDictCursor
 
 # Add scripts directory to path
 sys.path.append(os.path.join(os.path.dirname(__file__), "..", "scripts"))
+sys.path.append(os.path.join(os.path.dirname(__file__), "..", ".."))
 from src.scripts.grocery_db import GroceryDB
 
 # Configure logging with bright colors for visibility
