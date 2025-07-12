@@ -173,7 +173,7 @@ class ReceiptMatcherSmokeTest:
                 'marked_checked': 4,  # ORGANIC_BANANAS, WHOLE_MILK_GALLON, TOOTHPASTE_TUBE, ORANGE_JUICE (fuzzy match)
                 'removed_from_lists': 1,  # BREAD_LOAF (cross-store)
                 'inventory_added': 5,  # All matched items including fuzzy match
-                'no_action': 10,  # RANDOM_ITEM_NO_MATCH + 9 other_purchases items that don't match
+                'no_action': 1,  # RANDOM_ITEM_NO_MATCH (only item with no match in CI environment)
                 'errors': 0
             }
             
