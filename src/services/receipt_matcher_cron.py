@@ -22,7 +22,7 @@ from pathlib import Path
 
 # Add current directory to path
 sys.path.append(os.path.dirname(__file__))
-sys.path.append(os.path.join(os.path.dirname(__file__), '..', '..'))
+sys.path.append(os.path.join(os.path.dirname(__file__), "..", ".."))
 from src.services.receipt_matcher import ReceiptMatcher
 
 # Configure logging for cron job
