@@ -1,0 +1,368 @@
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: cvs-data-loader
+  namespace: staging
+  labels:
+    app: grocery-genie
+    component: data-loader
+    retailer: cvs
+    environment: staging
+spec:
+  schedule: "30 23 * * *"  # 11:30 PM EST daily
+  timeZone: "America/New_York"
+  concurrencyPolicy: Forbid
+  successfulJobsHistoryLimit: 3
+  failedJobsHistoryLimit: 3
+  jobTemplate:
+    spec:
+      template:
+        metadata:
+          labels:
+            app: grocery-genie
+            component: data-loader
+            retailer: cvs
+        spec:
+          restartPolicy: OnFailure
+          containers:
+          - name: cvs-data-loader
+            image: ghcr.io/tuolden/grocery-genie:latest
+            command: ["python", "src/loaders/cvs_data_loader.py"]
+            env:
+            - name: ENV
+              value: "staging"
+            - name: DB_HOST
+              valueFrom:
+                configMapKeyRef:
+                  name: grocery-genie-config
+                  key: DB_HOST
+            - name: DB_PORT
+              valueFrom:
+                configMapKeyRef:
+                  name: grocery-genie-config
+                  key: DB_PORT
+            - name: DB_NAME
+              valueFrom:
+                configMapKeyRef:
+                  name: grocery-genie-config
+                  key: DB_NAME
+            - name: DB_USER
+              valueFrom:
+                secretKeyRef:
+                  name: grocery-genie-secrets
+                  key: DB_USER
+            - name: DB_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: grocery-genie-secrets
+                  key: DB_PASSWORD
+            volumeMounts:
+            - name: data-storage
+              mountPath: /app/data
+            resources:
+              requests:
+                memory: "256Mi"
+                cpu: "100m"
+              limits:
+                memory: "512Mi"
+                cpu: "500m"
+          volumes:
+          - name: data-storage
+            persistentVolumeClaim:
+              claimName: grocery-genie-data-pvc
+
+---
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: costco-data-loader
+  namespace: staging
+  labels:
+    app: grocery-genie
+    component: data-loader
+    retailer: costco
+    environment: staging
+spec:
+  schedule: "35 23 * * *"  # 11:35 PM EST daily (5 min after CVS)
+  timeZone: "America/New_York"
+  concurrencyPolicy: Forbid
+  successfulJobsHistoryLimit: 3
+  failedJobsHistoryLimit: 3
+  jobTemplate:
+    spec:
+      template:
+        metadata:
+          labels:
+            app: grocery-genie
+            component: data-loader
+            retailer: costco
+        spec:
+          restartPolicy: OnFailure
+          containers:
+          - name: costco-data-loader
+            image: ghcr.io/tuolden/grocery-genie:latest
+            command: ["python", "src/loaders/yaml_to_database.py"]
+            env:
+            - name: ENV
+              value: "staging"
+            - name: DB_HOST
+              valueFrom:
+                configMapKeyRef:
+                  name: grocery-genie-config
+                  key: DB_HOST
+            - name: DB_PORT
+              valueFrom:
+                configMapKeyRef:
+                  name: grocery-genie-config
+                  key: DB_PORT
+            - name: DB_NAME
+              valueFrom:
+                configMapKeyRef:
+                  name: grocery-genie-config
+                  key: DB_NAME
+            - name: DB_USER
+              valueFrom:
+                secretKeyRef:
+                  name: grocery-genie-secrets
+                  key: DB_USER
+            - name: DB_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: grocery-genie-secrets
+                  key: DB_PASSWORD
+            volumeMounts:
+            - name: data-storage
+              mountPath: /app/data
+            resources:
+              requests:
+                memory: "256Mi"
+                cpu: "100m"
+              limits:
+                memory: "512Mi"
+                cpu: "500m"
+          volumes:
+          - name: data-storage
+            persistentVolumeClaim:
+              claimName: grocery-genie-data-pvc
+
+---
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: walmart-data-loader
+  namespace: staging
+  labels:
+    app: grocery-genie
+    component: data-loader
+    retailer: walmart
+    environment: staging
+spec:
+  schedule: "40 23 * * *"  # 11:40 PM EST daily (10 min after CVS)
+  timeZone: "America/New_York"
+  concurrencyPolicy: Forbid
+  successfulJobsHistoryLimit: 3
+  failedJobsHistoryLimit: 3
+  jobTemplate:
+    spec:
+      template:
+        metadata:
+          labels:
+            app: grocery-genie
+            component: data-loader
+            retailer: walmart
+        spec:
+          restartPolicy: OnFailure
+          containers:
+          - name: walmart-data-loader
+            image: ghcr.io/tuolden/grocery-genie:latest
+            command: ["python", "src/loaders/walmart_data_loader.py"]
+            env:
+            - name: ENV
+              value: "staging"
+            - name: DB_HOST
+              valueFrom:
+                configMapKeyRef:
+                  name: grocery-genie-config
+                  key: DB_HOST
+            - name: DB_PORT
+              valueFrom:
+                configMapKeyRef:
+                  name: grocery-genie-config
+                  key: DB_PORT
+            - name: DB_NAME
+              valueFrom:
+                configMapKeyRef:
+                  name: grocery-genie-config
+                  key: DB_NAME
+            - name: DB_USER
+              valueFrom:
+                secretKeyRef:
+                  name: grocery-genie-secrets
+                  key: DB_USER
+            - name: DB_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: grocery-genie-secrets
+                  key: DB_PASSWORD
+            volumeMounts:
+            - name: data-storage
+              mountPath: /app/data
+            resources:
+              requests:
+                memory: "256Mi"
+                cpu: "100m"
+              limits:
+                memory: "512Mi"
+                cpu: "500m"
+          volumes:
+          - name: data-storage
+            persistentVolumeClaim:
+              claimName: grocery-genie-data-pvc
+
+---
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: publix-data-loader
+  namespace: staging
+  labels:
+    app: grocery-genie
+    component: data-loader
+    retailer: publix
+    environment: staging
+spec:
+  schedule: "45 23 * * *"  # 11:45 PM EST daily (15 min after CVS)
+  timeZone: "America/New_York"
+  concurrencyPolicy: Forbid
+  successfulJobsHistoryLimit: 3
+  failedJobsHistoryLimit: 3
+  jobTemplate:
+    spec:
+      template:
+        metadata:
+          labels:
+            app: grocery-genie
+            component: data-loader
+            retailer: publix
+        spec:
+          restartPolicy: OnFailure
+          containers:
+          - name: publix-data-loader
+            image: ghcr.io/tuolden/grocery-genie:latest
+            command: ["python", "src/loaders/publix_data_processor.py"]
+            env:
+            - name: ENV
+              value: "staging"
+            - name: DB_HOST
+              valueFrom:
+                configMapKeyRef:
+                  name: grocery-genie-config
+                  key: DB_HOST
+            - name: DB_PORT
+              valueFrom:
+                configMapKeyRef:
+                  name: grocery-genie-config
+                  key: DB_PORT
+            - name: DB_NAME
+              valueFrom:
+                configMapKeyRef:
+                  name: grocery-genie-config
+                  key: DB_NAME
+            - name: DB_USER
+              valueFrom:
+                secretKeyRef:
+                  name: grocery-genie-secrets
+                  key: DB_USER
+            - name: DB_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: grocery-genie-secrets
+                  key: DB_PASSWORD
+            volumeMounts:
+            - name: data-storage
+              mountPath: /app/data
+            resources:
+              requests:
+                memory: "256Mi"
+                cpu: "100m"
+              limits:
+                memory: "512Mi"
+                cpu: "500m"
+          volumes:
+          - name: data-storage
+            persistentVolumeClaim:
+              claimName: grocery-genie-data-pvc
+
+---
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: other-purchases-loader
+  namespace: staging
+  labels:
+    app: grocery-genie
+    component: data-loader
+    retailer: other
+    environment: staging
+spec:
+  schedule: "50 23 * * *"  # 11:50 PM EST daily (20 min after CVS)
+  timeZone: "America/New_York"
+  concurrencyPolicy: Forbid
+  successfulJobsHistoryLimit: 3
+  failedJobsHistoryLimit: 3
+  jobTemplate:
+    spec:
+      template:
+        metadata:
+          labels:
+            app: grocery-genie
+            component: data-loader
+            retailer: other
+        spec:
+          restartPolicy: OnFailure
+          containers:
+          - name: other-purchases-loader
+            image: ghcr.io/tuolden/grocery-genie:latest
+            command: ["python", "src/loaders/other_purchases_loader.py"]
+            env:
+            - name: ENV
+              value: "staging"
+            - name: DB_HOST
+              valueFrom:
+                configMapKeyRef:
+                  name: grocery-genie-config
+                  key: DB_HOST
+            - name: DB_PORT
+              valueFrom:
+                configMapKeyRef:
+                  name: grocery-genie-config
+                  key: DB_PORT
+            - name: DB_NAME
+              valueFrom:
+                configMapKeyRef:
+                  name: grocery-genie-config
+                  key: DB_NAME
+            - name: DB_USER
+              valueFrom:
+                secretKeyRef:
+                  name: grocery-genie-secrets
+                  key: DB_USER
+            - name: DB_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: grocery-genie-secrets
+                  key: DB_PASSWORD
+            volumeMounts:
+            - name: data-storage
+              mountPath: /app/data
+            resources:
+              requests:
+                memory: "256Mi"
+                cpu: "100m"
+              limits:
+                memory: "512Mi"
+                cpu: "500m"
+          volumes:
+          - name: data-storage
+            persistentVolumeClaim:
+              claimName: grocery-genie-data-pvc
