@@ -385,6 +385,24 @@ jobs:
         echo "🔍 LOG: Waiting for staging deployment to complete..."
         sleep 60  # Give ArgoCD time to sync
 
+    - name: Run simple staging smoke test
+      env:
+        DB_HOST: localhost
+        DB_PORT: 5432
+        DB_USER: test_user
+        DB_PASSWORD: test_password
+        DB_NAME: test_db
+        ENV: staging
+      run: |
+        echo "🔥 Running simple staging smoke test..."
+        python tests/smoke/test_simple_staging_smoke.py
+        if [ $? -eq 0 ]; then
+          echo "✅ Simple staging smoke test passed"
+        else
+          echo "❌ Simple staging smoke test failed"
+          exit 1
+        fi
+
     - name: Staging deployment validation
       run: |
         echo "🔍 LOG: Staging deployment completed successfully"
