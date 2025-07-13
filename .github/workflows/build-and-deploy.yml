@@ -324,6 +324,17 @@ jobs:
         git config --local user.name "GitHub Actions"
         git add kubernetes/staging/deployment.yaml
         git commit -m "🚀 Deploy to staging: ${{ github.sha }}"
+
+        # Handle potential conflicts by pulling latest changes
+        echo "🔄 Pulling latest changes before push..."
+        git pull --rebase origin main || {
+          echo "⚠️  Rebase conflict detected, attempting to resolve..."
+          git rebase --abort
+          git pull origin main
+          git add kubernetes/staging/deployment.yaml
+          git commit -m "🚀 Deploy to staging: ${{ github.sha }}"
+        }
+
         git push origin main
         echo "🔍 LOG: Staging deployment committed, ArgoCD should detect changes"
 
@@ -449,6 +460,17 @@ jobs:
         git config --local user.name "GitHub Actions"
         git add kubernetes/production/deployment.yaml
         git commit -m "🚀 Deploy to production: ${{ github.sha }}"
+
+        # Handle potential conflicts by pulling latest changes
+        echo "🔄 Pulling latest changes before push..."
+        git pull --rebase origin main || {
+          echo "⚠️  Rebase conflict detected, attempting to resolve..."
+          git rebase --abort
+          git pull origin main
+          git add kubernetes/production/deployment.yaml
+          git commit -m "🚀 Deploy to production: ${{ github.sha }}"
+        }
+
         git push origin main
         echo "🔍 LOG: Production deployment committed, ArgoCD should detect changes"
 
