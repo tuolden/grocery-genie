@@ -1,4 +1,3 @@
-# ruff: noqa: E501, PLW2901, PLR2004
 """
 Database operations for grocery purchase data.
 Handles insertion, updates, and queries for grocery store purchases.
@@ -623,9 +622,7 @@ class GroceryDB:
                 print(f"[ERROR] Batch insert error for purchase: {e}")
                 error_count += 1
 
-        print(
-            f"[✓] Batch insert completed: {success_count} success, {error_count} errors"
-        )
+        print(f"[✓] Batch insert completed: {success_count} success, {error_count} errors")
         return success_count, error_count
 
     def insert_walmart_purchase(self, purchase_data):
@@ -714,9 +711,7 @@ class GroceryDB:
                 print(f"[ERROR] Batch insert error for purchase: {e}")
                 error_count += 1
 
-        print(
-            f"[✓] Batch insert completed: {success_count} success, {error_count} errors"
-        )
+        print(f"[✓] Batch insert completed: {success_count} success, {error_count} errors")
         return success_count, error_count
 
     def get_recent_costco_purchases(self, days_back=30):
@@ -800,9 +795,7 @@ class GroceryDB:
                 summary = dict(zip(columns, row, strict=False))
                 # Convert date objects to strings
                 if summary.get("earliest_purchase"):
-                    summary["earliest_purchase"] = summary[
-                        "earliest_purchase"
-                    ].isoformat()
+                    summary["earliest_purchase"] = summary["earliest_purchase"].isoformat()
                 if summary.get("latest_purchase"):
                     summary["latest_purchase"] = summary["latest_purchase"].isoformat()
                 return summary
@@ -849,9 +842,7 @@ def parse_costco_receipt_format(receipt_text):
                     "item_type": parts[0],
                     "item_code": parts[1],
                     "item_name": parts[2],
-                    "item_price": float(parts[3])
-                    if parts[3].replace(".", "").isdigit()
-                    else 0.0,
+                    "item_price": float(parts[3]) if parts[3].replace(".", "").isdigit() else 0.0,
                     "tax_indicator": parts[4] if len(parts) > 4 else "N",
                 }
                 receipt_data["items"].append(item)

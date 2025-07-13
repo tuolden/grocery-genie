@@ -1,4 +1,3 @@
-# ruff: noqa: E501, PTH103, PLR0911
 """
 Costco Warehouse Receipts Scraper
 Scrapes Costco receipts and saves them as individual YAML files.
@@ -44,9 +43,7 @@ def save_receipt_to_yaml(receipt):
                 filename = dt.strftime("%Y-%m-%dT%H-%M-%S.yaml")
             except Exception:
                 # Fallback filename if date parsing fails
-                filename = (
-                    f"receipt-{datetime.now().strftime('%Y-%m-%dT%H-%M-%S')}.yaml"
-                )
+                filename = f"receipt-{datetime.now().strftime('%Y-%m-%dT%H-%M-%S')}.yaml"
         else:
             filename = f"receipt-{datetime.now().strftime('%Y-%m-%dT%H-%M-%S')}.yaml"
 
@@ -148,9 +145,7 @@ def save_receipt_to_yaml(receipt):
                 "entry_method": tender.get("entryMethod", ""),
                 "tender_acct_txn_number": tender.get("tenderAcctTxnNumber", ""),
                 "tender_authorization_code": tender.get("tenderAuthorizationCode", ""),
-                "tender_entry_method_description": tender.get(
-                    "tenderEntryMethodDescription", ""
-                ),
+                "tender_entry_method_description": tender.get("tenderEntryMethodDescription", ""),
                 "wallet_type": tender.get("walletType", ""),
                 "wallet_id": tender.get("walletId", ""),
                 "stored_value_bucket": tender.get("storedValueBucket", ""),
@@ -210,9 +205,7 @@ def get_warehouse_receipts(months_back=3):
         start_date_str = start_date.strftime("%m/%d/%Y")
         end_date_str = end_date.strftime("%m/%d/%Y")
 
-        print(
-            f"📅 Querying: {start_date_str} to {end_date_str} (last {months_back} months)"
-        )
+        print(f"📅 Querying: {start_date_str} to {end_date_str} (last {months_back} months)")
 
         # API endpoint
         url = "https://ecom-api.costco.com/ebusiness/order/v1/orders/graphql"
@@ -380,7 +373,7 @@ def get_warehouse_receipts(months_back=3):
 
         print(f"📡 Response Status: {response.status_code}")
 
-        if response.status_code == 200:  # noqa: PLR2004
+        if response.status_code == 200:
             data = response.json()
             print("✅ API CALL SUCCESSFUL!")
 
@@ -395,12 +388,8 @@ def get_warehouse_receipts(months_back=3):
                 receipts = receipts_data.get("receipts", [])
 
                 print("\n📊 WAREHOUSE RECEIPTS RESULTS:")
-                print(
-                    f"   🏪 In-warehouse receipts: {receipts_data.get('inWarehouse', 0)}"
-                )
-                print(
-                    f"   ⛽ Gas station receipts: {receipts_data.get('gasStation', 0)}"
-                )
+                print(f"   🏪 In-warehouse receipts: {receipts_data.get('inWarehouse', 0)}")
+                print(f"   ⛽ Gas station receipts: {receipts_data.get('gasStation', 0)}")
                 print(f"   🚗 Car wash receipts: {receipts_data.get('carWash', 0)}")
                 print(f"   🔄 Gas + Car wash: {receipts_data.get('gasAndCarWash', 0)}")
                 print(f"   📄 Total receipts found: {len(receipts)}")
@@ -417,9 +406,7 @@ def get_warehouse_receipts(months_back=3):
                             saved_count += 1
                         total_items += len(receipt.get("itemArray", []))
 
-                    print(
-                        f"✅ Successfully saved {saved_count} receipts to ./data/costco/"
-                    )
+                    print(f"✅ Successfully saved {saved_count} receipts to ./data/costco/")
                     print(f"📦 Total items: {total_items}")
                     print("\n🎉 SUCCESS! All receipts saved as YAML files!")
                     print("📁 Location: ./data/costco/")
@@ -434,7 +421,7 @@ def get_warehouse_receipts(months_back=3):
                 print(f"Errors: {data['errors']}")
             return False, data
 
-        if response.status_code == 401:  # noqa: PLR2004
+        if response.status_code == 401:
             print("❌ AUTHENTICATION FAILED")
             print("💡 Your token has expired. Get a fresh one:")
             print("   1. Go to costco.com > My Account > Orders and Purchases")

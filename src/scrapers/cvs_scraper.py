@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-# ruff: noqa: E501, PTH103, FBT001, FBT002
 """
 CVS Order Scraper
 
@@ -105,7 +104,7 @@ class CVSScraper:
             print(f"🔍 Fetching orders list (page {page}, {months} months)...")
             response = self.session.post(url, json=payload)
 
-            if response.status_code == 200:  # noqa: PLR2004
+            if response.status_code == 200:
                 data = response.json()
                 print(f"✅ Retrieved {len(data.get('orders', []))} orders")
                 return data
@@ -117,9 +116,7 @@ class CVSScraper:
             print(f"❌ Error fetching orders: {e}")
             return None
 
-    def get_order_details(
-        self, order_number: str, order_type: str = "STORE"
-    ) -> dict | None:
+    def get_order_details(self, order_number: str, order_type: str = "STORE") -> dict | None:
         """
         Get detailed information for a specific order.
 
@@ -147,7 +144,7 @@ class CVSScraper:
             print(f"🔍 Fetching details for order {order_number}...")
             response = self.session.post(url, json=payload)
 
-            if response.status_code == 200:  # noqa: PLR2004
+            if response.status_code == 200:
                 data = response.json()
                 print(f"✅ Retrieved details for order {order_number}")
                 return data
@@ -159,9 +156,7 @@ class CVSScraper:
             print(f"❌ Error fetching order details: {e}")
             return None
 
-    def save_order_yaml(
-        self, order_data: dict, output_dir: str = "data/cvs"
-    ) -> str | None:
+    def save_order_yaml(self, order_data: dict, output_dir: str = "data/cvs") -> str | None:
         """
         Save order data as YAML file.
 
@@ -197,9 +192,7 @@ class CVSScraper:
             print(f"❌ Error saving YAML: {e}")
             return None
 
-    def scrape_all_orders(
-        self, months: int = 12, save_details: bool = True
-    ) -> list[dict]:
+    def scrape_all_orders(self, months: int = 12, save_details: bool = True) -> list[dict]:
         """
         Scrape all orders and optionally their details.
 
@@ -225,9 +218,7 @@ class CVSScraper:
 
             for order in orders:
                 order_number = order.get("number")
-                order_type = (
-                    order.get("type", ["STORE"])[0] if order.get("type") else "STORE"
-                )
+                order_type = order.get("type", ["STORE"])[0] if order.get("type") else "STORE"
 
                 if save_details and order_number:
                     # Get detailed order information

@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-# ruff: noqa: E501
 """
 Receipt Matcher - Automatically mark items as purchased from receipts
 
@@ -350,9 +349,7 @@ class ReceiptMatcher:
         matches = []
 
         for purchase in purchases:
-            logger.info(
-                f"🛒 Processing purchase: {purchase.item_name} from {purchase.store}"
-            )
+            logger.info(f"🛒 Processing purchase: {purchase.item_name} from {purchase.store}")
 
             best_match = None
             best_score = 0.0
@@ -362,9 +359,7 @@ class ReceiptMatcher:
                 if list_item.is_checked:
                     continue  # Skip already checked items
 
-                similarity = self.calculate_similarity(
-                    purchase.item_name, list_item.item_name
-                )
+                similarity = self.calculate_similarity(purchase.item_name, list_item.item_name)
 
                 if similarity > best_score and similarity >= self.match_threshold:
                     best_score = similarity
@@ -543,12 +538,8 @@ class ReceiptMatcher:
             logger.info(f"🛒 Recent purchases processed: {len(purchases)}")
             logger.info(f"📋 List items checked: {len(list_items)}")
             logger.info(f"✅ Items marked as checked: {stats.get('marked_checked', 0)}")
-            logger.info(
-                f"🗑️ Items removed from lists: {stats.get('removed_from_lists', 0)}"
-            )
-            logger.info(
-                f"📦 Items added to inventory: {stats.get('inventory_added', 0)}"
-            )
+            logger.info(f"🗑️ Items removed from lists: {stats.get('removed_from_lists', 0)}")
+            logger.info(f"📦 Items added to inventory: {stats.get('inventory_added', 0)}")
             logger.info(f"❌ No action taken: {stats.get('no_action', 0)}")
             logger.info(f"⚠️ Errors encountered: {stats.get('errors', 0)}")
             logger.info("=" * 60)

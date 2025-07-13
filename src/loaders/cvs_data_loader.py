@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-# ruff: noqa: PTH208
 """
 CVS Data Loader
 
@@ -77,9 +76,7 @@ def load_cvs_order_to_database(db: GroceryDB, order_data: dict) -> int:
 
         # Extract order-level information
         order_number = order_data.get("number")
-        order_type = (
-            order_data.get("type", [None])[0] if order_data.get("type") else None
-        )
+        order_type = order_data.get("type", [None])[0] if order_data.get("type") else None
         purchase_date = parse_cvs_date(order_data.get("date"))
         purchase_time = parse_cvs_time(order_data.get("date"))
 
@@ -117,9 +114,7 @@ def load_cvs_order_to_database(db: GroceryDB, order_data: dict) -> int:
         split_shipment = order_info.get("splitShipment", False)
         split_fulfillment = order_info.get("splitFulfillment", False)
         return_eligible = order_info.get("returnEligible", False)
-        return_eligible_final_date = parse_cvs_date(
-            order_info.get("returnEligibleFinalDate")
-        )
+        return_eligible_final_date = parse_cvs_date(order_info.get("returnEligibleFinalDate"))
 
         # Process items from inStore section
         items_loaded = 0
@@ -155,9 +150,7 @@ def load_cvs_order_to_database(db: GroceryDB, order_data: dict) -> int:
                     "item_price_final": parse_decimal(item.get("priceFinal")),
                     "item_savings": parse_decimal(item.get("savings")),
                     "item_tax": parse_decimal(item.get("tax")),
-                    "item_line_total_without_tax": parse_decimal(
-                        item.get("lineTotalWithoutTax")
-                    ),
+                    "item_line_total_without_tax": parse_decimal(item.get("lineTotalWithoutTax")),
                     "item_status": item.get("status"),
                     "item_image_url": item.get("image"),
                     "item_url": item.get("url"),

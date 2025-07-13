@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-# ruff: noqa: N802
 """
 Receipt Matcher HTTP API
 
@@ -47,7 +46,7 @@ class ReceiptMatcherHandler(BaseHTTPRequestHandler):
         """Override to use our logger"""
         logger.info(f"HTTP {msg_format % args}")
 
-    def do_GET(self):
+    def do_GET(self):  # noqa: N802
         """Handle GET requests"""
         parsed_path = urlparse(self.path)
 
@@ -58,7 +57,7 @@ class ReceiptMatcherHandler(BaseHTTPRequestHandler):
         else:
             self._send_error(404, "Not Found")
 
-    def do_POST(self):
+    def do_POST(self):  # noqa: N802
         """Handle POST requests"""
         parsed_path = urlparse(self.path)
 
@@ -113,9 +112,7 @@ class ReceiptMatcherHandler(BaseHTTPRequestHandler):
             # Get parameters
             lookback_hours = params.get("lookback_hours", 24)
 
-            logger.info(
-                f"🚀 Triggering receipt matching (lookback: {lookback_hours} hours)"
-            )
+            logger.info(f"🚀 Triggering receipt matching (lookback: {lookback_hours} hours)")
 
             # Run matching in a separate thread to avoid blocking
             def run_matching():
@@ -124,9 +121,7 @@ class ReceiptMatcherHandler(BaseHTTPRequestHandler):
                     stats = matcher.run_matching_process()
 
                     # Save status
-                    status_file = (
-                        Path(__file__).parent / "logs" / "last_run_status.json"
-                    )
+                    status_file = Path(__file__).parent / "logs" / "last_run_status.json"
                     status_file.parent.mkdir(exist_ok=True)
 
                     status_data = {
@@ -145,9 +140,7 @@ class ReceiptMatcherHandler(BaseHTTPRequestHandler):
                     logger.error(f"❌ API-triggered matching failed: {e}")
 
                     # Save error status
-                    status_file = (
-                        Path(__file__).parent / "logs" / "last_run_status.json"
-                    )
+                    status_file = Path(__file__).parent / "logs" / "last_run_status.json"
                     status_file.parent.mkdir(exist_ok=True)
 
                     status_data = {

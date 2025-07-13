@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-# ruff: noqa: PTH103, PLR2004, PLW2901, PTH208, DTZ007
 """
 Publix Data Processor
 
@@ -98,13 +97,9 @@ class PublixDataProcessor:
         # Look for store manager and phone
         for line in lines[:10]:
             if "Store Manager:" in line:
-                receipt_info["store_info"]["manager"] = line.replace(
-                    "Store Manager:", ""
-                ).strip()
+                receipt_info["store_info"]["manager"] = line.replace("Store Manager:", "").strip()
             elif re.match(r".*\d{3}-\d{3}-\d{4}.*", line):
-                receipt_info["store_info"]["phone"] = re.search(
-                    r"\d{3}-\d{3}-\d{4}", line
-                ).group()
+                receipt_info["store_info"]["phone"] = re.search(r"\d{3}-\d{3}-\d{4}", line).group()
 
         # Parse items and totals
         for line in lines:
@@ -117,9 +112,7 @@ class PublixDataProcessor:
             # Look for item lines (have price at end)
             if re.match(r".*\d+\.\d{2}\s*[THFP]?\s*$", line):
                 # Extract item info
-                parts = line.rsplit(
-                    None, 2
-                )  # Split from right to get price and tax flag
+                parts = line.rsplit(None, 2)  # Split from right to get price and tax flag
                 if len(parts) >= 2:
                     item_name = " ".join(parts[:-2]) if len(parts) > 2 else parts[0]
                     price_str = parts[-2] if len(parts) > 2 else parts[-1]
@@ -147,21 +140,15 @@ class PublixDataProcessor:
             elif "Order Total" in line:
                 total_match = re.search(r"\d+\.\d{2}", line)
                 if total_match:
-                    receipt_info["totals"]["order_total"] = self.parse_decimal(
-                        total_match.group()
-                    )
+                    receipt_info["totals"]["order_total"] = self.parse_decimal(total_match.group())
             elif "Sales Tax" in line:
                 tax_match = re.search(r"\d+\.\d{2}", line)
                 if tax_match:
-                    receipt_info["totals"]["sales_tax"] = self.parse_decimal(
-                        tax_match.group()
-                    )
+                    receipt_info["totals"]["sales_tax"] = self.parse_decimal(tax_match.group())
             elif "Grand Total" in line:
                 grand_match = re.search(r"\d+\.\d{2}", line)
                 if grand_match:
-                    receipt_info["totals"]["grand_total"] = self.parse_decimal(
-                        grand_match.group()
-                    )
+                    receipt_info["totals"]["grand_total"] = self.parse_decimal(grand_match.group())
 
             # Look for savings
             elif "Digital Coupon" in line:
@@ -176,8 +163,8 @@ class PublixDataProcessor:
                     if next_line_idx < len(lines):
                         savings_match = re.search(r"\d+\.\d{2}", lines[next_line_idx])
                         if savings_match:
-                            receipt_info["savings"]["total_savings"] = (
-                                self.parse_decimal(savings_match.group())
+                            receipt_info["savings"]["total_savings"] = self.parse_decimal(
+                                savings_match.group()
                             )
                 except (ValueError, IndexError):
                     pass
@@ -198,21 +185,19 @@ class PublixDataProcessor:
                                 amount_match.group(1)
                             )
                     elif "Auth #:" in payment_line:
-                        receipt_info["payment_info"]["auth_number"] = (
-                            payment_line.split("Auth #:")[-1].strip()
-                        )
+                        receipt_info["payment_info"]["auth_number"] = payment_line.split("Auth #:")[
+                            -1
+                        ].strip()
                     elif "Acct #:" in payment_line:
-                        receipt_info["payment_info"]["account_number"] = (
-                            payment_line.split("Acct #:")[-1].strip()
-                        )
+                        receipt_info["payment_info"]["account_number"] = payment_line.split(
+                            "Acct #:"
+                        )[-1].strip()
 
             # Look for FSA info
             elif "FSA Total:" in line:
                 fsa_match = re.search(r"\$(\d+\.\d{2})", line)
                 if fsa_match:
-                    receipt_info["fsa_info"]["total"] = self.parse_decimal(
-                        fsa_match.group(1)
-                    )
+                    receipt_info["fsa_info"]["total"] = self.parse_decimal(fsa_match.group(1))
             elif "Prescription (P):" in line:
                 fsa_match = re.search(r"(\d+\.\d{2})", line)
                 if fsa_match:
@@ -228,13 +213,9 @@ class PublixDataProcessor:
 
             # Look for staff info
             elif "Your cashier was" in line:
-                receipt_info["staff_info"]["cashier"] = line.replace(
-                    "Your cashier was", ""
-                ).strip()
+                receipt_info["staff_info"]["cashier"] = line.replace("Your cashier was", "").strip()
             elif "Supervisor #" in line:
-                receipt_info["staff_info"]["supervisor"] = line.replace(
-                    "Supervisor #", ""
-                ).strip()
+                receipt_info["staff_info"]["supervisor"] = line.replace("Supervisor #", "").strip()
 
         return receipt_info
 
@@ -252,12 +233,8 @@ class PublixDataProcessor:
             parsed_receipt = self.parse_receipt_text(receipt_text)
 
             # Extract basic info
-            purchase_date = self.parse_publix_date(
-                original_purchase.get("PurchaseDate", "")
-            )
-            purchase_time = self.parse_publix_time(
-                original_purchase.get("PurchaseDate", "")
-            )
+            purchase_date = self.parse_publix_date(original_purchase.get("PurchaseDate", ""))
+            purchase_time = self.parse_publix_time(original_purchase.get("PurchaseDate", ""))
 
             # Build structured purchase data
             return {
@@ -293,9 +270,7 @@ class PublixDataProcessor:
             filepath = os.path.join(self.yaml_dir, filename)
 
             with open(filepath, "w", encoding="utf-8") as f:
-                yaml.dump(
-                    purchase_data, f, default_flow_style=False, allow_unicode=True
-                )
+                yaml.dump(purchase_data, f, default_flow_style=False, allow_unicode=True)
 
             return True
 
@@ -314,9 +289,7 @@ class PublixDataProcessor:
 
         # Get all detail JSON files
         detail_files = [
-            f
-            for f in os.listdir(self.raw_dir)
-            if f.startswith("detail-") and f.endswith(".json")
+            f for f in os.listdir(self.raw_dir) if f.startswith("detail-") and f.endswith(".json")
         ]
 
         if not detail_files:
@@ -342,9 +315,7 @@ class PublixDataProcessor:
                 if purchase_date != "unknown-date" and purchase_time != "00:00:00":
                     # Convert to filename format: YYYY-MM-DDTHH-MM-SS.yaml
                     date_part = purchase_date  # Already in YYYY-MM-DD format
-                    time_part = purchase_time.replace(
-                        ":", "-"
-                    )  # Convert HH:MM:SS to HH-MM-SS
+                    time_part = purchase_time.replace(":", "-")  # Convert HH:MM:SS to HH-MM-SS
                     yaml_filename = f"{date_part}T{time_part}.yaml"
                 else:
                     # Fallback to original filename
@@ -459,12 +430,8 @@ class PublixDataProcessor:
             order_total = self.parse_decimal(purchase_data.get("order_total"))
             tax_amount = self.parse_decimal(purchase_data.get("tax_amount"))
             grand_total = self.parse_decimal(purchase_data.get("grand_total"))
-            vendor_coupon_amount = self.parse_decimal(
-                purchase_data.get("vendor_coupon_amount")
-            )
-            store_coupon_amount = self.parse_decimal(
-                purchase_data.get("store_coupon_amount")
-            )
+            vendor_coupon_amount = self.parse_decimal(purchase_data.get("vendor_coupon_amount"))
+            store_coupon_amount = self.parse_decimal(purchase_data.get("store_coupon_amount"))
 
             # Savings info
             savings = purchase_data.get("savings", {})
@@ -481,9 +448,7 @@ class PublixDataProcessor:
             fsa_info = purchase_data.get("fsa_info", {})
             fsa_total = self.parse_decimal(fsa_info.get("total"))
             fsa_prescription_amount = self.parse_decimal(fsa_info.get("prescription"))
-            fsa_non_prescription_amount = self.parse_decimal(
-                fsa_info.get("non_prescription")
-            )
+            fsa_non_prescription_amount = self.parse_decimal(fsa_info.get("non_prescription"))
 
             # Staff info
             staff_info = purchase_data.get("staff_info", {})
@@ -630,9 +595,7 @@ class PublixDataProcessor:
             item_name = receipt_item.get("name", "") if receipt_item else ""
             item_description = None
             item_quantity = 1  # Receipt items don't have quantity info
-            item_price = (
-                self.parse_decimal(receipt_item.get("price")) if receipt_item else None
-            )
+            item_price = self.parse_decimal(receipt_item.get("price")) if receipt_item else None
             item_size_description = None
             item_image_url = None
             item_detail_url = None
@@ -641,9 +604,7 @@ class PublixDataProcessor:
             retail_sub_section_number = None
             activation_status = None
             receipt_line_text = receipt_item.get("line_text") if receipt_item else None
-            is_voided_item = (
-                receipt_item.get("is_voided", False) if receipt_item else False
-            )
+            is_voided_item = receipt_item.get("is_voided", False) if receipt_item else False
             item_tax_flag = receipt_item.get("tax_flag") if receipt_item else None
 
         return {

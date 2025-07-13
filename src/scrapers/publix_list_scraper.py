@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-# ruff: noqa: E501, PTH103, S501
 """
 Publix Purchases List Scraper
 
@@ -33,9 +32,7 @@ class PublixListScraper:
         self.akamai_telemetry = "a=B1F935F505CBEFDC415942B2C85F3A1F&&&e=NEM0QTU4NzI4MzQyNDY3MUY5ODgxRjkyMjgxNDdFODJ+WUFBUUUvd3hGODNWM01TWEFRQUF0RWF2MFJ6QVNOa2ZoYjRvTFZSZi9mVXBrL2ZmZXdQR0NIRXEyZmREOXFveEp4Z3MwZG1TcUtEYUdrMTNlQmtpTWlGODFkajVLQTlnblZHY3laYTdiV2pvZ1FYbjhWSXJZT3FUZFQ0YWJuQ1llb3M4MDRMbUU3Y2VmYzVkT1RMOVRRL1lXRHJOQ3NPOVIyY2NoT3NWS01uYWdwek4vK1hXajJOdEgzcFFhNFdYVGhxalAwWUxPait2U3FSUEk1bEZ1YWhRZ2dYTE5TU3FBSHRjOHNVUlVZSVlYSklmUjBJN2pmbjB2QjIyQi8wNXhoR1d3VjJMMzFham03aUQ2djN1WnFvVjBQRDFERDFKcWlJMFMyd1YvQ1g4RC9adlplWEtpODVUcVlqaTRoamVtU3hldzdBaFY3MUdHSVhvKzV1cUY3cGI5akhJbWREZkJjVmIrcElYZ1F5d3ZOcHYwWDUzZ3F0N0JzY2pWbTVaYWtBcFZzblVGTVo2YjUwZmJVQzNuR1preXJnVC95VG53b1Z2cHExcVdRVzZZUVpBdUJUL3V1Z2VSR3FLOWpoeTVxcytCczVaemVlYWZXaytIZnMxY25FV3lhYnlvT3NNWUxxcWsvbHZJUGhSZzEvQnBrLy9DMjQ2WXB1OHVuQ1NZUEtydDNjU0d2cmpEQ3ZGU1pHTGNkZFpRMkpDQ1VIMVdiYWZTclh3aDdKdGxTVXRSbXF0dWFHVlFZbTVnc0g1WnpUK0ZxS3JBUT09fjM0MjU1ODV+NDYwMTE1Nw==&&&sensor_data=MzsxOzI7MDszNDI1NTg1O2ZQTzg0WUFyekFFR2Q3YXJFY280WmlzK28zaitsN1NKc051dGUwZVVNWnM9OzMsNTEsMCwwLDEsMDsiIixQSSIjZDMiR3ZuYGciY2YpJSIlIno7fWwiaDE8ImdadCJaYzMwQSI1fXt0IlttaytyIlJLVnEiJig2Sng5Ink6fHkiTiJkdGlWKSxdJEFWdEtYQi93JG5ea1Bfdl14KEVsIEdxZy1HdFJsbTQ7bmAgJCNKajBrbFJJS34iJCJwSncifGtWNU4iN0ZUIlV4LVJYIlpNLlMicjBQLlpJXktzImd7eyJ9IktLY3VFYixKIyZLP0N1R0tQfkAqIj8iP3FVInJhcXpwX11QVCkicHxqImpaYz1rdXQiUFEiNmheI2R8ICl+bTwiRl4ifT13QSYkYVQiOm0iZTRSRHF2RiJnZVMiQCIlIm0oQiI5YkUidDJRbGsiJT12Iih5UTd0TSJ5PyoiRyJfcjYiRSJwfEs4ZSJQclciT1g/Ikche1h+X2wsazM6Im9zOSJqIiJ1InMzdSJxIlV0OSAiUiJ4cCQiPCJafH1vKSlCfUdhfThBNmVPPTc0IWUzbi5SfWAoZTVjeTcxfVt7IFt3bUBReyZjWCJOLHsiP1tFImsiQEpMS2ZsPGcsNUQtOGtGUCJbInxXRyJfWUwuVSItNi0iITgjblhuXisqeGM8LyIiTCIkLnIiTiR6LU0id2pBImYiSGp0K1giQE9PIkNIJCo6IkwiIisic3wiMksiTU5hImIiaG9pSyQqJGBMQEA8YjFqcVFoZ1piIVBAZTFrSjszYCxeWXshVWNeZTl3PVsiWyJJaVgiXj1AcEciLypVYSIgT2AkeDllIl55aSJ3X2l5LSJANTUiMyJlIjdUSSIgYW0iOyJnc2hWeDoldiJoaUEiRmxoIi9qOUc1LlZPdyxvPiZbYXgzP3E5ZWZLYGBENGptLis3O3xeTXZZOnJoOndVMVM+NG9ZSH1DQEU9Vi49bntCIjAiWihdIn0iIi8ibklFInIiIkIiVC8xImsiIk8iLkpsIk01IjRCNSJuT3cieCIibSI1QzciICRuOTkiKVorIj1HSDdlPiRyREc3XTFWQH5gIkFIYj4iTCJEbD1jbyIidUc7InZfZyJ4YHEiMWwlVSIzIiIpIn45MyJbOVg5aEIifHtIcyI+TntNPSJvUlQiVSIiZiJMJkkiVXNLfGEiXipuIlI1MT1OIWNOIjFtIjIkZ0ZXeHFVcCpYLGlNJm5IIj5CfSJ3MVdBemtpeGVbTD8iV35AKyJxd0UvayI2bV85IlZ0Y110RCAiUVFSIiBzfVU/VDh+InxGMSImLE8ibk8yIkg3Kk1ZQl8ielJhYlliRmg+YGlQfG5wR0o3QHshWHAjbUA+Yj1EViYrYDNVfmR5e1JQKjAqL25IbSotdHdRRWkvTF9ZLDJ6KjhYR3hDUEtCITMwK14zeiRHZWZobXFhV1Bvc095T0hdcyxCZ3YreXUgdSM5K0ZpWW1lb2p2Ilc1YSIvV0MiayIrImM1PCJQUzAiWiImaSZFUSI5NzoiMlZBIkgkbHtyL0xnIlViMSJnSThNaVY5fC00IjpKWCIqcFtqNilfe3tLYT1qLFhlISEiYWVFIjc8Ni43KSJHRyIhJDsiQzA3YSJtImdEIilEUCI4UG5qIjsiImEiIEFCIm9Rd3tyRmFqNVs1IjZRK0JbV1oiISJbInFuVSIkbiI9fmM+aSJVYCIsVUh7WC1SbiUifD4iSThPYndCaCJKUXYiOWc/QSpfeCJzaDAiJCJ7SlBWL11tbDNDaSxhLSJaMXYiSyFGIj0iIm4iemxNIikiVF45d3F8UG5FaiJeIjVjaiJ8IiJxIktCdCImIiIxIiNzNCIrIm5MY0Bsd0IhdHR8KmMySV5gIntLWz5EIHNBeTBELCUiMyJ8UTQicl50TVZzQzpOIjZoYUFrImhyKSI1TW0ieiIibCJhOjMidCIiJSJuaigiUCIqbH53cGFsRDFIPm8oTTlnPzBeLEIwZGladzZlXUc+enZ2UHJgSSloTm9sO2FSZ08lWWRaQDE3UnM6NWVYfXxlIkM/Vg=="  # From akamai-bm-telemetry header
 
         # API configuration
-        self.base_url = (
-            "https://services.publix.com/api/v4/customer/publix/purchaseslist"
-        )
+        self.base_url = "https://services.publix.com/api/v4/customer/publix/purchaseslist"
         self.raw_dir = "raw/publix"
 
         # Create raw directory if it doesn't exist
@@ -73,9 +70,7 @@ class PublixListScraper:
             print(f"[WARNING] Could not parse date {date_str}: {e}")
             return "unknown-date"
 
-    def get_purchases_page(
-        self, page: int = 1, items_per_page: int = 100
-    ) -> dict | None:
+    def get_purchases_page(self, page: int = 1, items_per_page: int = 100) -> dict | None:
         """Get a single page of purchases from Publix API."""
         params = {
             "page": page,
@@ -94,11 +89,9 @@ class PublixListScraper:
                 verify=False,  # Bypass SSL verification
             )
 
-            if response.status_code == 200:  # noqa: PLR2004
+            if response.status_code == 200:
                 data = response.json()
-                print(
-                    f"✅ Page {page}: Found {len(data.get('PurchasesList', []))} purchases"
-                )
+                print(f"✅ Page {page}: Found {len(data.get('PurchasesList', []))} purchases")
                 return data
             print(f"❌ Failed to get page {page}: {response.status_code}")
             print(f"Response: {response.text[:500]}")
@@ -113,9 +106,7 @@ class PublixListScraper:
         try:
             # Parse purchase date for filename
             purchase_date = self.parse_purchase_date(purchase.get("PurchaseDate", ""))
-            store_name = (
-                purchase.get("StoreName", "unknown-store").replace(" ", "-").lower()
-            )
+            store_name = purchase.get("StoreName", "unknown-store").replace(" ", "-").lower()
             total_price = purchase.get("TotalPrice", 0)
 
             # Create filename: YYYY-MM-DD_store-name_$total.json
@@ -189,9 +180,7 @@ class PublixListScraper:
                     saved_purchases += 1
                     page_saved += 1
 
-            print(
-                f"   ✅ Saved {page_saved}/{len(purchases)} purchases from page {page}"
-            )
+            print(f"   ✅ Saved {page_saved}/{len(purchases)} purchases from page {page}")
 
             # Check if this is the last page
             if page >= total_pages:

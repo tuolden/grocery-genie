@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-# ruff: noqa: PLR2004
 """
 Health check script for Grocery Genie Docker container
 """

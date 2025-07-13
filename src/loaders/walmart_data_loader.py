@@ -1,4 +1,3 @@
-# ruff: noqa: DTZ007, PTH103, PTH208
 """
 Walmart Data Loader
 Processes HTML files from raw/walmart/ and loads them into the database.
@@ -176,9 +175,7 @@ def parse_order_time(order_date_str):
     try:
         if order_date_str and "T" in order_date_str:
             # Extract time part
-            time_part = order_date_str.split("T")[1].split(".")[
-                0
-            ]  # Remove milliseconds
+            time_part = order_date_str.split("T")[1].split(".")[0]  # Remove milliseconds
             return datetime.strptime(time_part, "%H:%M:%S").time()
     except Exception as e:
         print(f"[WARNING] Could not parse order time {order_date_str}: {e}")
@@ -415,9 +412,7 @@ def load_order_to_database(db, order_data):
                     "item_unit_price": item.get("item_unit_price"),
                     "item_brand": item.get("item_brand"),  # Add missing field
                     "item_category": item.get("item_category"),  # Add missing field
-                    "item_subcategory": item.get(
-                        "item_subcategory"
-                    ),  # Add missing field
+                    "item_subcategory": item.get("item_subcategory"),  # Add missing field
                     "item_sku": item.get("item_sku"),  # Add missing field
                     "item_upc": item.get("item_upc"),  # Add missing field
                     "item_image_url": item.get("item_image_url"),

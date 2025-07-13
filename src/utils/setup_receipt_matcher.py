@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-# ruff: noqa: E501
 """
 Setup Receipt Matcher System
 
@@ -134,9 +133,7 @@ def create_sample_list_data():
 
         for table_name, items in sample_data.items():
             # Check if table has any non-test data
-            cur.execute(
-                f"SELECT COUNT(*) FROM {table_name} WHERE item_name NOT LIKE 'TEST_%'"
-            )
+            cur.execute(f"SELECT COUNT(*) FROM {table_name} WHERE item_name NOT LIKE 'TEST_%'")
             count = cur.fetchone()[0]
 
             if count == 0:
@@ -150,9 +147,7 @@ def create_sample_list_data():
                         (item_name, quantity, priority),
                     )
             else:
-                logger.info(
-                    f"📊 {table_name} already has {count} items, skipping sample data"
-                )
+                logger.info(f"📊 {table_name} already has {count} items, skipping sample data")
 
         conn.commit()
         cur.close()

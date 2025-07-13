@@ -1,4 +1,3 @@
-# ruff: noqa: E501, PTH103
 """
 YAML to Database Loader
 Loads Costco receipt YAML files into the database.
@@ -23,7 +22,7 @@ sys.path.append(os.path.join(os.path.dirname(__file__), "..", "scripts"))
 from src.scripts.grocery_db import GroceryDB
 
 
-def safe_int(value, default=1):  # noqa: PLR0911
+def safe_int(value, default=1):
     """Safely convert a value to integer."""
     try:
         if isinstance(value, int):
@@ -114,9 +113,7 @@ def convert_receipt_to_db_format(yaml_data, filename):
 
             # Determine if it's a fuel item
             fuel_info = item.get("fuel_info", {})
-            is_fuel = bool(
-                fuel_info.get("fuel_unit_quantity") or fuel_info.get("fuel_grade_code")
-            )
+            is_fuel = bool(fuel_info.get("fuel_unit_quantity") or fuel_info.get("fuel_grade_code"))
 
             db_item = {
                 "purchase_date": transaction_date,
@@ -148,17 +145,12 @@ def convert_receipt_to_db_format(yaml_data, filename):
                 "fuel_quantity": safe_float(fuel_info.get("fuel_unit_quantity", 0))
                 if is_fuel
                 else None,
-                "fuel_grade": fuel_info.get("fuel_grade_description", "")
-                if is_fuel
-                else None,
+                "fuel_grade": fuel_info.get("fuel_grade_description", "") if is_fuel else None,
                 "fuel_unit_price": safe_float(item.get("item_unit_price_amount", 0))
                 if is_fuel
                 else None,
                 "payment_method": ", ".join(
-                    [
-                        p.get("tender_type_name", p.get("tender_description", ""))
-                        for p in payments
-                    ]
+                    [p.get("tender_type_name", p.get("tender_description", "")) for p in payments]
                 ),
                 "store_address": (
                     f"{store_info.get('warehouse_address1', '')} "

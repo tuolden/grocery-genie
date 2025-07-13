@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-# ruff: noqa: E501, PTH103, PTH208, S501
 """
 Publix Purchase Detail Scraper
 
@@ -35,9 +34,7 @@ class PublixDetailScraper:
         self.akamai_telemetry = "a=B1F935F505CBEFDC415942B2C85F3A1F&&&e=MzE0MDgxOTczNDc0MzFGRTlBQzU5NkZCQTZCMkE3QTh+WUFBUXVBWXNGeEliamJDWEFRQUE2VHVWMFJ4Sjd4SUFlc2Z2cUZvejR3bEpuWXNvY1lDWDN1cHAwMjNTQk1taXllV01pdzYzdGpOek9jdFluNVQ2VFRCekdxUDhzMERMenI4bjZCQ2w5RHhlVnJVUzBBSXRSWTYvMTVKNkN0QWJWMzRrS3BYWEk0OTFtK21Td1FlNVg1c3lId1FwcmlCcUxYcVhvUUIxbzl3MUxScmhKdlBwak4vZUF2YTJaaEpVazFkWmM0cUwwMHFiWnR6U1I2ZFo1YWt2TjVjNWVEQVRqMklSaDNJMlBTK1BUVGNITGE5VmpkS1FxaEVSQlFHc3FIVzN0QnBnUGZudnYwTndUNTgzTFB3bllTV2dURk9nQWxybDFJWGgrZTN2aUlSTzNWeEMxU3p2UU85cGxsSGdFSUZFcnMwQ1JtS3lRM1doMjRTbEpjUmZ0Sm42T2VkbGllWHo2MkI0T09GcU0yZ21HMEJnRW9ZWE1NcG5aSm44OERaZFZ4aWh1YTh1WUFrZFA0eWxqNHJrM24yUENTRlFROWdkN3lVa0paQzZ5a01wZHA5Q0ViQlAwTVNKazBUMjFnK1dOOHd2UHJkYXc0Wk1jelNyNzU1VEVoWUxxdmxOamd5WU5uZlltcU1Vcll5M3RFNElkdDZDc1dCRm9KUWMrdXEzd1dWdzdPR0xiU2ZObks1QkgzUTF+NDYwNTIzNn4zMzYwMDY1&&&sensor_data=MzsxOzI7MDs0NjA1MjM2O2ZQTzg0WUFyekFFR2Q3YXJFY280WmlzK28zaitsN1NKc051dGUwZVVNWnM9OzcsMSwwLDAsMSwwOyIiPmp6IkppdCJZJTlYTmpBIkttcnciaSJnOWNOIjRXZSJDdUYiV2ZgLDIibS1EWSJsM0xTSiJxVmNWIkZtR0wgayIgWWxNIkoiLl4iRyJIUEAidHFuQVIiVTl+Ilg+RXRnIj9nI3cicEdlQmQ7LFhUIilaWyJdIiI8Ik4xcCJQdXpYT3cpVnR+InNCbiIrVUtWLHh4IkN+ImRNOG1RKilZWm9EIjQrIkR4MCtDIj1gIk8mdiEhYCQiRU9SIkIiIiU7SSJsfX4iUS1iUSZhKFdMd0giOldaIjR0bEQ2UyIkZHkieCJqdGAiNyJhYEJzWSI6O20iSnZkIiB2YF1kaEwjLV5CIkhQOiIsIiIsIixddSJiIiU+ImYiMU5FIm4idzgyVyhIczB7Pkh+dmZSMDZYaGN4TmwsQXk4K1BGV0JOdmNrNW9hYWl6O2ElSmYiJVBwImtEZCJyIklxYSwuWXx7QXkoSV55alkiVSIzKH4iZCBzNVkiKGdyIm5kfmh7eUFhRTdPNWIiIjoidW9zInZHZHh9IissTSJjIk81MWMvIkkxNyJuQjx7VyJpIiJNIlM5Ii1LIjNzRSJLIk9LaEtRZCtvNT5vbCRfN1gyXVB2fm47ZDQ2dTk8JG4mcmdRW1JgKy9NODRnIl0iWWYgIkR2TSAmIlRYfTAiVXNDY3ItMSJgbDwiNTYoTUMianx5IjsiSiJQTU8ie0Z4IksiOEFhSEFmJSoiaEU2IklTJCJnQTpRdXRxejVUJl4/LDVuKmQlKFs1MHYrTVp8O0J1dz8hMnwjbyhlTiBPSyRhM05+PS0zZDxKK0lkN0dyNiIlIi96YyJhIiIvInd0UCI7IiJSIj94SiJtIiJqIk1aTCJENiJfQUUibStaImoiIlYiSHB9IjZrV3B9ImMxdCI+SWhUXzFMUVVZO257bT9FeSJuVGtxImIiQnstcGkiIjluJSIzKVkiTEk/ImBZTTkiRiJBUmxNQUVkLlIzaVIqciJVIldLKCItaDk8a3tgIj8oZkEiRSBlKTQiLWg+IjgiIm8iI2JnInNRcHZZIkJJRiJGfTphRzljYSJpSSJOISFFKEJdXlZtMSNdYTNdQSIrKCgiV3FlZTFMMV9VIDFZInNjJjwiaS0+NmwiZ3d8NCJZMyxPY3ZiIk8tZiJybFZJKV4rViI7ZT4iTHw3IlFnaCItdkJYUlFgInojLXF3aV9uWiBVQ2FbQzo3Rk1xeC5dYHY/eztKcGxOP00hcVJ3SUA2LztPITpmVm5VXyolQ1V0TGhTT11qVn5yY1tiLCFAJHgtZmdrWilPbE9fKkEgOG81SXxicVU5cHRTa20ldzV0Ty59I0wtPVNIa3xYbyJDaGoiTCpgIiAiUCJTV20ibm9yImsibWxtTFEiWkJXIkNYXiItcUBdPXopeiI4SWgiQUIrcj5jVyxQSSIgci0iYH4vSz80VntwUmBmMC1dWCJzd2siTHplNFk+IihtImo2XSIsam5KIi0iJjYiXzE5ImpjV18iLCIiNiJgMngiWCZbR2tDO2ImLHciN1tyT1Q0PyJ6IiJsUXMiSE0ibDh3VCUiWVgiaTU9PFdufFh+IlhpImNfOXFjbDkiMlpXIlUrayxGU1kibHlfIm4iZUpwTVcgMDdzVF9lRmgiISFYImlfNSI+IiJeIlslUSJwInVpK008Y0c4IkUiKyBiInoiIjYifTZKIlAiIisieTUtIngiN1FnUkF8KlpyOCZ2WE8xMCwiby56bCMwZTYjS0ZxYyJiInBhXiJZRHhtXWJBWzYiWFNlfUQiVzAzIi11ZyJpIiJ5InxdQCJnIiIuInQybSJ7IiJEfC0="
 
         # API configuration
-        self.detail_base_url = (
-            "https://services.publix.com/api/v1/PurchaseHistory/detail"
-        )
+        self.detail_base_url = "https://services.publix.com/api/v1/PurchaseHistory/detail"
         self.list_dir = "raw/publix"
         self.detail_dir = "raw/publix"
 
@@ -96,7 +93,7 @@ class PublixDetailScraper:
                 verify=False,  # Bypass SSL verification
             )
 
-            if response.status_code == 200:  # noqa: PLR2004
+            if response.status_code == 200:
                 data = response.json()
                 print("✅ Retrieved detail data")
                 return data
@@ -202,9 +199,7 @@ class PublixDetailScraper:
             purchase_date = purchase.get("PurchaseDate", "")
             total_price = purchase.get("TotalPrice", 0)
 
-            print(
-                f"📦 [{i}/{total_purchases}] {store_name} - {purchase_date} (${total_price})"
-            )
+            print(f"📦 [{i}/{total_purchases}] {store_name} - {purchase_date} (${total_price})")
 
             if not transaction_id:
                 print("   ⚠️  No transaction ID found, skipping")

@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-# ruff: noqa: E501
 """
 Other Purchases Loader
 
@@ -116,7 +115,7 @@ class OtherPurchasesLoader:
         datetime_str = filename.replace(".yaml", "")
 
         # Parse datetime
-        dt = datetime.strptime(datetime_str, "%Y-%m-%dT%H-%M-%S")  # noqa: DTZ007
+        dt = datetime.strptime(datetime_str, "%Y-%m-%dT%H-%M-%S")
         return dt.date(), dt.time()
 
     def _validate_yaml_data(self, data: dict, filename: str) -> bool:
@@ -227,8 +226,7 @@ class OtherPurchasesLoader:
                     price = float(price)
                 except (ValueError, TypeError):
                     logger.warning(
-                        f"⚠️  Invalid price '{price}' for item '{item_name}', "
-                        f"setting to NULL"
+                        f"⚠️  Invalid price '{price}' for item '{item_name}', setting to NULL"
                     )
                     price = None
 
@@ -275,9 +273,7 @@ class OtherPurchasesLoader:
             return True
 
         except Exception as e:
-            logger.error(
-                f"❌ Error upserting item '{item_data.get('item_name', 'unknown')}': {e}"
-            )
+            logger.error(f"❌ Error upserting item '{item_data.get('item_name', 'unknown')}': {e}")
             return False
 
     def process_yaml_file(self, file_path: Path) -> bool:
@@ -300,14 +296,10 @@ class OtherPurchasesLoader:
 
         # Parse datetime from filename
         try:
-            purchase_date, purchase_time = self._parse_datetime_from_filename(
-                file_path.name
-            )
+            purchase_date, purchase_time = self._parse_datetime_from_filename(file_path.name)
             logger.info(f"📅 Purchase date/time: {purchase_date} {purchase_time}")
         except Exception as e:
-            logger.error(
-                f"❌ Error parsing datetime from filename {file_path.name}: {e}"
-            )
+            logger.error(f"❌ Error parsing datetime from filename {file_path.name}: {e}")
             return False
 
         # Load YAML data
@@ -499,7 +491,7 @@ class OtherPurchasesLoader:
         logger.info("=" * 50)
 
 
-def main():  # noqa: PLR0911
+def main():
     """Main entry point for the loader"""
     import argparse
 
@@ -511,9 +503,7 @@ def main():  # noqa: PLR0911
         default="./data/other",
         help="Data directory (default: ./data/other)",
     )
-    parser.add_argument(
-        "--stats", action="store_true", help="Show database statistics only"
-    )
+    parser.add_argument("--stats", action="store_true", help="Show database statistics only")
     parser.add_argument("--verbose", action="store_true", help="Enable verbose logging")
 
     args = parser.parse_args()
