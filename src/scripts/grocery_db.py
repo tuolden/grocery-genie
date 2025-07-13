@@ -714,6 +714,43 @@ class GroceryDB:
         print(f"[✓] Batch insert completed: {success_count} success, {error_count} errors")
         return success_count, error_count
 
+    def get_table_count(self, table_name):
+        """
+        Get the total number of records in a specific table.
+
+        Args:
+            table_name (str): Name of the table to count
+
+        Returns:
+            int: Number of records in the table, or -1 if error
+        """
+        try:
+            conn = self.get_connection()
+            cur = conn.cursor()
+
+            # Use parameterized query safely for table name
+            # Note: Table names cannot be parameterized, so we validate the name
+            valid_tables = [
+                'cvs_purchases', 'costco_purchases', 'walmart_purchases',
+                'publix_purchases', 'other_purchases'
+            ]
+
+            if table_name not in valid_tables:
+                raise ValueError(f"Invalid table name: {table_name}")
+
+            query = f"SELECT COUNT(*) FROM {table_name}"
+            cur.execute(query)
+            count = cur.fetchone()[0]
+
+            cur.close()
+            conn.close()
+
+            return count
+
+        except Exception as e:
+            print(f"[ERROR] Failed to count records in {table_name}: {e}")
+            return -1
+
     def get_recent_costco_purchases(self, days_back=30):
         """
         Get recent Costco purchases within specified days.

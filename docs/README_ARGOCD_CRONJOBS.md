@@ -222,3 +222,101 @@ kubectl create job --from=cronjob/cvs-data-loader manual-cvs-load -n staging
 ✅ **Scalability**: Easy to add new retailers or modify schedules  
 
 This system ensures reliable, automated data loading for the complete 4-retailer grocery data collection system.
+
+## 🧪 **MANUAL TESTING**
+
+### **RUN_MANUAL Section**
+
+You can manually test all data loaders without waiting for the CRON schedule:
+
+#### **Quick Test - All Loaders**
+```bash
+# Run all data loaders manually
+python scripts/run_manual_data_loaders.py
+
+# Verify data was loaded correctly
+python scripts/verify_data_loaded.py --detailed
+```
+
+#### **Test Specific Loader**
+```bash
+# Test individual loaders
+python scripts/run_manual_data_loaders.py --loader cvs
+python scripts/run_manual_data_loaders.py --loader costco
+python scripts/run_manual_data_loaders.py --loader walmart
+python scripts/run_manual_data_loaders.py --loader publix
+python scripts/run_manual_data_loaders.py --loader other
+```
+
+#### **Environment-Specific Testing**
+```bash
+# Test staging environment
+python scripts/run_manual_data_loaders.py --staging
+python scripts/verify_data_loaded.py --staging --detailed
+
+# Test production environment
+python scripts/run_manual_data_loaders.py --production
+python scripts/verify_data_loaded.py --production --detailed
+```
+
+#### **Verification Only**
+```bash
+# Only verify data, don't run loaders
+python scripts/run_manual_data_loaders.py --verify-only
+
+# Export verification results
+python scripts/verify_data_loaded.py --export --detailed
+```
+
+### **Manual Testing Scripts**
+
+- **`scripts/run_manual_data_loaders.py`**: Runs all data loaders manually
+- **`scripts/verify_data_loaded.py`**: Verifies data loading results
+- **`docs/README_MANUAL_TESTING.md`**: Complete manual testing guide
+
+### **Expected Results**
+```
+🎉 MANUAL DATA LOADERS TEST SUMMARY
+============================================================
+📊 LOADER RESULTS:
+   CVS     : ✅ SUCCESS (2.34s)
+   Costco  : ✅ SUCCESS (3.21s)
+   Walmart : ✅ SUCCESS (1.87s)
+   Publix  : ✅ SUCCESS (4.12s)
+   Other   : ✅ SUCCESS (0.95s)
+
+🔍 DATA VERIFICATION:
+   CVS     : ✅ 25 records
+   Costco  : ✅ 45 records
+   Walmart : ✅ 18 records
+   Publix  : ✅ 32 records
+   Other   : ✅ 12 records
+
+📈 OVERALL RESULTS:
+   ✅ Successful loaders: 5/5
+   📊 Total records: 132
+
+🎉 ALL TESTS PASSED! Data loading system is working correctly.
+```
+
+### **Troubleshooting Manual Tests**
+
+#### **Missing Data Directories**
+```bash
+# Ensure data directories exist
+ls -la data/cvs/ data/costco/ data/walmart/ data/publix/ data/other/
+```
+
+#### **Database Issues**
+```bash
+# Test database connectivity
+python scripts/verify_data_loaded.py --detailed
+```
+
+#### **Verbose Debugging**
+```bash
+# Enable detailed logging
+python scripts/run_manual_data_loaders.py --verbose
+```
+
+**📚 Complete Manual Testing Guide**: See `docs/README_MANUAL_TESTING.md` for comprehensive testing instructions.
