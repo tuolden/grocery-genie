@@ -43,33 +43,33 @@ def extract_json_from_html(html_content):
             json_content = match.group(1).strip()
 
             # Find the last closing brace to handle any extra content
-            last_brace_index = json_content.rfind('}')
+            last_brace_index = json_content.rfind("}")
             if last_brace_index != -1:
                 # Truncate at the last closing brace
-                json_content = json_content[:last_brace_index + 1]
+                json_content = json_content[: last_brace_index + 1]
 
             # Clean up any potential whitespace or formatting issues
-            json_content = json_content.replace('\n', '').replace('\r', '')
-            json_content = re.sub(r'\s+', ' ', json_content)  # Normalize whitespace
+            json_content = json_content.replace("\n", "").replace("\r", "")
+            json_content = re.sub(r"\s+", " ", json_content)  # Normalize whitespace
             json_content = json_content.strip()
 
             try:
                 return json.loads(json_content)
             except json.JSONDecodeError as e:
                 # Try to find the valid JSON by parsing incrementally
-                print(f"[DEBUG] Attempting incremental JSON parsing...")
+                print("[DEBUG] Attempting incremental JSON parsing...")
 
                 # Find the opening brace and try to parse from there
-                start_brace = json_content.find('{')
+                start_brace = json_content.find("{")
                 if start_brace != -1:
                     # Count braces to find the end of the JSON object
                     brace_count = 0
                     end_pos = start_brace
 
                     for i, char in enumerate(json_content[start_brace:], start_brace):
-                        if char == '{':
+                        if char == "{":
                             brace_count += 1
-                        elif char == '}':
+                        elif char == "}":
                             brace_count -= 1
                             if brace_count == 0:
                                 end_pos = i + 1
@@ -80,7 +80,7 @@ def extract_json_from_html(html_content):
 
                     try:
                         result = json.loads(balanced_json)
-                        print(f"[DEBUG] Successfully parsed with brace balancing!")
+                        print("[DEBUG] Successfully parsed with brace balancing!")
                         return result
                     except json.JSONDecodeError as e2:
                         print(f"[DEBUG] Brace balancing also failed: {e2}")
@@ -97,7 +97,11 @@ def extract_json_from_html(html_content):
         next_data_script = soup.find("script", id="__NEXT_DATA__")
         if next_data_script:
             # Get the text content, handling both .string and .get_text()
-            json_content = next_data_script.get_text() if next_data_script.get_text() else next_data_script.string
+            json_content = (
+                next_data_script.get_text()
+                if next_data_script.get_text()
+                else next_data_script.string
+            )
             if json_content:
                 json_content = json_content.strip()
                 try:
@@ -115,8 +119,9 @@ def extract_json_from_html(html_content):
             if script_content:
                 script_content = script_content.strip()
                 # Check if this script contains order data
-                if ("order" in script_content and
-                    ("orderDate" in script_content or "items" in script_content)):
+                if "order" in script_content and (
+                    "orderDate" in script_content or "items" in script_content
+                ):
                     try:
                         return json.loads(script_content)
                     except json.JSONDecodeError:

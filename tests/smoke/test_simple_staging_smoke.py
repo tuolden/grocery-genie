@@ -28,38 +28,41 @@ from src.scripts.grocery_db import GroceryDB
 # Configure logging with bright colors for visibility
 logging.basicConfig(
     level=logging.INFO,
-    format='🚀 %(asctime)s - %(levelname)s - %(message)s',
-    handlers=[logging.StreamHandler()]
+    format="🚀 %(asctime)s - %(levelname)s - %(message)s",
+    handlers=[logging.StreamHandler()],
 )
 logger = logging.getLogger(__name__)
 
+
 class SimpleStagingSmokeTest:
     """Very simple staging smoke test"""
-    
+
     def __init__(self):
         self.db = None
         self.test_passed = 0
         self.test_failed = 0
-        
+
     def test_environment_check(self):
         """Test that we're running in staging environment for cron jobs"""
         logger.info("🔍 TESTING STAGING CRON JOB ENVIRONMENT CONFIGURATION")
 
         try:
-            env = os.getenv('ENV', 'unknown')
-            db_host = os.getenv('DB_HOST', 'not_set')
+            env = os.getenv("ENV", "unknown")
+            db_host = os.getenv("DB_HOST", "not_set")
 
             logger.info(f"🌍 ENV: {env}")
             logger.info(f"🗄️  DB_HOST: {db_host}")
             logger.info("📋 SYSTEM TYPE: CRON Job System (batch processing, no API)")
 
-            if env == 'staging':
+            if env == "staging":
                 logger.info("✅ ENVIRONMENT: staging (correct for cron jobs)")
                 logger.info("✅ STAGING CONFIGURATION: cron job environment detected")
                 self.test_passed += 1
                 return True
             else:
-                logger.warning(f"⚠️  ENVIRONMENT: {env} (expected staging, but CI test is acceptable)")
+                logger.warning(
+                    f"⚠️  ENVIRONMENT: {env} (expected staging, but CI test is acceptable)"
+                )
                 # Don't fail for this - CI uses test environment to simulate staging
                 self.test_passed += 1
                 return True
@@ -68,7 +71,7 @@ class SimpleStagingSmokeTest:
             logger.error(f"❌ ENVIRONMENT CHECK FAILED: {e}")
             self.test_failed += 1
             return False
-    
+
     def test_database_connectivity(self):
         """Test database connectivity for cron job data storage"""
         logger.info("🔗 TESTING CRON JOB DATABASE CONNECTIVITY")
@@ -92,7 +95,7 @@ class SimpleStagingSmokeTest:
             logger.error(f"❌ CRON JOB DATABASE CONNECTION FAILED: {e}")
             self.test_failed += 1
             return False
-    
+
     def test_basic_table_operations(self):
         """Test basic table operations for cron job data storage"""
         logger.info("📊 TESTING CRON JOB DATA TABLES")
@@ -116,13 +119,17 @@ class SimpleStagingSmokeTest:
             table_count = len(tables)
 
             if table_count > 0:
-                logger.info(f"✅ CRON JOB TABLES FOUND: {table_count} purchase tables exist for data storage")
+                logger.info(
+                    f"✅ CRON JOB TABLES FOUND: {table_count} purchase tables exist for data storage"
+                )
                 for table in tables:
                     logger.info(f"   📋 {table[0]} (ready for batch processing)")
                 self.test_passed += 1
                 return True
             else:
-                logger.warning("⚠️  NO PURCHASE TABLES FOUND (staging DB might be empty - normal for fresh deployment)")
+                logger.warning(
+                    "⚠️  NO PURCHASE TABLES FOUND (staging DB might be empty - normal for fresh deployment)"
+                )
                 # Don't fail for this - staging might be empty initially
                 self.test_passed += 1
                 return True
@@ -134,7 +141,7 @@ class SimpleStagingSmokeTest:
         finally:
             if conn:
                 conn.close()
-    
+
     def test_simple_data_query(self):
         """Test simple data query for cron job data"""
         logger.info("🔍 TESTING CRON JOB DATA QUERY")
@@ -150,7 +157,9 @@ class SimpleStagingSmokeTest:
             cur.execute("SELECT COUNT(*) FROM other_purchases")
             count = cur.fetchone()[0]
 
-            logger.info(f"✅ CRON JOB DATA QUERY: other_purchases has {count} records from batch processing")
+            logger.info(
+                f"✅ CRON JOB DATA QUERY: other_purchases has {count} records from batch processing"
+            )
             if count > 0:
                 logger.info("📊 Cron job data collection is working")
             else:
@@ -172,10 +181,7 @@ class SimpleStagingSmokeTest:
 
         try:
             # Test that key cron job scripts exist
-            cron_scripts = [
-                'src/scripts/grocery_db.py',
-                'src/services/receipt_matcher.py'
-            ]
+            cron_scripts = ["src/scripts/grocery_db.py", "src/services/receipt_matcher.py"]
 
             missing_scripts = []
             found_scripts = []
@@ -189,7 +195,9 @@ class SimpleStagingSmokeTest:
                     logger.warning(f"   ⚠️  {script} (not found)")
 
             if found_scripts:
-                logger.info(f"✅ CRON JOB COMPONENTS: {len(found_scripts)}/{len(cron_scripts)} core scripts available")
+                logger.info(
+                    f"✅ CRON JOB COMPONENTS: {len(found_scripts)}/{len(cron_scripts)} core scripts available"
+                )
                 logger.info("📋 Cron job system components are ready for batch processing")
                 self.test_passed += 1
                 return True
@@ -208,14 +216,14 @@ class SimpleStagingSmokeTest:
         """Run all simple smoke tests"""
         logger.info("🔥 STARTING SIMPLE STAGING SMOKE TESTS")
         logger.info("=" * 50)
-        
+
         # Run tests
         self.test_environment_check()
         self.test_database_connectivity()
         self.test_basic_table_operations()
         self.test_simple_data_query()
         self.test_cron_job_components()
-        
+
         # Print summary
         logger.info("=" * 50)
         logger.info("📊 SIMPLE STAGING CRON JOB SMOKE TEST SUMMARY")
@@ -232,17 +240,19 @@ class SimpleStagingSmokeTest:
             logger.error("⚠️  STAGING CRON JOB SYSTEM NEEDS ATTENTION")
             return False
 
+
 def main():
     """Main entry point"""
     try:
         tester = SimpleStagingSmokeTest()
         success = tester.run_simple_smoke_tests()
-        
+
         return 0 if success else 1
-        
+
     except Exception as e:
         logger.error(f"💥 SIMPLE STAGING SMOKE TEST CRASHED: {e}")
         return 1
+
 
 if __name__ == "__main__":
     exit(main())

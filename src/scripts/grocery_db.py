@@ -731,8 +731,11 @@ class GroceryDB:
             # Use parameterized query safely for table name
             # Note: Table names cannot be parameterized, so we validate the name
             valid_tables = [
-                'cvs_purchases', 'costco_purchases', 'walmart_purchases',
-                'publix_purchases', 'other_purchases'
+                "cvs_purchases",
+                "costco_purchases",
+                "walmart_purchases",
+                "publix_purchases",
+                "other_purchases",
             ]
 
             if table_name not in valid_tables:

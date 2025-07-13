@@ -152,8 +152,8 @@ items:
   sales_unit_type: null
 - item_id: '20'
   item_quantity: 1
-  item_name: Great Value , Dry-Cured Pork,  Sliced Prosciutto, Serving Size 28 grams,
-    9 Grams of  Protein per Serving, 6 oz Plastic Tray,
+  item_name: Great Value , Dry-Cured Pork, Sliced Prosciutto, Serving Size 28 grams,
+    9 Grams of Protein per Serving, 6 oz Plastic Tray,
   item_image_url: https://i5.walmartimages.com/seo/Great-Value-Dry-Cured-Pork-Sliced-Prosciutto-Serving-Size-28-grams-9-Grams-of-Protein-per-Serving-6-oz-Plastic-Tray_c857c97c-5742-407e-baa1-3f55f4ac5e25.db3b98f15a30202ebf0271dc9c770a17.jpeg
   item_price: 6.34
   line_price: 6.34
@@ -167,4 +167,4 @@ items:
   sales_unit_type: null
 metadata:
   source_file: jan3
-  processed_at: '2025-07-03T08:45:54.655119'
+  processed_at: '2025-07-13T12:31:47.528349'

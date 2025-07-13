@@ -191,7 +191,7 @@ items:
 - item_id: '25'
   item_quantity: 1
   item_name: Freshness Guaranteed Sugar Free Chocolate Flavored Chip Bakery Cookies,
-    14  oz, 10 Count, Baked
+    14 oz, 10 Count, Baked
   item_image_url: https://i5.walmartimages.com/seo/Freshness-Guaranteed-Sugar-Free-Chocolate-Flavored-Chip-Bakery-Cookies-14-oz-10-Count-Baked_77dede6d-d8ec-4d8d-a191-fef8af3cad45.8f3c85b7ad7686a2131de5aac1dda1a0.jpeg
   item_price: 4.76
   line_price: 4.76
@@ -457,4 +457,4 @@ items:
   sales_unit_type: null
 metadata:
   source_file: jan14
-  processed_at: '2025-07-03T08:45:52.857428'
+  processed_at: '2025-07-13T12:31:45.075244'
