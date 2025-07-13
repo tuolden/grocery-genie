@@ -83,7 +83,20 @@ python src/api/receipt_matcher_api.py
 - **[⚙️ ArgoCD CRON Jobs](docs/README_ARGOCD_CRONJOBS.md)** - Automated data loading system
 - **[🧪 Manual Testing Guide](docs/README_MANUAL_TESTING.md)** - Testing procedures and validation
 
-### **🔧 Technical Guides**
+### **🔧 Technical Documentation**
+- **[🌐 API Documentation](docs/API_DOCUMENTATION.md)** - REST API endpoints and usage
+- **[🚀 Deployment Guide](docs/DEPLOYMENT_GUIDE.md)** - Production deployment procedures
+- **[🔧 Troubleshooting Guide](docs/TROUBLESHOOTING.md)** - Common issues and solutions
+- **[🏗️ Staging Environment](docs/README_STAGING.md)** - Staging deployment guide
+
+### **📊 Data Collection Guides**
+- **[🏪 Costco Scraping](docs/README_COSTCO.md)** - Costco API token setup and usage
+- **[💊 CVS Scraping](docs/README_CVS.md)** - CVS API authentication and data collection
+- **[🥬 Publix Collection](docs/README_PUBLIX.md)** - Publix XHR requests and data processing
+- **[📦 Other Purchases](docs/README_OTHER_PURCHASES.md)** - Manual receipt entry system
+- **[🔍 Receipt Matcher](docs/README_RECEIPT_MATCHER.md)** - AI-powered receipt analysis
+
+### **🏗️ Infrastructure Guides**
 - **[🐳 Docker Deployment](Dockerfile)** - Container configuration
 - **[☸️ Kubernetes Manifests](kubernetes/)** - Staging and production deployments
 - **[🔄 CI/CD Pipeline](.github/workflows/)** - Automated testing and deployment
@@ -104,10 +117,19 @@ python src/api/receipt_matcher_api.py
 grocery-genie/
 ├── 📄 README.md                    # Main documentation
 ├── 📁 docs/                       # Complete documentation
-│   ├── PROJECT_OVERVIEW.md        # System overview
-│   ├── DATABASE_SCHEMA.md          # Database documentation
-│   ├── README_ARGOCD_CRONJOBS.md   # CRON jobs guide
-│   └── README_MANUAL_TESTING.md    # Testing guide
+│   ├── PROJECT_OVERVIEW.md        # Complete system overview
+│   ├── API_DOCUMENTATION.md       # REST API endpoints
+│   ├── DATABASE_SCHEMA.md          # Database structure
+│   ├── DEPLOYMENT_GUIDE.md         # Production deployment
+│   ├── TROUBLESHOOTING.md          # Common issues & solutions
+│   ├── README_ARGOCD_CRONJOBS.md   # CRON jobs system
+│   ├── README_MANUAL_TESTING.md    # Testing procedures
+│   ├── README_STAGING.md           # Staging environment
+│   ├── README_COSTCO.md            # Costco scraping guide
+│   ├── README_CVS.md               # CVS data collection
+│   ├── README_PUBLIX.md            # Publix data processing
+│   ├── README_OTHER_PURCHASES.md   # Manual receipt entry
+│   └── README_RECEIPT_MATCHER.md   # AI receipt analysis
 ├── 📁 src/                        # Source code
 │   ├── api/                       # API endpoints
 │   ├── scrapers/                  # Data collection scripts
