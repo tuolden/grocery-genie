@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: grocery-genie
-        image: ghcr.io/tuolden/grocery-genie:08b70066d07cd4b5875e9a0446d601fae5d6499b
+        image: ghcr.io/tuolden/grocery-genie:d13dd3869e90748c2c569574e3ac8f142a002fce
         ports:
         - containerPort: 8080
         env:
