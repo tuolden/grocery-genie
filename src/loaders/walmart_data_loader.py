@@ -32,22 +32,98 @@ except ImportError:
 def extract_json_from_html(html_content):
     """Extract JSON data from Walmart HTML page."""
     try:
-        # Look for the __NEXT_DATA__ script tag
+        # Method 1: Use regex to extract __NEXT_DATA__ content more precisely
+        import re
+
+        # Look for the __NEXT_DATA__ script tag with regex
+        next_data_pattern = r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>'
+        match = re.search(next_data_pattern, html_content, re.DOTALL)
+
+        if match:
+            json_content = match.group(1).strip()
+
+            # Find the last closing brace to handle any extra content
+            last_brace_index = json_content.rfind('}')
+            if last_brace_index != -1:
+                # Truncate at the last closing brace
+                json_content = json_content[:last_brace_index + 1]
+
+            # Clean up any potential whitespace or formatting issues
+            json_content = json_content.replace('\n', '').replace('\r', '')
+            json_content = re.sub(r'\s+', ' ', json_content)  # Normalize whitespace
+            json_content = json_content.strip()
+
+            try:
+                return json.loads(json_content)
+            except json.JSONDecodeError as e:
+                # Try to find the valid JSON by parsing incrementally
+                print(f"[DEBUG] Attempting incremental JSON parsing...")
+
+                # Find the opening brace and try to parse from there
+                start_brace = json_content.find('{')
+                if start_brace != -1:
+                    # Count braces to find the end of the JSON object
+                    brace_count = 0
+                    end_pos = start_brace
+
+                    for i, char in enumerate(json_content[start_brace:], start_brace):
+                        if char == '{':
+                            brace_count += 1
+                        elif char == '}':
+                            brace_count -= 1
+                            if brace_count == 0:
+                                end_pos = i + 1
+                                break
+
+                    # Extract the balanced JSON
+                    balanced_json = json_content[start_brace:end_pos]
+
+                    try:
+                        result = json.loads(balanced_json)
+                        print(f"[DEBUG] Successfully parsed with brace balancing!")
+                        return result
+                    except json.JSONDecodeError as e2:
+                        print(f"[DEBUG] Brace balancing also failed: {e2}")
+
+                print(f"[DEBUG] Original JSON decode error: {e}")
+                print(f"[DEBUG] JSON content length: {len(json_content)}")
+                print(f"[DEBUG] First 100 chars: {json_content[:100]}")
+                print(f"[DEBUG] Last 100 chars: {json_content[-100:]}")
+
+        # Method 2: Fallback to BeautifulSoup
         soup = BeautifulSoup(html_content, "html.parser")
 
         # Find the __NEXT_DATA__ script tag
         next_data_script = soup.find("script", id="__NEXT_DATA__")
-        if next_data_script and next_data_script.string:
-            return json.loads(next_data_script.string.strip())
+        if next_data_script:
+            # Get the text content, handling both .string and .get_text()
+            json_content = next_data_script.get_text() if next_data_script.get_text() else next_data_script.string
+            if json_content:
+                json_content = json_content.strip()
+                try:
+                    return json.loads(json_content)
+                except json.JSONDecodeError as e:
+                    print(f"[DEBUG] JSON decode error with BeautifulSoup method: {e}")
 
-        # Fallback: look for script tags with order data
+        # Method 3: Look for any script tags with order data
         script_tags = soup.find_all("script", type="application/json")
         for script in script_tags:
-            if script.string and (
-                "orderGroups" in script.string or "priceDetails" in script.string
-            ):
-                return json.loads(script.string.strip())
+            if script.get("id") == "__NEXT_DATA__":
+                continue  # Already tried this one
 
+            script_content = script.get_text() if script.get_text() else script.string
+            if script_content:
+                script_content = script_content.strip()
+                # Check if this script contains order data
+                if ("order" in script_content and
+                    ("orderDate" in script_content or "items" in script_content)):
+                    try:
+                        return json.loads(script_content)
+                    except json.JSONDecodeError:
+                        # Skip malformed JSON and try next script
+                        continue
+
+        print("[DEBUG] No valid JSON found in any script tags")
         return None
 
     except Exception as e:
