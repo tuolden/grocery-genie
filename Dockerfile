@@ -28,10 +28,9 @@ RUN mkdir -p data/costco data/walmart data/cvs data/publix data/other \
 ENV PYTHONPATH=/app
 ENV ENV=production
 
-# Health check endpoint (we'll create a simple health check script)
-COPY healthcheck.py .
+# Health check endpoint
 HEALTHCHECK --interval=30s --timeout=10s --start-period=5s --retries=3 \
-    CMD python healthcheck.py
+    CMD python src/utils/healthcheck.py
 
 # Expose port for potential API endpoints
 EXPOSE 8080

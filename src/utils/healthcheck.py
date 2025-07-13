@@ -6,7 +6,7 @@ Health check script for Grocery Genie Docker container
 import os
 import sys
 
-from scripts.grocery_db import get_db_connection
+from src.scripts.grocery_db import get_db_connection
 
 
 def check_database_connection():
