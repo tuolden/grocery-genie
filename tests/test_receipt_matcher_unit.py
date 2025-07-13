@@ -109,7 +109,7 @@ class TestReceiptMatcherUnit(unittest.TestCase):
         similarity = self.matcher.calculate_similarity("a", "xyz")
         self.assertLess(similarity, 0.5)
     
-    @patch('receipt_matcher.GroceryDB')
+    @patch('src.services.receipt_matcher.GroceryDB')
     def test_get_recent_purchases_mock(self, mock_db_class):
         """Test get_recent_purchases with mocked database"""
         # Mock database connection and cursor
