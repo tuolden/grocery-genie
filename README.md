@@ -2,7 +2,7 @@
 
 A comprehensive grocery data collection system that gathers purchase data from multiple retailers (Costco, Walmart, Publix) and stores it in a PostgreSQL database. Deployed on K3s with staging and production environments.
 
-🚀 **CI/CD Pipeline Status: TESTING PYPROJECT.TOML FIX** - Code quality checks should now pass with fixed ruff configuration! (Build #34)
+🚀 **CI/CD Pipeline Status: TESTING AUTOMATIC PRODUCTION DEPLOYMENT** - Full staging → production pipeline with git conflict resolution! (Build #50+)
 
 [![CI/CD Pipeline](https://github.com/tuolden/grocery-genie/actions/workflows/build-and-deploy.yml/badge.svg)](https://github.com/tuolden/grocery-genie/actions/workflows/build-and-deploy.yml)
 
