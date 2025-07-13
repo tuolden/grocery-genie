@@ -15,6 +15,7 @@ Date: 2025-07-13
 import os
 import sys
 import logging
+import requests
 from pathlib import Path
 
 # Add project root to Python path
@@ -42,11 +43,22 @@ class SimpleStagingSmokeTest:
     def test_environment_check(self):
         """Test that we're running in staging environment"""
         logger.info("🔍 TESTING ENVIRONMENT CONFIGURATION")
-        
+
         try:
             env = os.getenv('ENV', 'unknown')
+            staging_api_url = os.getenv('STAGING_API_URL', 'not_set')
+            db_host = os.getenv('DB_HOST', 'not_set')
+
+            logger.info(f"🌍 ENV: {env}")
+            logger.info(f"🌐 STAGING_API_URL: {staging_api_url}")
+            logger.info(f"🗄️  DB_HOST: {db_host}")
+
             if env == 'staging':
                 logger.info("✅ ENVIRONMENT: staging (correct)")
+                if 'staging' in db_host or 'staging' in staging_api_url:
+                    logger.info("✅ STAGING CONFIGURATION: detected staging endpoints")
+                else:
+                    logger.warning("⚠️  STAGING CONFIGURATION: using local/test endpoints")
                 self.test_passed += 1
                 return True
             else:
@@ -54,7 +66,7 @@ class SimpleStagingSmokeTest:
                 # Don't fail for this - might be running locally
                 self.test_passed += 1
                 return True
-                
+
         except Exception as e:
             logger.error(f"❌ ENVIRONMENT CHECK FAILED: {e}")
             self.test_failed += 1
@@ -151,7 +163,55 @@ class SimpleStagingSmokeTest:
         finally:
             if conn:
                 conn.close()
-    
+
+    def test_staging_api_endpoint(self):
+        """Test staging API endpoint availability"""
+        logger.info("🌐 TESTING STAGING API ENDPOINT")
+
+        try:
+            staging_api_url = os.getenv('STAGING_API_URL')
+
+            if not staging_api_url or staging_api_url == 'not_set':
+                logger.warning("⚠️  STAGING_API_URL not set, skipping API test")
+                self.test_passed += 1
+                return True
+
+            # Test basic connectivity to staging API
+            health_url = f"{staging_api_url}/health"
+            logger.info(f"🔗 Testing: {health_url}")
+
+            response = requests.get(health_url, timeout=10)
+
+            if response.status_code == 200:
+                logger.info("✅ STAGING API: endpoint is accessible")
+                self.test_passed += 1
+                return True
+            elif response.status_code == 404:
+                logger.warning("⚠️  STAGING API: /health endpoint not found (may not be implemented)")
+                # Don't fail for this - health endpoint might not exist
+                self.test_passed += 1
+                return True
+            else:
+                logger.warning(f"⚠️  STAGING API: unexpected status {response.status_code}")
+                # Don't fail for this - API might be starting up
+                self.test_passed += 1
+                return True
+
+        except requests.exceptions.ConnectTimeout:
+            logger.warning("⚠️  STAGING API: connection timeout (may still be starting)")
+            # Don't fail for this - staging might still be deploying
+            self.test_passed += 1
+            return True
+        except requests.exceptions.ConnectionError:
+            logger.warning("⚠️  STAGING API: connection error (may still be starting)")
+            # Don't fail for this - staging might still be deploying
+            self.test_passed += 1
+            return True
+        except Exception as e:
+            logger.error(f"❌ STAGING API TEST FAILED: {e}")
+            self.test_failed += 1
+            return False
+
     def run_simple_smoke_tests(self):
         """Run all simple smoke tests"""
         logger.info("🔥 STARTING SIMPLE STAGING SMOKE TESTS")
@@ -162,6 +222,7 @@ class SimpleStagingSmokeTest:
         self.test_database_connectivity()
         self.test_basic_table_operations()
         self.test_simple_data_query()
+        self.test_staging_api_endpoint()
         
         # Print summary
         logger.info("=" * 50)

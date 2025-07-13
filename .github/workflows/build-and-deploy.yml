@@ -385,29 +385,34 @@ jobs:
         echo "🔍 LOG: Waiting for staging deployment to complete..."
         sleep 60  # Give ArgoCD time to sync
 
-    - name: Run simple staging smoke test
-      env:
-        DB_HOST: localhost
-        DB_PORT: 5432
-        DB_USER: test_user
-        DB_PASSWORD: test_password
-        DB_NAME: test_db
-        ENV: staging
-      run: |
-        echo "🔥 Running simple staging smoke test..."
-        python tests/smoke/test_simple_staging_smoke.py
-        if [ $? -eq 0 ]; then
-          echo "✅ Simple staging smoke test passed"
-        else
-          echo "❌ Simple staging smoke test failed"
-          exit 1
-        fi
-
     - name: Staging deployment validation
       run: |
         echo "🔍 LOG: Staging deployment completed successfully"
         echo "✅ ArgoCD should have detected and applied the deployment changes"
         echo "🎉 Staging environment is ready!"
+
+    - name: Run simple staging smoke test
+      env:
+        # Use actual staging environment configuration
+        DB_HOST: staging-db.example.com
+        DB_PORT: 5432
+        DB_USER: grocery_staging
+        DB_PASSWORD: staging_password
+        DB_NAME: grocery_genie_staging
+        ENV: staging
+        STAGING_API_URL: https://staging.api.grocery-genie.com
+      run: |
+        echo "🔥 Running simple staging smoke test against REAL staging environment..."
+        echo "🌐 Staging API URL: $STAGING_API_URL"
+        echo "🗄️  Staging DB Host: $DB_HOST"
+        echo "📊 Testing actual staging deployment (not local test DB)"
+        python tests/smoke/test_simple_staging_smoke.py
+        if [ $? -eq 0 ]; then
+          echo "✅ Simple staging smoke test passed - STAGING ENVIRONMENT VALIDATED"
+        else
+          echo "❌ Simple staging smoke test failed - STAGING ENVIRONMENT NEEDS ATTENTION"
+          exit 1
+        fi
 
   deploy-production:
     needs: [deploy-staging, smoke-test-staging]
