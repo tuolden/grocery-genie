@@ -415,13 +415,22 @@ jobs:
   deploy-production:
     needs: [deploy-staging, smoke-test-staging]
     runs-on: ubuntu-latest
-    if: github.event_name == 'release'
+    # Only deploy to production if staging deployment AND staging smoke tests both succeed
+    if: needs.deploy-staging.result == 'success' && needs.smoke-test-staging.result == 'success'
 
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Production deployment safety check
+      run: |
+        echo "🔒 PRODUCTION DEPLOYMENT SAFETY CHECK"
+        echo "✅ Staging deployment result: ${{ needs.deploy-staging.result }}"
+        echo "✅ Staging smoke test result: ${{ needs.smoke-test-staging.result }}"
+        echo "🚀 Both staging deployment and smoke tests passed - PROCEEDING TO PRODUCTION"
+        echo "🛡️  Production deployment is SAFE to proceed"
 
     - name: Update production deployment manifest
       run: |
@@ -443,8 +452,37 @@ jobs:
         git push origin main
         echo "🔍 LOG: Production deployment committed, ArgoCD should detect changes"
 
+  production-deployment-blocked:
+    needs: [deploy-staging, smoke-test-staging]
+    runs-on: ubuntu-latest
+    # Only run this job if staging deployment OR staging smoke tests fail
+    if: needs.deploy-staging.result != 'success' || needs.smoke-test-staging.result != 'success'
+
+    steps:
+    - name: Production deployment blocked
+      run: |
+        echo "🚫 PRODUCTION DEPLOYMENT BLOCKED"
+        echo "❌ Staging deployment result: ${{ needs.deploy-staging.result }}"
+        echo "❌ Staging smoke test result: ${{ needs.smoke-test-staging.result }}"
+        echo ""
+        echo "🛡️  SAFETY CHECK: Production deployment is BLOCKED because:"
+        if [ "${{ needs.deploy-staging.result }}" != "success" ]; then
+          echo "   ❌ Staging deployment failed or was skipped"
+        fi
+        if [ "${{ needs.smoke-test-staging.result }}" != "success" ]; then
+          echo "   ❌ Staging smoke tests failed or were skipped"
+        fi
+        echo ""
+        echo "🔧 TO DEPLOY TO PRODUCTION:"
+        echo "   1. Fix staging deployment issues"
+        echo "   2. Fix staging smoke test issues"
+        echo "   3. Push new commit to trigger fresh CI run"
+        echo ""
+        echo "⚠️  BUILD STOPPED - NO PRODUCTION DEPLOYMENT"
+        exit 1
+
   notify:
-    needs: [test, build, deploy-staging, smoke-test-staging, deploy-production]
+    needs: [test, build, deploy-staging, smoke-test-staging, deploy-production, production-deployment-blocked]
     runs-on: ubuntu-latest
     if: always()
 
@@ -455,17 +493,22 @@ jobs:
           echo "✅ Grocery Genie deployed to staging successfully!"
           echo "🧪 Staging smoke tests passed!"
 
-          if [ "${{ github.event_name }}" == "release" ]; then
-            if [ "${{ needs.deploy-production.result }}" == "success" ]; then
-              echo "🚀 Grocery Genie deployed to production successfully!"
-              echo "🛒 New version is now running in production"
-            else
-              echo "❌ Production deployment failed"
-            fi
+          # Check if production deployment ran and succeeded (automatic deployment)
+          if [ "${{ needs.deploy-production.result }}" == "success" ]; then
+            echo "🚀 Grocery Genie deployed to production successfully!"
+            echo "🛒 New version is now running in production"
+            echo "🎉 FULL DEPLOYMENT PIPELINE COMPLETED: staging → production"
+          elif [ "${{ needs.deploy-production.result }}" == "failure" ]; then
+            echo "❌ Production deployment failed"
+            echo "🔧 Check production deployment logs for details"
+          elif [ "${{ needs.deploy-production.result }}" == "skipped" ]; then
+            echo "⚠️  Production deployment was skipped"
           else
-            echo "ℹ️  Production deployment skipped (not a release)"
+            echo "ℹ️  Production deployment status: ${{ needs.deploy-production.result }}"
           fi
         else
           echo "❌ Staging deployment or smoke tests failed"
+          echo "🚫 Production deployment blocked for safety"
+          echo "🛡️  Safety check prevented production deployment"
           echo "Check the logs for more information"
         fi
