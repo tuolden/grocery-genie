@@ -90,7 +90,9 @@ jobs:
       run: |
         # Create test database tables
         python -c "
-        from scripts.grocery_db import GroceryDB
+        import sys
+        sys.path.append('.')
+        from src.scripts.grocery_db import GroceryDB
         db = GroceryDB()
         db.ensure_grocery_tables()
         print('Test database initialized')
@@ -99,7 +101,9 @@ jobs:
         # Initialize receipt matcher tables
         python -c "
         try:
-            from receipt_matcher import ReceiptMatcher
+            import sys
+            sys.path.append('.')
+            from src.services.receipt_matcher import ReceiptMatcher
             matcher = ReceiptMatcher()
             matcher.ensure_tables_exist()
             print('Receipt matcher tables initialized')
@@ -122,7 +126,9 @@ jobs:
 
         # Test database connection
         python -c "
-        from scripts.grocery_db import GroceryDB
+        import sys
+        sys.path.append('.')
+        from src.scripts.grocery_db import GroceryDB
         db = GroceryDB()
         conn = db.get_connection()
         print('✅ Database connection successful')
@@ -132,8 +138,8 @@ jobs:
         # Test receipt matcher initialization
         python -c "
         import sys
-        sys.path.append('src/services')
-        from receipt_matcher import ReceiptMatcher
+        sys.path.append('.')
+        from src.services.receipt_matcher import ReceiptMatcher
         matcher = ReceiptMatcher()
         print('✅ Receipt matcher initialization successful')
         "
@@ -366,7 +372,9 @@ jobs:
       run: |
         # Create test database tables for staging tests
         python -c "
-        from scripts.grocery_db import GroceryDB
+        import sys
+        sys.path.append('.')
+        from src.scripts.grocery_db import GroceryDB
         db = GroceryDB()
         db.ensure_grocery_tables()
         print('Staging test database initialized')

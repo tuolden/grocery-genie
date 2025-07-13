@@ -21,9 +21,9 @@ from unittest.mock import Mock, patch, MagicMock
 import psycopg2
 from psycopg2.extras import RealDictCursor
 
-# Add current directory to path
-sys.path.append(os.path.dirname(__file__))
-from other_purchases_loader import OtherPurchasesLoader
+# Add project root to path
+sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
+from src.loaders.other_purchases_loader import OtherPurchasesLoader
 
 class TestOtherPurchasesLoader(unittest.TestCase):
     """Unit tests for OtherPurchasesLoader class"""

@@ -16,10 +16,10 @@ from datetime import datetime, timedelta
 import psycopg2
 from psycopg2.extras import RealDictCursor
 
-# Add current directory to path
-sys.path.append(os.path.dirname(__file__))
-from receipt_matcher import ReceiptMatcher
-from scripts.grocery_db import GroceryDB
+# Add project root to path
+sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
+from src.services.receipt_matcher import ReceiptMatcher
+from src.scripts.grocery_db import GroceryDB
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='🧪 %(asctime)s - %(message)s')

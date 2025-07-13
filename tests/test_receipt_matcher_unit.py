@@ -19,9 +19,9 @@ from unittest.mock import Mock, patch, MagicMock
 import psycopg2
 from psycopg2.extras import RealDictCursor
 
-# Add current directory to path
-sys.path.append(os.path.dirname(__file__))
-from receipt_matcher import ReceiptMatcher, PurchaseItem, ListItem, MatchResult
+# Add project root to path
+sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
+from src.services.receipt_matcher import ReceiptMatcher, PurchaseItem, ListItem, MatchResult
 
 class TestReceiptMatcherUnit(unittest.TestCase):
     """Unit tests for ReceiptMatcher class"""
