@@ -32,7 +32,13 @@ from psycopg2.extras import RealDictCursor
 
 # Add scripts directory to path
 sys.path.append(os.path.join(os.path.dirname(__file__), "..", "scripts"))
-from src.scripts.grocery_db import GroceryDB
+
+try:
+    # Try importing from scripts directory (when run from src/)
+    from scripts.grocery_db import GroceryDB
+except ImportError:
+    # Fallback to src.scripts import (when run from project root)
+    from src.scripts.grocery_db import GroceryDB
 
 # Configure logging with bright colors for visibility
 logging.basicConfig(

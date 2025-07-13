@@ -21,7 +21,12 @@ from datetime import date, datetime
 import yaml
 from bs4 import BeautifulSoup
 
-from src.scripts.grocery_db import GroceryDB
+try:
+    # Try importing from scripts directory (when run from src/)
+    from scripts.grocery_db import GroceryDB
+except ImportError:
+    # Fallback to src.scripts import (when run from project root)
+    from src.scripts.grocery_db import GroceryDB
 
 
 def extract_json_from_html(html_content):
